@@ -1,0 +1,44 @@
+﻿Commodity;Fonte;Link;Tipo de Informação;API Pública;Acesso;Observações
+ Arroz ; Cepea/ESALQ ;cepea.org.br/br/indicador/arroz.aspx;Cotações diárias (R$/sc 50kg), variações %, séries históricas, análises de mercado;Não nativa. Séries via download CSV/Excel. Licença CC BY-NC 4.0;Gratuito;Indicador arroz casca Cepea/IRGA-RS. Referência nacional. Dados desde 1997
+; Conab ;portaldeinformacoes.conab.gov.br;Painel Produtos 360°: oferta, demanda, preços, safras;Não confirmada. Dados exportáveis em painel interativo;Gratuito;Fonte oficial do governo. Dados agregados, não cotações diárias
+; Notícias Agrícolas ;noticiasagricolas.com.br/cotacoes;Cotações (fonte Cepea), notícias, análises;Não;Gratuito;Agregador. BOM para news feed + cotações no mesmo lugar
+; Agrolink ;agrolink.com.br/cotacoes;Cotações ao produtor, notícias, clima;Não;Gratuito;Amplo, cobre arroz e +20 culturas. Tem boletins climáticos
+ Feijão Carioca ; Cepea/ESALQ ;cepea.org.br/br/indicador/feijao.aspx;Cotações regionais (R$/sc) - Itapeva, Leste Goiano, Noroeste MG, Triângulo Mineiro;Não nativa. Séries via download;Gratuito;Indicador Cepea/CNA. Preços por região, o que enriquece o dashboard
+; IBRAFE ;ibrafe.org / noticiasagricolas.com.br/cotacoes/feijao;Cotações feijão carioca (nota 7 e 8) e feijão preto por praça, notícias setoriais;Não;Gratuito;Fonte especializada. Dados regionais por praça de atuação
+; Conab ;portaldeinformacoes.conab.gov.br;Painel 360°, preços mínimos, safras;Não confirmada;Gratuito;Útil para preços mínimos de referência do governo
+ Feijão Preto ; IBRAFE ;ibrafe.org;Cotações, análises de oferta/demanda, alertas de preço mínimo;Não;Gratuito;Principal fonte para feijão preto. Mercado mais nichado
+; Cepea ;cepea.org.br;Dados regionais de feijão (inclui preto indiretamente);Não;Gratuito;Cobertura menos abrangente que para carioca
+ Açúcar ; Cepea/ESALQ ;cepea.org.br/br/indicador/acucar.aspx;Cotações diárias açúcar cristal SP (R$/sc e US$), variações %, análises;Não nativa. Séries via download;Gratuito;Referência nacional. Indicador R$/sc e US$/sc
+; UNICAdata ;unicadata.com.br;Preços ao produtor (açúcar refinado, etanol), histórico;Não;Gratuito;UNICA organiza dados Cepea. Foco em SP. Exportação PDF/Excel
+; Investing.com / Trading Economics ;br.investing.com/commodities/us-sugar-no11 / pt.tradingeconomics.com/commodity/sugar;Cotações futuros NY (nº11), gráficos, séries históricas;Gratuito (limitado);Útil para referência internacional e correlação com dólar;
+; Notícias Agrícolas ;noticiasagricolas.com.br/cotacoes/sucroenergetico;Cotações B3 (futuros) e NY (NYBOT);Não;Gratuito;Bom consolidado B3 + NY mesmo site
+ Soja ; Cepea/ESALQ ;cepea.org.br/br/indicador/soja.aspx;Cotações diárias (R$/sc e US$/sc), variações %, análises conjunturais;Não nativa. Séries via download;Gratuito;Indicador Paranaguá. Principal referência brasileira. Dados em tempo real no site
+Commodity;Fonte;Link;Tipo de Informação;API Pública;Acesso;Observações
+ Soja  (cont.); Conab ;portaldeinformacoes.conab.gov.br;Painel 360°: área, produção, produtividade, estoques;Não confirmada;Gratuito;Dados oficiais de safra. BOM para contexto de oferta
+; Sistema FAEP ;sistemafaep.org.br/cotacoes;Paridade de exportação (CBOT + prêmio Paranaguá + câmbio);Não;Gratuito;Excelente para entender formação de preço (CBOT, câmbio, frete)
+; Notícias Agrícolas ;noticiasagricolas.com.br/cotacoes;Cotações Cepea, B3 futuros, notícias;Não;Gratuito;Consolidado Cepea + B3 + news
+ Trigo ; Cepea/ESALQ ;cepea.org.br/br/indicador/trigo.aspx;Cotações diárias, indicador Cepea/ESALQ;Não nativa. Séries via download;Gratuito;Referência nacional. Dados diários e análises
+; Conab ;portaldeinformacoes.conab.gov.br;Painel 360°, safras, estoques, importação;Não confirmada;Gratuito;Trigo tem forte componente de importação - Conab cobre bem
+; Notícias Agrícolas ;noticiasagricolas.com.br/cotacoes;Cotações, notícias, análises de mercado;Não;Gratuito;Agregador com cotações Cepea
+; Agrolink ;agrolink.com.br/cotacoes;Cotações ao produtor, notícias;Não;Gratuito;Cobertura ampla de trigo
+ Café ; Cepea/ESALQ ;cepea.org.br/br/indicador/cafe.aspx;Cotações diárias café arábica (R$/sc e US$/sc), variações %, análises;Não nativa. Séries via download;Gratuito;Indicador café arábica tipo 6. Principal referência Brasil
+; Cecafé ;cecafe.com.br;Exportações diárias, dados de embarque, notícias;Não;Gratuito;Foco em exportação. Útil para demanda externa
+; Notícias Agrícolas ;noticiasagricolas.com.br/cotacoes/cafe;Cotações arábica físico por praça (Cooxupé, Expocaccer, etc.);Não;Gratuito;Preços regionais. BOM para granularidade geográfica
+; cotaçaodocafe.com ;cotacaodocafe.com;Cotações arábica e conilon em tempo real, alertas;Não;Gratuito;Portal especializado. Inclui conilon (robusta)
+; Investing.com ;br.investing.com/commodities/us-coffee-c;Futuros NY (Contrato C), tempo real;Não oficial;Gratuito (limitado);Referência internacional para arábica
+ Leite ; Cepea/ESALQ ;"cepea.org.br (buscar ""leite"")";Preços ao produtor (R$/litro), ICPLeite, análises mensais;Não nativa. Séries via download;Gratuito;Pesquisa mensal do Cepea. Dados por estado
+; CILeite / Embrapa ;cileite.com.br;Preços ao produtor, custos (ICPLeite), relações de troca;Não;Gratuito;Centro de Inteligência do Leite (Embrapa). Dados consolidados
+; MilkPoint / Conseleite MG ;milkpoint.com.br/preco-do-leite;Preços ao produtor, Conseleite MG, indicadores internacionais;Não;Gratuito;Portal de referência do setor leiteiro. Múltiplos indicadores
+; Scot Consultoria ;scotconsultoria.com.br/cotacoes/leite;Preços por UF e região (qualidade e padrão);Não;Gratuito;Detalhamento regional. Preços em R$/L e US$/L
+; Notícias Agrícolas ;noticiasagricolas.com.br/cotacoes/leite;Preços Cepea por estado, variações;Não;Gratuito;Consolidado Cepea + notícias do setor
+Fonte;Link;Commodities;Tipo de Informação;API Pública;Acesso;Observações
+ Conab ;portaldeinformacoes.conab.gov.br;Todas (soja, arroz, feijão, trigo, café, milho);Painel 360°: área plantada, produção, produtividade, estoques, preços mínimos;Não confirmada (dados exportáveis em painel);Gratuito;Fonte oficial. Essencial para contexto de SAFRA e oferta. Dados históricos consistentes
+ Notícias Agrícolas ;noticiasagricolas.com.br/cotacoes;Todas (inclui B3 futuros);Cotações (Cepea + Ibrafe + B3), notícias diárias, análises;Não;Gratuito;Melhor agregador gratuito. Consolida Cepea + Ibrafe + B3 + news. Ideal como feed do dashboard
+ Agrolink ;agrolink.com.br/cotacoes;Todas + carnes, hortaliças, frutas;Cotações ao produtor, notícias, clima agrícola;Não;Gratuito;Segundo maior agregador. Diferencial: boletins CLIMÁTICOS integrados
+ IBGE ;ibge.gov.br (LSPA / PAM);Todas;Levantamento safras, produção agrícola municipal, preços médios ao produtor;SIDRA (API pública ibge.gov.br/sidra);Gratuito;API SIDRA funciona! Dados mensais/anuais. Ótimo para tendências estruturais
+ B3 ;b3.com.br;Soja, milho, café, boi (futuros);Cotações futuros, contratos em aberto;Não pública. Dados via terminal;Gratuito (site) / Pago (dados estruturados);Referência para derivativos. Notícias Agrícolas já consolida B3
+ Sistema FAEP ;sistemafaep.org.br/cotacoes;Soja, milho, trigo;Paridade exportação: CBOT + prêmio + câmbio + frete;Não;Gratuito;Excelente para explicar variações de preço (câmbio + prêmio)
+ Ministério Economia (Balança) ;balanca.economia.gov.br;Todas (índices agregados);Índices de preços de exportação por commodity;Sim (dados abertos gov);Gratuito;Macro: tendências de preços de exportação. Útil para contexto macro
+ CNA Brasil ;cnabrasil.org.br/panorama-do-agro;Todas;Panorama do agro, boletins setoriais;Não;Gratuito;Bom para contexto institucional e tendências setoriais
+ Investing.com ;br.investing.com/commodities;Café, açúcar, soja (CBOT), milho;Futuros internacionais em tempo real, gráficos;Não oficial (APIs pagas de terceiros);Gratuito (site) / Pago (API);Referência para preços internacionais e correlação com dólar
+ Trading Economics ;tradingeconomics.com/commodities;Todas;Preços, gráficos históricos, indicadores econômicos;API paga (planos a partir de ~$10/mês);Gratuito (limitado) / Pago (API);Boa série histórica. API paga mas acessível

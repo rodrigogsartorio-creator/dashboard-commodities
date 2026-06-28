@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git config *)",
+      "mcp__Claude_Preview__preview_start",
+      "Bash(where python3 *)",
+      "Bash(where python *)",
+      "Bash(where py *)",
+      "Bash(C:\\\\Users\\\\sartorio.r\\\\AppData\\\\Local\\\\Microsoft\\\\WindowsApps\\\\python3.exe --version)",
+      "PowerShell(python --version 2>&1)",
+      "PowerShell(node --version 2>&1)",
+      "PowerShell(npx --version 2>&1)",
+      "PowerShell(gh --version 2>&1)",
+      "Bash(python)",
+      "Bash(dir \"Sites especializados Commodities.xlsx\")",
+      "Bash(powershell)"
+    ]
+  }
+}
