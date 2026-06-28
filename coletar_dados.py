@@ -634,7 +634,8 @@ def coletar_safra() -> list:
     print("  [Safra RSS]...")
     for fonte, url in feeds_safra:
         try:
-            feed = feedparser.parse(url)
+            r_feed = safe_get(url, timeout=10)
+            feed = feedparser.parse(r_feed.text if r_feed else "")
             for entry in feed.entries:
                 titulo = entry.get("title", "").strip()
                 if not any(k in titulo.lower() for k in safra_kw):
@@ -972,7 +973,8 @@ def coletar_noticias_rss() -> dict:
         kws_chave = KEYWORDS[chave]
         for fonte, url in feeds:
             try:
-                feed = feedparser.parse(url)
+                r_feed = safe_get(url, timeout=10)
+                feed = feedparser.parse(r_feed.text if r_feed else "")
                 for entry in feed.entries:
                     n = _processar_entry(entry, fonte, skip_relevance=True)
                     if n and any(p in n["titulo"].lower() for p in kws_chave):
@@ -983,7 +985,8 @@ def coletar_noticias_rss() -> dict:
     print("  [RSS] Feeds gerais...")
     for fonte, url in RSS_GERAIS:
         try:
-            feed = feedparser.parse(url)
+            r_feed = safe_get(url, timeout=10)
+            feed = feedparser.parse(r_feed.text if r_feed else "")
             for entry in feed.entries:
                 n = _processar_entry(entry, fonte)  # is_relevante ativo para feeds gerais
                 if not n:
