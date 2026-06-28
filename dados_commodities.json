@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-06-28T17:52:14",
+  "ultima_atualizacao": "2026-06-28T19:48:16",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.172,
-    "variacao_pct": -0.43,
-    "bid": 5.172,
-    "ask": 5.182
+    "valor": null,
+    "variacao_pct": null,
+    "bid": null,
+    "ask": null
   },
   "safra": {
-    "ultima_atualizacao": "2026-06-28T17:52:14",
+    "ultima_atualizacao": "2026-06-28T19:48:16",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -110,15 +110,11 @@
         }
       ],
       "variacao_mes_pct": 1.58,
-      "tendencia_curta": "estavel",
-      "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço estável (0.9% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço próximo à resistência histórica (R$ 59.91) — zona de pressão vendedora; possível correção à frente.",
-      "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Plano Safra pode não alcançar arrozeiros sem renegociação de dívidas",
           "tema": "Safra",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/423651-plano-safra-pode-nao-alcancar-arrozeiros-sem-renegociacao-de-dividas.html?utm_source=parceiros&utm_medium=rss"
@@ -126,29 +122,35 @@
         {
           "titulo": "Preços do arroz cedem após meses de alta",
           "tema": "Mercado",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/423436-precos-do-arroz-cedem-apos-meses-de-alta.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Plantio do trigo está quase finalizado no Paraná e lavouras se desenvolvem bem",
-          "tema": "Safra",
+          "titulo": "Arroz/Cepea: Cotações seguem pressionadas por ampla oferta",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
-          "data": "2026-06-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/423398-plantio-do-trigo-esta-quase-finalizado-no-parana-e-lavouras-se-desenvolvem-bem.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Calor recorde coloca em risco a safra de grãos na França",
-          "tema": "Safra",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/423404-calor-recorde-coloca-em-risco-a-safra-de-graos-na-franca.html?utm_source=parceiros&utm_medium=rss"
+          "data": "2026-06-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/422971-arroz-cepea-cotacoes-seguem-pressionadas-por-ampla-oferta.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
+      "tendencia_curta": "estavel",
+      "tendencia_media": "alta",
+      "score_preco": 0.3,
+      "score_noticias": 0.0,
+      "score_combinado": 0.18,
+      "insight_curto_prazo": "O mercado enfrenta descompasso entre oferta abundante (produtores vendendo por necessidade de caixa) e demanda fraca na indústria, que reduz compras e rejeita formação de estoques. A desaceleração no varejo de arroz beneficiado limita o suporte de preço, mantendo cotações pressionadas. A situação fiscal dos arrozeiros (endividamento elevado, dificuldades no Plano Safra) pode prolongar essa dinâmica de oferecimento compulsório nos próximos 60-90 dias.",
+      "insight_medio_prazo": "Estruturalmente, estoques reduzidos em alguns elos da cadeia alimentam expectativa de recuperação de compras para recomposição, o que pode suportar preços a partir do terceiro trimestre. Contudo, a resolução do endividamento do setor e a efetividade das medidas de crédito do Plano Safra 2026/2027 são variáveis críticas que definirão a magnitude dessa recuperação.",
+      "recomendacao": "aguardar",
       "suporte": 58.98,
       "resistencia": 59.91,
-      "red_flags": []
+      "red_flags": [],
+      "postura_mercado": "Ampla oferta pressiona preços; indústria cautela",
+      "decisao_texto": "O preço atual (R$ 59,91) está na resistência de 30 dias com tendência estável, não oferecendo margem de segurança nem urgência. Recomenda-se aguardar consolidação abaixo de R$ 59,00 ou sinais de recomposição de demanda industrial antes de realizar compras em volume, aproveitando janela de oferta abundante. Revisar em 30 dias ou na ocorrência de novas informações sobre liberação de crédito ou demanda externa.",
+      "insight_gerado_por": "claude-haiku"
     },
     "feijao_carioca": {
       "nome": "Feijão Carioca",
@@ -235,16 +237,22 @@
         }
       ],
       "variacao_mes_pct": 4.31,
-      "tendencia_curta": "estavel",
-      "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço estável (1.4% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço próximo à resistência histórica (R$ 323.06) — zona de pressão vendedora; possível correção à frente.",
-      "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "aguardar",
       "noticias": [],
       "safra_noticias": [],
+      "tendencia_curta": "estavel",
+      "tendencia_media": "alta",
+      "score_preco": 0.47,
+      "score_noticias": 0.0,
+      "score_combinado": 0.28,
+      "insight_curto_prazo": "O feijão carioca mantém-se em estabilidade após ganho de 4,3% no período, negociando próximo à resistência de 30 dias (R$ 323,06). Ausência de notícias nos últimos 14 dias sugere falta de catalisadores imediatos para movimentos bruscos. O suporte em R$ 308,12 oferece proteção de downside de aproximadamente 4,2%, indicando mercado com volatilidade controlada.",
+      "insight_medio_prazo": "Sem informações de safra, clima adverso ou pressões de câmbio reportadas, o cenário de médio prazo permanece neutro. A estabilidade atual pode refletir equilíbrio oferta-demanda, mas monitorar novidades sobre produção regional e condições climáticas é essencial para antecipar movimentos futuros.",
+      "recomendacao": "aguardar",
       "suporte": 308.12,
       "resistencia": 323.06,
-      "red_flags": []
+      "red_flags": [],
+      "postura_mercado": "Mercado estável com preço próximo da resistência",
+      "decisao_texto": "Recomenda-se aguardar por confirmação de rompimento da resistência ou recuo ao suporte antes de posicionar. O preço atual oferece risco-retorno desfavorável: ganho limitado até R$ 323,06 versus proteção de downside de apenas 4,2%. Revisar em 5 a 7 pregões se houver notícias sobre safra, clima ou se preço testar suporte em R$ 308.",
+      "insight_gerado_por": "claude-haiku"
     },
     "feijao_preto": {
       "nome": "Feijão Preto",
@@ -331,16 +339,22 @@
         }
       ],
       "variacao_mes_pct": -3.13,
-      "tendencia_curta": "alta",
-      "tendencia_media": "queda",
-      "insight_curto_prazo": "Preço em trajetória de alta de 1.8% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço em zona neutra entre suporte (R$ 213.36) e resistência (R$ 226.59).",
-      "insight_medio_prazo": "Tendência de queda no médio prazo (90-360 dias). Negocie contratos e evite fixar preços altos por longos períodos.",
-      "recomendacao": "aguardar",
       "noticias": [],
       "safra_noticias": [],
+      "tendencia_curta": "alta",
+      "tendencia_media": "queda",
+      "score_preco": 0.36,
+      "score_noticias": 0.0,
+      "score_combinado": 0.21,
+      "insight_curto_prazo": "O preço recua 3,1% apesar de tendência altista nos últimos 7 pregões, sinalizando realização de lucros ou pressão sazonal. Ausência de notícias nos últimos 14 dias limita clareza sobre oferta/demanda, mas o suporte em R$ 213,36 permanece robusto, sugerindo piso próximo ao preço atual.",
+      "insight_medio_prazo": "Sem informações sobre condições de safra ou fatores climáticos estruturais, o nível de resistência em R$ 226,59 representa barreira relevante. A dinâmica de médio prazo dependerá de confirmação de oferta restrita ou pressão por colheita nas próximas semanas.",
+      "recomendacao": "aguardar",
       "suporte": 213.36,
       "resistencia": 226.59,
-      "red_flags": []
+      "red_flags": [],
+      "postura_mercado": "Mercado em consolidação com pressão vendedora contida",
+      "decisao_texto": "O preço atual situa-se em zona neutra (entre suporte e resistência) com volatilidade reduzida, não justificando compra imediata. Recomenda-se aguardar confirmação do direcionamento ao romper a resistência de R$ 226,59 ou recuo ao suporte de R$ 213,36; esta clareza deve surgir nos próximos 7 a 10 dias de negociação.",
+      "insight_gerado_por": "claude-haiku"
     },
     "acucar": {
       "nome": "Açúcar Cristal (ICUMSA 130-180)",
@@ -427,15 +441,11 @@
         }
       ],
       "variacao_mes_pct": -1.41,
-      "tendencia_curta": "alta",
-      "tendencia_media": "estavel",
-      "insight_curto_prazo": "Preço em trajetória de alta de 1.7% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço em zona neutra entre suporte (R$ 90.75) e resistência (R$ 94.07).",
-      "insight_medio_prazo": "Mercado equilibrado no médio prazo (90-360 dias). Contratos padrão adequados.",
-      "recomendacao": "comprar",
       "noticias": [
         {
           "titulo": "Açúcar sobe nas bolsas internacionais com risco climático na Índia e suporte da safra brasileira",
           "tema": "Safra",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423694-acucar-sobe-nas-bolsas-internacionais-com-risco-climatico-na-india-e-suporte-da-safra-brasileira.html?utm_source=parceiros&utm_medium=rss"
@@ -443,6 +453,7 @@
         {
           "titulo": "Açúcar opera sem direção única com mercado atento ao clima na Índia e à oferta global",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423666-acucar-opera-sem-direcao-unica-com-mercado-atento-ao-clima-na-india-e-a-oferta-global.html?utm_source=parceiros&utm_medium=rss"
@@ -450,6 +461,7 @@
         {
           "titulo": "Açúcar fecha misto entre pressão logística e preocupações com a safra da Índia",
           "tema": "Safra",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423595-acucar-fecha-misto-entre-pressao-logistica-e-preocupacoes-com-a-safra-da-india.html?utm_source=parceiros&utm_medium=rss"
@@ -457,6 +469,7 @@
         {
           "titulo": "Açúcar avança nas bolsas internacionais com preocupações sobre oferta global",
           "tema": "Oferta & Demanda",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423535-acucar-avanca-nas-bolsas-internacionais-com-preocupacoes-sobre-oferta-global.html?utm_source=parceiros&utm_medium=rss"
@@ -464,15 +477,51 @@
         {
           "titulo": "Açúcar encerra sessão sem direção única com clima e petróleo no radar",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423497-acucar-encerra-sessao-sem-direcao-unica-com-clima-e-petroleo-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar opera em alta com suporte de dados da safra brasileira e clima na Índia",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423469-acucar-opera-em-alta-com-suporte-de-dados-da-safra-brasileira-e-clima-na-india.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar passa por momento de alta pressão global e cenário segue sendo pessimista para os preços",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423410-acucar-enfrenta-pressao-global-e-mantem-cenario-pessimista.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar fecha em alta com ajuste técnico e atenção voltada ao clima na Índia",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423413-acucar-fecha-em-alta-com-ajuste-tecnico-e-atencao-voltada-ao-clima-na-india.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
+      "tendencia_curta": "alta",
+      "tendencia_media": "estavel",
+      "score_preco": 0.34,
+      "score_noticias": 0.0,
+      "score_combinado": 0.21,
+      "insight_curto_prazo": "Déficit de chuvas nas monções indianas e redução da produção no Centro-Sul brasileiro criam cenário de aperto estrutural de oferta nos próximos 90 dias. O mercado mantém suporte acima de R$ 90,75, com o preço atual (R$ 92,31) operando entre suporte e resistência (R$ 94,07), sinalizando ainda potencial de alta se confirmarem as tensões climáticas na Índia. Pressões logísticas pontuais (Estreito de Ormuz) seguem limitando picos de recuperação, criando volatilidade de curto prazo sem romper a tendência altista de fundo.",
+      "insight_medio_prazo": "A menor produção brasileira e o risco climático indiano apontam para ambiente de oferta apertada em 2026/2027, dificultando quedas estruturais nos próximos meses. Qualquer melhora das chuvas na Índia ou recuperação da safra brasileira pode reverter o suporte atual e criar pressão descendente.",
+      "recomendacao": "comprar",
       "suporte": 90.75,
       "resistencia": 94.07,
-      "red_flags": []
+      "red_flags": [],
+      "postura_mercado": "Oferta global restrita sustenta preços em zona de resistência",
+      "decisao_texto": "O cenário fundamental (oferta global em déficit, suporte climático da Índia) justifica entrada gradual agora, com preço R$ 92,31 ainda ~2% abaixo da resistência recente. Recomenda-se compra em tranches até R$ 90,75 (suporte) para aproveitar volatilidade; o risco principal é reversão climática na Índia. Revisar posição em 30 dias ou se preço romper resistência de R$ 94,07.",
+      "insight_gerado_por": "claude-haiku"
     },
     "soja": {
       "nome": "Soja",
@@ -559,15 +608,35 @@
         }
       ],
       "variacao_mes_pct": 3.58,
-      "tendencia_curta": "estavel",
-      "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço estável (0.4% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço próximo à resistência histórica (R$ 134.35) — zona de pressão vendedora; possível correção à frente.",
-      "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "aguardar",
       "noticias": [
+        {
+          "titulo": "Academia Amssoja Brasil promove imersão em jornada do cliente e CRM",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423704-academia-amssoja-brasil-promove-imersao-em-jornada-do-cliente-e-crm.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja cai em Chicago nesta 6ª feira, realizando lucros após disparada na sessão anterior",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423612-soja-cai-em-chicago-nesta-6-feira-realizando-lucros-apos-disparada-na-sessao-anterior.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Dados de exportações do USDA mostram início do programa de compras de soja na China e Chicago sobe",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423555-dados-de-exportacoes-do-usda-mostram-inicio-do-programa-de-compras-de-soja-na-china-e-chicago-sobe.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Soja opera em leve alta na Bolsa de Chicago nesta 5ª com suporte do farelo e atenção ao clima nos EUA",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/423518-soja-opera-em-leve-alta-na-bolsa-de-chicago-nesta-5-com-suporte-do-farelo-e-atencao-ao-clima-nos-eua.html?utm_source=parceiros&utm_medium=rss"
@@ -575,6 +644,7 @@
         {
           "titulo": "Soja busca sustentação em Chicago nesta 4ª, com suporte do farelo, de olho no clima e no cenário externo",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/423425-soja-busca-sustentacao-em-chicago-nesta-4-com-suporte-do-farelo-de-olho-no-clima-e-no-cenario-externo.html?utm_source=parceiros&utm_medium=rss"
@@ -582,29 +652,43 @@
         {
           "titulo": "Imea estima safra de soja 26/27 de Mato Grosso 5,2% menor do que a anterior com El Niño no radar",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/423411-imea-estima-safra-de-soja-26-27-de-mato-grosso-5-2-menor-do-que-a-anterior-com-el-nino-no-radar.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "Anec faz leve redução na previsão de embarques de soja do Brasil em junho",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423402-anec-faz-leve-reducao-na-previsao-de-embarques-de-soja-do-brasil-em-junho.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja segue estável em Chicago, sustentando leves altas; no Brasil atenção ao dólar",
           "tema": "Câmbio",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/423386-soja-segue-estavel-em-chicago-sustentando-leves-altas-no-brasil-atencao-ao-dolar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja segue de lado em Chicago nesta 2ª, apesar de altas de mais de 1% do óleo",
-          "tema": "Mercado",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423301-soja-segue-de-lado-em-chicago-nesta-2-apesar-de-altas-de-mais-de-1-do-oleo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
+      "tendencia_curta": "estavel",
+      "tendencia_media": "alta",
+      "score_preco": 0.12,
+      "score_noticias": 0.0,
+      "score_combinado": 0.07,
+      "insight_curto_prazo": "Chicago registrou realização de lucros após disparada anterior, indicando volatilidade tática mas suportada por retomada de compras chinesas (200 mil ton na semana). O preço atual (R$ 133,87) permanece estável e próximo à resistência de 30 dias (R$ 134,35), sem sinais de pressão de oferta local. Expectativa sobre área nos EUA segue como fator de monitoramento, podendo gerar novas oscilações técnicas.",
+      "insight_medio_prazo": "A recuperação de compras chinesas e vendas recordes dos EUA (safra 2025/26 com volume 50% acima da média) sugerem reposicionamento de demanda global após período de cautela. Ciclo estrutural permanece dependente de condições climáticas na safra 2026/27 e dinâmica de greves/políticas comerciais na Argentina.",
+      "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 134.35,
-      "red_flags": []
+      "red_flags": [],
+      "postura_mercado": "Mercado em ajuste técnico pós-alta, demanda chinesa recuperando",
+      "decisao_texto": "O preço atual encontra-se tecnicamente pressionado contra resistência com histórico de realização de lucros. Recomenda-se aguardar confirmação de suporte em R$ 129,24 ou retração adicional antes de aumentar posição, aproveitando a volatilidade tática. Revisar em 5-7 pregões conforme evolução de relatórios de área nos EUA e consolidação da demanda chinesa; manter apenas estoque operacional neste momento.",
+      "insight_gerado_por": "claude-haiku"
     },
     "trigo": {
       "nome": "Trigo",
@@ -691,22 +775,27 @@
         }
       ],
       "variacao_mes_pct": -0.54,
-      "tendencia_curta": "estavel",
-      "tendencia_media": "estavel",
-      "insight_curto_prazo": "Preço estável (0.8% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço em zona neutra entre suporte (R$ 81.76) e resistência (R$ 82.66).",
-      "insight_medio_prazo": "Mercado equilibrado no médio prazo (90-360 dias). Contratos padrão adequados.",
-      "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Trigo fecha em baixa em Chicago e mercado brasileiro acompanha acomodação no Sul",
           "tema": "Mercado",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423695-trigo-fecha-em-baixa-em-chicago-e-mercado-brasileiro-acompanha-acomodacao-no-sul.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "Trigo amplia perdas em Chicago e inicia sexta-feira em baixa",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423642-trigo-amplia-perdas-em-chicago-e-inicia-sexta-feira-em-baixa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo fecha em alta em Chicago e mercado monitora excesso de chuvas para a nova safra no Sul",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423598-trigo-fecha-em-alta-em-chicago-e-mercado-monitora-excesso-de-chuvas-para-a-nova-safra-no-sul.html?utm_source=parceiros&utm_medium=rss"
@@ -714,6 +803,7 @@
         {
           "titulo": "Trigo abre em baixa em Chicago após sessão volátil no mercado internacional",
           "tema": "Mercado",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423534-trigo-abre-em-baixa-em-chicago-apos-sessao-volatil-no-mercado-internacional.html?utm_source=parceiros&utm_medium=rss"
@@ -721,22 +811,51 @@
         {
           "titulo": "Trigo fecha próximo da estabilidade em Chicago, mas mercado segue atento ao clima no Sul do Brasil",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423500-trigo-fecha-proximo-da-estabilidade-em-chicago-mas-mercado-segue-atento-ao-clima-no-sul-do-brasil.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "Abitrigo celebra 35 anos como voz unificada do setor moageiro no Brasil",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423466-abitrigo-celebra-35-anos-como-voz-unificada-do-setor-moageiro-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "El Niño adiciona risco à qualidade do trigo na próxima safra",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423459-el-nino-adiciona-risco-a-qualidade-do-trigo-na-proxima-safra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Trigo sobe em Chicago e mercado acompanha avanço do plantio no Brasil",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423453-trigo-sobe-em-chicago-e-mercado-acompanha-avanco-do-plantio-no-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
+      "tendencia_curta": "estavel",
+      "tendencia_media": "estavel",
+      "score_preco": -0.27,
+      "score_noticias": 0.0,
+      "score_combinado": -0.16,
+      "insight_curto_prazo": "Chicago em queda estruturada (colheita do Hemisfério Norte avançando), mas o mercado brasileiro sustenta-se por oferta física restrita e preocupações climáticas no Sul (excesso de chuvas para safra 2026/27). A acomodação gaúcha sinaliza redução temporária de pressão de venda, criando volatilidade tática entre suporte (R$ 81,76) e resistência (R$ 82,66).",
+      "insight_medio_prazo": "Redução de área cultivada e oferta limitada do ciclo atual devem sustentar patamares elevados até nova safra. Chuvas em excesso no Sul representam risco de danos e/ou comprometimento de qualidade, elevando prêmios para safra 2026/27.",
+      "recomendacao": "aguardar",
       "suporte": 81.7554,
       "resistencia": 82.6584,
-      "red_flags": []
+      "red_flags": [],
+      "postura_mercado": "Pressão internacional com acomodação doméstica",
+      "decisao_texto": "Preço estável em nível elevado sem pressão de Red Flags, mas Chicago em tendência baixista oferece risco de queda adicional nos próximos 14-30 dias. Recomenda-se monitorar estabilização e definição clara de suporte antes de compra significativa. Se preço cair para R$ 81,00–R$ 81,50, janela de compra se abre; revisar em 7 dias.",
+      "insight_gerado_por": "claude-haiku"
     },
     "cafe": {
       "nome": "Café Arábica (Tipo 6)",
@@ -823,22 +942,27 @@
         }
       ],
       "variacao_mes_pct": 6.26,
-      "tendencia_curta": "estavel",
-      "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço estável (1.5% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço próximo à resistência histórica (R$ 1530.95) — zona de pressão vendedora; possível correção à frente.",
-      "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Café fecha em baixa com pressão da colheita e realização de lucros nas bolsas",
           "tema": "Safra",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423700-cafe-fecha-em-baixa-com-pressao-da-colheita-e-realizacao-de-lucros-nas-bolsas.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "Especialíssimo 2026 abre seleção para os melhores cafés produzidos pelos cooperados da Cooxupé",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423644-especialissimo-2026-abre-selecao-para-os-melhores-cafes-produzidos-pelos-cooperados-da-cooxupe.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café inicia a sexta-feira(26) pressionado por chuvas nas lavouras e estoques apertados",
           "tema": "Clima",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423638-cafe-inicia-a-sexta-feira-26-pressionado-por-chuvas-nas-lavouras-e-estoques-apertados.html?utm_source=parceiros&utm_medium=rss"
@@ -846,13 +970,31 @@
         {
           "titulo": "Exportações de Café pelo Espírito Santo seguem em alta e acumulam 2,03 milhões de sacas. Volume equivale a 48% de toda exportação do ano passado",
           "tema": "Oferta & Demanda",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423613-exportacoes-de-cafe-pelo-espirito-santo-seguem-em-alta-e-acumulam-2-03-milhoes-de-sacas-volume-equivale-a-48-de-toda-exportacao-do-ano-passado.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "Comunicado. Lista Suja. Atualização em 26 de junho de 2026. Alterações na cafeicultura.",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Cecafé",
+          "data": "2026-06-26",
+          "url": "https://www.cecafe.com.br/informes-associados/informes-associados-rss/comunicado-lista-suja-atualizacao-em-26-de-junho-de-2026-alteracoes-na-cafeicultura-20260626/"
+        },
+        {
+          "titulo": "Café fecha a 5ª feira com ajustes técnicos em Nova Iorque e ganhos no robusta em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423596-cafe-fecha-com-ajustes-tecnicos-em-nova-iorque-e-ganhos-no-robusta-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Preço do café se mantém estável no Vietnã em mercado lento; safra na Indonésia pode cair",
           "tema": "Safra",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423553-preco-do-cafe-se-mantem-estavel-no-vietna-em-mercado-lento-safra-na-indonesia-pode-cair.html?utm_source=parceiros&utm_medium=rss"
@@ -860,15 +1002,27 @@
         {
           "titulo": "Café abre a 5ª feira com mercado atento à colheita e ao ritmo da oferta brasileira",
           "tema": "Safra",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423533-cafe-abre-a-5-feira-com-mercado-atento-a-colheita-e-ao-ritmo-da-oferta-brasileira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
+      "tendencia_curta": "estavel",
+      "tendencia_media": "alta",
+      "score_preco": 0.49,
+      "score_noticias": 0.0,
+      "score_combinado": 0.29,
+      "insight_curto_prazo": "A pressão de preços reflete o progresso da colheita brasileira e movimento de stop-loss de operadores em bolsa, não necessariamente deterioração fundamental. As chuvas nas regiões produtoras (Sudeste, Alta Mogiana) podem impactar ritmo de colheita, criando volatilidade, mas o mercado segue bem abastecido. Preço atual (R$ 1.517,04) está próximo à resistência de 30 dias (R$ 1.530,95), indicando teto temporal.",
+      "insight_medio_prazo": "A safra 2026 brasileira segue robusta e a oferta global permanece confortável, reduzindo cenário de spike de preços nos próximos 6 meses. Iniciativas de valorização de cafés especiais (Especialíssimo) sinalizam segmentação de mercado, mas não impactam significativamente a commodity Tipo 6 de referência.",
+      "recomendacao": "aguardar",
       "suporte": 1427.63,
       "resistencia": 1530.95,
-      "red_flags": []
+      "red_flags": [],
+      "postura_mercado": "Colheita em avanço com realização de lucros",
+      "decisao_texto": "Recomenda-se aguardar porque o preço atual está em nível de resistência com dinâmica de realização de lucros ativa, sugerindo risco de queda em curto prazo. O suporte histórico de R$ 1.427,63 (30d) oferece nível de entrada mais confortável; revise a recomendação quando preço aproximar-se deste piso ou se houver notícia climática relevante que interrompa a colheita em larga escala.",
+      "insight_gerado_por": "claude-haiku"
     },
     "leite": {
       "nome": "Leite ao Produtor",
@@ -890,24 +1044,39 @@
         }
       ],
       "variacao_mes_pct": null,
-      "tendencia_curta": "indefinida",
-      "tendencia_media": "indefinida",
-      "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
-      "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
-      "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Produção de leite no inverno é impactada por doenças respiratórias. Saiba como combater o desafio sanitário",
           "tema": "Safra",
+          "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/leite/423647-producao-de-leite-no-inverno-e-impactada-por-doencas-respiratorias-saiba-como-combater-o-desafio-sanitario.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Para junho, Conseleite projeta leite a R$ 2,4281",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/leite/423590-para-junho-conseleite-projeta-leite-a-r-2-4281.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "score_preco": 0.0,
+      "score_noticias": 0.0,
+      "score_combinado": 0.0,
+      "insight_curto_prazo": "O inverno australacial intensifica desafios sanitários nos rebanhos, reduzindo produtividade e comprimindo oferta. O preço atual de R$ 2,52 está 3,8% acima da projeção oficial do Conseleite para junho (R$ 2,4281), sinalizando prêmio de escassez. Doenças respiratórias em confinamento e queda de produção devem manter oferta restrita pelos próximos 60 dias.",
+      "insight_medio_prazo": "A trajetória de queda controlada observada entre maio e junho (0,80%) sugere mercado em reequilíbrio gradual, mas a sazonalidade invernal pode estender pressões de oferta até setembro. Fatores estruturais de custo alimentar e sanidade seguem limitando expansão de produção.",
+      "recomendacao": "comprar",
       "suporte": null,
       "resistencia": null,
-      "red_flags": []
+      "red_flags": [],
+      "postura_mercado": "Oferta sob pressão sanitária; preços estáveis acima de referência",
+      "decisao_texto": "Compre agora em volumes operacionais, aproveitando prêmio justificável por restrição de oferta invernal. O risco principal é normalização da oferta se doenças forem controladas antes do previsto. Revise posição em 45 dias ou se Conseleite divulgar projeções acima de R$ 2,55.",
+      "insight_gerado_por": "claude-haiku"
     }
   }
 }
