@@ -271,10 +271,20 @@ def coletar_historico_completo(chave: str) -> list:
     return hist
 
 
+def eh_dia_util(data_str: str) -> bool:
+    """Retorna False para sábados e domingos — mercados não operam."""
+    try:
+        from datetime import datetime
+        return datetime.strptime(data_str, "%Y-%m-%d").weekday() < 5
+    except Exception:
+        return True
+
+
 def mesclar_multiplos(existente: list, novos: list, max_dias: int = HISTORICO_MAX_DIAS) -> list:
     """
     Mescla lista de novos registros com histórico existente.
-    Deduplica por data (novo sobrescreve existente), recalcula variação, limita a max_dias.
+    Deduplica por data (novo sobrescreve existente), filtra fins de semana,
+    recalcula variação, limita a max_dias.
     """
     por_data = {r["data"]: r["valor"] for r in existente if r.get("data") and r.get("valor") is not None}
     for r in novos:
@@ -282,7 +292,7 @@ def mesclar_multiplos(existente: list, novos: list, max_dias: int = HISTORICO_MA
             por_data[r["data"]] = r["valor"]
 
     historico = sorted(
-        [{"data": d, "valor": v} for d, v in por_data.items()],
+        [{"data": d, "valor": v} for d, v in por_data.items() if eh_dia_util(d)],
         key=lambda x: x["data"],
         reverse=True,
     )[:max_dias]
@@ -650,8 +660,8 @@ def coletar_safra() -> list:
 # ═══════════════════════════════════════════════════════════════════════════
 
 RSS_POR_COMMODITY = {
-    "arroz":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/arroz.aspx"),
+    "arroz":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/graos.rss"),
+                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss"),
                        ("Canal Rural",       "https://www.canalrural.com.br/rss/noticias/")],
     "feijao_carioca": [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
                        ("IBRAFE",            "https://www.ibrafe.org/feed/"),
@@ -943,21 +953,40 @@ RECOMENDACAO_MAP = {("alta","alta"): "comprar", ("alta","estavel"): "comprar", (
 
 
 def calcular_tendencia(historico: list, var_mes) -> dict:
-    ref = var_mes
-    if ref is None and len(historico) >= 2:
-        ref = variacao_pct(historico[0]["valor"], historico[-1]["valor"])
-    if ref is None:
-        tc = tm = "indefinida"; ref = 0.0
-    elif ref >= 1.5:
-        tc = tm = "alta"
-    elif ref <= -1.5:
-        tc = tm = "queda"
+    # ── Curto prazo: variação dos últimos 7 pregões (momentum recente) ───────
+    if len(historico) >= 2:
+        n_curto = min(7, len(historico))
+        ref_curto = variacao_pct(historico[0]["valor"], historico[n_curto - 1]["valor"])
     else:
-        tc = tm = "estavel"
+        ref_curto = None
+
+    if ref_curto is None:
+        tc = "indefinida"; ref_curto = 0.0
+    elif ref_curto >= 1.5:
+        tc = "alta"
+    elif ref_curto <= -1.5:
+        tc = "queda"
+    else:
+        tc = "estavel"
+
+    # ── Médio prazo: variação acumulada do período (todos os dados do mês) ───
+    ref_medio = var_mes
+    if ref_medio is None and len(historico) >= 2:
+        ref_medio = variacao_pct(historico[0]["valor"], historico[-1]["valor"])
+
+    if ref_medio is None:
+        tm = "indefinida"; ref_medio = 0.0
+    elif ref_medio >= 1.5:
+        tm = "alta"
+    elif ref_medio <= -1.5:
+        tm = "queda"
+    else:
+        tm = "estavel"
+
     return {
         "tendencia_curta":     tc,
         "tendencia_media":     tm,
-        "insight_curto_prazo": TEXTOS_CURTO[tc].format(var=abs(ref)),
+        "insight_curto_prazo": TEXTOS_CURTO[tc].format(var=abs(ref_curto)),
         "insight_medio_prazo": TEXTOS_MEDIO[tm],
         "recomendacao":        RECOMENDACAO_MAP.get((tc, tm), "aguardar"),
     }

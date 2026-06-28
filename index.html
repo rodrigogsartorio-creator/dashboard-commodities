@@ -380,8 +380,8 @@
       <thead>
         <tr>
           <th style="text-align:left">Commodity</th>
-          <th>Dia -4</th><th>Dia -3</th><th>Dia -2</th><th>Ontem</th>
-          <th>Var. Dia</th><th>Var. Mês</th><th>Status</th>
+          <th id="th-d4">—</th><th id="th-d3">—</th><th id="th-d2">—</th><th id="th-d1">—</th>
+          <th>Var. Dia</th><th>Var. Período</th><th>Status</th>
         </tr>
       </thead>
       <tbody id="tabela-body">
@@ -530,16 +530,27 @@ function renderSafra(safra) {
 // ─── TABELA DE COTAÇÕES ─────────────────────────────────────────────
 function renderTabela(commodities) {
   const tbody = document.getElementById('tabela-body');
+
+  // Pega datas dos 5 pregões mais recentes da primeira commodity com dados
+  const fmtDiaMes = iso => iso ? iso.slice(5).replace('-', '/') : '—';
+  const primeiras = Object.values(commodities).find(c => (c.historico_5d||[]).length >= 2);
+  if (primeiras) {
+    const h5 = primeiras.historico_5d; // índice 0 = mais recente
+    ['th-d4','th-d3','th-d2','th-d1'].forEach((id, i) => {
+      const el = document.getElementById(id);
+      if (el && h5[4 - i]) el.textContent = fmtDiaMes(h5[4 - i].data);
+    });
+  }
+
   const rows = Object.entries(commodities).map(([, c]) => {
-    const h = (c.historico_5d || []).slice().reverse();
-    const dias = Array(4).fill(null);
-    for (let i = 0; i < Math.min(h.length - 1, 4); i++) dias[i] = h[i];
-    const hoje = h[h.length - 1] || null;
+    // historico_5d: índice 0 = mais recente (ontem/último pregão)
+    const h = c.historico_5d || [];
     const celVal = r => r && r.valor != null ? fmtBRL(r.valor, r.valor < 10 ? 4 : 2) : '<span class="cell-null">—</span>';
+    const ultimo = h[0] || null;
     return `<tr>
       <td>${c.nome}<span class="fonte-tag">${c.unidade} · ${c.fonte_primaria}</span></td>
-      <td>${celVal(dias[0])}</td><td>${celVal(dias[1])}</td><td>${celVal(dias[2])}</td><td>${celVal(dias[3])}</td>
-      <td>${hoje && hoje.variacao_pct != null ? fmtPct(hoje.variacao_pct) : '<span class="cell-null">—</span>'}</td>
+      <td>${celVal(h[4])}</td><td>${celVal(h[3])}</td><td>${celVal(h[2])}</td><td>${celVal(h[1])}</td>
+      <td>${ultimo && ultimo.variacao_pct != null ? fmtPct(ultimo.variacao_pct) : '<span class="cell-null">—</span>'}</td>
       <td>${c.variacao_mes_pct != null ? fmtPct(c.variacao_mes_pct) : '<span class="cell-null">—</span>'}</td>
       <td>${statusChip(c.status)}</td>
     </tr>`;

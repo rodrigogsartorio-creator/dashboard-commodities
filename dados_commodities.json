@@ -128,11 +128,6 @@
       "status": "ok",
       "historico_5d": [
         {
-          "data": "2026-06-28",
-          "valor": 321.41,
-          "variacao_pct": 0.0
-        },
-        {
           "data": "2026-06-26",
           "valor": 321.41,
           "variacao_pct": -0.51
@@ -154,11 +149,6 @@
         }
       ],
       "historico_30d": [
-        {
-          "data": "2026-06-28",
-          "valor": 321.41,
-          "variacao_pct": 0.0
-        },
         {
           "data": "2026-06-26",
           "valor": 321.41,
@@ -229,11 +219,6 @@
       "status": "ok",
       "historico_5d": [
         {
-          "data": "2026-06-28",
-          "valor": 219.49,
-          "variacao_pct": 0.0
-        },
-        {
           "data": "2026-06-26",
           "valor": 219.49,
           "variacao_pct": 0.39
@@ -255,11 +240,6 @@
         }
       ],
       "historico_30d": [
-        {
-          "data": "2026-06-28",
-          "valor": 219.49,
-          "variacao_pct": 0.0
-        },
         {
           "data": "2026-06-26",
           "valor": 219.49,
@@ -856,20 +836,8 @@
       "unidade": "R$/litro",
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
-      "historico_5d": [
-        {
-          "data": "2026-06-28",
-          "valor": 2.5169,
-          "variacao_pct": null
-        }
-      ],
-      "historico_30d": [
-        {
-          "data": "2026-06-28",
-          "valor": 2.5169,
-          "variacao_pct": null
-        }
-      ],
+      "historico_5d": [],
+      "historico_30d": [],
       "variacao_mes_pct": null,
       "tendencia_curta": "indefinida",
       "tendencia_media": "indefinida",
