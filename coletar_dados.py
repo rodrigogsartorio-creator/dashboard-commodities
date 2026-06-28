@@ -106,7 +106,7 @@ FAIXAS = {
     "feijao_preto":   (80,   700),
     "acucar":         (60,   400),
     "soja":           (60,   350),
-    "trigo":          (40,   200),
+    "trigo":          (40,   250),
     "cafe":           (400, 4000),
     "leite":          (1.0,   15),
 }
@@ -219,17 +219,41 @@ AGROLINK_COTACOES = {
 }
 
 
+# Fator de conversão de unidade por commodity (para páginas que retornam unidade diferente)
+# trigo: NoticiasAg retorna R$/t — convertemos para R$/sc 60kg (×0,06)
+CONVERSAO_FATOR = {
+    "trigo": 0.06,
+}
+# Faixa de validação da unidade bruta (antes da conversão)
+FAIXAS_RAW = {
+    "trigo": (800, 3000),  # R$/t
+}
+
+
 def _extrair_preco_pagina(html: str, chave: str):
     """
     Extrai o preço mais recente de uma página de cotações.
-    Estratégia dupla:
+    Estratégias (em ordem de prioridade):
       1. Data na col[0] + preço em col[1..4]  (formato padrão)
       2. Data em qualquer coluna + preço válido em qualquer outra coluna
          (para tabelas onde col[0] é nome do produto, ex: NoticiasAg feijão)
+      3. Sem data na linha — usa hoje (FALLBACK, só usado se nenhum S1/S2 encontrado)
+    Candidatos com data explícita (S1/S2) têm prioridade absoluta sobre S3.
     """
     soup = BeautifulSoup(html, "html5lib")
-    candidatos = []
-    data_hoje = HOJE.strftime("%Y-%m-%d")
+    # Faixa para validação raw (antes de conversão)
+    faixa_raw   = FAIXAS_RAW.get(chave)
+    conversao   = CONVERSAO_FATOR.get(chave, 1.0)
+    data_hoje   = HOJE.strftime("%Y-%m-%d")
+
+    def valido_raw(v):
+        """Valida o valor antes de aplicar conversão."""
+        if faixa_raw:
+            return faixa_raw[0] <= v <= faixa_raw[1]
+        return preco_valido(chave, v)
+
+    candidatos_datados   = []  # S1 + S2: têm data explícita
+    candidatos_sem_data  = []  # S3: data inferida como hoje (baixa confiança)
 
     for tabela in soup.find_all("table"):
         linhas = tabela.find_all("tr")
@@ -243,8 +267,8 @@ def _extrair_preco_pagina(html: str, chave: str):
             if data:
                 for c in cells[1:6]:
                     v = parse_float_br(c)
-                    if v and preco_valido(chave, v):
-                        candidatos.append({"data": data, "valor": v})
+                    if v and valido_raw(v):
+                        candidatos_datados.append({"data": data, "valor": round(v * conversao, 4)})
                         break
                 continue
 
@@ -259,24 +283,30 @@ def _extrair_preco_pagina(html: str, chave: str):
                     break
 
             if not data_encontrada:
-                # Sem data na linha: usa data de hoje se houver preço válido
-                # (algumas páginas têm só preço atual sem data explícita)
+                # Estratégia 3 (baixa confiança): sem data → usa hoje
                 for c in cells:
                     v = parse_float_br(c)
-                    if v and preco_valido(chave, v):
-                        candidatos.append({"data": data_hoje, "valor": v})
+                    if v and valido_raw(v):
+                        candidatos_sem_data.append({"data": data_hoje, "valor": round(v * conversao, 4)})
                         break
                 continue
 
-            # Encontrou data em idx_data — pega preço em qualquer outra coluna
+            # S2: Encontrou data em idx_data — pega preço em qualquer outra coluna
             for i, c in enumerate(cells):
                 if i == idx_data:
                     continue
                 v = parse_float_br(c)
-                if v and preco_valido(chave, v):
-                    candidatos.append({"data": data_encontrada, "valor": v})
+                if v and valido_raw(v):
+                    candidatos_datados.append({"data": data_encontrada, "valor": round(v * conversao, 4)})
                     break
 
+    # Prioriza candidatos com data explícita; só usa S3 se nada mais encontrado
+    candidatos = candidatos_datados if candidatos_datados else candidatos_sem_data
+    if not candidatos:
+        return None
+
+    # Filtra os com data convertida: deve passar na faixa final da commodity
+    candidatos = [c for c in candidatos if preco_valido(chave, c["valor"])]
     if not candidatos:
         return None
 

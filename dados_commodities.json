@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-28T13:15:29",
+  "ultima_atualizacao": "2026-06-28T16:32:07",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.172,
@@ -8,7 +8,7 @@
     "ask": 5.182
   },
   "safra": {
-    "ultima_atualizacao": "2026-06-28T13:15:29",
+    "ultima_atualizacao": "2026-06-28T16:32:07",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -32,11 +32,6 @@
       "status": "ok",
       "historico_5d": [
         {
-          "data": "2026-06-28",
-          "valor": 75.0,
-          "variacao_pct": 25.19
-        },
-        {
           "data": "2026-06-26",
           "valor": 59.91,
           "variacao_pct": null
@@ -44,23 +39,19 @@
       ],
       "historico_30d": [
         {
-          "data": "2026-06-28",
-          "valor": 75.0,
-          "variacao_pct": 25.19
-        },
-        {
           "data": "2026-06-26",
           "valor": 59.91,
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 25.19,
-      "tendencia_curta": "alta",
-      "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço em trajetória de alta de 25.2% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado.",
-      "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "comprar",
-      "noticias": []
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
+      "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
+      "recomendacao": "aguardar",
+      "noticias": [],
+      "safra_noticias": []
     },
     "feijao_carioca": {
       "nome": "Feijão Carioca",
@@ -70,14 +61,14 @@
       "historico_5d": [
         {
           "data": "2026-06-28",
-          "valor": 415.52,
+          "valor": 321.41,
           "variacao_pct": null
         }
       ],
       "historico_30d": [
         {
           "data": "2026-06-28",
-          "valor": 415.52,
+          "valor": 321.41,
           "variacao_pct": null
         }
       ],
@@ -87,7 +78,8 @@
       "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
       "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
       "recomendacao": "aguardar",
-      "noticias": []
+      "noticias": [],
+      "safra_noticias": []
     },
     "feijao_preto": {
       "nome": "Feijão Preto",
@@ -97,14 +89,14 @@
       "historico_5d": [
         {
           "data": "2026-06-28",
-          "valor": 415.52,
+          "valor": 219.49,
           "variacao_pct": null
         }
       ],
       "historico_30d": [
         {
           "data": "2026-06-28",
-          "valor": 415.52,
+          "valor": 219.49,
           "variacao_pct": null
         }
       ],
@@ -114,7 +106,8 @@
       "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
       "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
       "recomendacao": "aguardar",
-      "noticias": []
+      "noticias": [],
+      "safra_noticias": []
     },
     "acucar": {
       "nome": "Açúcar Cristal (ICUMSA 130-180)",
@@ -123,11 +116,6 @@
       "status": "ok",
       "historico_5d": [
         {
-          "data": "2026-06-28",
-          "valor": 99.33,
-          "variacao_pct": 7.6
-        },
-        {
           "data": "2026-06-26",
           "valor": 92.31,
           "variacao_pct": null
@@ -135,48 +123,55 @@
       ],
       "historico_30d": [
         {
-          "data": "2026-06-28",
-          "valor": 99.33,
-          "variacao_pct": 7.6
-        },
-        {
           "data": "2026-06-26",
           "valor": 92.31,
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 7.6,
-      "tendencia_curta": "alta",
-      "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço em trajetória de alta de 7.6% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado.",
-      "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "comprar",
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
+      "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
+      "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Açúcar sobe nas bolsas internacionais com risco climático na Índia e suporte da safra brasileira",
+          "tema": "Safra",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423694-acucar-sobe-nas-bolsas-internacionais-com-risco-climatico-na-india-e-suporte-da-safra-brasileira.html?utm_source=parceiros&utm_medium=rss"
         },
         {
           "titulo": "Açúcar opera sem direção única com mercado atento ao clima na Índia e à oferta global",
+          "tema": "Clima",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423666-acucar-opera-sem-direcao-unica-com-mercado-atento-ao-clima-na-india-e-a-oferta-global.html?utm_source=parceiros&utm_medium=rss"
         },
         {
           "titulo": "Açúcar fecha misto entre pressão logística e preocupações com a safra da Índia",
+          "tema": "Safra",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423595-acucar-fecha-misto-entre-pressao-logistica-e-preocupacoes-com-a-safra-da-india.html?utm_source=parceiros&utm_medium=rss"
         },
         {
           "titulo": "Açúcar avança nas bolsas internacionais com preocupações sobre oferta global",
+          "tema": "Oferta & Demanda",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423535-acucar-avanca-nas-bolsas-internacionais-com-preocupacoes-sobre-oferta-global.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar encerra sessão sem direção única com clima e petróleo no radar",
+          "tema": "Clima",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423497-acucar-encerra-sessao-sem-direcao-unica-com-clima-e-petroleo-no-radar.html?utm_source=parceiros&utm_medium=rss"
         }
-      ]
+      ],
+      "safra_noticias": []
     },
     "soja": {
       "nome": "Soja",
@@ -185,11 +180,6 @@
       "status": "ok",
       "historico_5d": [
         {
-          "data": "2026-06-28",
-          "valor": 117.0,
-          "variacao_pct": -12.6
-        },
-        {
           "data": "2026-06-26",
           "valor": 133.87,
           "variacao_pct": null
@@ -197,48 +187,55 @@
       ],
       "historico_30d": [
         {
-          "data": "2026-06-28",
-          "valor": 117.0,
-          "variacao_pct": -12.6
-        },
-        {
           "data": "2026-06-26",
           "valor": 133.87,
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -12.6,
-      "tendencia_curta": "queda",
-      "tendencia_media": "queda",
-      "insight_curto_prazo": "Preço em trajetória de queda de 12.6% no período. Nos próximos 30 a 90 dias, perspectiva de preços mais favoráveis. Avalie aguardar para comprar.",
-      "insight_medio_prazo": "Tendência de queda no médio prazo (90-360 dias). Negocie contratos e evite fixar preços altos por longos períodos.",
-      "recomendacao": "segurar",
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
+      "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
+      "recomendacao": "aguardar",
       "noticias": [
         {
-          "titulo": "Academia Amssoja Brasil promove imersão em jornada do cliente e CRM",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423704-academia-amssoja-brasil-promove-imersao-em-jornada-do-cliente-e-crm.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja cai em Chicago nesta 6ª feira, realizando lucros após disparada na sessão anterior",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423612-soja-cai-em-chicago-nesta-6-feira-realizando-lucros-apos-disparada-na-sessao-anterior.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Dados de exportações do USDA mostram início do programa de compras de soja na China e Chicago sobe",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423555-dados-de-exportacoes-do-usda-mostram-inicio-do-programa-de-compras-de-soja-na-china-e-chicago-sobe.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
           "titulo": "Soja opera em leve alta na Bolsa de Chicago nesta 5ª com suporte do farelo e atenção ao clima nos EUA",
+          "tema": "Clima",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/423518-soja-opera-em-leve-alta-na-bolsa-de-chicago-nesta-5-com-suporte-do-farelo-e-atencao-ao-clima-nos-eua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja busca sustentação em Chicago nesta 4ª, com suporte do farelo, de olho no clima e no cenário externo",
+          "tema": "Clima",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423425-soja-busca-sustentacao-em-chicago-nesta-4-com-suporte-do-farelo-de-olho-no-clima-e-no-cenario-externo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Imea estima safra de soja 26/27 de Mato Grosso 5,2% menor do que a anterior com El Niño no radar",
+          "tema": "Clima",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423411-imea-estima-safra-de-soja-26-27-de-mato-grosso-5-2-menor-do-que-a-anterior-com-el-nino-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja segue estável em Chicago, sustentando leves altas; no Brasil atenção ao dólar",
+          "tema": "Câmbio",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423386-soja-segue-estavel-em-chicago-sustentando-leves-altas-no-brasil-atencao-ao-dolar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja segue de lado em Chicago nesta 2ª, apesar de altas de mais de 1% do óleo",
+          "tema": "Mercado",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/423301-soja-segue-de-lado-em-chicago-nesta-2-apesar-de-altas-de-mais-de-1-do-oleo.html?utm_source=parceiros&utm_medium=rss"
         }
-      ]
+      ],
+      "safra_noticias": []
     },
     "trigo": {
       "nome": "Trigo",
@@ -247,60 +244,62 @@
       "status": "ok",
       "historico_5d": [
         {
-          "data": "2026-06-28",
-          "valor": 70.0,
-          "variacao_pct": -0.37
-        },
-        {
           "data": "2026-06-26",
-          "valor": 70.26,
+          "valor": 81.999,
           "variacao_pct": null
         }
       ],
       "historico_30d": [
         {
-          "data": "2026-06-28",
-          "valor": 70.0,
-          "variacao_pct": -0.37
-        },
-        {
           "data": "2026-06-26",
-          "valor": 70.26,
+          "valor": 81.999,
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -0.37,
-      "tendencia_curta": "estavel",
-      "tendencia_media": "estavel",
-      "insight_curto_prazo": "Preço estável (0.4% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional.",
-      "insight_medio_prazo": "Mercado equilibrado no médio prazo (90-360 dias). Contratos padrão adequados.",
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
+      "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
       "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Trigo fecha em baixa em Chicago e mercado brasileiro acompanha acomodação no Sul",
+          "tema": "Mercado",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423695-trigo-fecha-em-baixa-em-chicago-e-mercado-brasileiro-acompanha-acomodacao-no-sul.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Trigo amplia perdas em Chicago e inicia sexta-feira em baixa",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423642-trigo-amplia-perdas-em-chicago-e-inicia-sexta-feira-em-baixa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
           "titulo": "Trigo fecha em alta em Chicago e mercado monitora excesso de chuvas para a nova safra no Sul",
+          "tema": "Clima",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423598-trigo-fecha-em-alta-em-chicago-e-mercado-monitora-excesso-de-chuvas-para-a-nova-safra-no-sul.html?utm_source=parceiros&utm_medium=rss"
         },
         {
           "titulo": "Trigo abre em baixa em Chicago após sessão volátil no mercado internacional",
+          "tema": "Mercado",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423534-trigo-abre-em-baixa-em-chicago-apos-sessao-volatil-no-mercado-internacional.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Trigo fecha próximo da estabilidade em Chicago, mas mercado segue atento ao clima no Sul do Brasil",
+          "tema": "Clima",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423500-trigo-fecha-proximo-da-estabilidade-em-chicago-mas-mercado-segue-atento-ao-clima-no-sul-do-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "El Niño adiciona risco à qualidade do trigo na próxima safra",
+          "tema": "Clima",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423459-el-nino-adiciona-risco-a-qualidade-do-trigo-na-proxima-safra.html?utm_source=parceiros&utm_medium=rss"
         }
-      ]
+      ],
+      "safra_noticias": []
     },
     "cafe": {
       "nome": "Café Arábica (Tipo 6)",
@@ -309,11 +308,6 @@
       "status": "ok",
       "historico_5d": [
         {
-          "data": "2026-06-28",
-          "valor": 1961.05,
-          "variacao_pct": 29.27
-        },
-        {
           "data": "2026-06-26",
           "valor": 1517.04,
           "variacao_pct": null
@@ -321,48 +315,55 @@
       ],
       "historico_30d": [
         {
-          "data": "2026-06-28",
-          "valor": 1961.05,
-          "variacao_pct": 29.27
-        },
-        {
           "data": "2026-06-26",
           "valor": 1517.04,
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 29.27,
-      "tendencia_curta": "alta",
-      "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço em trajetória de alta de 29.3% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado.",
-      "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "comprar",
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
+      "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
+      "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Café fecha em baixa com pressão da colheita e realização de lucros nas bolsas",
+          "tema": "Safra",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423700-cafe-fecha-em-baixa-com-pressao-da-colheita-e-realizacao-de-lucros-nas-bolsas.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Especialíssimo 2026 abre seleção para os melhores cafés produzidos pelos cooperados da Cooxupé",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423644-especialissimo-2026-abre-selecao-para-os-melhores-cafes-produzidos-pelos-cooperados-da-cooxupe.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
           "titulo": "Café inicia a sexta-feira(26) pressionado por chuvas nas lavouras e estoques apertados",
+          "tema": "Clima",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423638-cafe-inicia-a-sexta-feira-26-pressionado-por-chuvas-nas-lavouras-e-estoques-apertados.html?utm_source=parceiros&utm_medium=rss"
         },
         {
           "titulo": "Exportações de Café pelo Espírito Santo seguem em alta e acumulam 2,03 milhões de sacas. Volume equivale a 48% de toda exportação do ano passado",
+          "tema": "Oferta & Demanda",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423613-exportacoes-de-cafe-pelo-espirito-santo-seguem-em-alta-e-acumulam-2-03-milhoes-de-sacas-volume-equivale-a-48-de-toda-exportacao-do-ano-passado.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Preço do café se mantém estável no Vietnã em mercado lento; safra na Indonésia pode cair",
+          "tema": "Safra",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423553-preco-do-cafe-se-mantem-estavel-no-vietna-em-mercado-lento-safra-na-indonesia-pode-cair.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café abre a 5ª feira com mercado atento à colheita e ao ritmo da oferta brasileira",
+          "tema": "Safra",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423533-cafe-abre-a-5-feira-com-mercado-atento-a-colheita-e-ao-ritmo-da-oferta-brasileira.html?utm_source=parceiros&utm_medium=rss"
         }
-      ]
+      ],
+      "safra_noticias": []
     },
     "leite": {
       "nome": "Leite ao Produtor",
@@ -392,17 +393,13 @@
       "noticias": [
         {
           "titulo": "Produção de leite no inverno é impactada por doenças respiratórias. Saiba como combater o desafio sanitário",
+          "tema": "Safra",
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/leite/423647-producao-de-leite-no-inverno-e-impactada-por-doencas-respiratorias-saiba-como-combater-o-desafio-sanitario.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Para junho, Conseleite projeta leite a R$ 2,4281",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/leite/423590-para-junho-conseleite-projeta-leite-a-r-2-4281.html?utm_source=parceiros&utm_medium=rss"
         }
-      ]
+      ],
+      "safra_noticias": []
     }
   }
 }
