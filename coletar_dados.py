@@ -34,6 +34,13 @@ from bs4 import BeautifulSoup
 BRT  = timezone(timedelta(hours=-3))
 HOJE = datetime.now(BRT)
 
+def ultimo_dia_util() -> str:
+    """Retorna a data do último dia útil (seg-sex) em formato YYYY-MM-DD."""
+    d = HOJE.date()
+    while d.weekday() >= 5:  # 5=sab, 6=dom
+        d -= timedelta(days=1)
+    return d.isoformat()
+
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 JSON_PATH  = os.path.join(SCRIPT_DIR, "dados_commodities.json")
 
@@ -416,7 +423,7 @@ def _extrair_preco_pagina(html: str, chave: str):
     # Faixa para validação raw (antes de conversão)
     faixa_raw   = FAIXAS_RAW.get(chave)
     conversao   = CONVERSAO_FATOR.get(chave, 1.0)
-    data_hoje   = HOJE.strftime("%Y-%m-%d")
+    data_hoje   = ultimo_dia_util()  # nunca salva como sábado/domingo
 
     def valido_raw(v):
         """Valida o valor antes de aplicar conversão."""

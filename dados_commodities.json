@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-28T17:17:24",
+  "ultima_atualizacao": "2026-06-28T17:52:14",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.172,
@@ -8,7 +8,7 @@
     "ask": 5.182
   },
   "safra": {
-    "ultima_atualizacao": "2026-06-28T17:17:24",
+    "ultima_atualizacao": "2026-06-28T17:52:14",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -110,12 +110,41 @@
         }
       ],
       "variacao_mes_pct": 1.58,
-      "tendencia_curta": "alta",
+      "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço em trajetória de alta de 1.6% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço próximo à resistência histórica (R$ 59.91) — zona de pressão vendedora; possível correção à frente.",
+      "insight_curto_prazo": "Preço estável (0.9% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço próximo à resistência histórica (R$ 59.91) — zona de pressão vendedora; possível correção à frente.",
       "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "comprar",
-      "noticias": [],
+      "recomendacao": "aguardar",
+      "noticias": [
+        {
+          "titulo": "Plano Safra pode não alcançar arrozeiros sem renegociação de dívidas",
+          "tema": "Safra",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/423651-plano-safra-pode-nao-alcancar-arrozeiros-sem-renegociacao-de-dividas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Preços do arroz cedem após meses de alta",
+          "tema": "Mercado",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/423436-precos-do-arroz-cedem-apos-meses-de-alta.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Plantio do trigo está quase finalizado no Paraná e lavouras se desenvolvem bem",
+          "tema": "Safra",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/423398-plantio-do-trigo-esta-quase-finalizado-no-parana-e-lavouras-se-desenvolvem-bem.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Calor recorde coloca em risco a safra de grãos na França",
+          "tema": "Safra",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-06-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/423404-calor-recorde-coloca-em-risco-a-safra-de-graos-na-franca.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "safra_noticias": [],
       "suporte": 58.98,
       "resistencia": 59.91,
@@ -146,6 +175,11 @@
           "data": "2026-06-23",
           "valor": 314.83,
           "variacao_pct": 0.0
+        },
+        {
+          "data": "2026-06-22",
+          "valor": 314.82,
+          "variacao_pct": -0.35
         }
       ],
       "historico_30d": [
@@ -201,11 +235,11 @@
         }
       ],
       "variacao_mes_pct": 4.31,
-      "tendencia_curta": "alta",
+      "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço em trajetória de alta de 4.3% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço próximo à resistência histórica (R$ 323.06) — zona de pressão vendedora; possível correção à frente.",
+      "insight_curto_prazo": "Preço estável (1.4% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço próximo à resistência histórica (R$ 323.06) — zona de pressão vendedora; possível correção à frente.",
       "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "comprar",
+      "recomendacao": "aguardar",
       "noticias": [],
       "safra_noticias": [],
       "suporte": 308.12,
@@ -237,6 +271,11 @@
           "data": "2026-06-23",
           "valor": 218.59,
           "variacao_pct": 0.71
+        },
+        {
+          "data": "2026-06-22",
+          "valor": 217.04,
+          "variacao_pct": 1.72
         }
       ],
       "historico_30d": [
@@ -292,11 +331,11 @@
         }
       ],
       "variacao_mes_pct": -3.13,
-      "tendencia_curta": "queda",
+      "tendencia_curta": "alta",
       "tendencia_media": "queda",
-      "insight_curto_prazo": "Preço em trajetória de queda de 3.1% no período. Nos próximos 30 a 90 dias, perspectiva de preços mais favoráveis. Avalie aguardar para comprar. Preço em zona neutra entre suporte (R$ 213.36) e resistência (R$ 226.59).",
+      "insight_curto_prazo": "Preço em trajetória de alta de 1.8% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço em zona neutra entre suporte (R$ 213.36) e resistência (R$ 226.59).",
       "insight_medio_prazo": "Tendência de queda no médio prazo (90-360 dias). Negocie contratos e evite fixar preços altos por longos períodos.",
-      "recomendacao": "segurar",
+      "recomendacao": "aguardar",
       "noticias": [],
       "safra_noticias": [],
       "suporte": 213.36,
@@ -388,11 +427,11 @@
         }
       ],
       "variacao_mes_pct": -1.41,
-      "tendencia_curta": "estavel",
+      "tendencia_curta": "alta",
       "tendencia_media": "estavel",
-      "insight_curto_prazo": "Preço estável (1.4% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço em zona neutra entre suporte (R$ 90.75) e resistência (R$ 94.07).",
+      "insight_curto_prazo": "Preço em trajetória de alta de 1.7% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço em zona neutra entre suporte (R$ 90.75) e resistência (R$ 94.07).",
       "insight_medio_prazo": "Mercado equilibrado no médio prazo (90-360 dias). Contratos padrão adequados.",
-      "recomendacao": "aguardar",
+      "recomendacao": "comprar",
       "noticias": [
         {
           "titulo": "Açúcar sobe nas bolsas internacionais com risco climático na Índia e suporte da safra brasileira",
@@ -520,11 +559,11 @@
         }
       ],
       "variacao_mes_pct": 3.58,
-      "tendencia_curta": "alta",
+      "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço em trajetória de alta de 3.6% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço próximo à resistência histórica (R$ 134.35) — zona de pressão vendedora; possível correção à frente.",
+      "insight_curto_prazo": "Preço estável (0.4% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço próximo à resistência histórica (R$ 134.35) — zona de pressão vendedora; possível correção à frente.",
       "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "comprar",
+      "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Soja opera em leve alta na Bolsa de Chicago nesta 5ª com suporte do farelo e atenção ao clima nos EUA",
@@ -654,7 +693,7 @@
       "variacao_mes_pct": -0.54,
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
-      "insight_curto_prazo": "Preço estável (0.5% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço em zona neutra entre suporte (R$ 81.76) e resistência (R$ 82.66).",
+      "insight_curto_prazo": "Preço estável (0.8% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço em zona neutra entre suporte (R$ 81.76) e resistência (R$ 82.66).",
       "insight_medio_prazo": "Mercado equilibrado no médio prazo (90-360 dias). Contratos padrão adequados.",
       "recomendacao": "aguardar",
       "noticias": [
@@ -784,11 +823,11 @@
         }
       ],
       "variacao_mes_pct": 6.26,
-      "tendencia_curta": "alta",
+      "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "insight_curto_prazo": "Preço em trajetória de alta de 6.3% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço próximo à resistência histórica (R$ 1530.95) — zona de pressão vendedora; possível correção à frente.",
+      "insight_curto_prazo": "Preço estável (1.5% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional. Preço próximo à resistência histórica (R$ 1530.95) — zona de pressão vendedora; possível correção à frente.",
       "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-      "recomendacao": "comprar",
+      "recomendacao": "aguardar",
       "noticias": [
         {
           "titulo": "Café fecha em baixa com pressão da colheita e realização de lucros nas bolsas",
@@ -836,8 +875,20 @@
       "unidade": "R$/litro",
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
-      "historico_5d": [],
-      "historico_30d": [],
+      "historico_5d": [
+        {
+          "data": "2026-06-26",
+          "valor": 2.5169,
+          "variacao_pct": null
+        }
+      ],
+      "historico_30d": [
+        {
+          "data": "2026-06-26",
+          "valor": 2.5169,
+          "variacao_pct": null
+        }
+      ],
       "variacao_mes_pct": null,
       "tendencia_curta": "indefinida",
       "tendencia_media": "indefinida",

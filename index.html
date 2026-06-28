@@ -538,18 +538,19 @@ function renderTabela(commodities) {
     const h5 = primeiras.historico_5d; // índice 0 = mais recente
     ['th-d4','th-d3','th-d2','th-d1'].forEach((id, i) => {
       const el = document.getElementById(id);
-      if (el && h5[4 - i]) el.textContent = fmtDiaMes(h5[4 - i].data);
+      if (el && h5[3 - i]) el.textContent = fmtDiaMes(h5[3 - i].data);
     });
   }
 
   const rows = Object.entries(commodities).map(([, c]) => {
-    // historico_5d: índice 0 = mais recente (ontem/último pregão)
+    // historico_5d: índice 0 = mais recente (último pregão)
+    // Colunas mostram h[3]→h[0]: os 4 dias mais recentes, com h[0] na última coluna
     const h = c.historico_5d || [];
     const celVal = r => r && r.valor != null ? fmtBRL(r.valor, r.valor < 10 ? 4 : 2) : '<span class="cell-null">—</span>';
     const ultimo = h[0] || null;
     return `<tr>
       <td>${c.nome}<span class="fonte-tag">${c.unidade} · ${c.fonte_primaria}</span></td>
-      <td>${celVal(h[4])}</td><td>${celVal(h[3])}</td><td>${celVal(h[2])}</td><td>${celVal(h[1])}</td>
+      <td>${celVal(h[3])}</td><td>${celVal(h[2])}</td><td>${celVal(h[1])}</td><td>${celVal(h[0])}</td>
       <td>${ultimo && ultimo.variacao_pct != null ? fmtPct(ultimo.variacao_pct) : '<span class="cell-null">—</span>'}</td>
       <td>${c.variacao_mes_pct != null ? fmtPct(c.variacao_mes_pct) : '<span class="cell-null">—</span>'}</td>
       <td>${statusChip(c.status)}</td>
