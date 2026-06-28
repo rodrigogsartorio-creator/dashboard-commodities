@@ -188,20 +188,44 @@
     }
     .news-list { padding: 0 1.5rem .25rem; }
     .news-item {
-      display: grid; grid-template-columns: 14px 1fr; gap: 10px;
-      padding: .7rem 0; border-bottom: 1px solid var(--gray-100);
+      display: grid; grid-template-columns: 26px 1fr; gap: 8px;
+      padding: .65rem 0; border-bottom: 1px solid var(--gray-100);
       align-items: start;
     }
     .news-item:last-child { border-bottom: none; }
-    .news-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--gray-300); margin-top: 6px; }
+    .news-impact-icon { font-size: 1rem; line-height: 1.4; }
     .news-body { font-size: .82rem; color: var(--gray-700); line-height: 1.55; }
     .news-body a { color: var(--gray-900); font-weight: 600; }
     .news-body a:hover { color: var(--blue-mid); text-decoration: none; }
+    /* destaque leve por impacto */
+    .news-item.impacto-alta  { background: linear-gradient(90deg,rgba(220,53,69,.04) 0,transparent 60%); border-radius: 4px; }
+    .news-item.impacto-queda { background: linear-gradient(90deg,rgba(39,117,74,.04) 0,transparent 60%); border-radius: 4px; }
+    .impacto-label {
+      display: inline-block; font-size: .6rem; font-weight: 700; letter-spacing: .05em;
+      text-transform: uppercase; padding: 1px 5px; border-radius: 3px; margin-left: 4px;
+      vertical-align: middle;
+    }
+    .impacto-label-alta  { background: #fce8ea; color: #a32d2d; }
+    .impacto-label-queda { background: #e6f4ec; color: #27754a; }
+    .impacto-label-neutro { background: var(--blue-light); color: var(--gray-500); }
     .source-chip {
       display: inline-flex; align-items: center; gap: 4px; margin-top: 5px;
       padding: 2px 8px; background: var(--blue-light); border: 1px solid #c0d8f0;
       border-radius: 4px; font-size: .68rem; color: var(--blue-dark);
     }
+    /* score combinado no card */
+    .score-bar {
+      display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 6px;
+      padding: .5rem 1.5rem .3rem; font-size: .75rem; color: var(--gray-600);
+      border-bottom: 1px solid var(--gray-100);
+    }
+    .score-bar .score-details { display: flex; gap: 10px; }
+    .score-pill {
+      padding: 2px 8px; border-radius: 10px; font-size: .68rem; font-weight: 700;
+    }
+    .score-pill-pos { background: #e6f4ec; color: #27754a; }
+    .score-pill-neg { background: #fce8ea; color: #a32d2d; }
+    .score-pill-neu { background: var(--blue-light); color: var(--gray-500); }
     .news-empty-inner { padding: .5rem 1.5rem 1rem; font-size: .8rem; color: var(--gray-500); font-style: italic; }
 
     /* tags de tema de notícias */
@@ -589,16 +613,20 @@ function renderCards(commodities) {
     };
     const fc = farolCfg[c.recomendacao] || farolCfg.aguardar;
 
-    // notícias com tag de tema
+    // notícias com bullet colorido por impacto
     const temaSlug = t => (t || 'Mercado').replace(/[&\s]+/g, '-');
+    const impactoIcon  = imp => ({ alta: '🔴', queda: '🟢', neutro: '🟡' }[imp] || '🟡');
+    const impactoLabel = imp => ({ alta: 'pressão de alta', queda: 'pressão de queda', neutro: 'neutro' }[imp] || 'neutro');
     const newsHtml = (c.noticias && c.noticias.length)
       ? c.noticias.map(n => {
           const tema = n.tema || 'Mercado';
+          const imp  = n.impacto || 'neutro';
           return `
-          <div class="news-item">
-            <div class="news-dot"></div>
+          <div class="news-item impacto-${imp}">
+            <div class="news-impact-icon">${impactoIcon(imp)}</div>
             <div class="news-body">
-              <span class="tema-chip tema-${temaSlug(tema)}">${tema}</span><a href="${n.url||'#'}" target="_blank" rel="noopener">${n.titulo||'Sem título'}</a>
+              <span class="tema-chip tema-${temaSlug(tema)}">${tema}</span><span class="impacto-label impacto-label-${imp}">${impactoLabel(imp)}</span>
+              <br><a href="${n.url||'#'}" target="_blank" rel="noopener">${n.titulo||'Sem título'}</a>
               <div style="margin-top:4px">
                 <span class="source-chip">🔗 ${n.fonte||'—'} · ${dataRel(n.data)}</span>
               </div>
@@ -606,6 +634,21 @@ function renderCards(commodities) {
           </div>`;
         }).join('')
       : '<div class="news-empty-inner">Nenhuma notícia disponível neste período.</div>';
+
+    // barra de score combinado
+    const sc = c.score_combinado;
+    const scClass = sc == null ? 'score-pill-neu' : sc >= 0.2 ? 'score-pill-pos' : sc <= -0.2 ? 'score-pill-neg' : 'score-pill-neu';
+    const scLabel = sc == null ? '—' : sc >= 0.2 ? `▲ ${sc.toFixed(2)}` : sc <= -0.2 ? `▼ ${sc.toFixed(2)}` : `= ${sc.toFixed(2)}`;
+    const nAlt  = (c.noticias||[]).filter(n => n.impacto === 'alta').length;
+    const nQue  = (c.noticias||[]).filter(n => n.impacto === 'queda').length;
+    const nNeu  = (c.noticias||[]).filter(n => n.impacto === 'neutro').length;
+    const scoreBarHtml = `<div class="score-bar">
+      <span>📊 Score: preço×60% + notícias×40%</span>
+      <div class="score-details">
+        <span>🔴×${nAlt} 🟢×${nQue} 🟡×${nNeu}</span>
+        <span class="score-pill ${scClass}">${scLabel}</span>
+      </div>
+    </div>`;
 
     // red flags
     const rfIcone = tipo => ({ variacao_dia:'📊', variacao_3d:'📊', dolar:'💱', evento_externo:'⚠️' }[tipo] || '⚠️');
@@ -730,7 +773,8 @@ function renderCards(commodities) {
       ${safraHtml}
 
       <!-- notícias -->
-      <div class="sec-hdr">📰 Notícias verificadas — últimos 7 dias</div>
+      <div class="sec-hdr">📰 Notícias verificadas — últimos 14 dias</div>
+      ${scoreBarHtml}
       <div class="news-list">${newsHtml}</div>
 
       <!-- veredicto -->

@@ -669,27 +669,37 @@ def coletar_safra() -> list:
 RSS_POR_COMMODITY = {
     "arroz":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/graos.rss"),
                        ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss"),
-                       ("Canal Rural",       "https://www.canalrural.com.br/rss/noticias/")],
+                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
+                       ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml"),
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/arroz.aspx")],
     "feijao_carioca": [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
                        ("IBRAFE",            "https://www.ibrafe.org/feed/"),
+                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
                        ("Agrolink",          "https://www.agrolink.com.br/rss/feijao.aspx")],
     "feijao_preto":   [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
                        ("IBRAFE",            "https://www.ibrafe.org/feed/"),
+                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
                        ("Agrolink",          "https://www.agrolink.com.br/rss/feijao.aspx")],
     "acucar":         [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/sucroenergetico.rss"),
+                       ("UNICA",             "https://unica.com.br/feed/"),
                        ("Agrolink",          "https://www.agrolink.com.br/rss/acucar.aspx"),
-                       ("UNICA",             "https://unica.com.br/feed/")],
+                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss")],
     "soja":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/soja.rss"),
                        ("Agrolink",          "https://www.agrolink.com.br/rss/soja.aspx"),
-                       ("Canal Rural",       "https://www.canalrural.com.br/rss/noticias/")],
+                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
+                       ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml")],
     "trigo":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/trigo.rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/trigo.aspx")],
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/trigo.aspx"),
+                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
+                       ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml")],
     "cafe":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/cafe.rss"),
                        ("Cecafé",            "https://www.cecafe.com.br/feed/"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/cafe.aspx")],
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/cafe.aspx"),
+                       ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml")],
     "leite":          [("MilkPoint",         "https://www.milkpoint.com.br/rss/"),
                        ("Scot Consultoria",  "https://www.scotconsultoria.com.br/rss/"),
-                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/leite.rss")],
+                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/leite.rss"),
+                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss")],
 }
 
 RSS_GERAIS = [
@@ -749,6 +759,18 @@ def classificar_tema(titulo: str) -> str:
     return "Mercado"
 
 
+def classificar_impacto(titulo: str) -> str:
+    """Retorna 'alta', 'queda' ou 'neutro' baseado nas palavras-chave do título."""
+    tl = titulo.lower()
+    for kw in IMPACTO_ALTA_KW:
+        if kw in tl:
+            return "alta"
+    for kw in IMPACTO_QUEDA_KW:
+        if kw in tl:
+            return "queda"
+    return "neutro"
+
+
 def is_relevante(titulo: str) -> bool:
     tl = titulo.lower()
     return any(k in tl for k in PRECO_RELEVANTES_KW)
@@ -766,8 +788,47 @@ SAFRA_KEYWORDS_COMMODITY = {
     "leite":          ["leite", "lácteo", "lacteo", "bovino", "pecuária"],
 }
 
-LIMITE_NOTICIAS_DIAS = 7
-MAX_POR_COMMODITY    = 5
+LIMITE_NOTICIAS_DIAS = 14
+MAX_POR_COMMODITY    = 8
+
+# ─── Classificação de impacto das notícias no preço ─────────────────────────
+IMPACTO_ALTA_KW = [
+    # Clima adverso (reduz oferta)
+    "seca", "estiagem", "geada", "granizo", "déficit hídrico", "crise hídrica",
+    "enchente", "inundação", "vendaval", "ciclone", "perda de safra", "quebra de safra",
+    "frustração de safra", "lavouras afetadas", "danos à safra", "calor recorde",
+    # Demanda aquecida
+    "demanda aquecida", "exportação recorde", "exportações crescem", "desabastecimento",
+    "falta de produto", "escassez", "crise de abastecimento",
+    # Geopolítica (reduz oferta global)
+    "embargo", "sanção", "guerra", "conflito", "bloqueio", "restrição de exportação",
+    # Custos
+    "custo de produção aumenta", "insumos mais caros", "frete mais caro",
+    # Dólar
+    "dólar sobe", "dólar em alta", "real desvaloriza", "câmbio pressiona",
+    # Produção menor
+    "redução de área", "queda na produção", "produção menor", "estoque baixo",
+    "estoque abaixo", "abaixo da média", "abaixo do esperado", "quebra",
+    # Mercado
+    "valorização", "preços sobem", "alta nos preços", "preços avançam", "tensão no mercado",
+]
+IMPACTO_QUEDA_KW = [
+    # Oferta abundante
+    "supersafra", "safra recorde", "produção recorde", "recorde de produção",
+    "boa safra", "safra excelente", "colheita acima", "produção acima",
+    "área plantada cresce", "área ampliada", "condições favoráveis",
+    # Demanda fraca
+    "queda na demanda", "consumo cai", "consumo menor", "demanda fraca",
+    "importações caem", "exportações caem",
+    # Estoque elevado
+    "estoque elevado", "estoque recorde", "estoque acima", "excedente",
+    "sobra de produto", "oferta abundante", "oferta ampla",
+    # Dólar
+    "dólar cai", "dólar em queda", "real valoriza",
+    # Mercado
+    "preços recuam", "preços cedem", "queda nos preços", "correção de preços",
+    "pressão vendedora", "mercado pressionado",
+]
 
 # ─── Red Flags — fatores externos ───────────────────────────────────────────
 COMMODITIES_DOLARIZADAS = {"soja", "cafe", "acucar", "trigo"}
@@ -872,12 +933,12 @@ def insight_sr(preco_atual, suporte, resistencia) -> str:
             f" e resistência (R$ {resistencia:.2f}).")
 
 
-def _processar_entry(entry, fonte: str) -> dict | None:
-    """Converte um entry de feedparser em dict de notícia com tema classificado."""
+def _processar_entry(entry, fonte: str, skip_relevance: bool = False) -> dict | None:
+    """Converte um entry de feedparser em dict de notícia com tema e impacto."""
     titulo = entry.get("title", "").strip()
     if not titulo:
         return None
-    if not is_relevante(titulo):
+    if not skip_relevance and not is_relevante(titulo):
         return None
     pub = entry.get("published_parsed") or entry.get("updated_parsed")
     if pub:
@@ -890,11 +951,12 @@ def _processar_entry(entry, fonte: str) -> dict | None:
     if diff > LIMITE_NOTICIAS_DIAS:
         return None
     return {
-        "titulo": titulo,
-        "tema":   classificar_tema(titulo),
-        "fonte":  entry.get("source", {}).get("title", "") or fonte,
-        "data":   ds,
-        "url":    entry.get("link", ""),
+        "titulo":  titulo,
+        "tema":    classificar_tema(titulo),
+        "impacto": classificar_impacto(titulo),
+        "fonte":   entry.get("source", {}).get("title", "") or fonte,
+        "data":    ds,
+        "url":     entry.get("link", ""),
     }
 
 
@@ -902,13 +964,16 @@ def coletar_noticias_rss() -> dict:
     por_commodity = {k: [] for k in KEYWORDS}
     print("  [RSS] Feeds por commodity...")
 
+    # Feeds específicos: pulam o filtro is_relevante (confiamos na fonte),
+    # mas ainda verificamos se a notícia menciona a commodity esperada.
     for chave, feeds in RSS_POR_COMMODITY.items():
+        kws_chave = KEYWORDS[chave]
         for fonte, url in feeds:
             try:
                 feed = feedparser.parse(url)
                 for entry in feed.entries:
-                    n = _processar_entry(entry, fonte)
-                    if n:
+                    n = _processar_entry(entry, fonte, skip_relevance=True)
+                    if n and any(p in n["titulo"].lower() for p in kws_chave):
                         por_commodity[chave].append(n)
             except Exception as exc:
                 print(f"    [{chave}/{fonte}] {exc}")
@@ -918,7 +983,7 @@ def coletar_noticias_rss() -> dict:
         try:
             feed = feedparser.parse(url)
             for entry in feed.entries:
-                n = _processar_entry(entry, fonte)
+                n = _processar_entry(entry, fonte)  # is_relevante ativo para feeds gerais
                 if not n:
                     continue
                 tl = n["titulo"].lower()
@@ -944,23 +1009,61 @@ def coletar_noticias_rss() -> dict:
 # MÓDULO 6 — TENDÊNCIA E INSIGHTS
 # ═══════════════════════════════════════════════════════════════════════════
 
-TEXTOS_CURTO = {
-    "alta":      "Preço em trajetória de alta de {var:.1f}% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado.",
-    "queda":     "Preço em trajetória de queda de {var:.1f}% no período. Nos próximos 30 a 90 dias, perspectiva de preços mais favoráveis. Avalie aguardar para comprar.",
-    "estavel":   "Preço estável ({var:.1f}% no período). Nos próximos 30 a 90 dias, sem sinal forte de mudança. Compras conforme demanda operacional.",
-    "indefinida":"Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
-}
 TEXTOS_MEDIO = {
     "alta":      "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
     "queda":     "Tendência de queda no médio prazo (90-360 dias). Negocie contratos e evite fixar preços altos por longos períodos.",
     "estavel":   "Mercado equilibrado no médio prazo (90-360 dias). Contratos padrão adequados.",
     "indefinida":"Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
 }
-RECOMENDACAO_MAP = {("alta","alta"): "comprar", ("alta","estavel"): "comprar", ("queda","queda"): "segurar"}
 
 
-def calcular_tendencia(historico: list, var_mes) -> dict:
-    # ── Curto prazo: variação dos últimos 7 pregões (momentum recente) ───────
+def calcular_score_noticias(noticias: list) -> float:
+    """Score -1 (pressão de queda) a +1 (pressão de alta) baseado no impacto das notícias."""
+    if not noticias:
+        return 0.0
+    scores = [1.0 if n.get("impacto") == "alta" else -1.0 if n.get("impacto") == "queda" else 0.0
+              for n in noticias]
+    return round(sum(scores) / len(scores), 2)
+
+
+def gerar_insight_curto(tc: str, var7d: float, news_score: float, noticias: list) -> str:
+    """Gera texto de insight de curto prazo combinando sinal de preço + notícias."""
+    partes = []
+
+    if tc == "alta":
+        partes.append(f"Preço em alta de {abs(var7d):.1f}% nos últimos 7 pregões.")
+    elif tc == "queda":
+        partes.append(f"Preço em queda de {abs(var7d):.1f}% nos últimos 7 pregões.")
+    elif tc == "estavel":
+        partes.append(f"Preço estável ({var7d:+.1f}% nos últimos 7 pregões).")
+    else:
+        return "Dados insuficientes para análise de curto prazo. Monitore as atualizações diárias."
+
+    nots_alta  = [n for n in noticias if n.get("impacto") == "alta"]
+    nots_queda = [n for n in noticias if n.get("impacto") == "queda"]
+
+    if news_score >= 0.3 and nots_alta:
+        drivers = "; ".join(n["titulo"][:75] for n in nots_alta[:2])
+        partes.append(f"Fatores de pressão de alta nas notícias: {drivers}.")
+    elif news_score <= -0.3 and nots_queda:
+        drivers = "; ".join(n["titulo"][:75] for n in nots_queda[:2])
+        partes.append(f"Fatores de pressão de queda nas notícias: {drivers}.")
+    elif nots_alta and nots_queda:
+        partes.append("Notícias com sinais mistos — monitorar de perto.")
+
+    # Alertas de divergência entre preço e notícias
+    if tc == "queda" and news_score >= 0.3:
+        partes.append("Atenção: notícias apontam para possível reversão da queda no curto prazo.")
+    elif tc == "alta" and news_score <= -0.3:
+        partes.append("Atenção: notícias sugerem possível arrefecimento da alta.")
+
+    return " ".join(partes)
+
+
+def calcular_tendencia(historico: list, var_mes, noticias: list | None = None) -> dict:
+    noticias = noticias or []
+
+    # ── Curto prazo: variação dos últimos 7 pregões ─────────────────────────
     if len(historico) >= 2:
         n_curto = min(7, len(historico))
         ref_curto = variacao_pct(historico[0]["valor"], historico[n_curto - 1]["valor"])
@@ -969,14 +1072,19 @@ def calcular_tendencia(historico: list, var_mes) -> dict:
 
     if ref_curto is None:
         tc = "indefinida"; ref_curto = 0.0
+        preco_score = 0.0
     elif ref_curto >= 1.5:
-        tc = "alta"
+        tc = "alta"; preco_score = min(ref_curto / 5.0, 1.0)
     elif ref_curto <= -1.5:
-        tc = "queda"
+        tc = "queda"; preco_score = max(ref_curto / 5.0, -1.0)
     else:
-        tc = "estavel"
+        tc = "estavel"; preco_score = ref_curto / 3.0
 
-    # ── Médio prazo: variação acumulada do período (todos os dados do mês) ───
+    # ── Sinal de notícias e score combinado ─────────────────────────────────
+    news_score = calcular_score_noticias(noticias)
+    combined   = round(preco_score * 0.6 + news_score * 0.4, 2)
+
+    # ── Médio prazo: variação acumulada do período ───────────────────────────
     ref_medio = var_mes
     if ref_medio is None and len(historico) >= 2:
         ref_medio = variacao_pct(historico[0]["valor"], historico[-1]["valor"])
@@ -990,12 +1098,23 @@ def calcular_tendencia(historico: list, var_mes) -> dict:
     else:
         tm = "estavel"
 
+    # ── Recomendação baseada no score combinado ──────────────────────────────
+    if combined >= 0.35:
+        recomendacao = "comprar"
+    elif combined <= -0.35:
+        recomendacao = "segurar"
+    else:
+        recomendacao = "aguardar"
+
     return {
         "tendencia_curta":     tc,
         "tendencia_media":     tm,
-        "insight_curto_prazo": TEXTOS_CURTO[tc].format(var=abs(ref_curto)),
+        "score_preco":         round(preco_score, 2),
+        "score_noticias":      news_score,
+        "score_combinado":     combined,
+        "insight_curto_prazo": gerar_insight_curto(tc, ref_curto, news_score, noticias),
         "insight_medio_prazo": TEXTOS_MEDIO[tm],
-        "recomendacao":        RECOMENDACAO_MAP.get((tc, tm), "aguardar"),
+        "recomendacao":        recomendacao,
     }
 
 
@@ -1060,16 +1179,15 @@ def main():
         preco_hoje = hist_pagina[0] if hist_pagina else None
         status = "ok" if preco_hoje else ("fallback" if historico else "sem_dados")
         vm     = variacao_mes(historico)
-        tend   = calcular_tendencia(historico, vm)
 
         commodities_out[chave] = {
             **meta,
             "status":           status,
-            "historico_5d":     historico[:5],   # exibe 5 dias no dashboard
-            "historico_30d":    historico,        # mantém 30 dias internamente
+            "historico_5d":     historico[:5],
+            "historico_30d":    historico,
             "variacao_mes_pct": vm,
-            **tend,
-            "noticias": [],  # preenchido no passo 4
+            "_historico_ref":   historico,  # referência para recalcular tendência no passo 4
+            "noticias": [],
         }
 
     print("\n[4/5] Safra e notícias RSS...")
@@ -1089,6 +1207,13 @@ def main():
         ][:3]
         commodities_out[chave]["safra_noticias"] = safra_commodity
 
+        # Tendência calculada aqui — com notícias disponíveis para score combinado
+        hist_ref = commodities_out[chave].pop("_historico_ref", [])
+        vm = commodities_out[chave].get("variacao_mes_pct")
+        todas_noticias = noticias_commodity + safra_commodity
+        tend = calcular_tendencia(hist_ref, vm, todas_noticias)
+        commodities_out[chave].update(tend)
+
         # Suporte e resistência (usa historico_30d para mais pontos)
         hist30 = commodities_out[chave].get("historico_30d", [])
         sr = calcular_suporte_resistencia(hist30)
@@ -1096,7 +1221,6 @@ def main():
 
         # Red Flags (variação atípica + dólar + eventos externos)
         hist5 = commodities_out[chave].get("historico_5d", [])
-        todas_noticias = noticias_commodity + safra_commodity
         flags = calcular_red_flags(chave, hist5, dolar_var, todas_noticias)
         commodities_out[chave]["red_flags"] = flags
 
@@ -1106,10 +1230,14 @@ def main():
                flag["tipo"] in ("variacao_dia", "variacao_3d"):
                 nova_tc = flag["impacto_tendencia"]
                 commodities_out[chave]["tendencia_curta"] = nova_tc
-                commodities_out[chave]["recomendacao"] = RECOMENDACAO_MAP.get(
-                    (nova_tc, commodities_out[chave]["tendencia_media"]), "aguardar"
-                )
-                break  # a variação mais severa já tomou conta
+                # Recalcula score considerando o override de red flag
+                if nova_tc == "alta":
+                    commodities_out[chave]["score_combinado"] = max(commodities_out[chave]["score_combinado"], 0.4)
+                    commodities_out[chave]["recomendacao"] = "comprar"
+                else:
+                    commodities_out[chave]["score_combinado"] = min(commodities_out[chave]["score_combinado"], -0.4)
+                    commodities_out[chave]["recomendacao"] = "segurar"
+                break
 
         # Complementa insight com posição suporte/resistência
         preco_atual = hist5[0]["valor"] if hist5 else None
