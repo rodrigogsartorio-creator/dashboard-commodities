@@ -766,7 +766,7 @@ SAFRA_KEYWORDS_COMMODITY = {
     "leite":          ["leite", "lácteo", "lacteo", "bovino", "pecuária"],
 }
 
-LIMITE_NOTICIAS_DIAS = 14
+LIMITE_NOTICIAS_DIAS = 7
 MAX_POR_COMMODITY    = 8
 
 # ─── Classificação de impacto das notícias no preço ─────────────────────────
