@@ -667,49 +667,24 @@ def coletar_safra() -> list:
 # MÓDULO 5 — NOTÍCIAS RSS
 # ═══════════════════════════════════════════════════════════════════════════
 
+# Apenas feeds comprovadamente rápidos no GitHub Actions (NoticiasAgricolas + IBRAFE)
+# Feeds como Agrolink, Canal Rural, Globo Rural, Scot, MilkPoint bloqueiam bots
 RSS_POR_COMMODITY = {
     "arroz":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/graos.rss"),
-                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss"),
-                       ("Planeta Arroz",     "https://www.planetaarroz.com.br/feed/"),
-                       ("SNA",               "https://www.sna.agr.br/feed/"),
-                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
-                       ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/arroz.aspx")],
+                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss")],
     "feijao_carioca": [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
-                       ("IBRAFE",            "https://www.ibrafe.org/feed/"),
-                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/feijao.aspx")],
+                       ("IBRAFE",            "https://www.ibrafe.org/feed/")],
     "feijao_preto":   [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
-                       ("IBRAFE",            "https://www.ibrafe.org/feed/"),
-                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/feijao.aspx")],
-    "acucar":         [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/sucroenergetico.rss"),
-                       ("UNICA",             "https://unica.com.br/feed/"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/acucar.aspx"),
-                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss")],
-    "soja":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/soja.rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/soja.aspx"),
-                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
-                       ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml")],
-    "trigo":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/trigo.rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/trigo.aspx"),
-                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
-                       ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml")],
-    "cafe":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/cafe.rss"),
-                       ("Cecafé",            "https://www.cecafe.com.br/feed/"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/cafe.aspx"),
-                       ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml")],
-    "leite":          [("MilkPoint",         "https://www.milkpoint.com.br/rss/"),
-                       ("Scot Consultoria",  "https://www.scotconsultoria.com.br/rss/"),
-                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/leite.rss"),
-                       ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss")],
+                       ("IBRAFE",            "https://www.ibrafe.org/feed/")],
+    "acucar":         [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/sucroenergetico.rss")],
+    "soja":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/soja.rss")],
+    "trigo":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/trigo.rss")],
+    "cafe":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/cafe.rss")],
+    "leite":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/leite.rss")],
 }
 
 RSS_GERAIS = [
     ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/rss/noticias"),
-    ("Agrolink",          "https://www.agrolink.com.br/rss/noticias.aspx"),
-    ("Canal Rural",       "https://www.canalrural.com.br/rss/noticias/"),
-    ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml"),
     ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
 ]
 
