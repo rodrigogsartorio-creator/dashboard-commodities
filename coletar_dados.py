@@ -195,14 +195,15 @@ def coletar_dolar() -> dict:
 # MÓDULO 2 — COTAÇÕES DO DIA
 # ═══════════════════════════════════════════════════════════════════════════
 
-# NoticiasAgricolas — slugs das páginas de cotação
+# NoticiasAgricolas — URLs exatas conforme documento de fontes
 NA_COTACOES = {
-    "arroz":          "https://www.noticiasagricolas.com.br/cotacoes/arroz",
-    "feijao_carioca": "https://www.noticiasagricolas.com.br/cotacoes/feijao",
-    "acucar":         "https://www.noticiasagricolas.com.br/cotacoes/sucroenergetico",
-    "soja":           "https://www.noticiasagricolas.com.br/cotacoes/soja",
-    "trigo":          "https://www.noticiasagricolas.com.br/cotacoes/trigo",
-    "cafe":           "https://www.noticiasagricolas.com.br/cotacoes/cafe",
+    "arroz":          "https://www.noticiasagricolas.com.br/cotacoes/arroz/arroz-em-casca-esalq-bbm",
+    "feijao_carioca": "https://www.noticiasagricolas.com.br/cotacoes/feijao/precos-do-feijao-carioca-nota-8-a-8-5-cepea-cna",
+    "feijao_preto":   "https://www.noticiasagricolas.com.br/cotacoes/feijao/precos-do-feijao-preto-tipo-1-cepea-cna",
+    "acucar":         "https://www.noticiasagricolas.com.br/cotacoes/sucroenergetico/acucar-cristal-cepea",
+    "soja":           "https://www.noticiasagricolas.com.br/cotacoes/soja/soja-indicador-cepea-esalq-porto-paranagua",
+    "trigo":          "https://www.noticiasagricolas.com.br/cotacoes/trigo/preco-medio-do-trigo-cepea-esalq",
+    "cafe":           "https://www.noticiasagricolas.com.br/cotacoes/cafe/indicador-cepea-esalq-cafe-arabica",
     "leite":          "https://www.noticiasagricolas.com.br/cotacoes/leite",
 }
 
@@ -339,7 +340,19 @@ def coletar_cotacao_hoje(chave: str) -> dict | None:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def coletar_feijao_preto_hoje() -> dict | None:
-    print("  [IBRAFE] Feijão Preto...")
+    # Primário: NoticiasAgricolas — URL específica do documento de fontes
+    url = NA_COTACOES.get("feijao_preto")
+    if url:
+        r = safe_get(url, timeout=20)
+        if r:
+            preco = _extrair_preco_pagina(r.text, "feijao_preto")
+            if preco:
+                print(f"    [feijao_preto] NoticiasAg: R${preco['valor']} em {preco['data']}")
+                return preco
+        time.sleep(1)
+
+    # Fallback: IBRAFE
+    print("  [IBRAFE] Feijão Preto (fallback)...")
     for url in ["https://www.ibrafe.org", "https://www.ibrafe.org/cotacoes"]:
         r = safe_get(url, timeout=20)
         if not r:
@@ -360,16 +373,6 @@ def coletar_feijao_preto_hoje() -> dict | None:
                     if data and valor:
                         print(f"    [feijao_preto] IBRAFE: R${valor} em {data}")
                         return {"data": data, "valor": valor}
-
-    # Fallback: NoticiasAgricolas/feijao (inclui preto)
-    url = NA_COTACOES.get("feijao_carioca")
-    if url:
-        r = safe_get(url, timeout=20)
-        if r:
-            preco = _extrair_preco_pagina(r.text, "feijao_preto")
-            if preco:
-                print(f"    [feijao_preto] NoticiasAg fallback: R${preco['valor']} em {preco['data']}")
-                return preco
 
     print("    [feijao_preto] Sem cotação disponível hoje.")
     return None
@@ -431,7 +434,13 @@ def coletar_safra() -> list:
                 ds  = date(*pub[:3]).isoformat() if pub else HOJE.strftime("%Y-%m-%d")
                 if pub and date(*pub[:3]) < limite_14d:
                     continue
-                noticias.append({"titulo": titulo, "fonte": fonte, "data": ds, "url": entry.get("link", "")})
+                noticias.append({
+                    "titulo": titulo,
+                    "tema":   classificar_tema(titulo),
+                    "fonte":  fonte,
+                    "data":   ds,
+                    "url":    entry.get("link", ""),
+                })
         except Exception as exc:
             print(f"    [{fonte}] {exc}")
 
@@ -450,19 +459,25 @@ def coletar_safra() -> list:
 
 RSS_POR_COMMODITY = {
     "arroz":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/arroz.aspx")],
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/arroz.aspx"),
+                       ("Canal Rural",       "https://www.canalrural.com.br/rss/noticias/")],
     "feijao_carioca": [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
-                       ("IBRAFE",            "https://www.ibrafe.org/feed/")],
+                       ("IBRAFE",            "https://www.ibrafe.org/feed/"),
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/feijao.aspx")],
     "feijao_preto":   [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
-                       ("IBRAFE",            "https://www.ibrafe.org/feed/")],
+                       ("IBRAFE",            "https://www.ibrafe.org/feed/"),
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/feijao.aspx")],
     "acucar":         [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/sucroenergetico.rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/acucar.aspx")],
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/acucar.aspx"),
+                       ("UNICA",             "https://unica.com.br/feed/")],
     "soja":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/soja.rss"),
-                       ("Agrolink",          "https://www.agrolink.com.br/rss/soja.aspx")],
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/soja.aspx"),
+                       ("Canal Rural",       "https://www.canalrural.com.br/rss/noticias/")],
     "trigo":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/trigo.rss"),
                        ("Agrolink",          "https://www.agrolink.com.br/rss/trigo.aspx")],
     "cafe":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/cafe.rss"),
-                       ("Cecafé",            "https://www.cecafe.com.br/feed/")],
+                       ("Cecafé",            "https://www.cecafe.com.br/feed/"),
+                       ("Agrolink",          "https://www.agrolink.com.br/rss/cafe.aspx")],
     "leite":          [("MilkPoint",         "https://www.milkpoint.com.br/rss/"),
                        ("Scot Consultoria",  "https://www.scotconsultoria.com.br/rss/"),
                        ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/leite.rss")],
@@ -471,6 +486,9 @@ RSS_POR_COMMODITY = {
 RSS_GERAIS = [
     ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/rss/noticias"),
     ("Agrolink",          "https://www.agrolink.com.br/rss/noticias.aspx"),
+    ("Canal Rural",       "https://www.canalrural.com.br/rss/noticias/"),
+    ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml"),
+    ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
 ]
 
 KEYWORDS = {
@@ -484,8 +502,89 @@ KEYWORDS = {
     "leite":          ["leite","lácteo","lacteo"],
 }
 
+# Palavras-chave que indicam impacto no preço — filtra notícias irrelevantes
+PRECO_RELEVANTES_KW = [
+    "preço", "preco", "cotação", "cotacao", "mercado", "alta", "queda",
+    "valoriz", "desvaloriza", "safra", "estoque", "oferta", "demanda",
+    "câmbio", "cambio", "dólar", "dolar", "exportação", "exportacao",
+    "importação", "importacao", "clima", "seca", "chuva", "geada",
+    "conab", "produção", "producao", "colheita", "plantio", "sanção",
+    "embargo", "guerra", "conflito", "custo", "inflação", "inflacao",
+    "supersafra", "déficit", "excedente", "consumo", "abastecimento",
+]
+
+# Classificação de tema por palavras-chave no título
+TEMA_KEYWORDS = {
+    "Clima":            ["chuva", "seca", "geada", "clima", "tempo", "temperatura",
+                         "estiagem", "precipitação", "el niño", "la niña", "umidade",
+                         "granizo", "déficit hídrico", "enchente", "inundação", "vendaval"],
+    "Geopolítica":      ["guerra", "conflito", "sanção", "embargo", "acordo", "tratado",
+                         "rússia", "ucrânia", "china", "eua", "estados unidos",
+                         "governo federal", "política", "eleição", "tarifas", "trump"],
+    "Safra":            ["safra", "colheita", "plantio", "área plantada", "produção",
+                         "produtividade", "estimativa", "conab", "previsão", "supersafra",
+                         "segundo cultivo", "safrinha"],
+    "Câmbio":           ["dólar", "câmbio", "real", "moeda", "brl", "usd", "taxa de câmbio",
+                         "banco central", "juros", "selic", "desvalorização do real"],
+    "Oferta & Demanda": ["oferta", "demanda", "estoque", "consumo", "abastecimento",
+                         "excedente", "deficit", "déficit", "exportação", "importação",
+                         "frete", "porto", "logística", "processamento"],
+}
+
+
+def classificar_tema(titulo: str) -> str:
+    tl = titulo.lower()
+    for tema, palavras in TEMA_KEYWORDS.items():
+        if any(p in tl for p in palavras):
+            return tema
+    return "Mercado"
+
+
+def is_relevante(titulo: str) -> bool:
+    tl = titulo.lower()
+    return any(k in tl for k in PRECO_RELEVANTES_KW)
+
+
+# Keywords de safra por commodity para filtrar notícias de safra dentro do card
+SAFRA_KEYWORDS_COMMODITY = {
+    "arroz":          ["arroz"],
+    "feijao_carioca": ["feijão", "feijao", "carioca", "bean"],
+    "feijao_preto":   ["feijão", "feijao", "preto", "bean"],
+    "acucar":         ["açúcar", "acucar", "cana", "sucro"],
+    "soja":           ["soja"],
+    "trigo":          ["trigo"],
+    "cafe":           ["café", "cafe", "arábica", "arabica", "conilon"],
+    "leite":          ["leite", "lácteo", "lacteo", "bovino", "pecuária"],
+}
+
 LIMITE_NOTICIAS_DIAS = 7
-MAX_POR_COMMODITY    = 4
+MAX_POR_COMMODITY    = 5
+
+
+def _processar_entry(entry, fonte: str) -> dict | None:
+    """Converte um entry de feedparser em dict de notícia com tema classificado."""
+    titulo = entry.get("title", "").strip()
+    if not titulo:
+        return None
+    if not is_relevante(titulo):
+        return None
+    pub = entry.get("published_parsed") or entry.get("updated_parsed")
+    if pub:
+        dt   = date(*pub[:3])
+        diff = (date.today() - dt).days
+        ds   = dt.isoformat()
+    else:
+        diff = 0
+        ds   = HOJE.strftime("%Y-%m-%d")
+    if diff > LIMITE_NOTICIAS_DIAS:
+        return None
+    return {
+        "titulo": titulo,
+        "tema":   classificar_tema(titulo),
+        "fonte":  entry.get("source", {}).get("title", "") or fonte,
+        "data":   ds,
+        "url":    entry.get("link", ""),
+    }
 
 
 def coletar_noticias_rss() -> dict:
@@ -497,25 +596,9 @@ def coletar_noticias_rss() -> dict:
             try:
                 feed = feedparser.parse(url)
                 for entry in feed.entries:
-                    titulo = entry.get("title", "").strip()
-                    if not titulo:
-                        continue
-                    pub = entry.get("published_parsed") or entry.get("updated_parsed")
-                    if pub:
-                        dt   = date(*pub[:3])
-                        diff = (date.today() - dt).days
-                        ds   = dt.isoformat()
-                    else:
-                        diff = 0
-                        ds   = HOJE.strftime("%Y-%m-%d")
-                    if diff > LIMITE_NOTICIAS_DIAS:
-                        continue
-                    por_commodity[chave].append({
-                        "titulo": titulo,
-                        "fonte":  entry.get("source", {}).get("title", "") or fonte,
-                        "data":   ds,
-                        "url":    entry.get("link", ""),
-                    })
+                    n = _processar_entry(entry, fonte)
+                    if n:
+                        por_commodity[chave].append(n)
             except Exception as exc:
                 print(f"    [{chave}/{fonte}] {exc}")
 
@@ -524,24 +607,13 @@ def coletar_noticias_rss() -> dict:
         try:
             feed = feedparser.parse(url)
             for entry in feed.entries:
-                titulo = entry.get("title", "").strip()
-                if not titulo:
+                n = _processar_entry(entry, fonte)
+                if not n:
                     continue
-                pub = entry.get("published_parsed") or entry.get("updated_parsed")
-                if pub:
-                    dt   = date(*pub[:3])
-                    diff = (date.today() - dt).days
-                    ds   = dt.isoformat()
-                else:
-                    diff = 0
-                    ds   = HOJE.strftime("%Y-%m-%d")
-                if diff > LIMITE_NOTICIAS_DIAS:
-                    continue
-                noticia = {"titulo": titulo, "fonte": entry.get("source", {}).get("title", "") or fonte, "data": ds, "url": entry.get("link", "")}
-                tl = titulo.lower()
+                tl = n["titulo"].lower()
                 for chave, palavras in KEYWORDS.items():
                     if any(p in tl for p in palavras):
-                        por_commodity[chave].append(noticia)
+                        por_commodity[chave].append(n)
         except Exception as exc:
             print(f"    [{fonte}] {exc}")
 
@@ -665,6 +737,13 @@ def main():
     noticias = coletar_noticias_rss()
     for chave in commodities_out:
         commodities_out[chave]["noticias"] = noticias.get(chave, [])
+        # Safra filtrada por commodity — aparece dentro do card de cada produto
+        kws = SAFRA_KEYWORDS_COMMODITY.get(chave, [])
+        safra_commodity = [
+            n for n in safra
+            if any(k in n["titulo"].lower() for k in kws)
+        ][:3]
+        commodities_out[chave]["safra_noticias"] = safra_commodity
 
     # Status geral
     com_dado = sum(1 for c in commodities_out.values() if c["historico_5d"])

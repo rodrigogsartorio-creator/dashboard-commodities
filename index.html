@@ -204,6 +204,35 @@
     }
     .news-empty-inner { padding: .5rem 1.5rem 1rem; font-size: .8rem; color: var(--gray-500); font-style: italic; }
 
+    /* tags de tema de notícias */
+    .tema-chip {
+      display: inline-block; font-size: .63rem; font-weight: 700;
+      padding: 1px 7px; border-radius: 20px; margin-right: 6px;
+      vertical-align: middle; white-space: nowrap; letter-spacing: .02em;
+    }
+    .tema-Clima            { background: #ddeeff; color: #1a4d80; border: 1px solid #aac9f0; }
+    .tema-Geopolítica      { background: #f0e8ff; color: #4a1a80; border: 1px solid #c8a8f0; }
+    .tema-Safra            { background: #e6f5e0; color: #2a5a18; border: 1px solid #a0cc88; }
+    .tema-Câmbio           { background: #fff8e0; color: #664400; border: 1px solid #e8c040; }
+    .tema-Oferta-e-Demanda { background: #fff0e8; color: #6b2800; border: 1px solid #f0b080; }
+    .tema-Mercado          { background: var(--gray-100); color: var(--gray-700); border: 1px solid var(--gray-300); }
+
+    /* safra dentro do card commodity */
+    .safra-inner { padding: .85rem 1.5rem 1rem; border-bottom: 1px solid var(--gray-100); background: #f6fbf4; }
+    .safra-inner-title {
+      font-size: .67rem; font-weight: 700; color: #2a5a18;
+      text-transform: uppercase; letter-spacing: .06em; margin-bottom: .5rem;
+    }
+    .safra-inner-item {
+      font-size: .8rem; color: var(--gray-700); padding: .45rem 0;
+      border-bottom: 1px solid #ddeedd; display: flex; align-items: flex-start; gap: .6rem;
+    }
+    .safra-inner-item:last-child { border-bottom: none; }
+    .safra-inner-dot { width: 6px; height: 6px; border-radius: 50%; background: #6aaa60; flex-shrink: 0; margin-top: 6px; }
+    .safra-inner-item a { color: #1a5c38; font-weight: 500; }
+    .safra-inner-item a:hover { text-decoration: underline; }
+    .safra-inner-fonte { font-size: .68rem; color: var(--gray-500); margin-top: 1px; }
+
     /* veredicto */
     .verdict { padding: 1rem 1.5rem; border-bottom: 1px solid var(--gray-100); }
     .v-box { border-radius: var(--radius-md); padding: .9rem 1.1rem; }
@@ -312,8 +341,8 @@
   <!-- ═══════════════════════════════════════════ RESUMO STRIP -->
   <div id="summary-strip" class="summary-strip"></div>
 
-  <!-- ═══════════════════════════════════════════ SAFRA -->
-  <div class="safra-card" id="safra">
+  <!-- ═══════════════════════════════════════════ SAFRA (global — safra por commodity fica dentro de cada card) -->
+  <div class="safra-card" id="safra" style="display:none">
     <div class="safra-top">
       <h2>🌱 Safra Nacional</h2>
       <span style="font-size:.72rem;color:var(--gray-500)">CONAB · IBGE · últimos 14 dias</span>
@@ -436,7 +465,6 @@ function renderNav(commodities) {
     return `<a href="#sec-${k}" class="${cls}">${ICONS[k]||''} ${c.nome}</a>`;
   }).join('');
   nav.innerHTML = `
-    <a href="#safra" class="pill-neutral">🌱 Safra</a>
     <a href="#tabela" class="pill-neutral">📊 Cotações</a>
     ${extra}
   `;
@@ -528,19 +556,38 @@ function renderCards(commodities) {
     };
     const fc = farolCfg[c.recomendacao] || farolCfg.aguardar;
 
-    // notícias
+    // notícias com tag de tema
+    const temaSlug = t => (t || 'Mercado').replace(/[&\s]+/g, '-');
     const newsHtml = (c.noticias && c.noticias.length)
-      ? c.noticias.map(n => `
-        <div class="news-item">
-          <div class="news-dot"></div>
-          <div class="news-body">
-            <a href="${n.url||'#'}" target="_blank" rel="noopener">${n.titulo||'Sem título'}</a>
-            <div style="margin-top:4px">
-              <span class="source-chip">🔗 ${n.fonte||'—'} · ${dataRel(n.data)}</span>
+      ? c.noticias.map(n => {
+          const tema = n.tema || 'Mercado';
+          return `
+          <div class="news-item">
+            <div class="news-dot"></div>
+            <div class="news-body">
+              <span class="tema-chip tema-${temaSlug(tema)}">${tema}</span><a href="${n.url||'#'}" target="_blank" rel="noopener">${n.titulo||'Sem título'}</a>
+              <div style="margin-top:4px">
+                <span class="source-chip">🔗 ${n.fonte||'—'} · ${dataRel(n.data)}</span>
+              </div>
             </div>
-          </div>
-        </div>`).join('')
+          </div>`;
+        }).join('')
       : '<div class="news-empty-inner">Nenhuma notícia disponível neste período.</div>';
+
+    // safra por commodity
+    const safraHtml = (c.safra_noticias && c.safra_noticias.length)
+      ? `<div class="safra-inner">
+          <div class="safra-inner-title">🌱 Safra — ${c.nome}</div>
+          ${c.safra_noticias.map(n => `
+            <div class="safra-inner-item">
+              <div class="safra-inner-dot"></div>
+              <div>
+                <a href="${n.url||'#'}" target="_blank" rel="noopener">${n.titulo||'Sem título'}</a>
+                <div class="safra-inner-fonte">${n.fonte||''} · ${dataRel(n.data)}</div>
+              </div>
+            </div>`).join('')}
+        </div>`
+      : '';
 
     // fontes (deduplica por fonte)
     const fontesSet = new Set();
@@ -612,6 +659,9 @@ function renderCards(commodities) {
           ${c.insight_medio_prazo || '—'}
         </div>
       </div>
+
+      <!-- safra por commodity -->
+      ${safraHtml}
 
       <!-- notícias -->
       <div class="sec-hdr">📰 Notícias verificadas — últimos 7 dias</div>
