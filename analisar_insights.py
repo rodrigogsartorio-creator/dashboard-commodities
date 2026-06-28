@@ -264,10 +264,10 @@ def main():
             c["decisao_texto"]       = resultado["decisao_texto"]
             c["insight_gerado_por"]  = "claude-haiku"
             atualizadas += 1
-            print(f"    ✓ {resultado['recomendacao'].upper()} — {resultado['postura_mercado']}")
+            print(f"    OK {resultado['recomendacao'].upper()} - {resultado['postura_mercado']}")
         else:
             c["insight_gerado_por"] = "regras"
-            print("    ⚠ Mantendo insight baseado em regras.")
+            print("    AVISO: Mantendo insight baseado em regras.")
 
         time.sleep(1)  # respeita rate limit
 
