@@ -124,16 +124,125 @@ def preco_valido(chave: str, valor) -> bool:
 # ═══════════════════════════════════════════════════════════════════════════
 
 def carregar_historico_existente() -> dict:
-    """Lê o JSON atual e retorna historico_5d por commodity."""
+    """Lê o JSON atual e retorna historico_30d (ou historico_5d) por commodity."""
     try:
         with open(JSON_PATH, "r", encoding="utf-8") as f:
             dados = json.load(f)
         return {
-            chave: c.get("historico_5d", [])
+            chave: c.get("historico_30d") or c.get("historico_5d", [])
             for chave, c in dados.get("commodities", {}).items()
         }
     except Exception:
         return {}
+
+
+def _extrair_historico_completo(html: str, chave: str) -> list:
+    """
+    Extrai TODOS os preços datados disponíveis na página (tipicamente ~10 dias).
+    Usa as mesmas Estratégias 1 e 2 de _extrair_preco_pagina, mas coleta todos.
+    Retorna lista [{data, valor}] ordenada do mais recente ao mais antigo.
+    """
+    soup = BeautifulSoup(html, "html5lib")
+    faixa_raw = FAIXAS_RAW.get(chave)
+    conversao = CONVERSAO_FATOR.get(chave, 1.0)
+
+    def valido_raw(v):
+        if faixa_raw:
+            return faixa_raw[0] <= v <= faixa_raw[1]
+        return preco_valido(chave, v)
+
+    por_data = {}  # data → valor (primeiro válido por data vence)
+
+    for tabela in soup.find_all("table"):
+        for linha in tabela.find_all("tr")[1:]:
+            cells = [c.get_text(strip=True) for c in linha.find_all(["td", "th"])]
+            if len(cells) < 2:
+                continue
+
+            # Estratégia 1: data na col[0]
+            data = parse_date_br(cells[0])
+            if data:
+                if data not in por_data:
+                    for c in cells[1:6]:
+                        v = parse_float_br(c)
+                        if v and valido_raw(v):
+                            vf = round(v * conversao, 4)
+                            if preco_valido(chave, vf):
+                                por_data[data] = vf
+                            break
+                continue
+
+            # Estratégia 2: data em outra coluna
+            idx_data = -1
+            data_encontrada = None
+            for i, c in enumerate(cells):
+                d = parse_date_br(c)
+                if d:
+                    data_encontrada = d
+                    idx_data = i
+                    break
+
+            if data_encontrada and data_encontrada not in por_data:
+                for j, c in enumerate(cells):
+                    if j == idx_data:
+                        continue
+                    v = parse_float_br(c)
+                    if v and valido_raw(v):
+                        vf = round(v * conversao, 4)
+                        if preco_valido(chave, vf):
+                            por_data[data_encontrada] = vf
+                        break
+
+    resultado = sorted(
+        [{"data": d, "valor": v} for d, v in por_data.items()],
+        key=lambda x: x["data"],
+        reverse=True,
+    )
+    return resultado
+
+
+def coletar_historico_completo(chave: str) -> list:
+    """
+    Busca a página de cotações e extrai todos os dias disponíveis (~10 dias úteis).
+    Tenta NoticiasAgricolas → sem fallback (Agrolink não exibe tabelas históricas).
+    """
+    url = NA_COTACOES.get(chave)
+    if not url:
+        return []
+    r = safe_get(url, timeout=25)
+    if not r:
+        return []
+    hist = _extrair_historico_completo(r.text, chave)
+    if hist:
+        print(f"    [{chave}] histórico página: {len(hist)} dias ({hist[-1]['data']} a {hist[0]['data']})")
+    return hist
+
+
+def mesclar_multiplos(existente: list, novos: list, max_dias: int = HISTORICO_MAX_DIAS) -> list:
+    """
+    Mescla lista de novos registros com histórico existente.
+    Deduplica por data (novo sobrescreve existente), recalcula variação, limita a max_dias.
+    """
+    por_data = {r["data"]: r["valor"] for r in existente if r.get("data") and r.get("valor") is not None}
+    for r in novos:
+        if r.get("data") and r.get("valor") is not None:
+            por_data[r["data"]] = r["valor"]
+
+    historico = sorted(
+        [{"data": d, "valor": v} for d, v in por_data.items()],
+        key=lambda x: x["data"],
+        reverse=True,
+    )[:max_dias]
+
+    resultado = []
+    for i, rec in enumerate(historico):
+        ant = historico[i + 1]["valor"] if i + 1 < len(historico) else None
+        resultado.append({
+            "data":         rec["data"],
+            "valor":        rec["valor"],
+            "variacao_pct": variacao_pct(rec["valor"], ant),
+        })
+    return resultado
 
 
 def mesclar_historico(existente: list, novo_registro: dict, max_dias: int = HISTORICO_MAX_DIAS) -> list:
@@ -808,7 +917,7 @@ def calcular_tendencia(historico: list, var_mes) -> dict:
 COMMODITIES_META = {
     "arroz":          {"nome": "Arroz em Casca",                  "unidade": "R$/sc 50kg",  "fonte_primaria": "CEPEA/IRGA-RS via NoticiasAgricolas"},
     "feijao_carioca": {"nome": "Feijão Carioca",                  "unidade": "R$/sc 60kg",  "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas"},
-    "feijao_preto":   {"nome": "Feijão Preto",                    "unidade": "R$/sc 60kg",  "fonte_primaria": "IBRAFE"},
+    "feijao_preto":   {"nome": "Feijão Preto",                    "unidade": "R$/sc 60kg",  "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas"},
     "acucar":         {"nome": "Açúcar Cristal (ICUMSA 130-180)", "unidade": "R$/sc 50kg",  "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas"},
     "soja":           {"nome": "Soja",                            "unidade": "R$/sc 60kg",  "fonte_primaria": "CEPEA/Paranaguá via NoticiasAgricolas"},
     "trigo":          {"nome": "Trigo",                           "unidade": "R$/sc 60kg",  "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas"},
@@ -833,23 +942,33 @@ def main():
     print("\n[2/5] Carregando histórico existente...")
     historico_existente = carregar_historico_existente()
 
-    print("\n[3/5] Cotações do dia (NoticiasAgricolas + Agrolink)...")
+    print("\n[3/5] Cotações (histórico completo da página + NoticiasAgricolas)...")
     commodities_out = {}
 
     for chave, meta in COMMODITIES_META.items():
         print(f"  [{chave}]")
-        if chave == "feijao_preto":
+
+        # Coleta todos os dias disponíveis na página (~10 dias úteis)
+        hist_pagina = coletar_historico_completo(chave)
+
+        # Feijão preto: fallback IBRAFE se NoticiasAgricolas falhar
+        if not hist_pagina and chave == "feijao_preto":
             preco_hoje = coletar_feijao_preto_hoje()
-        else:
-            preco_hoje = coletar_cotacao_hoje(chave)
+            hist_pagina = [preco_hoje] if preco_hoje else []
+        elif not hist_pagina:
+            # Para leite: tenta fontes especializadas como ponto único
+            if chave == "leite":
+                preco_hoje = coletar_cotacao_hoje(chave)
+                hist_pagina = [preco_hoje] if preco_hoje else []
+
         time.sleep(1.5)
 
-        # Mescla preço de hoje com histórico acumulado
-        hist_ant  = historico_existente.get(chave, [])
-        # Remove variacao_pct para re-calcular depois
-        hist_raw  = [{"data": r["data"], "valor": r["valor"]} for r in hist_ant]
-        historico = mesclar_historico(hist_raw, preco_hoje)
+        # Mescla histórico da página com histórico acumulado existente
+        hist_ant = historico_existente.get(chave, [])
+        hist_raw = [{"data": r["data"], "valor": r["valor"]} for r in hist_ant]
+        historico = mesclar_multiplos(hist_raw, hist_pagina)
 
+        preco_hoje = hist_pagina[0] if hist_pagina else None
         status = "ok" if preco_hoje else ("fallback" if historico else "sem_dados")
         vm     = variacao_mes(historico)
         tend   = calcular_tendencia(historico, vm)
