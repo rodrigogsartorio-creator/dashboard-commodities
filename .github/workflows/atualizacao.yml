@@ -35,10 +35,13 @@ jobs:
         run: python coletar_dados.py
         env:
           PYTHONUNBUFFERED: '1'
-          # Quando a API CEPEA for contratada, adicionar o secret no GitHub:
-          #   Settings → Secrets and variables → Actions → New repository secret
-          #   Nome: CEPEA_API_KEY
           CEPEA_API_KEY: ${{ secrets.CEPEA_API_KEY }}
+
+      - name: Analisar insights com Claude
+        run: python analisar_insights.py
+        env:
+          PYTHONUNBUFFERED: '1'
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: Commit e Push dos dados atualizados
         run: |

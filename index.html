@@ -278,6 +278,14 @@
     .safra-inner-item a:hover { text-decoration: underline; }
     .safra-inner-fonte { font-size: .68rem; color: var(--gray-500); margin-top: 1px; }
 
+    /* postura de mercado (gerada por IA) */
+    .postura-mercado {
+      display: inline-block; margin-top: 5px;
+      font-size: .72rem; font-weight: 600; color: var(--blue-dark);
+      background: var(--blue-light); border: 1px solid #c0d8f0;
+      border-radius: 4px; padding: 2px 8px;
+    }
+
     /* veredicto */
     .verdict { padding: 1rem 1.5rem; border-bottom: 1px solid var(--gray-100); }
     .v-box { border-radius: var(--radius-md); padding: .9rem 1.1rem; }
@@ -700,6 +708,7 @@ function renderCards(commodities) {
         <div>
           <h2>${ICONS[k]||'📦'} ${c.nome} ${statusChip(c.status)}</h2>
           <div class="c-sub">${c.unidade} · Fonte primária: ${c.fonte_primaria}</div>
+          ${c.postura_mercado ? `<div class="postura-mercado">🏷 ${c.postura_mercado}</div>` : ''}
         </div>
         <span class="trend-badge ${tagClass(c.tendencia_curta)}">${tendLabel(c.tendencia_curta)}</span>
       </div>
@@ -781,9 +790,15 @@ function renderCards(commodities) {
       <div class="verdict">
         <div class="v-box ${fc.cls}">
           <div class="v-title">${fc.icon} ${fc.title}</div>
-          <div class="v-text">${fc.sub}<br><br>
-            <strong>Análise:</strong> ${c.insight_curto_prazo || '—'}<br><br>
-            <strong>Perspectiva de médio prazo:</strong> ${c.insight_medio_prazo || '—'}
+          <div class="v-text">
+            ${c.decisao_texto
+              ? `${c.decisao_texto}<br><br><strong>Perspectiva de médio prazo:</strong> ${c.insight_medio_prazo || '—'}`
+              : `${fc.sub}<br><br><strong>Análise:</strong> ${c.insight_curto_prazo || '—'}<br><br><strong>Perspectiva de médio prazo:</strong> ${c.insight_medio_prazo || '—'}`
+            }
+            ${c.insight_gerado_por === 'claude-haiku'
+              ? '<div style="margin-top:8px;font-size:.68rem;color:var(--gray-400)">✨ Análise gerada por IA</div>'
+              : '<div style="margin-top:8px;font-size:.68rem;color:var(--gray-400)">📐 Análise baseada em regras</div>'
+            }
           </div>
         </div>
       </div>
