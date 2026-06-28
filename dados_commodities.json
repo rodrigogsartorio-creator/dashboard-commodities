@@ -1,6 +1,6 @@
 {
-  "ultima_atualizacao": "2026-06-28T17:12:12",
-  "status_coleta": "parcial",
+  "ultima_atualizacao": "2026-06-28T17:17:24",
+  "status_coleta": "ok",
   "dolar": {
     "valor": 5.172,
     "variacao_pct": -0.43,
@@ -8,7 +8,7 @@
     "ask": 5.182
   },
   "safra": {
-    "ultima_atualizacao": "2026-06-28T17:12:12",
+    "ultima_atualizacao": "2026-06-28T17:17:24",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -125,31 +125,101 @@
       "nome": "Feijão Carioca",
       "unidade": "R$/sc 60kg",
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
-      "status": "fallback",
+      "status": "ok",
       "historico_5d": [
         {
           "data": "2026-06-28",
           "valor": 321.41,
-          "variacao_pct": null
+          "variacao_pct": 0.0
+        },
+        {
+          "data": "2026-06-26",
+          "valor": 321.41,
+          "variacao_pct": -0.51
+        },
+        {
+          "data": "2026-06-25",
+          "valor": 323.06,
+          "variacao_pct": 0.16
+        },
+        {
+          "data": "2026-06-24",
+          "valor": 322.53,
+          "variacao_pct": 2.45
+        },
+        {
+          "data": "2026-06-23",
+          "valor": 314.83,
+          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
         {
           "data": "2026-06-28",
           "valor": 321.41,
+          "variacao_pct": 0.0
+        },
+        {
+          "data": "2026-06-26",
+          "valor": 321.41,
+          "variacao_pct": -0.51
+        },
+        {
+          "data": "2026-06-25",
+          "valor": 323.06,
+          "variacao_pct": 0.16
+        },
+        {
+          "data": "2026-06-24",
+          "valor": 322.53,
+          "variacao_pct": 2.45
+        },
+        {
+          "data": "2026-06-23",
+          "valor": 314.83,
+          "variacao_pct": 0.0
+        },
+        {
+          "data": "2026-06-22",
+          "valor": 314.82,
+          "variacao_pct": -0.35
+        },
+        {
+          "data": "2026-06-19",
+          "valor": 315.94,
+          "variacao_pct": -0.3
+        },
+        {
+          "data": "2026-06-18",
+          "valor": 316.9,
+          "variacao_pct": -1.26
+        },
+        {
+          "data": "2026-06-17",
+          "valor": 320.96,
+          "variacao_pct": 1.34
+        },
+        {
+          "data": "2026-06-16",
+          "valor": 316.73,
+          "variacao_pct": 2.79
+        },
+        {
+          "data": "2026-06-15",
+          "valor": 308.12,
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": null,
-      "tendencia_curta": "indefinida",
-      "tendencia_media": "indefinida",
-      "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
-      "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
-      "recomendacao": "aguardar",
+      "variacao_mes_pct": 4.31,
+      "tendencia_curta": "alta",
+      "tendencia_media": "alta",
+      "insight_curto_prazo": "Preço em trajetória de alta de 4.3% no período. Nos próximos 30 a 90 dias, tendência de pressão para cima. Recomenda-se antecipar compras ou garantir volume contratado. Preço próximo à resistência histórica (R$ 323.06) — zona de pressão vendedora; possível correção à frente.",
+      "insight_medio_prazo": "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
+      "recomendacao": "comprar",
       "noticias": [],
       "safra_noticias": [],
-      "suporte": null,
-      "resistencia": null,
+      "suporte": 308.12,
+      "resistencia": 323.06,
       "red_flags": []
     },
     "feijao_preto": {
@@ -161,26 +231,96 @@
         {
           "data": "2026-06-28",
           "valor": 219.49,
-          "variacao_pct": null
+          "variacao_pct": 0.0
+        },
+        {
+          "data": "2026-06-26",
+          "valor": 219.49,
+          "variacao_pct": 0.39
+        },
+        {
+          "data": "2026-06-25",
+          "valor": 218.64,
+          "variacao_pct": 0.03
+        },
+        {
+          "data": "2026-06-24",
+          "valor": 218.58,
+          "variacao_pct": -0.0
+        },
+        {
+          "data": "2026-06-23",
+          "valor": 218.59,
+          "variacao_pct": 0.71
         }
       ],
       "historico_30d": [
         {
           "data": "2026-06-28",
           "valor": 219.49,
+          "variacao_pct": 0.0
+        },
+        {
+          "data": "2026-06-26",
+          "valor": 219.49,
+          "variacao_pct": 0.39
+        },
+        {
+          "data": "2026-06-25",
+          "valor": 218.64,
+          "variacao_pct": 0.03
+        },
+        {
+          "data": "2026-06-24",
+          "valor": 218.58,
+          "variacao_pct": -0.0
+        },
+        {
+          "data": "2026-06-23",
+          "valor": 218.59,
+          "variacao_pct": 0.71
+        },
+        {
+          "data": "2026-06-22",
+          "valor": 217.04,
+          "variacao_pct": 1.72
+        },
+        {
+          "data": "2026-06-19",
+          "valor": 213.36,
+          "variacao_pct": -1.07
+        },
+        {
+          "data": "2026-06-18",
+          "valor": 215.66,
+          "variacao_pct": -1.54
+        },
+        {
+          "data": "2026-06-17",
+          "valor": 219.03,
+          "variacao_pct": -3.1
+        },
+        {
+          "data": "2026-06-16",
+          "valor": 226.04,
+          "variacao_pct": -0.24
+        },
+        {
+          "data": "2026-06-15",
+          "valor": 226.59,
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": null,
-      "tendencia_curta": "indefinida",
-      "tendencia_media": "indefinida",
-      "insight_curto_prazo": "Dados insuficientes para análise de curto prazo (30-90 dias). Monitore as atualizações diárias.",
-      "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
-      "recomendacao": "aguardar",
+      "variacao_mes_pct": -3.13,
+      "tendencia_curta": "queda",
+      "tendencia_media": "queda",
+      "insight_curto_prazo": "Preço em trajetória de queda de 3.1% no período. Nos próximos 30 a 90 dias, perspectiva de preços mais favoráveis. Avalie aguardar para comprar. Preço em zona neutra entre suporte (R$ 213.36) e resistência (R$ 226.59).",
+      "insight_medio_prazo": "Tendência de queda no médio prazo (90-360 dias). Negocie contratos e evite fixar preços altos por longos períodos.",
+      "recomendacao": "segurar",
       "noticias": [],
       "safra_noticias": [],
-      "suporte": null,
-      "resistencia": null,
+      "suporte": 213.36,
+      "resistencia": 226.59,
       "red_flags": []
     },
     "acucar": {

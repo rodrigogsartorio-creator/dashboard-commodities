@@ -201,10 +201,58 @@ def _extrair_historico_completo(html: str, chave: str) -> list:
     return resultado
 
 
+def _extrair_historico_feijao(html: str, chave: str) -> list:
+    """
+    Extrai histórico de páginas de feijão do NoticiasAgricolas.
+    Estrutura: <div class="cotacao"> com <div class="fechamento">DATA</div>
+               e tabela interna com colunas Região | Valor | Var./Dia.
+    Pega o primeiro preço válido por bloco (primeira região com cotação).
+    """
+    soup = BeautifulSoup(html, "html5lib")
+    por_data = {}
+
+    for bloco in soup.find_all("div", class_="cotacao"):
+        # Data no div.fechamento: "Fechamento: 26/06/2026"
+        fechamento = bloco.find("div", class_="fechamento")
+        if not fechamento:
+            continue
+        texto_data = fechamento.get_text(strip=True)
+        m = re.search(r"(\d{2}/\d{2}/\d{4})", texto_data)
+        if not m:
+            continue
+        data = parse_date_br(m.group(1))
+        if not data or data in por_data:
+            continue
+
+        # Primeiro preço válido na tabela interna (primeira região com cotação real)
+        tabela = bloco.find("table")
+        if not tabela:
+            continue
+        for linha in tabela.find_all("tr")[1:]:
+            cells = [c.get_text(strip=True) for c in linha.find_all(["td", "th"])]
+            if len(cells) < 2:
+                continue
+            for c in cells[1:]:
+                v = parse_float_br(c)
+                if v and preco_valido(chave, v):
+                    por_data[data] = v
+                    break
+            if data in por_data:
+                break
+
+    resultado = sorted(
+        [{"data": d, "valor": v} for d, v in por_data.items()],
+        key=lambda x: x["data"],
+        reverse=True,
+    )
+    return resultado
+
+
 def coletar_historico_completo(chave: str) -> list:
     """
     Busca a página de cotações e extrai todos os dias disponíveis (~10 dias úteis).
-    Tenta NoticiasAgricolas → sem fallback (Agrolink não exibe tabelas históricas).
+    Feijão: usa _extrair_historico_feijao (div.cotacao + div.fechamento).
+    Demais: usa _extrair_historico_completo (tabelas com data em coluna).
     """
     url = NA_COTACOES.get(chave)
     if not url:
@@ -212,7 +260,12 @@ def coletar_historico_completo(chave: str) -> list:
     r = safe_get(url, timeout=25)
     if not r:
         return []
-    hist = _extrair_historico_completo(r.text, chave)
+
+    if chave in ("feijao_carioca", "feijao_preto"):
+        hist = _extrair_historico_feijao(r.text, chave)
+    else:
+        hist = _extrair_historico_completo(r.text, chave)
+
     if hist:
         print(f"    [{chave}] histórico página: {len(hist)} dias ({hist[-1]['data']} a {hist[0]['data']})")
     return hist
