@@ -16,7 +16,19 @@
       "PowerShell(gh --version 2>&1)",
       "Bash(python)",
       "Bash(dir \"Sites especializados Commodities.xlsx\")",
-      "Bash(powershell)"
+      "Bash(powershell)",
+      "Read(//c/Users/sartorio.r/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/7b146638-5770-47ca-9337-c6bfb9096df3/1b8e4aa7-0d09-457c-a35b-b210f83025a3/skills/docx/**)",
+      "Bash(python scripts/office/unpack.py \"C:\\\\Users\\\\sartorio.r\\\\OneDrive\\\\Claude\\\\Projects\\\\Dashboard Mercado Commodities\\\\Sites e seções para busca de cotações das commodities agrícolas.docx\" unpacked_commodities/)",
+      "Bash(pip install *)",
+      "PowerShell(pip install defusedxml -q)",
+      "PowerShell(python \"C:\\\\Users\\\\sartorio.r\\\\AppData\\\\Roaming\\\\Claude\\\\local-agent-mode-sessions\\\\skills-plugin\\\\7b146638-5770-47ca-9337-c6bfb9096df3\\\\1b8e4aa7-0d09-457c-a35b-b210f83025a3\\\\skills\\\\docx\\\\scripts\\\\office\\\\unpack.py\" \"C:\\\\Users\\\\sartorio.r\\\\OneDrive\\\\Claude\\\\Projects\\\\Dashboard Mercado Commodities\\\\Sites e se��es para busca de cota��es das commodities agr�colas.docx\" \"C:\\\\Users\\\\sartorio.r\\\\AppData\\\\Local\\\\Temp\\\\unpacked_commodities\")",
+      "PowerShell(python -m pip install defusedxml -q 2>&1)",
+      "Bash(python -c ' *)",
+      "Bash(python coletar_dados.py)",
+      "Bash(py coletar_dados.py)",
+      "Bash(git push *)",
+      "Bash(git pull *)",
+      "Bash(git stash *)"
     ]
   }
 }

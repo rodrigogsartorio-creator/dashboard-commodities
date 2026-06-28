@@ -600,7 +600,7 @@ def coletar_safra() -> list:
     r = safe_get(
         "https://servicodados.ibge.gov.br/api/v3/agregados/5457/periodos/-1/"
         "variaveis/214|216?localidades=N1[all]",
-        timeout=25,
+        timeout=8,  # timeout curto — IBGE frequentemente lento no GitHub Actions
     )
     if r:
         try:
