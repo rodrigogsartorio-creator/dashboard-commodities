@@ -590,6 +590,108 @@ SAFRA_KEYWORDS_COMMODITY = {
 LIMITE_NOTICIAS_DIAS = 7
 MAX_POR_COMMODITY    = 5
 
+# ─── Red Flags — fatores externos ───────────────────────────────────────────
+COMMODITIES_DOLARIZADAS = {"soja", "cafe", "acucar", "trigo"}
+DOLAR_THRESHOLD_PCT     = 1.5   # variação % do dólar que aciona alerta cambial
+
+KEYWORDS_RISCO_EXTERNO = [
+    "geada", "seca", "estiagem", "enchente", "inundação", "ciclone", "tornado",
+    "granizo", "vendaval", "déficit hídrico", "crise hídrica",
+    "guerra", "conflito", "embargo", "sanção", "bloqueio",
+    "desabastecimento", "colapso", "crise de abastecimento",
+]
+
+
+def calcular_red_flags(chave: str, historico: list, dolar_var, noticias: list) -> list:
+    """
+    Gera lista de alertas (Red Flags) para a commodity.
+    Item 1: variação > 3% em 1 dia ou > 5% em 3 dias úteis
+    Item 2: dólar acima do threshold (commodities dolarizadas) + keywords de risco nas notícias
+    """
+    flags = []
+
+    # ── Item 1a: variação > 3% em 1 dia ──────────────────────────────────────
+    if historico and historico[0].get("variacao_pct") is not None:
+        v1 = historico[0]["variacao_pct"]
+        if abs(v1) >= 3.0:
+            dir_ = "alta" if v1 > 0 else "queda"
+            flags.append({
+                "tipo":               "variacao_dia",
+                "mensagem":           f"Variação de {v1:+.1f}% em 1 dia — movimento atípico de {dir_}",
+                "severidade":         "alta",
+                "impacto_tendencia":  dir_,
+            })
+
+    # ── Item 1b: variação > 5% em 3 dias úteis ───────────────────────────────
+    if len(historico) >= 3:
+        v3 = variacao_pct(historico[0]["valor"], historico[2]["valor"])
+        if v3 is not None and abs(v3) >= 5.0:
+            dir_ = "alta" if v3 > 0 else "queda"
+            flags.append({
+                "tipo":               "variacao_3d",
+                "mensagem":           f"Variação acumulada de {v3:+.1f}% em 3 dias — tendência forte de {dir_}",
+                "severidade":         "alta",
+                "impacto_tendencia":  dir_,
+            })
+
+    # ── Item 2a: dólar com variação significativa ─────────────────────────────
+    if chave in COMMODITIES_DOLARIZADAS and dolar_var is not None and abs(dolar_var) >= DOLAR_THRESHOLD_PCT:
+        dir_ = "alta" if dolar_var > 0 else "queda"
+        flags.append({
+            "tipo":               "dolar",
+            "mensagem":           f"Dólar {dolar_var:+.2f}% no dia — pressão cambial sobre preços desta commodity",
+            "severidade":         "media",
+            "impacto_tendencia":  dir_,
+        })
+
+    # ── Item 2b: palavras-chave de risco nas notícias ─────────────────────────
+    vistos = set()
+    for n in noticias:
+        tl = (n.get("titulo") or "").lower()
+        for kw in KEYWORDS_RISCO_EXTERNO:
+            if kw in tl and kw not in vistos:
+                vistos.add(kw)
+                flags.append({
+                    "tipo":               "evento_externo",
+                    "mensagem":           f"Evento externo detectado: {n['titulo'][:120]}",
+                    "severidade":         "media",
+                    "impacto_tendencia":  "alta",
+                    "fonte":              n.get("fonte", ""),
+                    "url":                n.get("url", ""),
+                })
+                break
+
+    return flags
+
+
+def calcular_suporte_resistencia(historico: list) -> dict:
+    """Calcula suporte (mínima) e resistência (máxima) do histórico disponível."""
+    valores = [r["valor"] for r in historico if r.get("valor") is not None]
+    if len(valores) < 3:
+        return {"suporte": None, "resistencia": None}
+    return {
+        "suporte":    round(min(valores), 4),
+        "resistencia": round(max(valores), 4),
+    }
+
+
+def insight_sr(preco_atual, suporte, resistencia) -> str:
+    """Texto de insight sobre posição relativa ao suporte/resistência."""
+    if suporte is None or resistencia is None or preco_atual is None:
+        return ""
+    if suporte == resistencia:
+        return ""
+    amp = resistencia - suporte
+    pos = (preco_atual - suporte) / amp * 100
+    if pos >= 85:
+        return (f" Preço próximo à resistência histórica (R$ {resistencia:.2f})"
+                " — zona de pressão vendedora; possível correção à frente.")
+    if pos <= 15:
+        return (f" Preço próximo ao suporte histórico (R$ {suporte:.2f})"
+                " — zona de atenção; risco de queda adicional.")
+    return (f" Preço em zona neutra entre suporte (R$ {suporte:.2f})"
+            f" e resistência (R$ {resistencia:.2f}).")
+
 
 def _processar_entry(entry, fonte: str) -> dict | None:
     """Converte um entry de feedparser em dict de notícia com tema classificado."""
@@ -765,15 +867,47 @@ def main():
     print("\n[4/5] Safra e notícias RSS...")
     safra    = coletar_safra()
     noticias = coletar_noticias_rss()
+    dolar_var = dolar.get("variacao_pct")
+
     for chave in commodities_out:
-        commodities_out[chave]["noticias"] = noticias.get(chave, [])
-        # Safra filtrada por commodity — aparece dentro do card de cada produto
+        noticias_commodity = noticias.get(chave, [])
+        commodities_out[chave]["noticias"] = noticias_commodity
+
+        # Safra filtrada por commodity
         kws = SAFRA_KEYWORDS_COMMODITY.get(chave, [])
         safra_commodity = [
             n for n in safra
             if any(k in n["titulo"].lower() for k in kws)
         ][:3]
         commodities_out[chave]["safra_noticias"] = safra_commodity
+
+        # Suporte e resistência (usa historico_30d para mais pontos)
+        hist30 = commodities_out[chave].get("historico_30d", [])
+        sr = calcular_suporte_resistencia(hist30)
+        commodities_out[chave].update(sr)
+
+        # Red Flags (variação atípica + dólar + eventos externos)
+        hist5 = commodities_out[chave].get("historico_5d", [])
+        todas_noticias = noticias_commodity + safra_commodity
+        flags = calcular_red_flags(chave, hist5, dolar_var, todas_noticias)
+        commodities_out[chave]["red_flags"] = flags
+
+        # Override de tendência se red flag de variação atípica confirmada
+        for flag in flags:
+            if flag.get("impacto_tendencia") in ("alta", "queda") and \
+               flag["tipo"] in ("variacao_dia", "variacao_3d"):
+                nova_tc = flag["impacto_tendencia"]
+                commodities_out[chave]["tendencia_curta"] = nova_tc
+                commodities_out[chave]["recomendacao"] = RECOMENDACAO_MAP.get(
+                    (nova_tc, commodities_out[chave]["tendencia_media"]), "aguardar"
+                )
+                break  # a variação mais severa já tomou conta
+
+        # Complementa insight com posição suporte/resistência
+        preco_atual = hist5[0]["valor"] if hist5 else None
+        txt_sr = insight_sr(preco_atual, sr["suporte"], sr["resistencia"])
+        if txt_sr:
+            commodities_out[chave]["insight_curto_prazo"] += txt_sr
 
     # Status geral
     com_dado = sum(1 for c in commodities_out.values() if c["historico_5d"])

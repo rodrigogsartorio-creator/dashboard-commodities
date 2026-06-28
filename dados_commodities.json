@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-06-28T16:33:45",
+  "ultima_atualizacao": "2026-06-28T16:55:18",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.172,
@@ -8,7 +8,7 @@
     "ask": 5.182
   },
   "safra": {
-    "ultima_atualizacao": "2026-06-28T16:33:45",
+    "ultima_atualizacao": "2026-06-28T16:55:18",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -51,7 +51,10 @@
       "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
       "recomendacao": "aguardar",
       "noticias": [],
-      "safra_noticias": []
+      "safra_noticias": [],
+      "suporte": null,
+      "resistencia": null,
+      "red_flags": []
     },
     "feijao_carioca": {
       "nome": "Feijão Carioca",
@@ -79,7 +82,10 @@
       "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
       "recomendacao": "aguardar",
       "noticias": [],
-      "safra_noticias": []
+      "safra_noticias": [],
+      "suporte": null,
+      "resistencia": null,
+      "red_flags": []
     },
     "feijao_preto": {
       "nome": "Feijão Preto",
@@ -107,7 +113,10 @@
       "insight_medio_prazo": "Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
       "recomendacao": "aguardar",
       "noticias": [],
-      "safra_noticias": []
+      "safra_noticias": [],
+      "suporte": null,
+      "resistencia": null,
+      "red_flags": []
     },
     "acucar": {
       "nome": "Açúcar Cristal (ICUMSA 130-180)",
@@ -171,7 +180,10 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423497-acucar-encerra-sessao-sem-direcao-unica-com-clima-e-petroleo-no-radar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
-      "safra_noticias": []
+      "safra_noticias": [],
+      "suporte": null,
+      "resistencia": null,
+      "red_flags": []
     },
     "soja": {
       "nome": "Soja",
@@ -235,7 +247,10 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/423301-soja-segue-de-lado-em-chicago-nesta-2-apesar-de-altas-de-mais-de-1-do-oleo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
-      "safra_noticias": []
+      "safra_noticias": [],
+      "suporte": null,
+      "resistencia": null,
+      "red_flags": []
     },
     "trigo": {
       "nome": "Trigo",
@@ -299,7 +314,10 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/423459-el-nino-adiciona-risco-a-qualidade-do-trigo-na-proxima-safra.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
-      "safra_noticias": []
+      "safra_noticias": [],
+      "suporte": null,
+      "resistencia": null,
+      "red_flags": []
     },
     "cafe": {
       "nome": "Café Arábica (Tipo 6)",
@@ -363,7 +381,10 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/423533-cafe-abre-a-5-feira-com-mercado-atento-a-colheita-e-ao-ritmo-da-oferta-brasileira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
-      "safra_noticias": []
+      "safra_noticias": [],
+      "suporte": null,
+      "resistencia": null,
+      "red_flags": []
     },
     "leite": {
       "nome": "Leite ao Produtor",
@@ -399,7 +420,10 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/leite/423647-producao-de-leite-no-inverno-e-impactada-por-doencas-respiratorias-saiba-como-combater-o-desafio-sanitario.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
-      "safra_noticias": []
+      "safra_noticias": [],
+      "suporte": null,
+      "resistencia": null,
+      "red_flags": []
     }
   }
 }

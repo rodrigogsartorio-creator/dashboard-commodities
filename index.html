@@ -217,6 +217,27 @@
     .tema-Oferta-e-Demanda { background: #fff0e8; color: #6b2800; border: 1px solid #f0b080; }
     .tema-Mercado          { background: var(--gray-100); color: var(--gray-700); border: 1px solid var(--gray-300); }
 
+    /* ── RED FLAGS ──────────────────────────────────────── */
+    .red-flags-section {
+      padding: .85rem 1.5rem 1rem; border-bottom: 1px solid var(--gray-100);
+      background: #fff5f5;
+    }
+    .rf-title {
+      font-size: .67rem; font-weight: 700; color: #7a1f1f;
+      text-transform: uppercase; letter-spacing: .06em; margin-bottom: .5rem;
+    }
+    .rf-item {
+      display: flex; align-items: flex-start; gap: .6rem;
+      padding: .5rem .75rem; border-radius: var(--radius-sm);
+      margin-bottom: .4rem; font-size: .8rem; line-height: 1.5;
+    }
+    .rf-item:last-child { margin-bottom: 0; }
+    .rf-alta  { background: #fde8e8; border: 1px solid #f0b0b0; color: #6b1515; }
+    .rf-media { background: #fff3e0; border: 1px solid #f0cc80; color: #6b3d0b; }
+    .rf-icon  { font-size: 1rem; flex-shrink: 0; margin-top: 1px; }
+    .rf-msg   { font-weight: 500; }
+    .rf-link  { display: block; font-size: .72rem; color: var(--blue-mid); margin-top: 2px; }
+
     /* safra dentro do card commodity */
     .safra-inner { padding: .85rem 1.5rem 1rem; border-bottom: 1px solid var(--gray-100); background: #f6fbf4; }
     .safra-inner-title {
@@ -574,6 +595,26 @@ function renderCards(commodities) {
         }).join('')
       : '<div class="news-empty-inner">Nenhuma notícia disponível neste período.</div>';
 
+    // red flags
+    const rfIcone = tipo => ({ variacao_dia:'📊', variacao_3d:'📊', dolar:'💱', evento_externo:'⚠️' }[tipo] || '⚠️');
+    const redflagsHtml = (c.red_flags && c.red_flags.length)
+      ? `<div class="red-flags-section">
+          <div class="rf-title">🚨 Alertas de mercado — Red Flags</div>
+          ${c.red_flags.map(f => `
+            <div class="rf-item rf-${f.severidade}">
+              <span class="rf-icon">${rfIcone(f.tipo)}</span>
+              <div>
+                <div class="rf-msg">${f.mensagem}</div>
+                ${f.url ? `<a href="${f.url}" target="_blank" rel="noopener" class="rf-link">Ver notícia →</a>` : ''}
+              </div>
+            </div>`).join('')}
+        </div>`
+      : '';
+
+    // suporte e resistência (para exibição nas métricas)
+    const srSupHtml  = c.suporte    != null ? `R$ ${fmtBRL(c.suporte,    c.suporte    < 10 ? 4 : 2)}` : '—';
+    const srResHtml  = c.resistencia != null ? `R$ ${fmtBRL(c.resistencia, c.resistencia < 10 ? 4 : 2)}` : '—';
+
     // safra por commodity
     const safraHtml = (c.safra_noticias && c.safra_noticias.length)
       ? `<div class="safra-inner">
@@ -636,11 +677,24 @@ function renderCards(commodities) {
           <div class="m-var var-neutral">Médio prazo</div>
         </div>
         <div class="metric">
+          <div class="m-label">Suporte hist.</div>
+          <div class="m-value" style="font-size:.9rem;color:var(--green-dark)">${srSupHtml}</div>
+          <div class="m-var var-neutral">mínima período</div>
+        </div>
+        <div class="metric">
+          <div class="m-label">Resistência hist.</div>
+          <div class="m-value" style="font-size:.9rem;color:var(--red-dark)">${srResHtml}</div>
+          <div class="m-var var-neutral">máxima período</div>
+        </div>
+        <div class="metric">
           <div class="m-label">Dias de histórico</div>
           <div class="m-value">${h.length}</div>
           <div class="m-var var-neutral">acumulado</div>
         </div>
       </div>
+
+      <!-- red flags -->
+      ${redflagsHtml}
 
       <!-- gráfico -->
       <div class="chart-section">
@@ -700,23 +754,44 @@ function renderCards(commodities) {
     const corMap = { alta: '#27754a', queda: '#a32d2d', estavel: '#9a5510' };
     const cor = corMap[c.tendencia_curta] || '#1a5fa5';
     if (chartInstances[k]) chartInstances[k].destroy();
+
+    const datasets = [{
+      label: 'Preço',
+      data: h.map(r => r.valor),
+      borderColor: cor, backgroundColor: cor + '18',
+      borderWidth: 2, pointRadius: 4, pointBackgroundColor: cor,
+      fill: true, tension: 0.3,
+    }];
+
+    // Linhas de suporte e resistência (tracejadas)
+    if (c.suporte != null && h.length >= 3) {
+      datasets.push({
+        label: `Suporte R$${fmtBRL(c.suporte, c.suporte < 10 ? 4 : 2)}`,
+        data: h.map(() => c.suporte),
+        borderColor: '#27754a', borderWidth: 1.5,
+        borderDash: [6, 4], pointRadius: 0, fill: false, tension: 0,
+      });
+    }
+    if (c.resistencia != null && h.length >= 3) {
+      datasets.push({
+        label: `Resistência R$${fmtBRL(c.resistencia, c.resistencia < 10 ? 4 : 2)}`,
+        data: h.map(() => c.resistencia),
+        borderColor: '#a32d2d', borderWidth: 1.5,
+        borderDash: [6, 4], pointRadius: 0, fill: false, tension: 0,
+      });
+    }
+
     chartInstances[k] = new Chart(canvas, {
       type: 'line',
-      data: {
-        labels: h.map(r => r.data ? r.data.slice(5) : ''),
-        datasets: [{
-          data: h.map(r => r.valor),
-          borderColor: cor,
-          backgroundColor: cor + '18',
-          borderWidth: 2, pointRadius: 4, pointBackgroundColor: cor,
-          fill: true, tension: 0.3,
-        }]
-      },
+      data: { labels: h.map(r => r.data ? r.data.slice(5) : ''), datasets },
       options: {
         responsive: true, maintainAspectRatio: false,
         plugins: {
-          legend: { display: false },
-          tooltip: { callbacks: { label: ctx => ` R$ ${fmtBRL(ctx.parsed.y)}` } }
+          legend: {
+            display: h.length >= 3,
+            labels: { boxWidth: 20, font: { size: 10 }, color: '#6b6b6b' }
+          },
+          tooltip: { callbacks: { label: ctx => ` ${ctx.dataset.label}: R$ ${fmtBRL(ctx.parsed.y)}` } }
         },
         scales: {
           x: { ticks: { color: '#6b6b6b', font: { size: 10 } }, grid: { color: '#f0f0ef' } },
