@@ -1,0 +1,58 @@
+name: Atualização Diária de Dados
+
+on:
+  schedule:
+    # 10:00 UTC = 07:00 BRT (horário de Brasília, UTC-3)
+    - cron: '0 10 * * 1-5'
+  workflow_dispatch:
+    inputs:
+      motivo:
+        description: 'Motivo da execução manual'
+        required: false
+        default: 'Execução manual solicitada'
+
+jobs:
+  atualizar-dados:
+    name: Coletar e publicar dados
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+
+      - name: Configurar Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      - name: Instalar dependências Python
+        run: pip install -r requirements.txt
+
+      - name: Instalar Chromium (Playwright)
+        run: playwright install chromium --with-deps
+
+      - name: Executar script de coleta
+        run: python coletar_dados.py
+        env:
+          PYTHONUNBUFFERED: '1'
+
+      - name: Verificar se houve mudança no JSON
+        id: check_diff
+        run: |
+          git diff --quiet dados_commodities.json && echo "changed=false" >> $GITHUB_OUTPUT || echo "changed=true" >> $GITHUB_OUTPUT
+
+      - name: Commit e Push dos dados atualizados
+        if: steps.check_diff.outputs.changed == 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add dados_commodities.json
+          git commit -m "dados: atualização automática $(date -u '+%Y-%m-%d %H:%M') UTC"
+          git push
+
+      - name: Log (sem alterações)
+        if: steps.check_diff.outputs.changed == 'false'
+        run: echo "Nenhuma alteração detectada no JSON — commit ignorado."

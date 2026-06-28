@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Monitor de Mercado Commodities — Vila Vitória</title>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <style>
+    /* ─── Reset & Base ─── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:       #111827;
+      --surface:  #1f2937;
+      --surface2: #2d3748;
+      --primary:  #2563eb;
+      --accent:   #3b82f6;
+      --text:     #f1f5f9;
+      --muted:    #94a3b8;
+      --green:    #22c55e;
+      --red:      #ef4444;
+      --yellow:   #eab308;
+      --border:   #374151;
+      --radius:   10px;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ─── Header ─── */
+    header {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 100%);
+      border-bottom: 2px solid var(--primary);
+      padding: 1rem 1.5rem;
+      position: sticky; top: 0; z-index: 100;
+    }
+    .header-top {
+      display: flex; align-items: center; justify-content: space-between;
+      flex-wrap: wrap; gap: .5rem; margin-bottom: .75rem;
+    }
+    .header-title { font-size: 1.15rem; font-weight: 700; letter-spacing: .02em; }
+    .header-title span { color: #60a5fa; }
+    .header-meta { display: flex; gap: .75rem; flex-wrap: wrap; align-items: center; font-size: .78rem; color: var(--muted); }
+    .badge {
+      display: inline-flex; align-items: center; gap: .3rem;
+      padding: .2rem .6rem; border-radius: 99px; font-size: .72rem; font-weight: 600;
+    }
+    .badge-ok     { background: #14532d; color: #86efac; }
+    .badge-parcial{ background: #713f12; color: #fde68a; }
+    .badge-erro   { background: #7f1d1d; color: #fca5a5; }
+    .badge-sem    { background: #1e293b; color: var(--muted); }
+    .dolar-pill {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 99px; padding: .25rem .9rem; font-size: .85rem;
+      display: flex; align-items: center; gap: .4rem;
+    }
+    .dolar-pill .val { font-weight: 700; color: #facc15; }
+
+    /* ─── Nav de Commodities ─── */
+    .commodity-nav {
+      display: flex; gap: .4rem; flex-wrap: wrap; padding-top: .5rem;
+    }
+    .commodity-nav a {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 99px; padding: .25rem .8rem; font-size: .78rem;
+      color: var(--text); transition: background .2s;
+    }
+    .commodity-nav a:hover { background: var(--primary); text-decoration: none; }
+
+    /* ─── Layout ─── */
+    main { max-width: 1400px; margin: 0 auto; padding: 1.5rem 1rem; }
+    section { margin-bottom: 2.5rem; }
+    .section-title {
+      font-size: 1rem; font-weight: 700; color: #93c5fd;
+      margin-bottom: 1rem; padding-bottom: .4rem;
+      border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; gap: .5rem;
+    }
+    .section-title .icon { font-size: 1.1rem; }
+
+    /* ─── Cotações Table ─── */
+    .table-wrap { overflow-x: auto; border-radius: var(--radius); border: 1px solid var(--border); }
+    table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+    thead { background: var(--surface2); }
+    thead th { padding: .65rem .8rem; text-align: right; color: var(--muted); font-weight: 600; white-space: nowrap; }
+    thead th:first-child { text-align: left; }
+    tbody tr { border-top: 1px solid var(--border); transition: background .15s; }
+    tbody tr:hover { background: var(--surface2); }
+    tbody td { padding: .55rem .8rem; text-align: right; white-space: nowrap; }
+    tbody td:first-child { text-align: left; font-weight: 600; }
+    .cell-up   { color: var(--green); }
+    .cell-down { color: var(--red); }
+    .cell-null { color: var(--muted); font-style: italic; }
+    .fonte-tag { font-size: .68rem; color: var(--muted); display: block; font-weight: 400; }
+
+    /* ─── Safra Card ─── */
+    .safra-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: .75rem; }
+
+    /* ─── Commodity Cards ─── */
+    .cards-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(340px, 1fr)); gap: 1rem; }
+    .card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 1rem; display: flex; flex-direction: column; gap: .75rem;
+    }
+    .card-header { display: flex; justify-content: space-between; align-items: flex-start; }
+    .card-nome { font-weight: 700; font-size: .95rem; }
+    .card-unidade { font-size: .72rem; color: var(--muted); }
+    .card-fonte { font-size: .68rem; color: var(--muted); }
+    .card-price { font-size: 1.5rem; font-weight: 800; color: #f1f5f9; }
+    .card-price span { font-size: .85rem; font-weight: 400; color: var(--muted); }
+    .tendencias { display: flex; gap: .5rem; flex-wrap: wrap; }
+    .tend-badge {
+      font-size: .7rem; padding: .2rem .55rem; border-radius: 99px; font-weight: 600;
+    }
+    .tend-alta   { background: #14532d; color: #86efac; }
+    .tend-queda  { background: #7f1d1d; color: #fca5a5; }
+    .tend-estavel{ background: #1e3a5f; color: #93c5fd; }
+    .tend-indef  { background: #1e293b; color: var(--muted); }
+
+    /* Farol */
+    .farol {
+      display: flex; align-items: center; gap: .6rem;
+      padding: .6rem .8rem; border-radius: var(--radius); font-weight: 700; font-size: .82rem;
+    }
+    .farol-comprar { background: #14532d; color: #86efac; border: 1px solid #166534; }
+    .farol-aguardar{ background: #713f12; color: #fde68a; border: 1px solid #854d0e; }
+    .farol-segurar { background: #7f1d1d; color: #fca5a5; border: 1px solid #991b1b; }
+    .farol-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
+    .farol-comprar .farol-dot { background: var(--green); }
+    .farol-aguardar .farol-dot{ background: var(--yellow); }
+    .farol-segurar .farol-dot { background: var(--red); }
+
+    /* Insight boxes */
+    .insights { display: flex; flex-direction: column; gap: .5rem; }
+    .insight-box {
+      background: var(--surface2); border-radius: 8px; padding: .6rem .75rem;
+      font-size: .77rem; line-height: 1.5; color: #cbd5e1;
+    }
+    .insight-label { font-size: .67rem; font-weight: 700; color: var(--muted); text-transform: uppercase; margin-bottom: .25rem; }
+
+    /* Mini chart */
+    .chart-wrap { position: relative; height: 100px; }
+
+    /* ─── News Cards ─── */
+    .news-filters { display: flex; gap: .4rem; flex-wrap: wrap; margin-bottom: 1rem; }
+    .news-filter-btn {
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 99px; padding: .25rem .75rem; font-size: .75rem;
+      cursor: pointer; color: var(--text); transition: background .2s;
+    }
+    .news-filter-btn.active { background: var(--primary); border-color: var(--primary); }
+    .news-filter-btn:hover { background: var(--accent); }
+    .news-section { margin-bottom: 1.5rem; }
+    .news-section-title { font-size: .85rem; font-weight: 700; color: var(--muted); margin-bottom: .5rem; }
+    .news-cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: .6rem; }
+    .news-card {
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 8px; padding: .7rem .85rem;
+    }
+    .news-card a { color: var(--text); font-size: .8rem; font-weight: 600; line-height: 1.4; display: block; margin-bottom: .3rem; }
+    .news-card a:hover { color: var(--accent); text-decoration: none; }
+    .news-card-meta { font-size: .68rem; color: var(--muted); display: flex; gap: .5rem; }
+    .news-empty { color: var(--muted); font-size: .8rem; font-style: italic; padding: .5rem 0; }
+
+    /* ─── Status chip ─── */
+    .status-chip {
+      font-size: .65rem; padding: .1rem .4rem; border-radius: 4px; margin-left: .3rem; vertical-align: middle;
+    }
+    .sc-ok      { background: #14532d; color: #86efac; }
+    .sc-fallback{ background: #713f12; color: #fde68a; }
+    .sc-sem_dados { background: #1e293b; color: var(--muted); }
+
+    /* ─── Footer ─── */
+    footer {
+      text-align: center; padding: 1.5rem; color: var(--muted); font-size: .72rem;
+      border-top: 1px solid var(--border); margin-top: 2rem;
+    }
+
+    /* ─── Responsive ─── */
+    @media (max-width: 600px) {
+      .header-title { font-size: 1rem; }
+      .cards-grid { grid-template-columns: 1fr; }
+      main { padding: 1rem .5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════════════════════════════════════════════ HEADER -->
+<header>
+  <div class="header-top">
+    <div>
+      <div class="header-title">Monitor de Mercado Commodities &mdash; <span>Vila Vitória</span></div>
+    </div>
+    <div class="header-meta">
+      <div id="dolar-pill" class="dolar-pill">
+        <span>USD/BRL</span>
+        <span class="val" id="dolar-val">—</span>
+        <span id="dolar-var" class="cell-null">...</span>
+      </div>
+      <span id="badge-status" class="badge badge-sem">Carregando...</span>
+      <span id="badge-hora" style="font-size:.72rem; color:var(--muted)"></span>
+    </div>
+  </div>
+  <nav class="commodity-nav" id="commodity-nav">
+    <a href="#safra">🌾 Safra</a>
+    <a href="#sec-arroz">Arroz</a>
+    <a href="#sec-feijao_carioca">Feijão Carioca</a>
+    <a href="#sec-feijao_preto">Feijão Preto</a>
+    <a href="#sec-acucar">Açúcar</a>
+    <a href="#sec-soja">Soja</a>
+    <a href="#sec-trigo">Trigo</a>
+    <a href="#sec-cafe">Café</a>
+    <a href="#sec-leite">Leite</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ══════════════════════════════════════════════ COTAÇÕES -->
+  <section id="cotacoes">
+    <h2 class="section-title"><span class="icon">📊</span> Quadro de Cotações — Últimos 5 Dias Úteis</h2>
+    <div class="table-wrap">
+      <table id="tabela-cotacoes">
+        <thead>
+          <tr>
+            <th style="text-align:left">Commodity</th>
+            <th>Dia -4</th>
+            <th>Dia -3</th>
+            <th>Dia -2</th>
+            <th>Ontem</th>
+            <th>Var. Dia</th>
+            <th>Var. Mês</th>
+            <th>Status</th>
+          </tr>
+        </thead>
+        <tbody id="tabela-body">
+          <tr><td colspan="8" style="text-align:center;color:var(--muted);padding:1.5rem">Carregando dados...</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ SAFRA -->
+  <section id="safra">
+    <h2 class="section-title"><span class="icon">🌱</span> Safra Nacional — CONAB / Últimos 7 dias</h2>
+    <div class="safra-grid" id="safra-grid">
+      <div class="news-empty">Carregando notícias de safra...</div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ ANÁLISE POR PRODUTO -->
+  <section id="analise">
+    <h2 class="section-title"><span class="icon">📈</span> Análise por Produto</h2>
+    <div class="cards-grid" id="cards-grid">
+      <div style="color:var(--muted)">Carregando...</div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════════ NOTÍCIAS -->
+  <section id="noticias">
+    <h2 class="section-title"><span class="icon">📰</span> Notícias — Últimos 3 dias</h2>
+    <div class="news-filters" id="news-filters"></div>
+    <div id="news-container"></div>
+  </section>
+
+</main>
+
+<footer>
+  Fontes: CEPEA/ESALQ · IBRAFE · CONAB · AwesomeAPI · Notícias Agrícolas · Agrolink · MilkPoint · Scot Consultoria · Cecafé<br>
+  Dashboard Vila Vitória — Departamento de Compras · Atualizado automaticamente às 07h00 (BRT) dias úteis
+</footer>
+
+<script>
+// ─────────────────────────────────────────────────────────────────
+// Utilitários
+// ─────────────────────────────────────────────────────────────────
+const fmtBRL = (v, dec = 2) =>
+  v == null ? '—' : v.toLocaleString('pt-BR', { minimumFractionDigits: dec, maximumFractionDigits: dec });
+
+const fmtPct = (v) => {
+  if (v == null) return '<span class="cell-null">—</span>';
+  const cls = v > 0 ? 'cell-up' : v < 0 ? 'cell-down' : '';
+  const arrow = v > 0 ? '↑' : v < 0 ? '↓' : '→';
+  return `<span class="${cls}">${arrow} ${Math.abs(v).toFixed(2)}%</span>`;
+};
+
+const statusChip = (s) => {
+  const map = { ok: ['sc-ok','OK'], fallback: ['sc-fallback','Fallback'], sem_dados: ['sc-sem_dados','Sem dados'] };
+  const [cls, txt] = map[s] || ['sc-sem_dados', s];
+  return `<span class="status-chip ${cls}">${txt}</span>`;
+};
+
+const tendBadge = (t, label) => {
+  const cls = { alta:'tend-alta', queda:'tend-queda', estavel:'tend-estavel', indefinida:'tend-indef' }[t] || 'tend-indef';
+  const sym = { alta:'↑', queda:'↓', estavel:'→', indefinida:'?' }[t] || '?';
+  return `<span class="tend-badge ${cls}">${sym} ${label}: ${(t||'indefinida').charAt(0).toUpperCase()+(t||'indefinida').slice(1)}</span>`;
+};
+
+const farolHTML = (rec) => {
+  const cfg = {
+    comprar: { cls: 'farol-comprar', icon: '🟢', txt: 'COMPRAR — Tendência favorável' },
+    aguardar: { cls: 'farol-aguardar', icon: '🟡', txt: 'AGUARDAR — Mercado incerto' },
+    segurar:  { cls: 'farol-segurar',  icon: '🔴', txt: 'SEGURAR — Tendência de queda' },
+  };
+  const { cls, icon, txt } = cfg[rec] || cfg.aguardar;
+  return `<div class="farol ${cls}"><div class="farol-dot"></div>${icon} ${txt}</div>`;
+};
+
+const dataRel = (str) => {
+  if (!str) return '';
+  const d = new Date(str + 'T00:00:00');
+  const hoje = new Date(); hoje.setHours(0,0,0,0);
+  const diff = Math.round((hoje - d) / 86400000);
+  if (diff === 0) return 'hoje';
+  if (diff === 1) return 'ontem';
+  return `há ${diff} dias`;
+};
+
+// ─────────────────────────────────────────────────────────────────
+// Renderizadores
+// ─────────────────────────────────────────────────────────────────
+function renderHeader(dados) {
+  // Dólar
+  const d = dados.dolar || {};
+  document.getElementById('dolar-val').textContent = d.valor ? `R$ ${fmtBRL(d.valor, 4)}` : '—';
+  const varEl = document.getElementById('dolar-var');
+  if (d.variacao_pct != null) {
+    varEl.className = d.variacao_pct > 0 ? 'cell-up' : d.variacao_pct < 0 ? 'cell-down' : '';
+    varEl.textContent = `${d.variacao_pct > 0 ? '+' : ''}${d.variacao_pct.toFixed(2)}%`;
+  }
+  // Badge status
+  const badge = document.getElementById('badge-status');
+  const smap = {
+    ok:       ['badge-ok',     '✓ Dados atualizados'],
+    parcial:  ['badge-parcial','⚠ Dados parciais'],
+    erro:     ['badge-erro',   '✕ Erro na coleta'],
+    sem_dados:['badge-sem',    '○ Sem dados'],
+  };
+  const [cls, txt] = smap[dados.status_coleta] || smap.sem_dados;
+  badge.className = `badge ${cls}`;
+  badge.textContent = txt;
+  // Hora
+  if (dados.ultima_atualizacao) {
+    const dt = new Date(dados.ultima_atualizacao);
+    document.getElementById('badge-hora').textContent =
+      `Atualizado: ${dt.toLocaleDateString('pt-BR')} às ${dt.toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'})}`;
+  }
+}
+
+function renderTabelaCotacoes(commodities) {
+  const tbody = document.getElementById('tabela-body');
+  const rows = Object.entries(commodities).map(([chave, c]) => {
+    const h = (c.historico_5d || []).slice().reverse(); // mais antigo primeiro
+    // Preenche até 4 posições para Dia-4 a Dia-1 (ontem)
+    const dias = Array(4).fill(null);
+    for (let i = 0; i < Math.min(h.length, 4); i++) dias[i] = h[i];
+    const ontem = h[h.length - 1] || null;
+
+    const celVal = (r) => r && r.valor != null ? fmtBRL(r.valor) : '<span class="cell-null">—</span>';
+    const varDia = ontem && ontem.variacao_pct != null ? fmtPct(ontem.variacao_pct) : '<span class="cell-null">—</span>';
+    const varMes = c.variacao_mes_pct != null ? fmtPct(c.variacao_mes_pct) : '<span class="cell-null">—</span>';
+
+    return `<tr>
+      <td>${c.nome}<span class="fonte-tag">${c.unidade} · ${c.fonte_primaria}</span></td>
+      <td>${celVal(dias[0])}</td>
+      <td>${celVal(dias[1])}</td>
+      <td>${celVal(dias[2])}</td>
+      <td>${celVal(dias[3])}</td>
+      <td>${varDia}</td>
+      <td>${varMes}</td>
+      <td>${statusChip(c.status)}</td>
+    </tr>`;
+  });
+  tbody.innerHTML = rows.join('') || '<tr><td colspan="8" class="cell-null" style="text-align:center;padding:1rem">Sem dados</td></tr>';
+}
+
+function renderSafra(safra) {
+  const grid = document.getElementById('safra-grid');
+  if (!safra || !safra.noticias || safra.noticias.length === 0) {
+    grid.innerHTML = '<div class="news-empty">Nenhuma notícia de safra disponível. Aguarde a próxima atualização automática.</div>';
+    return;
+  }
+  grid.innerHTML = safra.noticias.map(n => `
+    <div class="news-card">
+      <a href="${n.url || '#'}" target="_blank" rel="noopener">${n.titulo || 'Sem título'}</a>
+      <div class="news-card-meta">
+        <span>${n.fonte || ''}</span>
+        <span>${dataRel(n.data)}</span>
+      </div>
+    </div>
+  `).join('');
+}
+
+let chartInstances = {};
+
+function renderCards(commodities) {
+  const grid = document.getElementById('cards-grid');
+  const html = Object.entries(commodities).map(([chave, c]) => {
+    const h = c.historico_5d || [];
+    const ultimo = h.length ? h[0] : null;
+    const precoHTML = ultimo
+      ? `<div class="card-price">${fmtBRL(ultimo.valor)} <span>${c.unidade}</span></div>`
+      : `<div class="card-price cell-null" style="font-size:1rem">Sem cotação</div>`;
+
+    return `
+    <div class="card" id="sec-${chave}">
+      <div class="card-header">
+        <div>
+          <div class="card-nome">${c.nome}</div>
+          <div class="card-fonte">${c.fonte_primaria} ${statusChip(c.status)}</div>
+        </div>
+      </div>
+      ${precoHTML}
+      <div class="tendencias">
+        ${tendBadge(c.tendencia_curta, '30-90d')}
+        ${tendBadge(c.tendencia_media, '90-360d')}
+      </div>
+      <div class="chart-wrap">
+        <canvas id="chart-${chave}"></canvas>
+      </div>
+      <div class="insights">
+        <div class="insight-box">
+          <div class="insight-label">📅 Curto prazo (30 a 90 dias)</div>
+          ${c.insight_curto_prazo || '—'}
+        </div>
+        <div class="insight-box">
+          <div class="insight-label">📆 Médio prazo (90 a 360 dias)</div>
+          ${c.insight_medio_prazo || '—'}
+        </div>
+      </div>
+      ${farolHTML(c.recomendacao)}
+    </div>`;
+  }).join('');
+  grid.innerHTML = html;
+
+  // Renderiza mini-gráficos
+  Object.entries(commodities).forEach(([chave, c]) => {
+    const canvas = document.getElementById(`chart-${chave}`);
+    if (!canvas) return;
+    const h = (c.historico_5d || []).slice().reverse();
+    if (h.length < 2) {
+      canvas.parentElement.innerHTML = '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--muted);font-size:.75rem">Sem histórico</div>';
+      return;
+    }
+    const labels = h.map(r => r.data ? r.data.slice(5) : '');
+    const valores = h.map(r => r.valor);
+    const cor = c.tendencia_curta === 'alta' ? '#22c55e' : c.tendencia_curta === 'queda' ? '#ef4444' : '#60a5fa';
+
+    if (chartInstances[chave]) chartInstances[chave].destroy();
+    chartInstances[chave] = new Chart(canvas, {
+      type: 'line',
+      data: {
+        labels,
+        datasets: [{
+          data: valores,
+          borderColor: cor,
+          backgroundColor: cor + '22',
+          borderWidth: 2,
+          pointRadius: 3,
+          fill: true,
+          tension: 0.3,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false }, tooltip: {
+          callbacks: { label: ctx => ` R$ ${fmtBRL(ctx.parsed.y)}` }
+        }},
+        scales: {
+          x: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: '#1e293b' } },
+          y: { ticks: { color: '#64748b', font: { size: 10 } }, grid: { color: '#1e293b' } },
+        }
+      }
+    });
+  });
+}
+
+function renderNoticias(commodities) {
+  const filtersEl = document.getElementById('news-filters');
+  const containerEl = document.getElementById('news-container');
+
+  const todas = Object.entries(commodities).filter(([, c]) => c.noticias && c.noticias.length > 0);
+
+  // Botão "Todas"
+  let ativo = 'todas';
+  const btns = [{ chave: 'todas', nome: 'Todas' }, ...todas.map(([k, c]) => ({ chave: k, nome: c.nome }))];
+  filtersEl.innerHTML = btns.map(b =>
+    `<button class="news-filter-btn${b.chave === 'todas' ? ' active' : ''}" data-chave="${b.chave}">${b.nome}</button>`
+  ).join('');
+
+  const renderSections = (filtro) => {
+    const secs = filtro === 'todas' ? todas : todas.filter(([k]) => k === filtro);
+    if (secs.length === 0) {
+      containerEl.innerHTML = '<div class="news-empty">Nenhuma notícia disponível para este filtro.</div>';
+      return;
+    }
+    containerEl.innerHTML = secs.map(([chave, c]) => `
+      <div class="news-section">
+        <div class="news-section-title">${c.nome}</div>
+        <div class="news-cards">
+          ${(c.noticias || []).map(n => `
+            <div class="news-card">
+              <a href="${n.url || '#'}" target="_blank" rel="noopener">${n.titulo || 'Sem título'}</a>
+              <div class="news-card-meta">
+                <span>${n.fonte || ''}</span>
+                <span>${dataRel(n.data)}</span>
+              </div>
+            </div>
+          `).join('')}
+        </div>
+      </div>
+    `).join('');
+  };
+
+  renderSections('todas');
+
+  filtersEl.addEventListener('click', e => {
+    const btn = e.target.closest('.news-filter-btn');
+    if (!btn) return;
+    filtersEl.querySelectorAll('.news-filter-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderSections(btn.dataset.chave);
+  });
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Bootstrap
+// ─────────────────────────────────────────────────────────────────
+fetch('dados_commodities.json?_=' + Date.now())
+  .then(r => { if (!r.ok) throw new Error(`HTTP ${r.status}`); return r.json(); })
+  .then(dados => {
+    renderHeader(dados);
+    renderTabelaCotacoes(dados.commodities || {});
+    renderSafra(dados.safra);
+    renderCards(dados.commodities || {});
+    renderNoticias(dados.commodities || {});
+  })
+  .catch(err => {
+    document.getElementById('badge-status').className = 'badge badge-erro';
+    document.getElementById('badge-status').textContent = '✕ Erro ao carregar dados';
+    document.getElementById('tabela-body').innerHTML =
+      `<tr><td colspan="8" style="text-align:center;color:var(--red);padding:1.5rem">
+        Erro ao carregar dados_commodities.json.<br>
+        Execute <code>python coletar_dados.py</code> e sirva via <code>python -m http.server 8080</code>.<br>
+        <small style="color:var(--muted)">${err.message}</small>
+      </td></tr>`;
+    document.getElementById('cards-grid').innerHTML =
+      '<div style="color:var(--muted);font-size:.85rem">Arquivo de dados não encontrado. Rode o script de coleta.</div>';
+    document.getElementById('news-container').innerHTML = '';
+  });
+</script>
+</body>
+</html>

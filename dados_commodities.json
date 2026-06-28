@@ -1,0 +1,128 @@
+{
+  "ultima_atualizacao": null,
+  "status_coleta": "sem_dados",
+  "dolar": {
+    "valor": null,
+    "variacao_pct": null,
+    "bid": null,
+    "ask": null
+  },
+  "safra": {
+    "ultima_atualizacao": null,
+    "noticias": []
+  },
+  "commodities": {
+    "arroz": {
+      "nome": "Arroz em Casca",
+      "unidade": "R$/sc 50kg",
+      "fonte_primaria": "CEPEA/IRGA-RS",
+      "status": "sem_dados",
+      "historico_5d": [],
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "insight_medio_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "recomendacao": "aguardar",
+      "noticias": []
+    },
+    "feijao_carioca": {
+      "nome": "Feijão Carioca",
+      "unidade": "R$/sc 60kg",
+      "fonte_primaria": "CEPEA/CNA",
+      "status": "sem_dados",
+      "historico_5d": [],
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "insight_medio_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "recomendacao": "aguardar",
+      "noticias": []
+    },
+    "feijao_preto": {
+      "nome": "Feijão Preto",
+      "unidade": "R$/sc 60kg",
+      "fonte_primaria": "IBRAFE",
+      "status": "sem_dados",
+      "historico_5d": [],
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "insight_medio_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "recomendacao": "aguardar",
+      "noticias": []
+    },
+    "acucar": {
+      "nome": "Açúcar Cristal (ICUMSA 130-180)",
+      "unidade": "R$/sc 50kg",
+      "fonte_primaria": "CEPEA/ESALQ (SP)",
+      "status": "sem_dados",
+      "historico_5d": [],
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "insight_medio_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "recomendacao": "aguardar",
+      "noticias": []
+    },
+    "soja": {
+      "nome": "Soja",
+      "unidade": "R$/sc 60kg",
+      "fonte_primaria": "CEPEA/Paranaguá",
+      "status": "sem_dados",
+      "historico_5d": [],
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "insight_medio_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "recomendacao": "aguardar",
+      "noticias": []
+    },
+    "trigo": {
+      "nome": "Trigo",
+      "unidade": "R$/sc 60kg",
+      "fonte_primaria": "CEPEA/ESALQ",
+      "status": "sem_dados",
+      "historico_5d": [],
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "insight_medio_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "recomendacao": "aguardar",
+      "noticias": []
+    },
+    "cafe": {
+      "nome": "Café Arábica (Tipo 6)",
+      "unidade": "R$/sc 60kg",
+      "fonte_primaria": "CEPEA/ESALQ",
+      "status": "sem_dados",
+      "historico_5d": [],
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "insight_medio_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "recomendacao": "aguardar",
+      "noticias": []
+    },
+    "leite": {
+      "nome": "Leite ao Produtor",
+      "unidade": "R$/litro",
+      "fonte_primaria": "CEPEA/CNA",
+      "status": "sem_dados",
+      "historico_5d": [],
+      "variacao_mes_pct": null,
+      "tendencia_curta": "indefinida",
+      "tendencia_media": "indefinida",
+      "insight_curto_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "insight_medio_prazo": "Dados ainda não coletados. Execute o script coletar_dados.py.",
+      "recomendacao": "aguardar",
+      "noticias": []
+    }
+  }
+}
