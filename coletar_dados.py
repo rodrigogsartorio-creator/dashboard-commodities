@@ -669,6 +669,8 @@ def coletar_safra() -> list:
 RSS_POR_COMMODITY = {
     "arroz":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/graos.rss"),
                        ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss"),
+                       ("Planeta Arroz",     "https://www.planetaarroz.com.br/feed/"),
+                       ("SNA",               "https://www.sna.agr.br/feed/"),
                        ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
                        ("Globo Rural",       "https://revistagloborural.globo.com/rss2.xml"),
                        ("Agrolink",          "https://www.agrolink.com.br/rss/arroz.aspx")],
