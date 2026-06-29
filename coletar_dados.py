@@ -667,19 +667,25 @@ def coletar_safra() -> list:
 # MÓDULO 5 — NOTÍCIAS RSS
 # ═══════════════════════════════════════════════════════════════════════════
 
-# Apenas feeds comprovadamente rápidos no GitHub Actions (NoticiasAgricolas + IBRAFE)
-# Feeds como Agrolink, Canal Rural, Globo Rural, Scot, MilkPoint bloqueiam bots
+# Feeds com safe_get(timeout=10) — feeds lentos são pulados em 10s sem travar o workflow
+# Evitados: Agrolink, Canal Rural, Globo Rural, Scot, MilkPoint (bloqueiam bots)
 RSS_POR_COMMODITY = {
     "arroz":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/graos.rss"),
-                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss")],
+                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss"),
+                       ("Planeta Arroz",     "https://www.planetaarroz.com.br/feed/"),    # diária CEPEA/IRGA-RS
+                       ("SNA",               "https://www.sna.agr.br/feed/")],            # diária CEPEA
     "feijao_carioca": [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
                        ("IBRAFE",            "https://www.ibrafe.org/feed/")],
     "feijao_preto":   [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
                        ("IBRAFE",            "https://www.ibrafe.org/feed/")],
-    "acucar":         [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/sucroenergetico.rss")],
-    "soja":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/soja.rss")],
+    "acucar":         [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/sucroenergetico.rss"),
+                       ("CNN Brasil Agro",   "https://www.cnnbrasil.com.br/agro/feed/"),  # futuros NY/ICE no texto
+                       ("SAFRAS",            "https://safras.com.br/feed/")],             # análise técnica açúcar
+    "soja":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/soja.rss"),
+                       ("CNN Brasil Agro",   "https://www.cnnbrasil.com.br/agro/feed/")], # futuros Chicago no texto
     "trigo":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/trigo.rss")],
-    "cafe":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/cafe.rss")],
+    "cafe":           [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/cafe.rss"),
+                       ("CNN Brasil Agro",   "https://www.cnnbrasil.com.br/agro/feed/")], # futuros NY/ICE café
     "leite":          [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/leite.rss")],
 }
 
