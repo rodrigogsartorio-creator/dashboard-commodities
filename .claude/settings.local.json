@@ -34,7 +34,8 @@
       "Bash(git commit *)",
       "PowerShell(cd \"C:\\\\Users\\\\sartorio.r\\\\OneDrive\\\\Claude\\\\Projects\\\\Dashboard Mercado Commodities\"; pip install anthropic -q; $env:ANTHROPIC_API_KEY = \"sk-ant-test\"; python analisar_insights.py 2>&1 | Select-Object -First 5)",
       "PowerShell(cd \"C:\\\\Users\\\\sartorio.r\\\\OneDrive\\\\Claude\\\\Projects\\\\Dashboard Mercado Commodities\"; python -m pip install anthropic -q; $env:ANTHROPIC_API_KEY = \"sk-ant-test\"; python analisar_insights.py 2>&1 | Select-Object -First 10)",
-      "PowerShell(cd \"C:\\\\Users\\\\sartorio.r\\\\OneDrive\\\\Claude\\\\Projects\\\\Dashboard Mercado Commodities\"; $env:ANTHROPIC_API_KEY = Read-Host \"Cole a API key\"; python analisar_insights.py 2>&1)"
+      "PowerShell(cd \"C:\\\\Users\\\\sartorio.r\\\\OneDrive\\\\Claude\\\\Projects\\\\Dashboard Mercado Commodities\"; $env:ANTHROPIC_API_KEY = Read-Host \"Cole a API key\"; python analisar_insights.py 2>&1)",
+      "Bash(python -c \"import json; d=json.load\\(open\\('dados_commodities.json',encoding='utf-8'\\)\\); print\\(d.get\\('dolar'\\)\\)\")"
     ]
   }
 }

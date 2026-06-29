@@ -92,7 +92,7 @@
     }
 
     /* ═══ RESUMO STRIP ═══════════════════════════════════════════ */
-    .summary-strip { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px,1fr)); gap: 10px; margin-bottom: 1.75rem; }
+    .summary-strip { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 1.75rem; }
     .s-card {
       background: var(--white); border: 1px solid var(--gray-300);
       border-radius: var(--radius-md); padding: .85rem 1rem;
@@ -358,7 +358,7 @@
 
     /* ═══ RESPONSIVE ══════════════════════════════════════════ */
     @media (max-width: 600px) {
-      .summary-strip { grid-template-columns: 1fr 1fr; }
+      .summary-strip { grid-template-columns: 1fr 1fr; grid-template-rows: auto auto; }
       .c-top { flex-direction: column; }
       .metrics { grid-template-columns: 1fr 1fr; }
       main { padding: 1rem .75rem 3rem; }
@@ -626,7 +626,7 @@ function renderCards(commodities) {
       ? `<div class="m-var ${varDia>0?'var-up':varDia<0?'var-down':'var-neutral'}">${varDia>0?'↑':'↓'} ${Math.abs(varDia).toFixed(2)}% dia</div>`
       : '<div class="m-var var-neutral">—</div>';
     const varMesHtml = varMes != null
-      ? `<div class="m-var ${varMes>0?'var-up':varMes<0?'var-down':'var-neutral'}">${varMes>0?'↑':'↓'} ${Math.abs(varMes).toFixed(2)}% mês</div>`
+      ? `<div class="m-var ${varMes>0?'var-up':varMes<0?'var-down':'var-neutral'}">${varMes>0?'↑':'↓'} ${Math.abs(varMes).toFixed(2)}% período</div>`
       : '<div class="m-var var-neutral">—</div>';
 
     // farol
@@ -765,17 +765,17 @@ function renderCards(commodities) {
           ${varDiaHtml}
         </div>
         <div class="metric">
-          <div class="m-label">Variação no mês</div>
+          <div class="m-label">Variação do período</div>
           <div class="m-value">${varMes != null ? (varMes>0?'+':'')+varMes.toFixed(2)+'%' : '—'}</div>
           ${varMesHtml}
         </div>
         <div class="metric">
-          <div class="m-label">Tendência 30-90d</div>
+          <div class="m-label">Tendência 7-30d</div>
           <div class="m-value" style="font-size:.85rem">${tendLabel(c.tendencia_curta)}</div>
           <div class="m-var var-neutral">Curto prazo</div>
         </div>
         <div class="metric">
-          <div class="m-label">Tendência 90-360d</div>
+          <div class="m-label">Tendência 30-90d</div>
           <div class="m-value" style="font-size:.85rem">${tendLabel(c.tendencia_media)}</div>
           <div class="m-var var-neutral">Médio prazo</div>
         </div>
@@ -824,8 +824,8 @@ function renderCards(commodities) {
           <div class="v-title">${fc.icon} ${fc.title}</div>
           <div class="v-text">
             ${c.decisao_texto
-              ? `${c.decisao_texto}<br><br><strong>Perspectiva de médio prazo:</strong> ${c.insight_medio_prazo || '—'}`
-              : `${fc.sub}<br><br><strong>Análise:</strong> ${c.insight_curto_prazo || '—'}<br><br><strong>Perspectiva de médio prazo:</strong> ${c.insight_medio_prazo || '—'}`
+              ? `${c.decisao_texto}<br><br><strong>Perspectiva 30-90 dias:</strong> ${c.insight_medio_prazo || '—'}`
+              : `${fc.sub}<br><br><strong>Análise 7-30 dias:</strong> ${c.insight_curto_prazo || '—'}<br><br><strong>Perspectiva 30-90 dias:</strong> ${c.insight_medio_prazo || '—'}`
             }
             ${(c.estrategia_volume || c.gatilho_revisao) ? `
             <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;">
