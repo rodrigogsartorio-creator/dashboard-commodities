@@ -766,7 +766,7 @@ SAFRA_KEYWORDS_COMMODITY = {
     "leite":          ["leite", "lácteo", "lacteo", "bovino", "pecuária"],
 }
 
-LIMITE_NOTICIAS_DIAS = 5
+LIMITE_NOTICIAS_DIAS = 10  # coleta 10d para capturar diárias CEPEA; exibição filtrada para 5d no index.html
 MAX_POR_COMMODITY    = 8
 
 # ─── Classificação de impacto das notícias no preço ─────────────────────────

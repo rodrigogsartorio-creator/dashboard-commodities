@@ -641,8 +641,11 @@ function renderCards(commodities) {
     const temaSlug = t => (t || 'Mercado').replace(/[&\s]+/g, '-');
     const impactoIcon  = imp => ({ alta: '🔴', queda: '🟢', neutro: '🟡' }[imp] || '🟡');
     const impactoLabel = imp => ({ alta: 'pressão de alta', queda: 'pressão de queda', neutro: 'neutro' }[imp] || 'neutro');
-    const newsHtml = (c.noticias && c.noticias.length)
-      ? c.noticias.map(n => {
+    // Exibe apenas notícias dos últimos 5 dias (coleta é 10 dias para o AI)
+    const corte5d = new Date(); corte5d.setDate(corte5d.getDate() - 5);
+    const noticiasFiltradas = (c.noticias || []).filter(n => !n.data || new Date(n.data) >= corte5d);
+    const newsHtml = noticiasFiltradas.length
+      ? noticiasFiltradas.map(n => {
           const tema = n.tema || 'Mercado';
           const imp  = n.impacto || 'neutro';
           return `
