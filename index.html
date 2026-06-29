@@ -286,6 +286,22 @@
       border-radius: 4px; padding: 2px 8px;
     }
 
+    /* cards de mercado — postura produtor/comprador/liquidez/fator externo */
+    .mercado-cards {
+      display: flex; flex-wrap: wrap; gap: .6rem;
+      padding: .75rem 1.5rem; border-bottom: 1px solid var(--gray-100);
+    }
+    .mc-card {
+      flex: 1 1 140px; border-radius: var(--radius-sm);
+      padding: .5rem .8rem; border: 1px solid transparent;
+    }
+    .mc-label { font-size: .67rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; opacity: .7; margin-bottom: 2px; }
+    .mc-val   { font-size: .82rem; font-weight: 700; }
+    .mp-ret { background: var(--red-light);   border-color: #f0b0b0; color: var(--red-dark); }
+    .mp-ofe { background: var(--green-light); border-color: #a8d8bc; color: var(--green-dark); }
+    .mp-neu { background: var(--amber-light); border-color: #f0cc80; color: var(--amber-dark); }
+    .mp-ext { background: var(--blue-light);  border-color: #c0d8f0; color: var(--blue-dark); }
+
     /* veredicto */
     .verdict { padding: 1rem 1.5rem; border-bottom: 1px solid var(--gray-100); }
     .v-box { border-radius: var(--radius-md); padding: .9rem 1.1rem; }
@@ -674,9 +690,29 @@ function renderCards(commodities) {
         </div>`
       : '';
 
-    // suporte e resistência (para exibição nas métricas)
-    const srSupHtml  = c.suporte    != null ? `R$ ${fmtBRL(c.suporte,    c.suporte    < 10 ? 4 : 2)}` : '—';
-    const srResHtml  = c.resistencia != null ? `R$ ${fmtBRL(c.resistencia, c.resistencia < 10 ? 4 : 2)}` : '—';
+    // cards de mercado (postura produtor/comprador/liquidez/fator externo)
+    const posturaLabel = {
+      'Retraído': { cls: 'mp-ret', icon: '🔴' },
+      'Retraido': { cls: 'mp-ret', icon: '🔴' },
+      'Ofertante': { cls: 'mp-ofe', icon: '🟢' },
+      'Ativo':     { cls: 'mp-ofe', icon: '🟢' },
+      'Neutro':    { cls: 'mp-neu', icon: '🟡' },
+    };
+    const ppInfo = posturaLabel[c.postura_produtor]  || { cls: 'mp-neu', icon: '🟡' };
+    const pcInfo = posturaLabel[c.postura_comprador] || { cls: 'mp-neu', icon: '🟡' };
+    const liqInfo = {
+      'Baixa':  { cls: 'mp-ret', icon: '🔴' },
+      'Normal': { cls: 'mp-neu', icon: '🟡' },
+      'Alta':   { cls: 'mp-ofe', icon: '🟢' },
+    }[c.liquidez] || { cls: 'mp-neu', icon: '🟡' };
+
+    const mercadoCardsHtml = (c.postura_produtor || c.postura_comprador || c.liquidez) ? `
+      <div class="mercado-cards">
+        ${c.postura_produtor ? `<div class="mc-card ${ppInfo.cls}"><div class="mc-label">Postura do Produtor</div><div class="mc-val">${ppInfo.icon} ${c.postura_produtor}</div></div>` : ''}
+        ${c.postura_comprador ? `<div class="mc-card ${pcInfo.cls}"><div class="mc-label">Postura do Comprador</div><div class="mc-val">${pcInfo.icon} ${c.postura_comprador}</div></div>` : ''}
+        ${c.liquidez ? `<div class="mc-card ${liqInfo.cls}"><div class="mc-label">Liquidez</div><div class="mc-val">${liqInfo.icon} ${c.liquidez}</div></div>` : ''}
+        ${c.fator_externo ? `<div class="mc-card mp-ext"><div class="mc-label">Fator Externo</div><div class="mc-val">🌐 ${c.fator_externo}</div></div>` : ''}
+      </div>` : '';
 
     // safra por commodity
     const safraHtml = (c.safra_noticias && c.safra_noticias.length)
@@ -741,21 +777,14 @@ function renderCards(commodities) {
           <div class="m-var var-neutral">Médio prazo</div>
         </div>
         <div class="metric">
-          <div class="m-label">Suporte hist.</div>
-          <div class="m-value" style="font-size:.9rem;color:var(--green-dark)">${srSupHtml}</div>
-          <div class="m-var var-neutral">mínima período</div>
-        </div>
-        <div class="metric">
-          <div class="m-label">Resistência hist.</div>
-          <div class="m-value" style="font-size:.9rem;color:var(--red-dark)">${srResHtml}</div>
-          <div class="m-var var-neutral">máxima período</div>
-        </div>
-        <div class="metric">
           <div class="m-label">Dias de histórico</div>
           <div class="m-value">${h.length}</div>
           <div class="m-var var-neutral">acumulado</div>
         </div>
       </div>
+
+      <!-- cards de mercado (postura + liquidez) -->
+      ${mercadoCardsHtml}
 
       <!-- red flags -->
       ${redflagsHtml}
@@ -833,24 +862,6 @@ function renderCards(commodities) {
       borderWidth: 2, pointRadius: 4, pointBackgroundColor: cor,
       fill: true, tension: 0.3,
     }];
-
-    // Linhas de suporte e resistência (tracejadas)
-    if (c.suporte != null && h.length >= 3) {
-      datasets.push({
-        label: `Suporte R$${fmtBRL(c.suporte, c.suporte < 10 ? 4 : 2)}`,
-        data: h.map(() => c.suporte),
-        borderColor: '#27754a', borderWidth: 1.5,
-        borderDash: [6, 4], pointRadius: 0, fill: false, tension: 0,
-      });
-    }
-    if (c.resistencia != null && h.length >= 3) {
-      datasets.push({
-        label: `Resistência R$${fmtBRL(c.resistencia, c.resistencia < 10 ? 4 : 2)}`,
-        data: h.map(() => c.resistencia),
-        borderColor: '#a32d2d', borderWidth: 1.5,
-        borderDash: [6, 4], pointRadius: 0, fill: false, tension: 0,
-      });
-    }
 
     chartInstances[k] = new Chart(canvas, {
       type: 'line',
