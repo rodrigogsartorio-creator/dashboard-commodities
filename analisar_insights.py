@@ -26,7 +26,7 @@ from bs4 import BeautifulSoup
 
 JSON_PATH           = Path(__file__).parent / "dados_commodities.json"
 MODEL               = "claude-haiku-4-5-20251001"
-MAX_TOKENS          = 900
+MAX_TOKENS          = 1200
 ARTICLE_CHARS       = 2000   # máx. de caracteres por artigo enviados ao Claude
 MAX_ARTIGOS         = 4      # artigos lidos por commodity
 TIMEOUT_HTTP        = 12
@@ -106,20 +106,26 @@ Analise a commodity **{nome}** ({unidade}) e gere uma análise objetiva e acion�
 5. postura_produtor: como o produtor está se comportando (Retraído = segurando estoque, não quer vender; Ofertante = vendendo ativamente).
 6. liquidez: volume de negócios no mercado (Baixa = poucos negócios; Alta = mercado ativo).
 7. Seja específico: cite fatos reais das notícias, não generalizações.
+8. Assimetria de risco: avalie o downside máximo realista vs. o upside máximo realista nos próximos 60 dias. Se o upside supera claramente o downside, recomende comprar mesmo com incerteza — a assimetria favorável justifica a decisão.
+9. Eventos futuros datados: se as notícias mencionarem evento conhecido com data (relatório USDA, reunião de política agrícola, início/fim de safra, resultado climático), registre em gatilho_revisao e condicione a estrategia_volume a ele quando relevante.
+10. Para ACUCAR: analise se etanol em alta está competindo pelo mix de cana nas usinas — etanol valorizado desvia cana do açúcar, reduz oferta e pressiona preço para cima. Mencione se houver evidência nas notícias.
+11. Mercado externo: se as notícias citarem cotações de futuros (Chicago CBOT, NY Sugar #11, Londres), transmissão desses preços para o mercado físico brasileiro deve ser explicada em fator_externo.
 
-## INSTRUÇÃO
-Responda APENAS com JSON válido, sem texto antes ou depois, sem markdown.
+## INSTRUCAO
+Responda APENAS com JSON valido, sem texto antes ou depois, sem markdown.
 
 {{
-  "postura_produtor": "Retraído | Ofertante | Neutro",
-  "postura_comprador": "Retraído | Ativo | Neutro",
+  "postura_produtor": "Retraido | Ofertante | Neutro",
+  "postura_comprador": "Retraido | Ativo | Neutro",
   "liquidez": "Baixa | Normal | Alta",
-  "fator_externo": "frase curta sobre fator externo relevante (câmbio, clima, exportação, etc.) ou null se não houver",
-  "postura_mercado": "frase curta (máx 8 palavras) descrevendo a dinâmica atual do mercado",
-  "insight_curto_prazo": "2 a 3 frases sobre o cenário de 30 a 90 dias. Baseie-se no preço como sinal primário e complemente com postura do produtor/comprador e fatores qualitativos das notícias. Não repita os números percentuais já visíveis no quadro.",
-  "insight_medio_prazo": "1 a 2 frases sobre perspectiva de 90 a 360 dias: safra, tendência estrutural, fatores climáticos ou regulatórios.",
+  "fator_externo": "frase curta sobre fator externo relevante — inclua cotacao de futuros se citada nas noticias (ex: Chicago nov/26 US$11,56/bu); null se nao houver",
+  "postura_mercado": "frase curta (max 8 palavras) descrevendo a dinamica atual do mercado",
+  "insight_curto_prazo": "2 a 3 frases sobre o cenario de 30 a 90 dias. Avalie a assimetria de risco (downside vs. upside realistas nos proximos 60 dias). Baseie-se no preco como sinal primario e complemente com postura do produtor/comprador, mercado externo e fatores qualitativos das noticias. Nao repita os numeros percentuais ja visiveis no quadro.",
+  "insight_medio_prazo": "1 a 2 frases sobre perspectiva de 90 a 360 dias: safra, tendencia estrutural, fatores climaticos ou regulatorios.",
   "recomendacao": "comprar | aguardar | segurar",
-  "decisao_texto": "2 a 3 frases explicando a lógica: por que esta recomendação agora, qual o risco principal, e prazo sugerido para revisão."
+  "estrategia_volume": "volume_total | parcial | aguardar — com breve explicacao: ex: volume_total significa comprar necessidade dos proximos 60 dias agora; parcial significa comprar parte agora e aguardar evento especifico para o restante",
+  "gatilho_revisao": "evento ou data especifica para reavaliar — ex: Relatorio USDA 30/jun, Inicio safra RS ago/26, Dolar abaixo de R$5,00; ou revisao em 30 dias se nao houver evento especifico",
+  "decisao_texto": "2 a 3 frases explicando a logica: por que esta recomendacao agora, qual o risco principal, e o gatilho para reavaliar."
 }}"""
 
 
@@ -256,7 +262,7 @@ def analisar_commodity(client: anthropic.Anthropic, chave: str, dados: dict) -> 
         campos_obrigatorios = [
             "postura_produtor", "postura_comprador", "liquidez",
             "postura_mercado", "insight_curto_prazo", "insight_medio_prazo",
-            "recomendacao", "decisao_texto"
+            "recomendacao", "estrategia_volume", "gatilho_revisao", "decisao_texto"
         ]
         for campo in campos_obrigatorios:
             if campo not in resultado:
@@ -339,10 +345,12 @@ def main():
             c["insight_curto_prazo"] = resultado["insight_curto_prazo"]
             c["insight_medio_prazo"] = resultado["insight_medio_prazo"]
             c["recomendacao"]        = resultado["recomendacao"]
+            c["estrategia_volume"]   = resultado.get("estrategia_volume")
+            c["gatilho_revisao"]     = resultado.get("gatilho_revisao")
             c["decisao_texto"]       = resultado["decisao_texto"]
             c["insight_gerado_por"]  = "claude-haiku"
             atualizadas += 1
-            print(f"    OK {resultado['recomendacao'].upper()} | Produtor: {resultado['postura_produtor']} | Liquidez: {resultado['liquidez']}")
+            print(f"    OK {resultado['recomendacao'].upper()} | Produtor: {resultado['postura_produtor']} | Liquidez: {resultado['liquidez']} | Gatilho: {resultado.get('gatilho_revisao', '—')}")
         else:
             c["insight_gerado_por"] = "regras"
             print("    AVISO: Mantendo insight baseado em regras.")

@@ -827,6 +827,11 @@ function renderCards(commodities) {
               ? `${c.decisao_texto}<br><br><strong>Perspectiva de médio prazo:</strong> ${c.insight_medio_prazo || '—'}`
               : `${fc.sub}<br><br><strong>Análise:</strong> ${c.insight_curto_prazo || '—'}<br><br><strong>Perspectiva de médio prazo:</strong> ${c.insight_medio_prazo || '—'}`
             }
+            ${(c.estrategia_volume || c.gatilho_revisao) ? `
+            <div style="margin-top:12px;display:flex;flex-wrap:wrap;gap:8px;align-items:center;">
+              ${c.estrategia_volume ? `<span style="font-size:.72rem;font-weight:600;padding:3px 10px;border-radius:12px;background:rgba(255,255,255,0.55);border:1px solid currentColor;opacity:.85">📦 ${c.estrategia_volume}</span>` : ''}
+              ${c.gatilho_revisao ? `<span style="font-size:.72rem;font-weight:600;padding:3px 10px;border-radius:12px;background:rgba(255,255,255,0.55);border:1px solid currentColor;opacity:.85">🔔 Revisão: ${c.gatilho_revisao}</span>` : ''}
+            </div>` : ''}
             ${c.insight_gerado_por === 'claude-haiku'
               ? '<div style="margin-top:8px;font-size:.68rem;color:var(--gray-400)">✨ Análise gerada por IA</div>'
               : '<div style="margin-top:8px;font-size:.68rem;color:var(--gray-400)">📐 Análise baseada em regras</div>'
