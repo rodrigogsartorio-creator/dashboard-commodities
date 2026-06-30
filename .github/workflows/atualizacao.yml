@@ -2,8 +2,8 @@ name: Atualização Diária de Dados
 
 on:
   schedule:
-    # 10:00 UTC = 07:00 BRT (horário de Brasília, UTC-3), dias úteis
-    - cron: '0 10 * * 1-5'
+    # 10:50 UTC = 07:50 BRT (horário de Brasília, UTC-3), dias úteis
+    - cron: '50 10 * * 1-5'
   workflow_dispatch:
     inputs:
       motivo:
