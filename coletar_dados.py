@@ -58,7 +58,8 @@ HEADERS = {
 SESSION = requests.Session()
 SESSION.headers.update(HEADERS)
 
-HISTORICO_MAX_DIAS = 30  # mantém até 30 dias no JSON
+HISTORICO_MAX_DIAS = 200  # retenção para o gráfico — cresce ~1 dia útil por execução até ~9-10 meses
+JANELA_VARIACAO_PERIODO_DIAS = 21  # ~1 mês de pregões — usado só na métrica "Variação do período"
 
 
 # ═══════════════════════════════════════════════════════════════════════════
@@ -345,12 +346,12 @@ def mesclar_historico(existente: list, novo_registro: dict, max_dias: int = HIST
 
 def variacao_mes(historico: list):
     """
-    Variação do período: janela móvel dos últimos dias úteis disponíveis
+    Variação do período: janela móvel dos últimos ~21 pregões (≈1 mês)
     (não usa mês-calendário — isso zerava a variação no 1º pregão de cada mês,
     quando ainda não havia 2 registros no mês corrente).
     """
     if len(historico) >= 2:
-        janela = historico[:HISTORICO_MAX_DIAS]
+        janela = historico[:JANELA_VARIACAO_PERIODO_DIAS]
         return variacao_pct(janela[0]["valor"], janela[-1]["valor"])
     return None
 

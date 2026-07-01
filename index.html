@@ -152,7 +152,7 @@
 
     /* metrics grid */
     .metrics {
-      display: grid; grid-template-columns: repeat(auto-fit, minmax(130px,1fr));
+      display: grid; grid-template-columns: repeat(3, 1fr);
       gap: 8px; padding: 1.1rem 1.5rem; background: var(--gray-50);
       border-bottom: 1px solid var(--gray-100);
     }
@@ -290,20 +290,25 @@
     }
 
     /* cards de mercado — postura produtor/comprador/liquidez/fator externo */
-    .mercado-cards {
-      display: flex; flex-wrap: wrap; gap: .6rem;
-      padding: .75rem 1.5rem; border-bottom: 1px solid var(--gray-100);
+    .mercado-cards { padding: .75rem 1.5rem; border-bottom: 1px solid var(--gray-100); }
+    .status-pills { display: flex; flex-wrap: wrap; gap: .5rem; }
+    .status-pill {
+      display: inline-flex; align-items: center; gap: 5px;
+      border-radius: 20px; padding: 4px 12px; border: 1px solid transparent;
+      font-size: .74rem; white-space: nowrap;
     }
-    .mc-card {
-      flex: 1 1 140px; border-radius: var(--radius-sm);
-      padding: .5rem .8rem; border: 1px solid transparent;
+    .status-pill .sp-label { font-weight: 600; opacity: .75; }
+    .status-pill .sp-val { font-weight: 700; }
+    .fator-externo-box {
+      margin-top: .6rem; border-radius: var(--radius-sm);
+      padding: .55rem .8rem; border: 1px solid #c0d8f0;
+      background: var(--blue-light); color: var(--blue-dark);
+      font-size: .78rem; line-height: 1.5;
     }
-    .mc-label { font-size: .67rem; font-weight: 600; text-transform: uppercase; letter-spacing: .04em; opacity: .7; margin-bottom: 2px; }
-    .mc-val   { font-size: .82rem; font-weight: 700; }
+    .fator-externo-box b { font-weight: 700; }
     .mp-ret { background: var(--red-light);   border-color: #f0b0b0; color: var(--red-dark); }
     .mp-ofe { background: var(--green-light); border-color: #a8d8bc; color: var(--green-dark); }
     .mp-neu { background: var(--amber-light); border-color: #f0cc80; color: var(--amber-dark); }
-    .mp-ext { background: var(--blue-light);  border-color: #c0d8f0; color: var(--blue-dark); }
 
     /* veredicto */
     .verdict { padding: 1rem 1.5rem; border-bottom: 1px solid var(--gray-100); }
@@ -471,6 +476,13 @@ const statusChip = s => {
   return `<span class="status-chip ${cls}">${txt}</span>`;
 };
 
+const fmtPeriodoHistorico = n => {
+  if (!n) return '0 dias';
+  if (n < 30) return `${n} dias`;
+  const meses = Math.round(n / 21); // ~21 pregões por mês
+  return `${n} dias · ~${meses} ${meses === 1 ? 'mês' : 'meses'}`;
+};
+
 const dataRel = str => {
   if (!str) return '';
   const d = new Date(str + 'T00:00:00');
@@ -618,6 +630,7 @@ function renderCards(commodities) {
 
   container.innerHTML = Object.entries(commodities).map(([k, c]) => {
     const h = c.historico_5d || [];
+    const hFull = c.historico_30d || h;
     const ultimo = h.length ? h[0] : null;
     const dec = (ultimo && ultimo.valor < 10) ? 4 : 2;
     const preco = ultimo ? fmtBRL(ultimo.valor, dec) : '—';
@@ -712,12 +725,14 @@ function renderCards(commodities) {
       'Alta':   { cls: 'mp-ofe', icon: '🟢' },
     }[c.liquidez] || { cls: 'mp-neu', icon: '🟡' };
 
-    const mercadoCardsHtml = (c.postura_produtor || c.postura_comprador || c.liquidez) ? `
+    const mercadoCardsHtml = (c.postura_produtor || c.postura_comprador || c.liquidez || c.fator_externo) ? `
       <div class="mercado-cards">
-        ${c.postura_produtor ? `<div class="mc-card ${ppInfo.cls}"><div class="mc-label">Postura do Produtor</div><div class="mc-val">${ppInfo.icon} ${c.postura_produtor}</div></div>` : ''}
-        ${c.postura_comprador ? `<div class="mc-card ${pcInfo.cls}"><div class="mc-label">Postura do Comprador</div><div class="mc-val">${pcInfo.icon} ${c.postura_comprador}</div></div>` : ''}
-        ${c.liquidez ? `<div class="mc-card ${liqInfo.cls}"><div class="mc-label">Liquidez</div><div class="mc-val">${liqInfo.icon} ${c.liquidez}</div></div>` : ''}
-        ${c.fator_externo ? `<div class="mc-card mp-ext"><div class="mc-label">Fator Externo</div><div class="mc-val">🌐 ${c.fator_externo}</div></div>` : ''}
+        <div class="status-pills">
+          ${c.postura_produtor ? `<span class="status-pill ${ppInfo.cls}">${ppInfo.icon} <span class="sp-label">Produtor:</span> <span class="sp-val">${c.postura_produtor}</span></span>` : ''}
+          ${c.postura_comprador ? `<span class="status-pill ${pcInfo.cls}">${pcInfo.icon} <span class="sp-label">Comprador:</span> <span class="sp-val">${c.postura_comprador}</span></span>` : ''}
+          ${c.liquidez ? `<span class="status-pill ${liqInfo.cls}">${liqInfo.icon} <span class="sp-label">Liquidez:</span> <span class="sp-val">${c.liquidez}</span></span>` : ''}
+        </div>
+        ${c.fator_externo ? `<div class="fator-externo-box">🌐 <b>Fator externo:</b> ${c.fator_externo}</div>` : ''}
       </div>` : '';
 
     // safra por commodity
@@ -782,11 +797,6 @@ function renderCards(commodities) {
           <div class="m-value" style="font-size:.85rem">${tendLabel(c.tendencia_media)}</div>
           <div class="m-var var-neutral">Médio prazo</div>
         </div>
-        <div class="metric">
-          <div class="m-label">Dias de histórico</div>
-          <div class="m-value">${h.length}</div>
-          <div class="m-var var-neutral">acumulado</div>
-        </div>
       </div>
 
       <!-- cards de mercado (postura + liquidez) -->
@@ -797,7 +807,7 @@ function renderCards(commodities) {
 
       <!-- gráfico -->
       <div class="chart-section">
-        <div class="chart-title">📈 Histórico de preços (${h.length} dias)</div>
+        <div class="chart-title">📈 Histórico de preços — ${fmtPeriodoHistorico(hFull.length)} acumulados</div>
         <div class="chart-wrap"><canvas id="chart-${k}"></canvas></div>
       </div>
 
@@ -856,7 +866,7 @@ function renderCards(commodities) {
   Object.entries(commodities).forEach(([k, c]) => {
     const canvas = document.getElementById(`chart-${k}`);
     if (!canvas) return;
-    const h = (c.historico_5d || []).slice().reverse();
+    const h = (c.historico_30d || c.historico_5d || []).slice().reverse();
     if (h.length < 2) {
       canvas.parentElement.innerHTML =
         '<div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--gray-500);font-size:.78rem">Histórico insuficiente — acumulando dados diários</div>';
@@ -866,11 +876,14 @@ function renderCards(commodities) {
     const cor = corMap[c.tendencia_curta] || '#1a5fa5';
     if (chartInstances[k]) chartInstances[k].destroy();
 
+    // com muitos pontos acumulados, reduz raio dos marcadores para não poluir o gráfico
+    const pontoRaio = h.length > 40 ? 0 : h.length > 15 ? 2 : 4;
+
     const datasets = [{
       label: 'Preço',
       data: h.map(r => r.valor),
       borderColor: cor, backgroundColor: cor + '18',
-      borderWidth: 2, pointRadius: 4, pointBackgroundColor: cor,
+      borderWidth: 2, pointRadius: pontoRaio, pointBackgroundColor: cor,
       fill: true, tension: 0.3,
     }];
 
@@ -881,13 +894,13 @@ function renderCards(commodities) {
         responsive: true, maintainAspectRatio: false,
         plugins: {
           legend: {
-            display: h.length >= 3,
+            display: h.length >= 3 && h.length <= 40,
             labels: { boxWidth: 20, font: { size: 10 }, color: '#6b6b6b' }
           },
           tooltip: { callbacks: { label: ctx => ` ${ctx.dataset.label}: R$ ${fmtBRL(ctx.parsed.y)}` } }
         },
         scales: {
-          x: { ticks: { color: '#6b6b6b', font: { size: 10 } }, grid: { color: '#f0f0ef' } },
+          x: { ticks: { color: '#6b6b6b', font: { size: 10 }, autoSkip: true, maxTicksLimit: 10 }, grid: { color: '#f0f0ef' } },
           y: { ticks: { color: '#6b6b6b', font: { size: 10 } }, grid: { color: '#f0f0ef' } }
         }
       }
