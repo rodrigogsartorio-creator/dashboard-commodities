@@ -360,22 +360,67 @@ def variacao_mes(historico: list):
 # MÓDULO 1 — DÓLAR
 # ═══════════════════════════════════════════════════════════════════════════
 
-def coletar_dolar() -> dict:
-    print("  [Dólar] AwesomeAPI...")
+def _coletar_dolar_awesomeapi(tentativas: int = 3) -> dict | None:
+    """Fonte primária. Algumas execuções falham (provável rate-limit/bloqueio
+    de IPs de CI) mesmo com headers corretos — por isso tenta algumas vezes
+    antes de cair no fallback."""
+    for i in range(tentativas):
+        try:
+            r = requests.get(
+                "https://economia.awesomeapi.com.br/json/last/USD-BRL",
+                timeout=15,
+                headers={"Accept": "application/json", "User-Agent": "DashboardBot/1.0"},
+            )
+            r.raise_for_status()
+            d   = r.json()["USDBRL"]
+            bid = round(float(d["bid"]), 4)
+            pct = round(float(d.get("pctChange", 0)), 2)
+            print(f"  [Dólar] AwesomeAPI: R$ {bid:,.4f} ({pct:+.2f}%)")
+            return {"valor": bid, "variacao_pct": pct, "bid": bid, "ask": round(float(d["ask"]), 4)}
+        except Exception as exc:
+            print(f"  [Dólar] AwesomeAPI tentativa {i+1}/{tentativas} falhou: {exc}")
+            if i < tentativas - 1:
+                time.sleep(2 * (i + 1))
+    return None
+
+
+def _coletar_dolar_bcb() -> dict | None:
+    """Fallback: PTAX (Banco Central) — fonte oficial, menos sujeita a
+    bloqueio de IPs de CI que a AwesomeAPI. Busca os 2 últimos dias úteis
+    para calcular variação, já que a série não traz pctChange."""
     try:
         r = requests.get(
-            "https://economia.awesomeapi.com.br/json/last/USD-BRL",
+            "https://api.bcb.gov.br/dados/serie/bcdata.sgs.1/dados/ultimos/2",
+            params={"formato": "json"},
             timeout=15,
             headers={"Accept": "application/json", "User-Agent": "DashboardBot/1.0"},
         )
         r.raise_for_status()
-        d   = r.json()["USDBRL"]
-        bid = round(float(d["bid"]), 4)
-        pct = round(float(d.get("pctChange", 0)), 2)
-        print(f"  [Dólar] R$ {bid:,.4f} ({pct:+.2f}%)")
-        return {"valor": bid, "variacao_pct": pct, "bid": bid, "ask": round(float(d["ask"]), 4)}
+        serie = r.json()
+        if not serie:
+            return None
+        hoje = round(float(serie[-1]["valor"]), 4)
+        pct  = None
+        if len(serie) >= 2:
+            ontem = float(serie[-2]["valor"])
+            pct = variacao_pct(hoje, ontem)
+        print(f"  [Dólar] BCB/PTAX (fallback): R$ {hoje:,.4f}"
+              + (f" ({pct:+.2f}%)" if pct is not None else ""))
+        return {"valor": hoje, "variacao_pct": pct, "bid": hoje, "ask": hoje}
     except Exception as exc:
-        print(f"  [Dólar] Erro: {exc}")
+        print(f"  [Dólar] BCB/PTAX falhou: {exc}")
+        return None
+
+
+def coletar_dolar() -> dict:
+    print("  [Dólar] AwesomeAPI...")
+    resultado = _coletar_dolar_awesomeapi()
+    if resultado:
+        return resultado
+    print("  [Dólar] Recorrendo ao fallback BCB/PTAX...")
+    resultado = _coletar_dolar_bcb()
+    if resultado:
+        return resultado
     return {"valor": None, "variacao_pct": None, "bid": None, "ask": None}
 
 
