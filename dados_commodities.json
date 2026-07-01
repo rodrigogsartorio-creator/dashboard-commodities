@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-07-01T16:43:45",
+  "ultima_atualizacao": "2026-07-01T16:50:48",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.2227,
-    "variacao_pct": 0.93,
-    "bid": 5.2227,
-    "ask": 5.2257
+    "valor": 5.2236,
+    "variacao_pct": 0.95,
+    "bid": 5.2236,
+    "ask": 5.2266
   },
   "safra": {
-    "ultima_atualizacao": "2026-07-01T16:43:45",
+    "ultima_atualizacao": "2026-07-01T16:50:48",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -514,6 +514,22 @@
       "variacao_mes_pct": -2.52,
       "noticias": [
         {
+          "titulo": "Açúcar dispara nas bolsas e renova máximas com temor sobre safra da Índia e menor oferta global",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-07-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/424000-acucar-dispara-nas-bolsas-e-renova-maximas-com-temor-sobre-safra-da-india-e-menor-oferta-global.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "MP de apoio a produtor de cana do Nordeste reduz prejuízos do tarifaço dos EUA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-07-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423997-mp-de-apoio-a-produtor-de-cana-do-nordeste-reduz-prejuizos-do-tarifaco-dos-eua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Mercado do açúcar mantém alta com preocupação sobre produção na Índia",
           "tema": "Safra",
           "impacto": "neutro",
@@ -560,22 +576,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-30",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423822-acucar-cepea-liquidez-segue-baixa-precos-se-recuperam.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar dispara nas bolsas com preocupação sobre safra da Índia; Londres atinge maior nível em 9 meses",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423789-acucar-dispara-nas-bolsas-com-preocupacao-sobre-safra-da-india-londres-atinge-maior-nivel-em-9-meses.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar amplia ganhos nas bolsas com foco na oferta global e riscos climáticos",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/423747-acucar-amplia-ganhos-nas-bolsas-com-foco-na-oferta-global-e-riscos-climaticos.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
