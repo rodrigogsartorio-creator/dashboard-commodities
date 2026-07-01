@@ -179,6 +179,9 @@
     }
     .insight-box:last-child { margin-bottom: 0; }
     .insight-label { font-size: .67rem; font-weight: 700; text-transform: uppercase; letter-spacing: .05em; margin-bottom: 4px; }
+    .insight-list { margin: 0; padding-left: 1.1rem; }
+    .insight-list li { margin-bottom: .3rem; }
+    .insight-list li:last-child { margin-bottom: 0; }
 
     /* notícias dentro do card */
     .sec-hdr {
@@ -632,7 +635,7 @@ function renderCards(commodities) {
     // farol
     const farolCfg = {
       comprar: { cls:'v-comprar', icon:'✅', title:'DECISÃO: COMPRAR', sub:'Tendência favorável — antecipar compras' },
-      aguardar:{ cls:'v-aguardar', icon:'⏸', title:'DECISÃO: AGUARDAR', sub:'Mercado incerto — monitorar próximos dias' },
+      aguardar:{ cls:'v-aguardar', icon:'⚠️', title:'DECISÃO: ATENÇÃO', sub:'Mercado incerto — monitorar próximos dias' },
       segurar: { cls:'v-segurar',  icon:'🔴', title:'DECISÃO: SEGURAR', sub:'Tendência de queda — aguardar melhor momento' },
     };
     const fc = farolCfg[c.recomendacao] || farolCfg.aguardar;

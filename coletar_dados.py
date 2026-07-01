@@ -344,10 +344,14 @@ def mesclar_historico(existente: list, novo_registro: dict, max_dias: int = HIST
 
 
 def variacao_mes(historico: list):
-    mes_atual = HOJE.strftime("%Y-%m")
-    do_mes = [r for r in historico if r.get("data", "").startswith(mes_atual)]
-    if len(do_mes) >= 2:
-        return variacao_pct(do_mes[0]["valor"], do_mes[-1]["valor"])
+    """
+    Variação do período: janela móvel dos últimos dias úteis disponíveis
+    (não usa mês-calendário — isso zerava a variação no 1º pregão de cada mês,
+    quando ainda não havia 2 registros no mês corrente).
+    """
+    if len(historico) >= 2:
+        janela = historico[:HISTORICO_MAX_DIAS]
+        return variacao_pct(janela[0]["valor"], janela[-1]["valor"])
     return None
 
 
@@ -357,16 +361,20 @@ def variacao_mes(historico: list):
 
 def coletar_dolar() -> dict:
     print("  [Dólar] AwesomeAPI...")
-    r = safe_get("https://economia.awesomeapi.com.br/json/last/USD-BRL")
-    if r:
-        try:
-            d   = r.json()["USDBRL"]
-            bid = round(float(d["bid"]), 4)
-            pct = round(float(d.get("pctChange", 0)), 2)
-            print(f"  [Dólar] R$ {bid:,.4f} ({pct:+.2f}%)")
-            return {"valor": bid, "variacao_pct": pct, "bid": bid, "ask": round(float(d["ask"]), 4)}
-        except Exception as exc:
-            print(f"  [Dólar] Erro: {exc}")
+    try:
+        r = requests.get(
+            "https://economia.awesomeapi.com.br/json/last/USD-BRL",
+            timeout=15,
+            headers={"Accept": "application/json", "User-Agent": "DashboardBot/1.0"},
+        )
+        r.raise_for_status()
+        d   = r.json()["USDBRL"]
+        bid = round(float(d["bid"]), 4)
+        pct = round(float(d.get("pctChange", 0)), 2)
+        print(f"  [Dólar] R$ {bid:,.4f} ({pct:+.2f}%)")
+        return {"valor": bid, "variacao_pct": pct, "bid": bid, "ask": round(float(d["ask"]), 4)}
+    except Exception as exc:
+        print(f"  [Dólar] Erro: {exc}")
     return {"valor": None, "variacao_pct": None, "bid": None, "ask": None}
 
 
@@ -900,7 +908,7 @@ def calcular_suporte_resistencia(historico: list) -> dict:
 
 
 def insight_sr(preco_atual, suporte, resistencia) -> str:
-    """Texto de insight sobre posição relativa ao suporte/resistência."""
+    """Tópico de insight sobre posição relativa ao suporte/resistência."""
     if suporte is None or resistencia is None or preco_atual is None:
         return ""
     if suporte == resistencia:
@@ -908,12 +916,12 @@ def insight_sr(preco_atual, suporte, resistencia) -> str:
     amp = resistencia - suporte
     pos = (preco_atual - suporte) / amp * 100
     if pos >= 85:
-        return (f" Preço próximo à resistência histórica (R$ {resistencia:.2f})"
+        return (f"Preço próximo à resistência histórica (R$ {resistencia:.2f})"
                 " — zona de pressão vendedora; possível correção à frente.")
     if pos <= 15:
-        return (f" Preço próximo ao suporte histórico (R$ {suporte:.2f})"
+        return (f"Preço próximo ao suporte histórico (R$ {suporte:.2f})"
                 " — zona de atenção; risco de queda adicional.")
-    return (f" Preço em zona neutra entre suporte (R$ {suporte:.2f})"
+    return (f"Preço em zona neutra entre suporte (R$ {suporte:.2f})"
             f" e resistência (R$ {resistencia:.2f}).")
 
 
@@ -996,10 +1004,14 @@ def coletar_noticias_rss() -> dict:
 # ═══════════════════════════════════════════════════════════════════════════
 
 TEXTOS_MEDIO = {
-    "alta":      "Perspectiva de pressão no médio prazo (90-360 dias). Considere contratos mais longos ou estoque estratégico.",
-    "queda":     "Tendência de queda no médio prazo (90-360 dias). Negocie contratos e evite fixar preços altos por longos períodos.",
-    "estavel":   "Mercado equilibrado no médio prazo (90-360 dias). Contratos padrão adequados.",
-    "indefinida":"Histórico insuficiente para médio prazo. Acompanhe CONAB e CEPEA.",
+    "alta":      ["Perspectiva de pressão no médio prazo (90-360 dias).",
+                  "Considere contratos mais longos ou estoque estratégico."],
+    "queda":     ["Tendência de queda no médio prazo (90-360 dias).",
+                  "Negocie contratos e evite fixar preços altos por longos períodos."],
+    "estavel":   ["Mercado equilibrado no médio prazo (90-360 dias).",
+                  "Contratos padrão adequados."],
+    "indefinida":["Histórico insuficiente para médio prazo.",
+                  "Acompanhe CONAB e CEPEA."],
 }
 
 
@@ -1012,8 +1024,16 @@ def calcular_score_noticias(noticias: list) -> float:
     return round(sum(scores) / len(scores), 2)
 
 
-def gerar_insight_curto(tc: str, var7d: float, news_score: float, noticias: list) -> str:
-    """Gera texto de insight de curto prazo combinando sinal de preço + notícias."""
+def bullets_html(itens: list) -> str:
+    """Monta lista HTML (<ul><li>) a partir de tópicos de texto."""
+    itens = [i for i in itens if i]
+    if not itens:
+        return "—"
+    return "<ul class='insight-list'>" + "".join(f"<li>{i}</li>" for i in itens) + "</ul>"
+
+
+def gerar_insight_curto(tc: str, var7d: float, news_score: float, noticias: list) -> list:
+    """Gera tópicos de insight de curto prazo combinando sinal de preço + notícias."""
     partes = []
 
     if tc == "alta":
@@ -1023,7 +1043,7 @@ def gerar_insight_curto(tc: str, var7d: float, news_score: float, noticias: list
     elif tc == "estavel":
         partes.append(f"Preço estável ({var7d:+.1f}% nos últimos 7 pregões).")
     else:
-        return "Dados insuficientes para análise de curto prazo. Monitore as atualizações diárias."
+        return ["Dados insuficientes para análise de curto prazo. Monitore as atualizações diárias."]
 
     nots_alta  = [n for n in noticias if n.get("impacto") == "alta"]
     nots_queda = [n for n in noticias if n.get("impacto") == "queda"]
@@ -1043,7 +1063,7 @@ def gerar_insight_curto(tc: str, var7d: float, news_score: float, noticias: list
     elif tc == "alta" and news_score <= -0.3:
         partes.append("Atenção: notícias sugerem possível arrefecimento da alta.")
 
-    return " ".join(partes)
+    return partes
 
 
 def calcular_tendencia(historico: list, var_mes, noticias: list | None = None) -> dict:
@@ -1099,7 +1119,7 @@ def calcular_tendencia(historico: list, var_mes, noticias: list | None = None) -
         "score_noticias":      news_score,
         "score_combinado":     combined,
         "insight_curto_prazo": gerar_insight_curto(tc, ref_curto, news_score, noticias),
-        "insight_medio_prazo": TEXTOS_MEDIO[tm],
+        "insight_medio_prazo": bullets_html(TEXTOS_MEDIO[tm]),
         "recomendacao":        recomendacao,
     }
 
@@ -1228,8 +1248,10 @@ def main():
         # Complementa insight com posição suporte/resistência
         preco_atual = hist5[0]["valor"] if hist5 else None
         txt_sr = insight_sr(preco_atual, sr["suporte"], sr["resistencia"])
+        insight_topicos = commodities_out[chave]["insight_curto_prazo"]
         if txt_sr:
-            commodities_out[chave]["insight_curto_prazo"] += txt_sr
+            insight_topicos = insight_topicos + [txt_sr]
+        commodities_out[chave]["insight_curto_prazo"] = bullets_html(insight_topicos)
 
     # Status geral
     com_dado = sum(1 for c in commodities_out.values() if c["historico_5d"])
