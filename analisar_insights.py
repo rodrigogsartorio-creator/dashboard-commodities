@@ -67,6 +67,16 @@ def buscar_texto_artigo(url: str) -> str:
         return ""
 
 
+def bullets_html(itens) -> str:
+    """Monta lista HTML (<ul><li>) a partir de tópicos de texto (aceita string única como fallback)."""
+    if isinstance(itens, str):
+        itens = [itens]
+    itens = [i for i in itens if i]
+    if not itens:
+        return "—"
+    return "<ul class='insight-list'>" + "".join(f"<li>{i}</li>" for i in itens) + "</ul>"
+
+
 def fmtBRL(valor):
     if valor is None:
         return "—"
@@ -110,9 +120,10 @@ Analise a commodity **{nome}** ({unidade}) e gere uma análise objetiva e acion�
 9. Eventos futuros datados: se as notícias mencionarem evento conhecido com data (relatório USDA, reunião de política agrícola, início/fim de safra, resultado climático), registre em gatilho_revisao e condicione a estrategia_volume a ele quando relevante.
 10. Para ACUCAR: analise se etanol em alta está competindo pelo mix de cana nas usinas — etanol valorizado desvia cana do açúcar, reduz oferta e pressiona preço para cima. Mencione se houver evidência nas notícias.
 11. Mercado externo: se as notícias citarem cotações de futuros (Chicago CBOT, NY Sugar #11, Londres), transmissão desses preços para o mercado físico brasileiro deve ser explicada em fator_externo.
+12. insight_curto_prazo e insight_medio_prazo sao ARRAYS de topicos (strings), nao paragrafos. Cada item do array e uma frase completa, autonoma e especifica (com fatos reais das noticias) — nao divida uma unica ideia em duas frases artificialmente, e nao repita nos topicos os numeros percentuais ja visiveis no quadro.
 
 ## INSTRUCAO
-Responda APENAS com JSON valido, sem texto antes ou depois, sem markdown.
+Responda APENAS com JSON valido, sem texto antes ou depois, sem markdown. Siga exatamente esta estrutura:
 
 {{
   "postura_produtor": "Retraido | Ofertante | Neutro",
@@ -120,8 +131,8 @@ Responda APENAS com JSON valido, sem texto antes ou depois, sem markdown.
   "liquidez": "Baixa | Normal | Alta",
   "fator_externo": "frase curta sobre fator externo relevante — inclua cotacao de futuros se citada nas noticias (ex: Chicago nov/26 US$11,56/bu); null se nao houver",
   "postura_mercado": "frase curta (max 8 palavras) descrevendo a dinamica atual do mercado",
-  "insight_curto_prazo": "2 a 3 frases sobre o cenario de 7 a 30 dias. Avalie a assimetria de risco (downside vs. upside realistas nessa janela). Baseie-se no preco como sinal primario e complemente com postura do produtor/comprador, mercado externo e fatores qualitativos das noticias. Nao repita os numeros percentuais ja visiveis no quadro.",
-  "insight_medio_prazo": "1 a 2 frases sobre perspectiva de 30 a 90 dias: tendencia estrutural, safra proximo ciclo, fatores climaticos ou regulatorios relevantes.",
+  "insight_curto_prazo": ["topico 1: cenario de 7 a 30 dias com base no preco como sinal primario", "topico 2: assimetria de risco (downside vs. upside realistas) e/ou postura produtor/comprador", "topico 3 (opcional): mercado externo ou fator qualitativo relevante das noticias"],
+  "insight_medio_prazo": ["topico 1: tendencia estrutural de 30 a 90 dias (safra, clima ou regulatorio)", "topico 2 (opcional): fator complementar de medio prazo"],
   "recomendacao": "comprar | aguardar | segurar",
   "estrategia_volume": "volume_total | parcial | aguardar — com breve explicacao: ex: volume_total significa comprar necessidade dos proximos 60 dias agora; parcial significa comprar parte agora e aguardar evento especifico para o restante",
   "gatilho_revisao": "evento ou data especifica para reavaliar — ex: Relatorio USDA 30/jun, Inicio safra RS ago/26, Dolar abaixo de R$5,00; ou revisao em 30 dias se nao houver evento especifico",
@@ -288,6 +299,9 @@ def analisar_commodity(client: anthropic.Anthropic, chave: str, dados: dict) -> 
         if liq not in ("Baixa", "Normal", "Alta"):
             liq = "Normal"
         resultado["liquidez"] = liq
+
+        resultado["insight_curto_prazo"] = bullets_html(resultado["insight_curto_prazo"])
+        resultado["insight_medio_prazo"] = bullets_html(resultado["insight_medio_prazo"])
 
         return resultado
 
