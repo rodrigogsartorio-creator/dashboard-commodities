@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-07-09T15:07:38",
+  "ultima_atualizacao": "2026-07-10T07:50:25",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1329,
@@ -8,18 +8,18 @@
     "ask": 5.1329
   },
   "safra": {
-    "ultima_atualizacao": "2026-07-09T15:07:38",
+    "ultima_atualizacao": "2026-07-10T07:50:25",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
         "fonte": "IBGE SIDRA",
-        "data": "2026-07-09",
+        "data": "2026-07-10",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 96468779 t em 2024",
         "fonte": "IBGE SIDRA",
-        "data": "2026-07-09",
+        "data": "2026-07-10",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -31,6 +31,11 @@
       "fonte_primaria": "CEPEA/IRGA-RS via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-07-09",
+          "valor": 61.89,
+          "variacao_pct": 0.21
+        },
         {
           "data": "2026-07-08",
           "valor": 61.76,
@@ -50,14 +55,14 @@
           "data": "2026-07-03",
           "valor": 60.43,
           "variacao_pct": 0.2
-        },
-        {
-          "data": "2026-07-02",
-          "valor": 60.31,
-          "variacao_pct": -0.03
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-07-09",
+          "valor": 61.89,
+          "variacao_pct": 0.21
+        },
         {
           "data": "2026-07-08",
           "valor": 61.76,
@@ -149,7 +154,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 4.71,
+      "variacao_mes_pct": 4.93,
       "noticias": [
         {
           "titulo": "Exportações de arroz são recordes; preços reagem",
@@ -219,23 +224,23 @@
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.51,
+      "score_preco": 0.52,
       "score_noticias": 0.0,
-      "score_combinado": 0.3,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço atual R$ 61,76 situa-se R$ 1,98 abaixo do PGPM (R$ 63,74), configurando piso estrutural: risco de queda adicional limitado pois governo pode intervir via PEPRO/AGF.</li><li>Alta de 4,7% acumulada no período + momentum positivo dos últimos 5 pregões (alta consistente) combinado com restrição de oferta reportada pelo Cepea indica demanda doméstica ativa comprimindo estoque.</li><li>Exportações em recorde histórico sinalizam forte absorção externa; produtores gaúchos retraídos (segurando estoque ante perspectiva de novas valorizações) reduzem fluxo de oferta fresca ao mercado doméstico.</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Assimetria de risco favorável: downside limitado pelo PGPM (piso em R$ 63,74); upside viável via continuidade de demanda exportadora e compressão de oferta doméstica na próxima safra.</li><li>Risco regulatório: tarifa de 25% dos EUA sobre produtos brasileiros em discussão pode reduzir receita de exportadores, desviando volume para mercado doméstico e pressionando preço para baixo caso concretizada.</li></ul>",
+      "score_combinado": 0.31,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço subiu 4,9% em 5 pregões (R$ 60,43 → R$ 61,89) com tendência consistente de alta; reação às exportações recorde sinaliza demanda firme.</li><li>Produtor retraído (segurando estoque diante de perspectivas de novas valorizações conforme Cepea); comprador ativo; liquidez alta indica negócios acontecendo — assimetria favorável ao comprador que atua agora.</li><li>Preço atual R$ 61,89 permanece 3,0% ABAIXO do PGPM (R$ 63,74/sc), criando piso estrutural: risco de queda adicional é limitado pela possível intervenção governamental (PEPRO/AGF).</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Safra RS em produção com ofertas controladas; alta nas exportações alivia pressão doméstica e sustenta recuperação de preços em direção ao PGPM.</li><li>Risco geopolítico: tarifa EUA 25% em discussão pode desacelerar exportações futuras, mas impacto será principalmente em nichos (comunidades imigrantes), não em volume bulk — efeito indireto no preço doméstico.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 58.98,
-      "resistencia": 61.76,
+      "resistencia": 61.89,
       "red_flags": [],
       "postura_produtor": "Retraido",
       "postura_comprador": "Ativo",
       "liquidez": "Alta",
-      "fator_externo": "Demanda internacional em alta com exportações brasileiras em recorde histórico (896,9 mil toneladas no H1/26, +88% vs 2025); preços internacionais em recuperação; risco de tarifa adicional de 25% dos EUA sobre produtos brasileiros ainda em discussão.",
-      "postura_mercado": "Oferta restrita sustentando recuperação de preços",
-      "estrategia_volume": "parcial — comprar 60% da necessidade dos próximos 60 dias agora, aproveitando o momentum positivo e a postura retraída do produtor (menor oferta fresca); aguardar definição da tarifa americana e comportamento do preço em relação ao PGPM antes de complementar os 40% restantes.",
-      "gatilho_revisao": "Decisão final dos EUA sobre tarifa de 25% (prazo indeterminado, acompanhar USTR); início da nova safra RS (agosto 2026); preço aproximando-se de R$ 63,74 (PGPM) indicando teto de alta; revisão em 30 dias se tarifa não for definida.",
-      "decisao_texto": "O preço está em alta consistente com piso estrutural garantido pelo PGPM, e produtores retraídos sinalizam compressão de oferta — combinação que favorece compra parcial agora. O principal risco é a tarifa americana de 25%, que poderia deslocar volume para mercado doméstico e reverter o momentum; portanto, segure 40% da compra para decisão pós-definição regulatória ou em 30 dias, o que vier primeiro.",
+      "fator_externo": "Exportações brasileiras em recorde histórico (896,9 mil ton RS no H1/2026, +88% vs. 2025); demanda externa forte sustenta preços internacionais em recuperação; risco de tarifa adicional 25% EUA em discussão.",
+      "postura_mercado": "Recuperação de preços com oferta doméstica restrita.",
+      "estrategia_volume": "parcial — comprar 60% da necessidade dos próximos 60 dias agora (aproveitando tendência de alta, produtor retraído e liquidez forte); aguardar confirmação de ruptura acima de R$ 63,74 (PGPM) ou evento de clareza sobre tarifa EUA antes de executar os 40% restantes.",
+      "gatilho_revisao": "Ruptura de preço acima de R$ 63,74 (PGPM) — sinaliza disparo estrutural; ou comunicado oficial sobre tarifa EUA (USTR) — em 14 dias; ou queda abaixo de R$ 60,50 — acionaria revisão para aguardar se piso governamental entrar em ação.",
+      "decisao_texto": "Preço está em tendência consistente de alta com produtor retraído e liquidez ativa, sinalizando demanda firme das exportações recordes; o piso do PGPM (R$ 63,74) limita downside a ~3%, enquanto upside até o PGPM é de ~3% em curto prazo e potencial estrutural maior se oferta doméstica continuar apertada. Assimetria favorável justifica compra parcial agora. Aguardar confirmação acima do PGPM ou definição sobre tarifa EUA antes de completar volume.",
       "insight_gerado_por": "claude-haiku"
     },
     "feijao_carioca": {
@@ -244,6 +249,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-07-09",
+          "valor": 344.04,
+          "variacao_pct": 7.54
+        },
         {
           "data": "2026-07-08",
           "valor": 319.92,
@@ -263,14 +273,14 @@
           "data": "2026-07-03",
           "valor": 314.51,
           "variacao_pct": 0.6
-        },
-        {
-          "data": "2026-07-02",
-          "valor": 312.63,
-          "variacao_pct": -0.44
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-07-09",
+          "valor": 344.04,
+          "variacao_pct": 7.54
+        },
         {
           "data": "2026-07-08",
           "valor": 319.92,
@@ -362,28 +372,41 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 3.83,
+      "variacao_mes_pct": 11.66,
       "noticias": [],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
+      "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.37,
+      "score_preco": 1.0,
       "score_noticias": 0.0,
-      "score_combinado": 0.22,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta consistente nos últimos 5 pregões (+3,8%), sinalizando possível reposicionamento de oferta ou demanda latente</li><li>Assimetria de risco favorável ao comprador: downside limitado pelo PGPM em R$ 165,00 (piso de 48% abaixo do atual); upside moderado (~5-7% em 30 dias se tendência persiste)</li><li>Ausência de red flags ativas e notícias negativas reduz volatilidade esperada no curtíssimo prazo</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Preço atual (R$ 319,92) permanece 94% acima do PGPM, indicando estrutura de mercado saudável e pouca iminência de intervenção governamental</li><li>Dinâmica de safra e entressafra não mencionada em notícias — foco em monitoramento de pressões de colheita próximas (julho-agosto de 2026)</li></ul>",
-      "recomendacao": "comprar",
+      "score_combinado": 0.6,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço rompeu resistência psicológica de R$ 340/sc com movimento de +7,54% em 1 pregão — sinal técnico de momentum de curto prazo em alta.</li><li>Assimetria de risco desfavorável: downside limitado apenas ao PGPM (R$ 165) representa 52% de proteção governamental, mas upside de 20-30% nos próximos 30 dias é possível se produtores mantiverem retenção e demanda permanecer firme.</li><li>Ausência de notícias fundamentalistas associadas ao rompimento sugere movimento especulativo ou fechamento de operações vendidas — risco de reversão rápida caso volume de negócios caia.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Preço ainda 2,08x acima do PGPM indica mercado valorizado estruturalmente; risco de queda aumenta conforme aproxima-se da safra nova (colheita 2026/27).</li><li>Produtores em postura retraída sinalizam expectativa de preços ainda maiores ou incerteza climática — comportamento típico que sustenta alta, mas com frágil liquidez.</li></ul>",
+      "recomendacao": "aguardar",
       "suporte": 308.12,
-      "resistencia": 323.06,
-      "red_flags": [],
-      "postura_produtor": "Neutro",
-      "postura_comprador": "Neutro",
+      "resistencia": 344.04,
+      "red_flags": [
+        {
+          "tipo": "variacao_dia",
+          "mensagem": "Variação de +7.5% em 1 dia — movimento atípico de alta",
+          "severidade": "alta",
+          "impacto_tendencia": "alta"
+        },
+        {
+          "tipo": "variacao_3d",
+          "mensagem": "Variação acumulada de +8.0% em 3 dias — tendência forte de alta",
+          "severidade": "alta",
+          "impacto_tendencia": "alta"
+        }
+      ],
+      "postura_produtor": "Retraído",
+      "postura_comprador": "Retraído",
       "liquidez": "Normal",
       "fator_externo": null,
-      "postura_mercado": "Recuperação gradual de preços, sem pressão",
-      "estrategia_volume": "parcial — comprar 60% da necessidade dos próximos 45 dias agora, aproveitando a estabilidade de preço e a tendência de recuperação; manter 40% em reserva para oportunidades de queda ou ajuste pós-colheita (agosto-setembro)",
-      "gatilho_revisao": "Revisão em 30 dias (data base: 08/08/2026) ou se preço ultrapassar R$ 335,00 (novo patamar de resistência); também monitorar comunicados CONAB sobre balanço de oferta na entressafra",
-      "decisao_texto": "O feijão carioca apresenta tendência de preço firme sem pressão de notícias negativas, com proteção estrutural do PGPM a 48% de distância. A compra parcial agora reduz risco de falta de estoque sem sacrificar liquidez para ajustes futuros. O gatilho para reavaliação será o comportamento pós-colheita (agosto-setembro), quando dinâmica de oferta se tornará mais clara.",
+      "postura_mercado": "Alta consistente com volatilidade intradiária elevada.",
+      "estrategia_volume": "parcial — adquirir até 30% da necessidade de 60 dias agora aproveitando tendência alta, mas manter 70% em carteira aguardando consolidação de preço ou notícia fundamental que justifique entrada maior. Risco de arrependimento é aceitável dado upside especulativo, mas prudência operacional exige não concentrar risco em movimento de 1-2 pregões.",
+      "gatilho_revisao": "Revisão em 15 dias se preço ultrapassar R$ 360/sc (confirmação de rompimento) → comprar volume restante; ou se recuar para R$ 330/sc (suporte técnico) → reavaliar com volume maior. Acompanhar boletim agroclimático de safra safra/27 (estimado ago/26) e posição de PEPRO/AGF caso preço aproxime-se de intervenção.",
+      "decisao_texto": "O movimento de +7,54% em 1 dia sobre base já elevada (+11,7% acumulado) caracteriza high-momentum que pode preceder reversão em mercado com liquidez limitada e sem suporte noticioso. A postura retraída de produtores oferece risco de squeeze de curto prazo, mas a aproximação de safra nova (safra 26/27) e proteção do PGPM reduzem downside estrutural. Recomenda-se entrada parcial agora para não perder tendência, com 70% reservado para confirmação técnica ou evento fundamental que sinalize sustentabilidade da alta acima de R$ 350/sc.",
       "insight_gerado_por": "claude-haiku"
     },
     "feijao_preto": {
@@ -392,6 +415,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-07-09",
+          "valor": 226.22,
+          "variacao_pct": 0.56
+        },
         {
           "data": "2026-07-08",
           "valor": 224.97,
@@ -411,14 +439,14 @@
           "data": "2026-07-03",
           "valor": 226.11,
           "variacao_pct": 1.17
-        },
-        {
-          "data": "2026-07-02",
-          "valor": 223.49,
-          "variacao_pct": 0.51
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-07-09",
+          "valor": 226.22,
+          "variacao_pct": 0.56
+        },
         {
           "data": "2026-07-08",
           "valor": 224.97,
@@ -510,17 +538,17 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -0.71,
+      "variacao_mes_pct": -0.16,
       "noticias": [],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
+      "tendencia_curta": "alta",
       "tendencia_media": "estavel",
-      "score_preco": 0.38,
+      "score_preco": 0.35,
       "score_noticias": 0.0,
-      "score_combinado": 0.23,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço recua 0,73% no último pregão, consolidando tendência estável nos últimos 5 dias sem direção clara de movimento</li><li>Prêmio de R$ 69,97/sc acima do PGPM (R$ 155,00) oferece colchão estrutural — risco de queda adicional limitado pela garantia governamental, reduzindo downside a cenários extremos de crash de demanda</li><li>Ausência de notícias de mercado e volatilidade mínima sugerem baixa urgência de compra ou venda, ambiente de espera por catalisadores</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Posição de preço 45% acima do piso governamental indica mercado bem suportado; ciclo de safra nova (colheita 2026) será determinante para pressão de oferta nos próximos 60-90 dias</li><li>Falta de diárias CEPEA limita leitura clara de postura produtor e liquidez regional — monitoramento próximo recomendado conforme notícias de colheita emergirem</li></ul>",
-      "recomendacao": "aguardar",
+      "score_combinado": 0.21,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço atual R$ 226,22 está 46% acima do piso governamental (PGPM R$ 155,00), indicando margem confortável de segurança estrutural.</li><li>Tendência positiva nos últimos 5 pregões (variação acumulada -0,2% mascara flutuações diárias, mas sequência recente mostra resistência), sinalizando ausência de pressão vendedora significativa.</li><li>Ausência de red flags e de notícias disruptivas sugere mercado em equilíbrio oferecido-demandado, sem catalistas imediatos para movimento direcional agressivo.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Distância do piso PGPM oferece buffer estrutural contra quedas severas — intervenção governamental (PEPRO/AGF) protege downside em cenário de stress, reduzindo risco de colapso de preço.</li><li>Falta de dados de safra 2026/27 e clima futuros impede projeção de oferta estrutural; cenário base assume continuidade.</li></ul>",
+      "recomendacao": "comprar",
       "suporte": 213.36,
       "resistencia": 226.62,
       "red_flags": [],
@@ -528,10 +556,10 @@
       "postura_comprador": "Neutro",
       "liquidez": "Normal",
       "fator_externo": null,
-      "postura_mercado": "Estável com leve pressão de queda",
-      "estrategia_volume": "aguardar — Adquirir conforme eventos de safra (volume de colheita, condições climáticas) se confirmarem pressão de oferta; até lá, manter compras pontuais apenas para reposição imediata de estoque",
-      "gatilho_revisao": "Relatório CONAB de produção safra 2026/27 (previsto jul/26); queda de preço abaixo de R$ 210,00 (3% de desconto); ou alta acima de R$ 240,00 (reconhecer movimento de demanda); revisão em 30 dias caso nenhum evento ocorra",
-      "decisao_texto": "Feijão preto está estável e bem suportado pelo piso governamental, sem sinais de urgência de compra ou risco iminente de queda. A ausência de notícias e volatilidade mínima sugerem aguardar catalisadores de safra ou movimentos de preço mais significativos (>3%) antes de comprometer volume. Risco principal é que oferta em alta na colheita pressione preço para baixo; upside é limitado sem choques de demanda externa.",
+      "postura_mercado": "Estável com volatilidade intradiária mínima.",
+      "estrategia_volume": "parcial — comprar 50-60% da necessidade dos próximos 60 dias agora, aproveitando estabilidade de preço; aguardar eventos de safra (colheita, relatórios de rendimento) para complementar posição restante.",
+      "gatilho_revisao": "Revisão em 30 dias ou se preço ultrapassar R$ 235,00 (5% acima atual) ou cair abaixo de R$ 215,00; também monitorar notícias de safra 2026/27 e clima regional.",
+      "decisao_texto": "Preço está estável, protegido por piso governamental sólido e sem pressão vendedora aparente — compra parcial agora captura o preço atual sem exposição excessiva à volatilidade. O risco principal é uma safra abundante em 2026/27 que pressione preços para baixo, mitigado pela estratégia de compra escalonada. Reavaliar em 30 dias ou se preço romper os limites sinalizados.",
       "insight_gerado_por": "claude-haiku"
     },
     "acucar": {
@@ -540,6 +568,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-07-09",
+          "valor": 92.21,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-07-08",
           "valor": 92.21,
@@ -559,14 +592,14 @@
           "data": "2026-07-03",
           "valor": 93.59,
           "variacao_pct": 1.47
-        },
-        {
-          "data": "2026-07-02",
-          "valor": 92.23,
-          "variacao_pct": 1.03
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-07-09",
+          "valor": 92.21,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-07-08",
           "valor": 92.21,
@@ -661,6 +694,14 @@
       "variacao_mes_pct": -1.52,
       "noticias": [
         {
+          "titulo": "Açúcar fecha sem direção única, com câmbio e clima na Índia no centro das atenções",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-07-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/424466-acucar-fecha-sem-direcao-unica-com-cambio-e-clima-na-india-no-centro-das-atencoes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar recua nas bolsas, mas mercado segue atento aos riscos para a oferta global",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -715,14 +756,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-07-07",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/424247-acucar-cepea-precos-reagem-neste-comeco-de-mes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Real fortalecido e clima na Índia impulsionam preços do açúcar nas bolsas internacionais",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-07-06",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/424231-real-fortalecido-e-clima-na-india-impulsionam-precos-do-acucar-nas-bolsas-internacionais.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -730,9 +763,9 @@
       "tendencia_media": "queda",
       "score_preco": 0.34,
       "score_noticias": 0.0,
-      "score_combinado": 0.21,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço doméstico estável em R$ 92,21 com variação acumulada de apenas -1,5% nos últimos pregões, sinalizando consolidação e ausência de pressão vendedora agressiva.</li><li>Produtor retraído em oferta (paralização por chuvas em SP reduz volume físico disponível), enquanto mercado aguarda sinais da Índia — melhora das monções em 8/jul aliviou pressão imediata mas incerteza persiste.</li><li>Assimetria de risco favorável: downside limitado a 3-5% (suporte de déficit global e alta do petróleo); upside de 5-8% se Índia sofrer nova seca ou exportações brasileiras aceleram — risco/retorno favorece entrada parcial.</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Czarnikow projeta déficit global de 600 mil toneladas para 2026/27, com onda de calor na UE reduzindo produção europeia — fundamento estrutural suporta preços acima de R$ 90 nos próximos 60-90 dias.</li><li>Etanol em alta (WTI +4%) acelera desvio de cana para biocombustível em múltiplos produtores, reduzindo oferta de açúcar cristal — dinâmica favorece manutenção de piso de preço.</li></ul>",
+      "score_combinado": 0.2,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável em R$ 92,21 nos últimos 2 pregões após leve queda anterior; recuperação pontual no spot paulista foi interrompida, sinalizando incerteza de tendência conforme CEPEA.</li><li>Assimetria favorável ao comprador: downside limitado pela perspectiva de déficit global de 600 mil toneladas (Czarnikow) e sustentação do petróleo; upside moderado (R$ 95-98) pela melhora das monções na Índia reduzindo risco imediato de oferta.</li><li>Produtor retraído (segurando estoque) por real valorizado, mas liquidez normal permite compra sem grandes dificuldades; risco cambial pode reverter rapidamente.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Safra 2026/27 projeta déficit global e aquecimento climático na UE compromete produção europeia, oferecendo suporte estrutural aos preços nos próximos 90 dias.</li><li>Monções na Índia em monitoramento contínuo: se déficit de chuvas se agravar acima de 42%, commodities de oferta global sofrerão pressão altista; se se normalizar, preços podem recuar até R$ 88-90.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 90.75,
       "resistencia": 94.07,
@@ -740,11 +773,11 @@
       "postura_produtor": "Retraido",
       "postura_comprador": "Neutro",
       "liquidez": "Normal",
-      "fator_externo": "Futuros NY Sugar #11 outubro em 15,05 cts/lb (queda de 6 pontos em 9/jul); Londres agosto em US$ 478,60/ton (queda de 200 pontos); petróleo WTI em alta (~4%) favorecendo competitividade do etanol e desvio de cana para biocombustível.",
-      "postura_mercado": "Volatilidade defensiva com suporte estrutural de déficit",
-      "estrategia_volume": "parcial — comprar 50% da necessidade dos próximos 60 dias agora (preço estável, suporte estrutural de déficit e produtor retraído limitam downside); reservar 50% para reavaliar em 30 dias ou após evento climático/relatório de safra Índia.",
-      "gatilho_revisao": "Revisar em 30 dias (9/ago/2026) ou imediatamente se: (1) Departamento Meteorológico da Índia anunciar novo déficit de chuvas, (2) WTI cair abaixo de US$ 70/bbl (reduzindo competitividade do etanol), ou (3) preço cair abaixo de R$ 88/sc (romper suporte próximo).",
-      "decisao_texto": "Recomenda-se compra parcial (50% do volume) agora porque o preço está consolidado, o produtor está retraído (reduz risco de queda abrupta), e os fundamentos (déficit global de 600 mil ton, Índia incerta, etanol em alta) favorecem estabilidade acima de R$ 90 nos próximos 60 dias. O downside é limitado e o upside potencial (5-8%) justifica entrada mesmo com incerteza climática na Ásia. Os 50% restantes devem aguardar confirmação de tendência ou evento climático que redefinir a safra 2026/27 — esta estratégia maximiza oportunidade enquanto mitiga risco de timing.",
+      "fator_externo": "Futuros NY (outubro) em 15,05 cents/lb e Londres (agosto) em US$ 478,60/ton; valorização do real frente ao dólar desestimula exportações brasileiras e restringe oferta; petróleo WTI em alta (+4%) eleva competitividade do etanol, desviando cana do açúcar.",
+      "postura_mercado": "Volatilidade contida com suporte fundamental de déficit esperado.",
+      "estrategia_volume": "parcial — comprar 50-60% da necessidade dos próximos 60 dias agora, aproveitando estabilidade de preço e suporte fundamental de déficit; alocar restante para revisão pós-monção (agosto) quando maior clareza sobre safra indiana reduzirá volatilidade.",
+      "gatilho_revisao": "Revisão em 30 dias ou quando boletim do Ministério de Ciências da Terra da Índia atualizar prognóstico de monções (esperado até meados agosto); acompanhar cotação NY em tempo real acima de 15,50 cents/lb como sinal de rompimento altista.",
+      "decisao_texto": "Preço em R$ 92,21 oferece risco/retorno assimétrico favorável: déficit estrutural global (600 mil ton) e etanol em alta forneceram suporte, enquanto real valorizado mantém pressão controlada sobre oferta doméstica. Downside para R$ 88-90 é contenção realista (10%); upside para R$ 96-98 é provável se monções falharem (6-7% upside). Compra parcial agora fixa parte do risco cambial; aguardo clareza climática em agosto para completar estoque, balanceando exposição a volatilidade de curto prazo.",
       "insight_gerado_por": "claude-haiku"
     },
     "soja": {
@@ -753,6 +786,11 @@
       "fonte_primaria": "CEPEA/Paranaguá via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-07-09",
+          "valor": 140.25,
+          "variacao_pct": -0.11
+        },
         {
           "data": "2026-07-08",
           "valor": 140.4,
@@ -772,14 +810,14 @@
           "data": "2026-07-03",
           "valor": 135.45,
           "variacao_pct": 0.27
-        },
-        {
-          "data": "2026-07-02",
-          "valor": 135.08,
-          "variacao_pct": 0.57
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-07-09",
+          "valor": 140.25,
+          "variacao_pct": -0.11
+        },
         {
           "data": "2026-07-08",
           "valor": 140.4,
@@ -871,8 +909,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 8.64,
+      "variacao_mes_pct": 8.52,
       "noticias": [
+        {
+          "titulo": "Apesar de fundamentos fortes, soja realiza lucros em Chicago e fecha 5ª feira com baixas de dois dígitos",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-07-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/424465-apesar-de-fundamentos-fortes-soja-realiza-lucros-em-chicago-e-fecha-5-feira-com-baixas-de-dois-digitos.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "China volta às compras de soja dos EUA, mas mercado vê movimento mais político do que comercial",
           "tema": "Geopolítica",
@@ -928,36 +974,28 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-07-07",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/424292-soja-testa-os-dois-lados-da-tabela-e-volta-a-testar-leves-altas-em-chicago-nesta-3-feira-7.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja em Chicago estende ganhos após disparar 4%; mercado monitora calor agressivo nos EUA e compras da China",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-07-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/424261-soja-em-chicago-estende-ganhos-apos-disparar-4-mercado-monitora-calor-agressivo-nos-eua-e-compras-da-china.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 1.0,
+      "score_preco": 0.88,
       "score_noticias": 0.0,
-      "score_combinado": 0.6,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço acumula +8,6% em 5 pregões (tendência clara de alta), suportado por clima e demanda chinesa, mas realização de lucros em andamento limita novos ganhos imediatos</li><li>Assimetria favorável ao comprador: downside limitado a 2-3% (suporte técnico em US$ 11,70-11,80 em Chicago); upside 4-6% se relatório USDA de 11/jul confirmar clima restritivo no Meio-Oeste</li><li>Brasil já vendeu volume expressivo (4 mi t) aproveitando picos; produtores estão ofertantes e câmbio favorável reduz urgência de compra brasileira adicional nos próximos 7 dias</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Estoque chinês em nível máximo desde 2022 com margens de esmagamento comprimidas — especialista Matheus Pereira (Pátria) aponta que compras chinesas atuais são mais políticas que por necessidade fundamental, sugerindo sustentação de preços limitada após 30 dias</li><li>Relatório USDA 11/jul esperado indicar maior área plantada nos EUA, potencialmente elevando estoques finais — fator estrutural de pressão para os próximos 60 dias caso confirmado</li></ul>",
+      "score_combinado": 0.53,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço acumulou +8,5% no período recente e testa máximas, provocando venda de lucros (perdas de 12–16 pontos em Chicago 09/jul); correção técnica esperada nos próximos 7–15 dias.</li><li>Downside limitado por fundamentos climáticos (estresse térmico previsto no Corn Belt 6–10 dias) e demanda chinesa confirmada; upside atenuado pelo aumento esperado de estoques finais EUA (relatório USDA 11/jul).</li><li>Brasil vendeu 4 milhões t na semana aproveitando picos de preço e câmbio favorável; produtor continua ofertante ativo, sinalizando pico de conforço de preço já atingido.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Relatório USDA 11/jul deve confirmar maior área plantada EUA, aumentando estoques finais e limitando teto de preço nos próximos 30–60 dias.</li><li>Tensões geopolíticas EUA–Irã criaram volatilidade (petróleo perdeu 2% em 09/jul), fator exógeno que pode resgatar suporte a preços, mas sem garantia de sustentação.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 129.24,
       "resistencia": 140.4,
       "red_flags": [],
       "postura_produtor": "Ofertante",
-      "postura_comprador": "Ativo",
+      "postura_comprador": "Neutro",
       "liquidez": "Alta",
-      "fator_externo": "Chicago ago/26 US$ 11,87/bu; Brasil comercializou 4 mi t na semana com câmbio favorável; vendas EUA-China 136 mil t (safra 2026/27) confirmam fluxo de negócios",
-      "postura_mercado": "Realização de lucros após alta semanal forte",
-      "estrategia_volume": "parcial — adquirir 60-70% da necessidade de 60 dias agora, aproveitando tendência de alta consolidada e antes da realização de lucros agredir mais os preços; reservar 30-40% para compra pós-relatório USDA (11/jul) ou se preço recuar para R$ 135-137",
-      "gatilho_revisao": "Relatório USDA 11/julho (oferta/demanda EUA); se não houver novo movimento até então, reavaliar em 30 dias ou se preço ultrapassar R$ 145 (realização de lucros estrutural) ou cair para R$ 135 (suporte técnico)",
-      "decisao_texto": "A soja apresenta tendência de alta consistente (+8,6% em 5 dias) com liquidez forte e produtores ofertantes, criando janela de oportunidade antes de possível correção. O risco de queda adicional é contido pela demanda chinesa confirmada e clima restritivo nos EUA, enquanto a realização de lucros em curso oferece ponto de entrada racional. Recomenda-se compra parcial agora e aguardar relatório USDA (11/jul) para completar posição, balanceando ganho de preço com flexibilidade ante incerteza de estoques norte-americanos.",
+      "fator_externo": "Chicago julho US$ 11,81/bu e novembro US$ 11,80/bu (realização de lucros após altas de 5,75% na semana); China retomou compras de 136 mil t safra 2026/27, mas analistas indicam movimento mais político que comercial dado estoques portuários chineses saudáveis desde 2022.",
+      "postura_mercado": "Realização de lucros após picos; fundamentos ainda fortes",
+      "estrategia_volume": "parcial — adquirir 60% da necessidade dos próximos 60 dias agora (preço próximo de máxima histórica anual, postura ofertante do produtor confirma pico); aguardar confirmação do relatório USDA 11/jul e eventual pullback técnico para comprar os 40% restantes em patamar 2–3% inferior.",
+      "gatilho_revisao": "Relatório mensal USDA 11/julho (oferta/demanda 2026/27); reversão preço abaixo de R$ 137,00 sinalizaria esgotamento da realização de lucros; também reavaliar em 20 dias se preço não oscilar além de R$ 135,00–R$ 142,00.",
+      "decisao_texto": "O preço está em máxima recente (+8,5%) após altas consistentes e experimenta realização de lucros natural; a assimetria de risco favorece compra parcial agora porque downside é contido (fundamentos climáticos e demanda chinesa confirmada), enquanto upside de 30 dias pode ser limitado apenas pelo relatório USDA. A postura ofertante do produtor e as vendas ativas do Brasil confirmam que o pico de conforço foi atingido, justificando travar volume agora antes que pressão de estoques EUA reduza margens; os 40% restantes devem ser adquiridos após confirmação do relatório ou pullback técnico.",
       "insight_gerado_por": "claude-haiku"
     },
     "trigo": {
@@ -966,6 +1004,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-07-09",
+          "valor": 82.5408,
+          "variacao_pct": 0.14
+        },
         {
           "data": "2026-07-08",
           "valor": 82.4286,
@@ -985,14 +1028,14 @@
           "data": "2026-07-03",
           "valor": 82.3392,
           "variacao_pct": 0.59
-        },
-        {
-          "data": "2026-07-02",
-          "valor": 81.8574,
-          "variacao_pct": -0.21
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-07-09",
+          "valor": 82.5408,
+          "variacao_pct": 0.14
+        },
         {
           "data": "2026-07-08",
           "valor": 82.4286,
@@ -1084,8 +1127,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -0.02,
+      "variacao_mes_pct": 0.12,
       "noticias": [
+        {
+          "titulo": "Trigo fecha em alta em Chicago com atenção ao clima no Sul do Brasil",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-07-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/424470-trigo-fecha-em-alta-em-chicago-com-atencao-ao-clima-no-sul-do-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Trigo abre esta quinta-feira com leves perdas em Chicago e mercado segue atento ao clima no Sul do Brasil",
           "tema": "Clima",
@@ -1141,25 +1192,17 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-07-07",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/424263-trigo-abre-em-leve-baixa-em-chicago-enquanto-mercado-brasileiro-segue-sustentado-por-negociacoes-pontuais.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo/Cepea: Negócios seguem pontuais",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-07-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/424246-trigo-cepea-negocios-seguem-pontuais.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
-      "score_preco": 0.13,
+      "score_preco": 0.21,
       "score_noticias": 0.12,
-      "score_combinado": 0.12,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável em R$ 82,43 nos últimos 5 pregões reflete equilibrio precario entre pressao internacional e suporte domestico</li><li>Risco de geadas no Sul do Brasil (Paraná 96% semeado, Rio Grande do Sul 88%) é fator de volatilidade proxima: se confirmado dano, oferta se reduz e preco sobe; se clima se mantiver favoravel, pressao internacional prevalece</li><li>Produtor retraido ante queda de Chicago (9,75 pontos em 08/jul) sugere expectativa de queda adicional ou espera por estabilizacao, reduzindo pressao vendedora local</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Argentina elevou previsao de safra 2026/27 para 20,5 mi t (+500 mil t), ampliando oferta regional e mantendo pressao estrutural sobre precos brasileiros nos proximos 90 dias</li><li>Producao brasileira 2026 estimada em 6,38 mi t com área em reducao (2,14 mi ha): qualquer perda por geada reduz margem de oferta e inverte cenario de pressao para cima</li></ul>",
-      "recomendacao": "aguardar",
+      "score_combinado": 0.17,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço interno (R$ 82,54) estável nos últimos 5 pregões (+0,1% acumulado), sinalizando consolidação horizontal sem pressão imediata de alta.</li><li>Risco de geadas no Sul do Brasil em estágios sensíveis da cultura (espigamento/florescimento) pode reduzir oferta doméstica futura, mas impacto será conhecido apenas em 4-6 semanas.</li><li>Assimetria favorável ao comprador: downside limitado (piso PGPM em R$ 31,00 representa margem de segurança de 62% abaixo do preço atual); upside restrito pela oferta argentina elevada para 20,5 mi t e colheita avançada no Hemisfério Norte.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Safra brasileira estimada em 6,38 mi t (área em queda) com risco climático elevado até fim de agosto/2026; qualquer impacto de geadas reduzirá oferta doméstica e suportará preços no trimestre seguinte.</li><li>Relatório USDA (Wasde) previsto para 10/jul poderá trazer revisões relevantes nas projeções de estoques e comércio mundial, afetando cotações de Chicago e transmissão para mercado físico brasileiro.</li></ul>",
+      "recomendacao": "comprar",
       "suporte": 81.7554,
       "resistencia": 82.6584,
       "red_flags": [
@@ -1172,14 +1215,14 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/424393-trigo-despenca-em-chicago-com-pressao-da-oferta-global-e-mercado-brasileiro-segue-atento-ao-risco-de-geadas.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
-      "postura_produtor": "Retraído",
+      "postura_produtor": "Retraido",
       "postura_comprador": "Neutro",
       "liquidez": "Normal",
-      "fator_externo": "Chicago julho/26 recua para US$ 5,99/bu (queda de 9,75 pontos em 08/jul); pressão de oferta global e avanço de colheitas no Hemisfério Norte",
-      "postura_mercado": "Pressão baixista externa, produtor segurando estoque",
-      "estrategia_volume": "parcial — comprar ate 40% da necessidade de 60 dias ao preco atual (R$ 82,43) para cobrir exposicao imediata, mantendo 60% em reserva para avaliar resultado de risco de geadas (proximas 15 dias) e confirmacao de estabilizacao em Chicago acima de US$ 6,00/bu antes de completar volume",
-      "gatilho_revisao": "Resultado de geadas no Sul do Brasil (expectativa em 15 dias = até 24/jul/2026); cotacao Chicago acima de US$ 6,10/bu confirmaria reversao e sinalizaria compra de volume; abaixo de US$ 5,90/bu manteria postura defensiva",
-      "decisao_texto": "Preco atual esta 166% acima do PGPM (R$ 31,00), eliminando risco de piso estrutural, mas a queda aguda de Chicago (9,75 pontos em 24h) e oferta argentina expandida criam assimetria de risco para baixo nos proximos 30 dias. O produtor retraido e o clima incerto no Sul do Brasil sao fatores que podem reverter a pressao: recomenda-se compra parcial defensiva agora e revisao em 15 dias apos confirmacao ou descarte do risco de geadas para ativar o restante da posicao.",
+      "fator_externo": "Chicago julho/26 fechou US$ 6,11/bu em alta (11,50 pontos) em 09/jul; dezembro/26 em US$ 6,34/bu. Previsão safra Argentina 2026/27 elevada para 20,5 mi t, pressionando oferta global.",
+      "postura_mercado": "Volatilidade contida; oferta global abundante pressiona.",
+      "estrategia_volume": "parcial — comprar 60-70% da necessidade dos próximos 60 dias agora (preço estável em piso seguro com proteção do PGPM); aguardar resolução de risco de geadas (final agosto) e Wasde para complementar posição restante.",
+      "gatilho_revisao": "Relatório USDA (10/jul/2026); monitoramento de condições climáticas no Sul até fim de agosto/2026 (fases críticas da cultura); revisão de preço em 30 dias se nenhum evento relevante alterar oferta doméstica.",
+      "decisao_texto": "Preço em R$ 82,54 oferece segurança de compra: estável horizontalmente, 62% acima do piso governamental (PGPM R$ 31,00), e com liquidez normal. O risco de geadas no Sul cria assimetria positiva — possível redução de oferta futura suportaria preços, enquanto oferta argentina elevada limita upside. Compre parcialmente agora cobrindo 60% da necessidade e reposicione após Wasde (10/jul) e quando se dissiparem incertezas climáticas (fim agosto).",
       "insight_gerado_por": "claude-haiku"
     },
     "cafe": {
@@ -1188,6 +1231,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-07-09",
+          "valor": 1762.83,
+          "variacao_pct": 2.95
+        },
         {
           "data": "2026-07-08",
           "valor": 1712.39,
@@ -1207,14 +1255,14 @@
           "data": "2026-07-03",
           "valor": 1636.25,
           "variacao_pct": -1.24
-        },
-        {
-          "data": "2026-07-02",
-          "valor": 1656.79,
-          "variacao_pct": -0.53
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-07-09",
+          "valor": 1762.83,
+          "variacao_pct": 2.95
+        },
         {
           "data": "2026-07-08",
           "valor": 1712.39,
@@ -1306,8 +1354,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 19.95,
+      "variacao_mes_pct": 23.48,
       "noticias": [
+        {
+          "titulo": "Café dispara nas bolsas e encerra sessão com ganhos expressivos diante de novas preocupações climáticas no Brasil",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-07-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/424468-cafe-dispara-nas-bolsas-e-encerra-sessao-com-ganhos-expressivos-diante-de-novas-preocupacoes-climaticas-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Empresa vende cafés produzidos por mulheres do Cerrado Mineiro na China",
           "tema": "Geopolítica",
@@ -1363,14 +1419,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-07-08",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/424342-cooxupe-registra-30-9-da-colheita-de-cafe-entre-os-cooperados.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café/Cepea: Ritmo da colheita está abaixo do observado em anos anteriores",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-07-08",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/424330-cafe-cepea-ritmo-da-colheita-esta-abaixo-do-observado-em-anos-anteriores.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -1379,8 +1427,8 @@
       "score_preco": 1.0,
       "score_noticias": 0.0,
       "score_combinado": 0.6,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço subiu 19,9% no período; últimas 48h mostram movimento defensivo (-1,46% e -2,78%) após pico de +9,24%, sugerindo realização de lucros após escalada rápida</li><li>Assimetria favorável ao comprador: downside limitado a 5-8% (realização de lucros pode levar a R$ 1.580-1.620) enquanto upside alcança 15-20% (R$ 1.970-2.050) se chuvas de segunda quinzena julho comprometem qualidade/ritmo de colheita conforme Rural Clima prevê</li><li>Produtores (sul de Minas com apenas 30% colhido vs. 52% histórico) estão retraídos pela incerteza climática e atraso, sustentando estoque; comprador deve aproveitar window de preço antes nova notícia climática disparar cotação</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Risco El Niño em julho-agosto ameaça florada 2027/28 e qualidade 2026/27; boletins climáticos de mid-julho serão gatilho para revisão de oferta estrutural</li><li>Demanda externa confirmada: China (Donna Jannie/Lady Coffees) firmou parceria mensal com Expocacer para microlotes premium; exportação de café agregado pode sustentar preço arábica tipo 6 mesmo com aumento de volume na colheita 2026/27</li></ul>",
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço subiu 23,5% no período acumulado com tendência de alta nos últimos pregões (+2,95% em 09/07); piso psicológico em R$ 1.712,39 (08/07) não foi testado novamente, sinalizando suporte estabelecido.</li><li>Assimetria de risco favorável ao comprador: downside limitado por estoques mundiais apertados e produtores retraídos (não liquidam agressivamente em alta); upside sustentado por cenário climático adverso (chuvas segunda quinzena julho em regiões produtoras) que pode comprometer qualidade e ritmo de colheita.</li><li>Mercado externo em forte recuperação (futuros NY +3.810 pontos) reflete repricing de prêmio de risco climático e devolveu força às cotações após volatilidade — situação de oportunidade para comprador que teme escalada adicional nos próximos 7-15 dias.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Safra 2026/27 brasileira em andamento com atraso em relação ao histórico (chuvas junho retardaram colheita); segunda quinzena julho é decisiva para secagem e beneficiamento — qualquer desvio climático (El Niño) pode impactar rendimento final e estoques 2026/27.</li><li>Demanda internacional confirmada por parceria Expocacer-Donna Jannie (China): importações mensais planejadas sinalizam demanda estrutural por café especial brasileiro e redução de oferta disponível para mercado commodity doméstico.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 1427.63,
       "resistencia": 1787.48,
@@ -1388,11 +1436,11 @@
       "postura_produtor": "Retraido",
       "postura_comprador": "Ativo",
       "liquidez": "Alta",
-      "fator_externo": "ICE Futures US setembro/26 em R$ 340,10 cents/lbp (conversão aproximada do avanço de 3.030 pontos); robusta Londres setembro/26 em US$ 4.043/ton; transmissão de alta para preço físico Brasil é direta via cotação internacional",
-      "postura_mercado": "Volátil, com prêmio climático sustentando alta",
-      "estrategia_volume": "parcial — adquirir 40-50% da necessidade dos próximos 60 dias agora (preço oferece assimetria positiva e incerteza climática pode disparar cotação); aguardar boletim climático de 20-25 jul para definir complemento, pois forecast de chuvas confirma risco ou o desmente",
-      "gatilho_revisao": "Boletim climático Rural Clima / INMET de 20-25 julho sobre chuvas segunda quinzena; se precipitação confirmar-se acima de média, revisar compra para volume_total; se seco, reduzir para aguardar acomodação pós-colheita",
-      "decisao_texto": "Preço atual oferece assimetria de risco favorável (downside contido, upside 15-20%) sustentada por fundamentos reais: atraso de colheita, risco climático iminente e demanda externa confirmada. Produtor retraído (estoque em mãos) e mercado volátil justificam entrada parcial agora, ancorando parte da necessidade antes possível disparo por confirmação de chuvas em segunda quinzena julho. Gatilho de revisão será boletim climático de 20-25 jul, que definirá volume complementar.",
+      "fator_externo": "ICE Futures US setembro/26 arábica fechou 09/07 a 347,90 cents/lbp (+3.810 pontos); ICE Europe robusta setembro/26 a US$ 4.043/ton (+302 pontos) — transmissão para mercado físico brasileiro em alta pela cotação de futuros impulsionada por preocupações climáticas na colheita brasileira.",
+      "postura_mercado": "Volatilidade elevada com recuperação de preços por risco climático.",
+      "estrategia_volume": "parcial — comprar 60-70% da necessidade dos próximos 60 dias agora, aproveitando volatilidade alta e assimetria de risco favorável; reservar 30-40% para possível acomodação caso colheita avance sem novos problemas climáticos (conforme analistas indicam como cenário alternativo no segundo semestre).",
+      "gatilho_revisao": "Previsão meteorológica confirmada para segunda quinzena julho (14-30/07); divulgação de relatório de avanço da colheita brasileira em final de julho; reavaliar em 21 dias se não houver novo evento climático ou relatório oficial.",
+      "decisao_texto": "Comprar agora é justificado pelo sinal primário de preço (alta de 23,5% acumulado, tendência consistente de alta) combinado com assimetria de risco favorável: estoques mundiais apertados limitam queda real, enquanto cenário climático adverso (chuvas segunda quinzena julho em regiões-chave) pode pressionar preços ainda mais nos próximos 15-30 dias. Produtores retraídos (não descarregando em alta) reforçam que oferta está controlada. Risco principal: se chuvas não ocorrerem e colheita avançar rapidamente, mercado pode acomodar em julho-agosto; por isso, estratégia parcial protege fluxo de caixa sem sacrificar posicionamento.",
       "insight_gerado_por": "claude-haiku"
     },
     "leite": {
@@ -1401,6 +1449,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-07-10",
+          "valor": 2.4884,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-07-09",
           "valor": 2.4884,
@@ -1420,14 +1473,14 @@
           "data": "2026-07-06",
           "valor": 2.4884,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-07-03",
-          "valor": 2.4884,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-07-10",
+          "valor": 2.4884,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-07-09",
           "valor": 2.4884,
@@ -1499,32 +1552,16 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-06-30",
           "url": "https://www.noticiasagricolas.com.br/noticias/leite/423842-casal-transforma-pequena-propriedade-em-referencia-na-producao-leiteira-em-acucena-mg.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Fazenda eleva produção de leite em 50% após ajustes em manejo e ordenha",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/leite/423797-fazenda-eleva-producao-de-leite-em-50-apos-ajustes-em-manejo-e-ordenha.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Oferta de forragens pode reduzir custos na pecuária leiteira",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-06-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/leite/423784-oferta-de-forragens-pode-reduzir-custos-na-pecuaria-leiteira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
-      "score_preco": -0.38,
+      "score_preco": 0.0,
       "score_noticias": 0.0,
-      "score_combinado": -0.23,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço travado em R$ 2,49/litro há 5 pregões consecutivos indica equilíbrio entre oferta e demanda sem sinais de volatilidade iminente</li><li>Ausência de red flags e variação negativa apenas de 1,1% no período sugere risco downside limitado; upside confinado enquanto não há notícias de seca, doença ou restrição de oferta</li><li>Notícia sobre cria e recria é genérica e anterior (1 dia); não contém informação de preço, clima adverso ou evento datado que justifique ação imediata</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Falta de dados sobre safra de inverno/primavera 2026 e condições climáticas regionais impede projeção de pressão de oferta nos próximos 60-90 dias</li><li>Dinâmica produtiva (cria/recria) influencia oferta futura mas não é gatilho de preço em prazo curto — ciclo de produção leiteira não permite ajuste rápido de volumes</li></ul>",
+      "score_combinado": 0.0,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço travado em R$ 2,49/litro há 5 pregões consecutivos indica equilíbrio oferta-demanda sem sinais de ruptura iminente</li><li>Ausência de red flags e PGPM não aplicável reduz risco de queda estrutural; upside limitado pela estabilidade observada</li><li>Notícia sobre cria e recria (2 dias) é qualitativa e não altera dinâmica de curto prazo; não menciona pressão de preços ou restrições de oferta</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Foco do setor em eficiência produtiva (cria/recria) sugere potencial de oferta ajustada nos próximos 60-90 dias conforme rebanho produtivo se estrutura</li><li>Ausência de notícias sobre estiagem, custo de ração ou redução de rebanho indica normalidade operacional; vigilância em clima e insumos recomendada</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 2.4884,
       "resistencia": 2.5169,
@@ -1533,10 +1570,10 @@
       "postura_comprador": "Neutro",
       "liquidez": "Normal",
       "fator_externo": null,
-      "postura_mercado": "Preço estável sem pressão direcional clara",
-      "estrategia_volume": "aguardar — sem evento específico datado ou movimento de preço, a falta de assimetria favorável não justifica compra antecipada; monitore por 14-21 dias para confirmar se R$ 2,49 é suporte ou pré-queda",
-      "gatilho_revisao": "Revisão em 21 dias; ou imediatamente se preço romper abaixo de R$ 2,45 (pressão estrutural) ou acima de R$ 2,55 (sinal de oferta reduzida)",
-      "decisao_texto": "O preço está estável e sem red flags, mas também sem sinais de pressão de compra (notíciagenérica, sem dados de safra ou clima). A assimetria risco-retorno é neutra: downside máximo ~2-3% (até PGPM ou suporte local), upside máximo ~2-4% (sem catalyst visível). Aguarde confirmação de movimento direcional ou evento datado antes de alocar volume, reduzindo risco de compra em falso piso.",
+      "postura_mercado": "Estável, sem pressão de preço",
+      "estrategia_volume": "parcial — comprar apenas demanda operacional dos próximos 14 dias; aguardar confirmação de movimento de preço (alta ou baixa) antes de comprometer estoque para 60 dias",
+      "gatilho_revisao": "Reavaliação em 30 dias ou imediatamente se: (1) preço cair abaixo de R$ 2,45, sinalizando pressão de oferta; (2) preço subir acima de R$ 2,55, abrindo oportunidade de compra maior; (3) notícia de redução de rebanho ou estiagem significativa",
+      "decisao_texto": "O mercado está em equilíbrio perfeito (preço estável, sem red flags, liquidez normal) com assimetria de risco neutra — tanto downside quanto upside são limitados a 2-3% em 30 dias. Recomenda-se aguardar sinais mais fortes antes de comprometer volume, pois a compra agora não oferece prêmio de preço ou proteção real comparado a esperar 2-3 semanas. A notícia sobre produtividade leiteira é positiva para oferta futura, o que reduz urgência de compra defensiva.",
       "insight_gerado_por": "claude-haiku"
     }
   }
