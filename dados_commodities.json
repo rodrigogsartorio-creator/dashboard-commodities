@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-08-19T07:50:20",
+  "ultima_atualizacao": "2026-08-19T08:10:08",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.2043,
@@ -8,7 +8,7 @@
     "ask": 5.2043
   },
   "safra": {
-    "ultima_atualizacao": "2026-08-19T07:50:20",
+    "ultima_atualizacao": "2026-08-19T08:10:08",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -297,6 +297,14 @@
       "variacao_mes_pct": 15.81,
       "noticias": [
         {
+          "titulo": "Arroz/Cepea: Baixa oferta sustenta cotações no RS",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/426635-arroz-cepea-baixa-oferta-sustenta-cotacoes-no-rs.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Arroz sequeiro sofre com redução das chuvas em Tocantins",
           "tema": "Clima",
           "impacto": "neutro",
@@ -351,14 +359,6 @@
           "fonte": "SNA",
           "data": "2026-08-12",
           "url": "https://sna.agr.br/arroz-exportacoes-recuam-e-importacoes-avancam/"
-        },
-        {
-          "titulo": "Preparo antecipado do solo ganha peso na safra de arroz 2026/27 sob El Niño",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/426230-preparo-antecipado-do-solo-ganha-peso-na-safra-de-arroz-2026-27-sob-el-nino.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2289,6 +2289,14 @@
       "variacao_mes_pct": 4.77,
       "noticias": [
         {
+          "titulo": "Café/Cepea: Embarques começam firmes, mas atraso da colheita limita oferta",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426636-cafe-cepea-embarques-comecam-firmes-mas-atraso-da-colheita-limita-oferta.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café dispara em NY e fecha 3ª feira com mais de 4% de alta; estoques ajustados e clima no BR",
           "tema": "Clima",
           "impacto": "neutro",
@@ -2343,22 +2351,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-14",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426435-projeto-corredores-arborizados-amplia-iniciativas-em-cafeicultura-regenerativa-da-expocacer.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café fecha em alta em Nova York ainda refletindo preocupações com a Colômbia; preços sobem também no BR",
-          "tema": "Mercado",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-12",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426335-cafe-fecha-em-alta-em-nova-york-ainda-refletindo-preocupacoes-com-a-colombia-precos-sobem-tambem-no-br.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.75,
-      "score_noticias": 0.12,
-      "score_combinado": 0.5,
+      "score_noticias": 0.0,
+      "score_combinado": 0.45,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 3.7% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 1815.45) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
