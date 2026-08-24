@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-08-24T07:50:21",
+  "ultima_atualizacao": "2026-08-24T08:13:51",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1625,
@@ -8,8 +8,21 @@
     "ask": 5.1625
   },
   "safra": {
-    "ultima_atualizacao": "2026-08-24T07:50:21",
-    "noticias": []
+    "ultima_atualizacao": "2026-08-24T08:13:51",
+    "noticias": [
+      {
+        "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
+        "fonte": "IBGE SIDRA",
+        "data": "2026-08-24",
+        "url": "https://sidra.ibge.gov.br/tabela/5457"
+      },
+      {
+        "titulo": "IBGE — Área colhida (Brasil): 96468779 t em 2024",
+        "fonte": "IBGE SIDRA",
+        "data": "2026-08-24",
+        "url": "https://sidra.ibge.gov.br/tabela/5457"
+      }
+    ]
   },
   "commodities": {
     "arroz": {
@@ -1288,14 +1301,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426742-acucar-ganha-forca-em-nova-iorque-com-deficit-global-maior-diz-itau-bba.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Mercado de açúcar dispara diante de preocupações com oferta",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-08-21",
-          "url": "https://safras.com.br/mercado-de-acucar-dispara-diante-de-preocupacoes-com-oferta/"
-        },
-        {
           "titulo": "Açúcar fecha misto nas bolsas, mas mantém patamares elevados com oferta global no radar",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -1326,6 +1331,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-20",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426733-temor-com-el-nino-leva-posicoes-em-aberto-nos-contratos-futuros-de-acucar-a-recorde-diz-ice.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Czarnikow elevará projeção de produção de açúcar do centro-sul após melhora dos preços",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426738-czarnikow-elevara-projecao-de-producao-de-acucar-do-centro-sul-apos-melhora-dos-precos.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -1629,6 +1642,14 @@
       "variacao_mes_pct": 3.58,
       "noticias": [
         {
+          "titulo": "Soja/Cepea: Demanda firme leva Indicadores aos maiores patamares desde abril/23",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/426830-soja-cepea-demanda-firme-leva-indicadores-aos-maiores-patamares-desde-abril-23.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja abre a semana com estabilidade em Chicago; pressão do Pro Farmer, mas suporte do milho e da China",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -1683,14 +1704,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-20",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/426697-soja-mantem-forte-trajetoria-de-alta-em-chicago-nesta-5-com-clima-nos-eua-e-pro-farmer-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja dispara em Chicago e fecha 4ª feira com mais de 1% de alta com chuvas nos EUA e dados do Pro Farmer",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/426676-soja-dispara-em-chicago-e-fecha-3-feira-com-mais-de-1-de-alta-com-chuvas-nos-eua-e-dados-do-pro-farmer.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
