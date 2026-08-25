@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-08-25T07:50:17",
+  "ultima_atualizacao": "2026-08-25T08:12:26",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1512,
@@ -8,7 +8,7 @@
     "ask": 5.1512
   },
   "safra": {
-    "ultima_atualizacao": "2026-08-25T07:50:17",
+    "ultima_atualizacao": "2026-08-25T08:12:26",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -1304,6 +1304,14 @@
       "variacao_mes_pct": 13.76,
       "noticias": [
         {
+          "titulo": "Açúcar/Cepea: Indicador avança e volta a operar acima dos R$ 100/sc",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426923-acucar-cepea-indicador-avanca-e-volta-a-operar-acima-dos-r-100-sc.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha misto nas bolsas, com mercado de olho em importações da Índia e oferta global",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -1358,14 +1366,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426784-safra-maior-de-cana-amplia-oferta-de-etanol-e-pressiona-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar ganha força em Nova Iorque com déficit global maior, diz Itaú BBA",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426742-acucar-ganha-forca-em-nova-iorque-com-deficit-global-maior-diz-itau-bba.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
