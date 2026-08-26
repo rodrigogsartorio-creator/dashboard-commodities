@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-08-26T07:50:21",
+  "ultima_atualizacao": "2026-08-26T08:15:08",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.149,
@@ -8,7 +8,7 @@
     "ask": 5.149
   },
   "safra": {
-    "ultima_atualizacao": "2026-08-26T07:50:21",
+    "ultima_atualizacao": "2026-08-26T08:15:08",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -2426,6 +2426,14 @@
       "variacao_mes_pct": 2.19,
       "noticias": [
         {
+          "titulo": "Café/Cepea: Colheita do arábica avança, mas qualidade dos lotes preocupa",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426992-cafe-cepea-colheita-do-arabica-avanca-mas-qualidade-dos-lotes-preocupa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café perde força em NY nesta 3ª (25), com realização de lucros após disparada da véspera",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -2480,14 +2488,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426852-perfil-da-cafeicultura-brasileira-amplia-demanda-por-tecnologias-adequadas-a-diferentes-escalas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Ameaça do El Niño à safra de café do Vietnã não deve ser subestimada, diz associação",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426790-ameaca-do-el-nino-a-safra-de-cafe-do-vietna-nao-deve-ser-subestimada-diz-associacao.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
