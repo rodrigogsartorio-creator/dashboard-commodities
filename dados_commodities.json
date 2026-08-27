@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-08-27T07:50:25",
+  "ultima_atualizacao": "2026-08-27T17:48:00",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.1604,
-    "variacao_pct": 0.22,
-    "bid": 5.1604,
-    "ask": 5.1604
+    "valor": 5.1642,
+    "variacao_pct": 0.07,
+    "bid": 5.1642,
+    "ask": 5.1642
   },
   "safra": {
-    "ultima_atualizacao": "2026-08-27T07:50:25",
+    "ultima_atualizacao": "2026-08-27T17:48:00",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -1337,6 +1337,30 @@
       "variacao_mes_pct": 16.19,
       "noticias": [
         {
+          "titulo": "Açúcar dispara com previsão de queda na produção da União Europeia",
+          "tema": "Safra",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427096-acucar-dispara-com-previsao-de-queda-na-producao-da-uniao-europeia.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar avança nas bolsas nesta quinta-feira com suporte de oferta mais restrita na Europa",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427077-acucar-avanca-nas-bolsas-nesta-quinta-feira-com-suporte-de-oferta-mais-restrita-na-europa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar dispara em NY com chuvas no Brasil e expectativa de queda na produção da UE",
+          "tema": "Clima",
+          "impacto": "alta",
+          "fonte": "SAFRAS",
+          "data": "2026-08-27",
+          "url": "https://safras.com.br/acucar-dispara-em-ny-com-chuvas-no-brasil-e-expectativa-de-queda-na-producao-da-ue/"
+        },
+        {
           "titulo": "Açúcar fecha misto nas bolsas internacionais; Londres recua com expectativa de menor importação da Índia",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -1375,38 +1399,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426939-acucar-recua-nas-bolsas-com-mercado-de-olho-em-menor-importacao-da-india.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Usinas de açúcar e refinarias da Índia devem importar apenas metade da cota isenta de impostos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426931-usinas-de-acucar-e-refinarias-da-india-devem-importar-apenas-metade-da-cota-isenta-de-impostos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar/Cepea: Indicador avança e volta a operar acima dos R$ 100/sc",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426923-acucar-cepea-indicador-avanca-e-volta-a-operar-acima-dos-r-100-sc.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha misto nas bolsas, com mercado de olho em importações da Índia e oferta global",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426897-acucar-fecha-misto-nas-bolsas-com-mercado-de-olho-em-importacoes-da-india-e-oferta-global.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 1.0,
-      "score_noticias": 0.0,
-      "score_combinado": 0.6,
+      "score_noticias": 0.25,
+      "score_combinado": 0.7,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 5.6% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 107.98) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
@@ -1717,6 +1717,22 @@
       "variacao_mes_pct": 5.29,
       "noticias": [
         {
+          "titulo": "Soja sustenta altas em Chicago nesta 5ª (27) e puxa negócios a R$ 161 no Porto de Paranaguá",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427098-soja-sustenta-rali-em-chicago-e-puxa-negocios-a-r-161-no-porto-de-paranagua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Paraná pode ter safra recorde de soja em 2026/27 com chuvas do El Niño, diz Deral",
+          "tema": "Clima",
+          "impacto": "queda",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427081-parana-pode-ter-safra-recorde-de-soja-em-202627-com-chuvas-do-el-nino-diz-deral.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja recua em Chicago nesta 5ª (27), com movimento de realização de lucros após disparada na sessão anterior",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -1763,30 +1779,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/426980-anec-reduz-exportacao-de-soja-do-brasil-em-agosto-mas-total-deve-superar-10-mi-t.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja volta a subir em Chicago nesta 3ª; demanda presente nos EUA contribui",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/426941-soja-volta-a-subir-em-chicago-nesta-3-demanda-presente-nos-eua-contribui.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mapa da Soja: cerca de 83% das operações analisadas indicam o uso adequado do crédito rural para o cultivo financiado, mostra estudo inédito da Serasa Experian",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/426933-mapa-da-soja-cerca-de-83-das-operacoes-analisadas-indicam-o-uso-adequado-do-credito-rural-para-o-cultivo-financiado-mostra-estudo-inedito-da-serasa-experian.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.42,
-      "score_noticias": 0.0,
-      "score_combinado": 0.25,
+      "score_noticias": -0.12,
+      "score_combinado": 0.21,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.1% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 154.63) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -2461,6 +2461,14 @@
       "variacao_mes_pct": 2.2,
       "noticias": [
         {
+          "titulo": "Café tomba mais de 3% em Nova York nesta 5ª, produtor recua e trava o mercado físico no Brasil",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427092-cafe-tomba-mais-de-3-em-nova-york-nesta-5-produtor-recua-e-trava-o-mercado-fisico-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Preços do café caem mais de 4% em NY nesta 4ª (26) com perspectiva de aumento da oferta de café no Brasil",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -2515,14 +2523,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426911-exportacao-de-cafe-do-brasil-no-mes-ja-supera-agosto-de-2025-com-alta-de-50-diz-secex.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café dispara em NY nesta 2ª feira, com com estoques baixos e risco climático ainda no radar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426873-cafe-dispara-em-ny-nesta-2-feira-com-com-estoques-baixos-e-risco-climatico-ainda-no-radar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
