@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-08-28T07:50:18",
+  "ultima_atualizacao": "2026-08-28T18:14:48",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.1642,
-    "variacao_pct": 0.07,
-    "bid": 5.1642,
-    "ask": 5.1642
+    "valor": 5.2005,
+    "variacao_pct": 0.7,
+    "bid": 5.2005,
+    "ask": 5.2005
   },
   "safra": {
-    "ultima_atualizacao": "2026-08-28T07:50:18",
+    "ultima_atualizacao": "2026-08-28T18:14:48",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -332,6 +332,30 @@
       "variacao_mes_pct": 13.68,
       "noticias": [
         {
+          "titulo": "Aproximação do período de pico do El Niño junto à fase de semeadura traz alerta para a cadeia produtiva do arroz de SC",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427141-aproximacao-do-periodo-de-pico-do-el-nino-junto-a-fase-de-semeadura-traz-alerta-para-a-cadeia-produtiva-do-arroz-de-sc.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Corrida pela matéria-prima dá lugar a um mercado de arroz equilibrado",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-08-28",
+          "url": "https://planetaarroz.com.br/corrida-pela-materia-prima-da-lugar-a-um-mercado-de-arroz-equilibrado/"
+        },
+        {
+          "titulo": "Com arroz brasileiro desenvolvido em Santa Catarina, Tell Alimentos entra no mercado de risotos",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-08-28",
+          "url": "https://planetaarroz.com.br/com-arroz-brasileiro-desenvolvido-em-santa-catarina-tell-alimentos-entra-no-mercado-de-risotos/"
+        },
+        {
           "titulo": "Arroz/Cepea: Cotações sinalizam recuperação",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -370,30 +394,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/426968-federarroz-vai-acionar-autoridades-apos-identificar-inconformidades-no-arroz-vendido-ao-consumidor.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Retenção de oferta sustenta arroz, mas capacidade de repasse da indústria começa a ser testada",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-24",
-          "url": "https://planetaarroz.com.br/retencao-de-oferta-sustenta-arroz-mas-capacidade-de-repasse-da-industria-comeca-a-ser-testada/"
-        },
-        {
-          "titulo": "Estudo associa arroz e feijão a dieta mais saudável, barata e sustentável",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-21",
-          "url": "https://planetaarroz.com.br/estudo-associa-arroz-e-feijao-a-dieta-mais-saudavel-barata-e-sustentavel/"
-        },
-        {
-          "titulo": "Chuvas já atrasam a preparação dos solos para o plantio do arroz",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-20",
-          "url": "https://planetaarroz.com.br/chuvas-ja-atrasam-a-preparacao-dos-solos-para-o-plantio-do-arroz/"
         }
       ],
       "safra_noticias": [],
@@ -1357,6 +1357,22 @@
       "variacao_mes_pct": 19.69,
       "noticias": [
         {
+          "titulo": "Açúcar fecha em forte queda  nesta 6ª feira (28) com desvalorização do real",
+          "tema": "Câmbio",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427155-acucar-fecha-em-forte-queda-com-desvalorizacao-do-real.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Line-up aponta exportação de 2,260 mi t de açúcar",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-08-28",
+          "url": "https://safras.com.br/line-up-aponta-exportacao-de-2260-mi-t-de-acucar/"
+        },
+        {
           "titulo": "Açúcar dispara com previsão de queda na produção da União Europeia",
           "tema": "Safra",
           "impacto": "alta",
@@ -1371,14 +1387,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-27",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427077-acucar-avanca-nas-bolsas-nesta-quinta-feira-com-suporte-de-oferta-mais-restrita-na-europa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar dispara em NY com chuvas no Brasil e expectativa de queda na produção da UE",
-          "tema": "Clima",
-          "impacto": "alta",
-          "fonte": "SAFRAS",
-          "data": "2026-08-27",
-          "url": "https://safras.com.br/acucar-dispara-em-ny-com-chuvas-no-brasil-e-expectativa-de-queda-na-producao-da-ue/"
         },
         {
           "titulo": "Açúcar fecha misto nas bolsas internacionais; Londres recua com expectativa de menor importação da Índia",
@@ -1411,14 +1419,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426966-usinas-do-nordeste-registram-ganhos-de-ate-92-8-na-produtividade-da-cana-com-irrigacao-por-gotejamento.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar recua nas bolsas com mercado de olho em menor importação da Índia",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/426939-acucar-recua-nas-bolsas-com-mercado-de-olho-em-menor-importacao-da-india.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -1742,6 +1742,30 @@
       "variacao_mes_pct": 6.72,
       "noticias": [
         {
+          "titulo": "Setembro abre nova janela para a soja e reforça importância do manejo antecipado da ferrugem",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427143-setembro-abre-nova-janela-para-a-soja-e-reforca-importancia-do-manejo-antecipado-da-ferrugem.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja rompe US$ 13 em Chicago impulsionada por disparada do trigo e novas vendas anunciadas pelo USDA",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427140-soja-rompe-us-13-em-chicago-impulsionada-por-disparada-do-trigo-e-novas-vendas-anunciadas-pelo-usda.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja 26/27 começa com dilema no campo: antecipar o plantio ou esperar mais chuva?",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427120-soja-26-27-comeca-com-dilema-no-campo-antecipar-o-plantio-ou-esperar-mais-chuva.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja avança em Chicago nesta 6ª (28) e encontra suporte no clima, demanda e alta do óleo",
           "tema": "Clima",
           "impacto": "neutro",
@@ -1780,30 +1804,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427037-soja-vai-a-r-160-nos-portos-do-brasil-com-nova-disparada-em-chicago-e-alta-do-dolar-nesta-4.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Área de soja cresce cerca de 43 mil hectares no Piauí e no Maranhão, enquanto Acre e Amazonas registram queda conjunta de 12%, revela Serasa Experian",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427027-area-de-soja-cresce-cerca-de-43-mil-hectares-no-piaui-e-no-maranhao-enquanto-acre-e-amazonas-registram-queda-conjunta-de-12-revela-serasa-experian.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Vazio sanitário antecipa decisões importantes para a próxima safra de soja",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427007-vazio-sanitario-antecipa-decisoes-importantes-para-a-proxima-safra-de-soja.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja opera com leves altas em Chicago nesta 4ª feira (26); farelo sobe forte e óleo cai mais de 1%",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/426986-soja-opera-com-leves-altas-em-chicago-nesta-4-feira-26-farelo-sobe-forte-e-oleo-cai-mais-de-1.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2503,6 +2503,30 @@
       "variacao_mes_pct": -0.21,
       "noticias": [
         {
+          "titulo": "Resiliência climática do café robusta é um \"mito da internet\", diz pesquisador",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427163-resiliencia-climatica-do-cafe-robusta-e-um-mito-da-internet-diz-pesquisador.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Cecafé revisa para cima dados parciais da exportação de agosto em 1,23 mi sacas",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427166-cecafe-revisa-para-cima-dados-parciais-da-exportacao-de-agosto-em-123-mi-sacas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Exportações mundiais de café verde aumentaram 0,8% em junho, diz OIC",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427149-exportacoes-mundiais-de-cafe-verde-aumentaram-08-em-junho-diz-oic.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café tomba mais de 3% em Nova York nesta 5ª, produtor recua e trava o mercado físico no Brasil",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2541,30 +2565,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426972-cafe-perde-forca-em-ny-nesta-3-25-com-realizacao-de-lucros-apos-disparada-da-vespera.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Morre Onofre Lacerda, referência e pioneiro dos cafés especiais do Caparaó, aos 80 anos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426967-morre-onofre-lacerda-referencia-e-pioneiro-dos-cafes-especiais-do-caparao-aos-80-anos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café dispara em NY nesta 2ª e sobe quase 5%; cereja descascado alcança os R$ 2 mil em Varginha/MG",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426904-cafe-dispara-em-ny-nesta-2-e-sobe-quase-5-cereja-descascado-alcanca-os-r-2-mil-em-varginha-mg.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Exportação de café do Brasil no mês já supera agosto de 2025 com alta de 50%, diz Secex",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426911-exportacao-de-cafe-do-brasil-no-mes-ja-supera-agosto-de-2025-com-alta-de-50-diz-secex.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
