@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-08-27T17:48:00",
+  "ultima_atualizacao": "2026-08-28T07:50:18",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1642,
@@ -8,18 +8,18 @@
     "ask": 5.1642
   },
   "safra": {
-    "ultima_atualizacao": "2026-08-27T17:48:00",
+    "ultima_atualizacao": "2026-08-28T07:50:18",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
         "fonte": "IBGE SIDRA",
-        "data": "2026-08-27",
+        "data": "2026-08-28",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 96468779 t em 2024",
         "fonte": "IBGE SIDRA",
-        "data": "2026-08-27",
+        "data": "2026-08-28",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -31,6 +31,11 @@
       "fonte_primaria": "CEPEA/IRGA-RS via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-08-27",
+          "valor": 77.84,
+          "variacao_pct": 1.37
+        },
         {
           "data": "2026-08-26",
           "valor": 76.79,
@@ -50,14 +55,14 @@
           "data": "2026-08-21",
           "valor": 76.17,
           "variacao_pct": -0.04
-        },
-        {
-          "data": "2026-08-20",
-          "valor": 76.2,
-          "variacao_pct": 0.16
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-08-27",
+          "valor": 77.84,
+          "variacao_pct": 1.37
+        },
         {
           "data": "2026-08-26",
           "valor": 76.79,
@@ -324,7 +329,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 12.4,
+      "variacao_mes_pct": 13.68,
       "noticias": [
         {
           "titulo": "Arroz/Cepea: Cotações sinalizam recuperação",
@@ -392,16 +397,16 @@
         }
       ],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
+      "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.36,
+      "score_preco": 0.46,
       "score_noticias": 0.0,
-      "score_combinado": 0.22,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+1.1% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 76.84) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.28,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.3% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 77.84) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 58.98,
-      "resistencia": 76.84,
+      "resistencia": 77.84,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -411,6 +416,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-08-27",
+          "valor": 281.96,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-08-26",
           "valor": 281.96,
@@ -430,14 +440,14 @@
           "data": "2026-08-21",
           "valor": 293.86,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-08-20",
-          "valor": 293.86,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-08-27",
+          "valor": 281.96,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-08-26",
           "valor": 281.96,
@@ -707,14 +717,14 @@
       "variacao_mes_pct": 14.63,
       "noticias": [],
       "safra_noticias": [],
-      "tendencia_curta": "alta",
+      "tendencia_curta": "queda",
       "tendencia_media": "alta",
-      "score_preco": 1.0,
+      "score_preco": -0.81,
       "score_noticias": 0.0,
-      "score_combinado": 0.6,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 7.9% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
+      "score_combinado": -0.49,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em queda de 4.0% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "comprar",
+      "recomendacao": "segurar",
       "suporte": 240.89,
       "resistencia": 354.9,
       "red_flags": [],
@@ -726,6 +736,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-08-27",
+          "valor": 229.39,
+          "variacao_pct": 0.77
+        },
         {
           "data": "2026-08-26",
           "valor": 227.63,
@@ -745,14 +760,14 @@
           "data": "2026-08-21",
           "valor": 219.37,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-08-20",
-          "valor": 219.37,
-          "variacao_pct": -1.32
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-08-27",
+          "valor": 229.39,
+          "variacao_pct": 0.77
+        },
         {
           "data": "2026-08-26",
           "valor": 227.63,
@@ -1019,19 +1034,19 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 5.89,
+      "variacao_mes_pct": 7.07,
       "noticias": [],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.73,
+      "score_preco": 0.64,
       "score_noticias": 0.0,
-      "score_combinado": 0.44,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 3.6% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 227.63) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.38,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 3.2% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 229.39) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 211.63,
-      "resistencia": 227.63,
+      "resistencia": 229.39,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -1041,6 +1056,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-08-27",
+          "valor": 110.59,
+          "variacao_pct": 2.42
+        },
         {
           "data": "2026-08-26",
           "valor": 107.98,
@@ -1060,14 +1080,14 @@
           "data": "2026-08-21",
           "valor": 104.37,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-08-20",
-          "valor": 104.37,
-          "variacao_pct": 1.83
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-08-27",
+          "valor": 110.59,
+          "variacao_pct": 2.42
+        },
         {
           "data": "2026-08-26",
           "valor": 107.98,
@@ -1334,7 +1354,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 16.19,
+      "variacao_mes_pct": 19.69,
       "noticias": [
         {
           "titulo": "Açúcar dispara com previsão de queda na produção da União Europeia",
@@ -1407,11 +1427,11 @@
       "score_preco": 1.0,
       "score_noticias": 0.25,
       "score_combinado": 0.7,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 5.6% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 107.98) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 7.9% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 110.59) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 90.72,
-      "resistencia": 107.98,
+      "resistencia": 110.59,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -1421,6 +1441,11 @@
       "fonte_primaria": "CEPEA/Paranaguá via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-08-27",
+          "valor": 155.05,
+          "variacao_pct": 0.31
+        },
         {
           "data": "2026-08-26",
           "valor": 154.57,
@@ -1440,14 +1465,14 @@
           "data": "2026-08-21",
           "valor": 153.68,
           "variacao_pct": -0.61
-        },
-        {
-          "data": "2026-08-20",
-          "valor": 154.63,
-          "variacao_pct": 1.97
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-08-27",
+          "valor": 155.05,
+          "variacao_pct": 0.31
+        },
         {
           "data": "2026-08-26",
           "valor": 154.57,
@@ -1714,8 +1739,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 5.29,
+      "variacao_mes_pct": 6.72,
       "noticias": [
+        {
+          "titulo": "Soja avança em Chicago nesta 6ª (28) e encontra suporte no clima, demanda e alta do óleo",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427111-soja-avanca-em-chicago-nesta-6-28-e-encontra-suporte-no-clima-demanda-e-alta-do-oleo.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Soja sustenta altas em Chicago nesta 5ª (27) e puxa negócios a R$ 161 no Porto de Paranaguá",
           "tema": "Oferta & Demanda",
@@ -1771,27 +1804,19 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/426986-soja-opera-com-leves-altas-em-chicago-nesta-4-feira-26-farelo-sobe-forte-e-oleo-cai-mais-de-1.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Anec reduz exportação de soja do Brasil em agosto, mas total deve superar 10 mi t",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/426980-anec-reduz-exportacao-de-soja-do-brasil-em-agosto-mas-total-deve-superar-10-mi-t.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.42,
+      "score_preco": 0.45,
       "score_noticias": -0.12,
-      "score_combinado": 0.21,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.1% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 154.63) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.22,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.2% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 155.05) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 129.24,
-      "resistencia": 154.63,
+      "resistencia": 155.05,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -1802,9 +1827,14 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-08-27",
+          "valor": 86.9616,
+          "variacao_pct": 7.71
+        },
+        {
           "data": "2026-08-26",
-          "valor": 87.2472,
-          "variacao_pct": 0.81
+          "valor": 80.739,
+          "variacao_pct": -6.71
         },
         {
           "data": "2026-08-25",
@@ -1820,18 +1850,18 @@
           "data": "2026-08-21",
           "valor": 86.8056,
           "variacao_pct": 0.19
-        },
-        {
-          "data": "2026-08-20",
-          "valor": 86.6418,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
         {
+          "data": "2026-08-27",
+          "valor": 86.9616,
+          "variacao_pct": 7.71
+        },
+        {
           "data": "2026-08-26",
-          "valor": 87.2472,
-          "variacao_pct": 0.81
+          "valor": 80.739,
+          "variacao_pct": -6.71
         },
         {
           "data": "2026-08-25",
@@ -2094,7 +2124,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 3.43,
+      "variacao_mes_pct": 3.09,
       "noticias": [
         {
           "titulo": "Colheita do trigo começa no Paraná com doenças e excesso de chuva reduzindo potencial em algumas áreas",
@@ -2148,15 +2178,22 @@
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.49,
+      "score_preco": 0.12,
       "score_noticias": 0.0,
-      "score_combinado": 0.3,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.5% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 87.25) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.4,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.4% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 86.96) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "aguardar",
-      "suporte": 81.7554,
-      "resistencia": 87.2472,
-      "red_flags": [],
+      "recomendacao": "comprar",
+      "suporte": 80.739,
+      "resistencia": 86.9616,
+      "red_flags": [
+        {
+          "tipo": "variacao_dia",
+          "mensagem": "Variação de +7.7% em 1 dia — movimento atípico de alta",
+          "severidade": "alta",
+          "impacto_tendencia": "alta"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "cafe": {
@@ -2165,6 +2202,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-08-27",
+          "valor": 1742.74,
+          "variacao_pct": -3.22
+        },
         {
           "data": "2026-08-26",
           "valor": 1800.79,
@@ -2184,14 +2226,14 @@
           "data": "2026-08-21",
           "valor": 1803.76,
           "variacao_pct": -0.98
-        },
-        {
-          "data": "2026-08-20",
-          "valor": 1821.66,
-          "variacao_pct": 0.94
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-08-27",
+          "valor": 1742.74,
+          "variacao_pct": -3.22
+        },
         {
           "data": "2026-08-26",
           "valor": 1800.79,
@@ -2458,7 +2500,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 2.2,
+      "variacao_mes_pct": -0.21,
       "noticias": [
         {
           "titulo": "Café tomba mais de 3% em Nova York nesta 5ª, produtor recua e trava o mercado físico no Brasil",
@@ -2526,17 +2568,24 @@
         }
       ],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
-      "tendencia_media": "alta",
-      "score_preco": -0.27,
+      "tendencia_curta": "queda",
+      "tendencia_media": "estavel",
+      "score_preco": -0.69,
       "score_noticias": 0.0,
-      "score_combinado": -0.16,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.8% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 1826.58) — zona de pressão vendedora; possível correção à frente.</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "aguardar",
+      "score_combinado": -0.41,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em queda de 3.4% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
+      "recomendacao": "segurar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "variacao_dia",
+          "mensagem": "Variação de -3.2% em 1 dia — movimento atípico de queda",
+          "severidade": "alta",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "leite": {
@@ -2545,6 +2594,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-08-28",
+          "valor": 2.5365,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-08-27",
           "valor": 2.5365,
@@ -2564,14 +2618,14 @@
           "data": "2026-08-24",
           "valor": 2.5365,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-08-21",
-          "valor": 2.5365,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-08-28",
+          "valor": 2.5365,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-08-27",
           "valor": 2.5365,
