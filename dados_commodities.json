@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-08-31T07:50:18",
+  "ultima_atualizacao": "2026-08-31T14:42:58",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.2005,
-    "variacao_pct": 0.7,
-    "bid": 5.2005,
-    "ask": 5.2005
+    "valor": 5.1816,
+    "variacao_pct": -0.36,
+    "bid": 5.1816,
+    "ask": 5.1816
   },
   "safra": {
-    "ultima_atualizacao": "2026-08-31T07:50:18",
+    "ultima_atualizacao": "2026-08-31T14:42:58",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -337,6 +337,46 @@
       "variacao_mes_pct": 13.74,
       "noticias": [
         {
+          "titulo": "Preço do arroz sobe 22% no RS e mercado acompanha efeitos do El Niño",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-31",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427212-preco-do-arroz-sobe-22-no-rs-e-mercado-acompanha-efeitos-do-el-nino.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Arroz deve perder mais uma vez espaço nas lavouras do RS na próxima safra",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-08-31",
+          "url": "https://planetaarroz.com.br/arroz-deve-perder-mais-uma-vez-espaco-nas-lavouras-do-rs-na-proxima-safra/"
+        },
+        {
+          "titulo": "Irga prevê retração de 3,4% na área do arroz do RS",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-08-31",
+          "url": "https://planetaarroz.com.br/irga-preve-retracao-de-34-na-area-do-arroz-do-rs/"
+        },
+        {
+          "titulo": "Planeta Arroz lança edição de agosto na Expointer",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-08-31",
+          "url": "https://planetaarroz.com.br/planeta-arroz-lanca-edicao-de-agosto-na-expointer/"
+        },
+        {
+          "titulo": "Embrapa apresenta eventos das cadeias do arroz e da noz-pecã durante a 49ª Expointer",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-08-31",
+          "url": "https://planetaarroz.com.br/embrapa-apresenta-eventos-das-cadeias-do-arroz-e-da-noz-peca-durante-a-49a-expointer/"
+        },
+        {
           "titulo": "Nova publicação apresenta estratégias para enfrentamento da seca no cultivo do arroz de terras altas no cerrado",
           "tema": "Clima",
           "impacto": "alta",
@@ -359,46 +399,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-08-28",
           "url": "https://planetaarroz.com.br/corrida-pela-materia-prima-da-lugar-a-um-mercado-de-arroz-equilibrado/"
-        },
-        {
-          "titulo": "Com arroz brasileiro desenvolvido em Santa Catarina, Tell Alimentos entra no mercado de risotos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-28",
-          "url": "https://planetaarroz.com.br/com-arroz-brasileiro-desenvolvido-em-santa-catarina-tell-alimentos-entra-no-mercado-de-risotos/"
-        },
-        {
-          "titulo": "Arroz/Cepea: Cotações sinalizam recuperação",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/426991-arroz-cepea-cotacoes-sinalizam-recuperacao.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Abiarroz rebate critérios de levantamento que mediu qualidade do arroz Tipo 1",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-26",
-          "url": "https://planetaarroz.com.br/abiarroz-rebate-criterios-de-levantamento-que-mediu-qualidade-do-arroz-tipo-1/"
-        },
-        {
-          "titulo": "Cotações do arroz sinalizam recuperação",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-26",
-          "url": "https://planetaarroz.com.br/cotacoes-sinalizam-recuperacao/"
-        },
-        {
-          "titulo": "Arroz: Cotações indicam recuperação",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SNA",
-          "data": "2026-08-26",
-          "url": "https://sna.agr.br/arroz-cotacoes-indicam-recuperacao/"
         }
       ],
       "safra_noticias": [],
@@ -1386,20 +1386,20 @@
       "variacao_mes_pct": 22.47,
       "noticias": [
         {
+          "titulo": "Açúcar sobe em Nova Iorque nesta segunda-feira após forte queda na sexta",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-31",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427207-acucar-sobe-em-nova-iorque-nesta-segunda-feira-apos-forte-queda-na-sexta.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em forte queda  nesta 6ª feira (28) com desvalorização do real",
           "tema": "Câmbio",
           "impacto": "alta",
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427155-acucar-fecha-em-forte-queda-com-desvalorizacao-do-real.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Line-up aponta exportação de 2,260 mi t de açúcar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-08-28",
-          "url": "https://safras.com.br/line-up-aponta-exportacao-de-2260-mi-t-de-acucar/"
         },
         {
           "titulo": "Açúcar dispara com previsão de queda na produção da União Europeia",
@@ -1776,6 +1776,22 @@
       "variacao_mes_pct": 10.25,
       "noticias": [
         {
+          "titulo": "Soja 26/27: retração na expansão de área indica um teto para o crescimento?",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-31",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427213-soja-26-27-retracao-na-expansao-de-area-indica-um-teto-para-o-crescimento.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja segue recuando em Chicago nesta 2ª, mas ameniza perdas com demanda presente",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-31",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427214-soja-segue-recuando-em-chicago-nesta-2-mas-ameniza-perdas-com-demanda-presente.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja recua levemente em Chicago nesta 2ª feira, mas clima nos EUA e demanda ainda dão suporte",
           "tema": "Clima",
           "impacto": "neutro",
@@ -1822,29 +1838,13 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427111-soja-avanca-em-chicago-nesta-6-28-e-encontra-suporte-no-clima-demanda-e-alta-do-oleo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja sustenta altas em Chicago nesta 5ª (27) e puxa negócios a R$ 161 no Porto de Paranaguá",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427098-soja-sustenta-rali-em-chicago-e-puxa-negocios-a-r-161-no-porto-de-paranagua.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Paraná pode ter safra recorde de soja em 2026/27 com chuvas do El Niño, diz Deral",
-          "tema": "Clima",
-          "impacto": "queda",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427081-parana-pode-ter-safra-recorde-de-soja-em-202627-com-chuvas-do-el-nino-diz-deral.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.66,
-      "score_noticias": -0.12,
+      "score_noticias": 0.0,
       "score_combinado": 0.4,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 3.3% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 159.76) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
@@ -2546,6 +2546,14 @@
       "variacao_mes_pct": -0.89,
       "noticias": [
         {
+          "titulo": "Colheita de café 26/27 do Brasil alcança 97%, diz Safras",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-31",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427185-colheita-de-cafe-2627-do-brasil-alcanca-97-diz-safras.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Resiliência climática do café robusta é um \"mito da internet\", diz pesquisador",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2600,14 +2608,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426992-cafe-cepea-colheita-do-arabica-avanca-mas-qualidade-dos-lotes-preocupa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café perde força em NY nesta 3ª (25), com realização de lucros após disparada da véspera",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/426972-cafe-perde-forca-em-ny-nesta-3-25-com-realizacao-de-lucros-apos-disparada-da-vespera.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
