@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-01T07:50:18",
+  "ultima_atualizacao": "2026-09-01T12:13:38",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1816,
@@ -8,7 +8,7 @@
     "ask": 5.1816
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-01T07:50:18",
+    "ultima_atualizacao": "2026-09-01T12:13:38",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -342,6 +342,14 @@
       "variacao_mes_pct": 14.16,
       "noticias": [
         {
+          "titulo": "Campo em Debate: por que o arroz perdeu espaço no prato e os caminhos para recuperá-lo",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-01",
+          "url": "https://planetaarroz.com.br/campo-em-debate-por-que-o-arroz-perdeu-espaco-no-prato-e-os-caminhos-para-recupera-lo/"
+        },
+        {
           "titulo": "Preço do arroz sobe 22% no RS e mercado acompanha efeitos do El Niño",
           "tema": "Clima",
           "impacto": "neutro",
@@ -396,14 +404,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/427141-aproximacao-do-periodo-de-pico-do-el-nino-junto-a-fase-de-semeadura-traz-alerta-para-a-cadeia-produtiva-do-arroz-de-sc.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Corrida pela matéria-prima dá lugar a um mercado de arroz equilibrado",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-28",
-          "url": "https://planetaarroz.com.br/corrida-pela-materia-prima-da-lugar-a-um-mercado-de-arroz-equilibrado/"
         }
       ],
       "safra_noticias": [],
@@ -1406,6 +1406,22 @@
       "variacao_mes_pct": 25.25,
       "noticias": [
         {
+          "titulo": "Açúcar/Cepea: Mercado externo impulsiona cotação do cristal em SP",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427285-acucar-cepea-mercado-externo-impulsiona-cotacao-do-cristal-em-sp.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Cofco International acerta compra de duas usinas de açúcar da Bunge no Brasil",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427274-cofco-international-acerta-compra-de-duas-usinas-de-acucar-da-bunge-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em alta em Nova Iorque, com mercado atento a déficit global na safra 2026/27",
           "tema": "Safra",
           "impacto": "neutro",
@@ -1452,22 +1468,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-27",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427096-acucar-dispara-com-previsao-de-queda-na-producao-da-uniao-europeia.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar avança nas bolsas nesta quinta-feira com suporte de oferta mais restrita na Europa",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427077-acucar-avanca-nas-bolsas-nesta-quinta-feira-com-suporte-de-oferta-mais-restrita-na-europa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha misto nas bolsas internacionais; Londres recua com expectativa de menor importação da Índia",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427030-acucar-fecha-misto-nas-bolsas-internacionais-londres-recua-com-expectativa-de-menor-importacao-da-india.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -1801,6 +1801,22 @@
       "variacao_mes_pct": 10.69,
       "noticias": [
         {
+          "titulo": "Começa nesta terça-feira, 1º de setembro, o calendário de semeadura da soja na Região 1 de São Paulo",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427282-comeca-nesta-terca-feira-1-de-setembro-o-calendario-de-semeadura-da-soja-na-regiao-1-de-sao-paulo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Fim do vazio sanitário em MT: El Niño aumenta atenção para início do plantio de soja após",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427281-fim-do-vazio-sanitario-em-mt-el-nino-aumenta-atencao-para-inicio-do-plantio-de-soja-apos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja dispara em Chicago nesta 3ª, com piora das lavouras nos EUA e forte alta do óleo",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -1847,22 +1863,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-31",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427180-soja-cepea-demanda-firme-e-incertezas-sobre-a-safra-2026-27-elevam-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Setembro abre nova janela para a soja e reforça importância do manejo antecipado da ferrugem",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427143-setembro-abre-nova-janela-para-a-soja-e-reforca-importancia-do-manejo-antecipado-da-ferrugem.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja rompe US$ 13 em Chicago impulsionada por disparada do trigo e novas vendas anunciadas pelo USDA",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427140-soja-rompe-us-13-em-chicago-impulsionada-por-disparada-do-trigo-e-novas-vendas-anunciadas-pelo-usda.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2196,6 +2196,14 @@
       "variacao_mes_pct": 3.56,
       "noticias": [
         {
+          "titulo": "Trigo/Cepea: Conflito no Mar Negro impulsiona preços futuros",
+          "tema": "Geopolítica",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427262-trigo-cepea-conflito-no-mar-negro-impulsiona-precos-futuros.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo recua em Chicago após plano turco para transporte no Mar Negro",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2240,14 +2248,23 @@
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": 0.22,
-      "score_noticias": 0.0,
-      "score_combinado": 0.13,
+      "score_noticias": 0.17,
+      "score_combinado": 0.2,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.7% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 87.38) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 80.739,
       "resistencia": 87.3846,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "evento_externo",
+          "mensagem": "Evento externo detectado: Trigo/Cepea: Conflito no Mar Negro impulsiona preços futuros",
+          "severidade": "media",
+          "impacto_tendencia": "alta",
+          "fonte": "Notícias Agrícolas",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427262-trigo-cepea-conflito-no-mar-negro-impulsiona-precos-futuros.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "cafe": {
@@ -2567,6 +2584,14 @@
       "variacao_mes_pct": 2.11,
       "noticias": [
         {
+          "titulo": "Colheita de café arábica chega a 93% no Cerrado Mineiro",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427259-colheita-de-cafe-arabica-chega-a-93-no-cerrado-mineiro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café arábica fecha estável em Nova York em sessão de consolidação; preços no BR acompanham",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2621,14 +2646,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-27",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427092-cafe-tomba-mais-de-3-em-nova-york-nesta-5-produtor-recua-e-trava-o-mercado-fisico-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Preços do café caem mais de 4% em NY nesta 4ª (26) com perspectiva de aumento da oferta de café no Brasil",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427036-precos-do-cafe-caem-mais-de-4-em-ny-nesta-4-26-com-perspectiva-de-aumento-da-oferta-de-cafe-no-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
