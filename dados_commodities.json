@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-02T07:50:21",
+  "ultima_atualizacao": "2026-09-02T11:44:27",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.157,
@@ -8,7 +8,7 @@
     "ask": 5.157
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-02T07:50:21",
+    "ultima_atualizacao": "2026-09-02T11:44:27",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -347,6 +347,14 @@
       "variacao_mes_pct": 12.31,
       "noticias": [
         {
+          "titulo": "37ª Abertura da Colheita do Arroz: lançamento destaca parceria entre pesquisa e setor produtivo",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-02",
+          "url": "https://planetaarroz.com.br/37a-abertura-da-colheita-do-arroz-lancamento-destaca-parceria-entre-pesquisa-e-setor-produtivo/"
+        },
+        {
           "titulo": "Abertura Oficial da Colheita do Arroz é lançada na Expointer com projeção de 25 mil visitantes",
           "tema": "Safra",
           "impacto": "neutro",
@@ -401,14 +409,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-08-31",
           "url": "https://planetaarroz.com.br/planeta-arroz-lanca-edicao-de-agosto-na-expointer/"
-        },
-        {
-          "titulo": "Embrapa apresenta eventos das cadeias do arroz e da noz-pecã durante a 49ª Expointer",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-31",
-          "url": "https://planetaarroz.com.br/embrapa-apresenta-eventos-das-cadeias-do-arroz-e-da-noz-peca-durante-a-49a-expointer/"
         }
       ],
       "safra_noticias": [],
@@ -1817,6 +1817,22 @@
       "variacao_mes_pct": 11.81,
       "noticias": [
         {
+          "titulo": "Importações de óleo de soja pela Índia atingem recorde em agosto, dizem comerciantes",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427355-importacoes-de-oleo-de-soja-pela-india-atingem-recorde-em-agosto-dizem-comerciantes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja recua em Chicago nesta 4ª feira (2) com realização de lucros e pressão do mercado de grãos",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427340-soja-recua-em-chicago-nesta-4-feira-2-com-realizacao-de-lucros-e-pressao-do-mercado-de-graos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "\"Tempestade perfeita\" puxa soja acima de US$ 13 em Chicago e Brasil tem melhores preços em quatro anos",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1863,22 +1879,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-01",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427281-fim-do-vazio-sanitario-em-mt-el-nino-aumenta-atencao-para-inicio-do-plantio-de-soja-apos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja dispara em Chicago nesta 3ª, com piora das lavouras nos EUA e forte alta do óleo",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427249-soja-dispara-em-chicago-nesta-3-com-piora-das-lavouras-nos-eua-e-forte-alta-do-oleo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mercado brasileiro da soja começa semana com preços estáveis e negócios ainda acontecendo",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-31",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427230-mercado-brasileiro-da-soja-comeca-semana-com-precos-estaveis-e-negocios-ainda-acontecendo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
