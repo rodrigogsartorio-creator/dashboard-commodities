@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-03T07:50:20",
+  "ultima_atualizacao": "2026-09-03T11:45:06",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1273,
@@ -8,7 +8,7 @@
     "ask": 5.1273
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-03T07:50:20",
+    "ultima_atualizacao": "2026-09-03T11:45:06",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -1437,6 +1437,14 @@
       "variacao_mes_pct": 24.81,
       "noticias": [
         {
+          "titulo": "Açúcar recua nas bolsas internacionais após máximas recentes",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427441-acucar-recua-nas-bolsas-internacionais-apos-maximas-recentes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em forte alta pelo 2º dia e alcança maiores níveis em meses",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1491,14 +1499,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-31",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427232-acucar-fecha-em-alta-em-nova-iorque-com-mercado-atento-a-deficit-global-na-safra-2026-27.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Conab abre prazo para auxílio de R$ 12 por tonelada de cana no Nordeste",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-31",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427220-conab-abre-prazo-para-auxilio-de-r-12-por-tonelada-de-cana-no-nordeste.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -1842,6 +1842,22 @@
       "variacao_mes_pct": 11.1,
       "noticias": [
         {
+          "titulo": "Produtor deve se preparar para potencial ataque intenso de mosca-branca na soja, recomenda pesquisador",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427440-produtor-deve-se-preparar-para-potencial-ataque-intenso-de-mosca-branca-na-soja-recomenda-pesquisador.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja e grãos despencam em Chicago nesta 5ª  com realização de lucros e possível alívio no Mar Negro",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427416-soja-e-graos-despencam-em-chicago-nesta-5-com-realizacao-de-lucros-e-possivel-alivio-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja ameniza baixas em Chicago nesta 4ª feira e mantém suporte na demanda forte nos EUA",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -1888,22 +1904,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-01",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427306-soja-mais-cara-derruba-margem-de-esmagamento-em-mt-ao-menor-nivel-para-agosto-em-tres-anos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "StoneX eleva em 0,2% previsão de safra de soja do Brasil 2026/27 para 183,5 mi t",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427300-stonex-eleva-em-02-previsao-de-safra-de-soja-do-brasil-202627-para-1835-mi-t.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Começa nesta terça-feira, 1º de setembro, o calendário de semeadura da soja na Região 1 de São Paulo",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427282-comeca-nesta-terca-feira-1-de-setembro-o-calendario-de-semeadura-da-soja-na-regiao-1-de-sao-paulo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
