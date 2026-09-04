@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-04T07:50:20",
+  "ultima_atualizacao": "2026-09-04T11:34:46",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0962,
@@ -8,8 +8,21 @@
     "ask": 5.0962
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-04T07:50:20",
-    "noticias": []
+    "ultima_atualizacao": "2026-09-04T11:34:46",
+    "noticias": [
+      {
+        "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
+        "fonte": "IBGE SIDRA",
+        "data": "2026-09-04",
+        "url": "https://sidra.ibge.gov.br/tabela/5457"
+      },
+      {
+        "titulo": "IBGE — Área colhida (Brasil): 96468779 t em 2024",
+        "fonte": "IBGE SIDRA",
+        "data": "2026-09-04",
+        "url": "https://sidra.ibge.gov.br/tabela/5457"
+      }
+    ]
   },
   "commodities": {
     "arroz": {
@@ -344,54 +357,6 @@
       "variacao_mes_pct": 10.63,
       "noticias": [
         {
-          "titulo": "Semana Arrozeira de Alegrete começa a ganhar forma nesta quinta-feira na Expointer",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-03",
-          "url": "https://planetaarroz.com.br/semana-arrozeira-de-alegrete-comeca-a-ganhar-forma-nesta-quinta-feira-na-expointer/"
-        },
-        {
-          "titulo": "Preço do arroz subiu em agosto e atingiu maior média mensal desde abril de 2025",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-02",
-          "url": "https://planetaarroz.com.br/preco-do-arroz-subiu-em-agosto-e-atingiu-maior-media-mensal-desde-abril-de-2025/"
-        },
-        {
-          "titulo": "37ª Abertura da Colheita do Arroz: lançamento destaca parceria entre pesquisa e setor produtivo",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-02",
-          "url": "https://planetaarroz.com.br/37a-abertura-da-colheita-do-arroz-lancamento-destaca-parceria-entre-pesquisa-e-setor-produtivo/"
-        },
-        {
-          "titulo": "Abertura Oficial da Colheita do Arroz é lançada na Expointer com projeção de 25 mil visitantes",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-01",
-          "url": "https://planetaarroz.com.br/abertura-oficial-da-colheita-do-arroz-e-lancada-na-expointer-com-projecao-de-25-mil-visitantes/"
-        },
-        {
-          "titulo": "USDA estima safra de arroz beneficiado da Índia em 147 mi de t em 2026/27",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-01",
-          "url": "https://planetaarroz.com.br/usda-estima-safra-de-arroz-beneficiado-da-india-em-147-mi-de-t-em-2026-27/"
-        },
-        {
-          "titulo": "Campo em Debate: por que o arroz perdeu espaço no prato e os caminhos para recuperá-lo",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-01",
-          "url": "https://planetaarroz.com.br/campo-em-debate-por-que-o-arroz-perdeu-espaco-no-prato-e-os-caminhos-para-recupera-lo/"
-        },
-        {
           "titulo": "Preço do arroz sobe 22% no RS e mercado acompanha efeitos do El Niño",
           "tema": "Clima",
           "impacto": "neutro",
@@ -400,12 +365,28 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/427212-preco-do-arroz-sobe-22-no-rs-e-mercado-acompanha-efeitos-do-el-nino.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Arroz deve perder mais uma vez espaço nas lavouras do RS na próxima safra",
-          "tema": "Safra",
+          "titulo": "Aproximação do período de pico do El Niño junto à fase de semeadura traz alerta para a cadeia produtiva do arroz de SC",
+          "tema": "Clima",
           "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-08-31",
-          "url": "https://planetaarroz.com.br/arroz-deve-perder-mais-uma-vez-espaco-nas-lavouras-do-rs-na-proxima-safra/"
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427141-aproximacao-do-periodo-de-pico-do-el-nino-junto-a-fase-de-semeadura-traz-alerta-para-a-cadeia-produtiva-do-arroz-de-sc.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Arroz/Cepea: Cotações sinalizam recuperação",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/426991-arroz-cepea-cotacoes-sinalizam-recuperacao.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Federarroz vai acionar autoridades após identificar inconformidades no arroz vendido ao consumidor",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-08-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/426968-federarroz-vai-acionar-autoridades-apos-identificar-inconformidades-no-arroz-vendido-ao-consumidor.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -1854,6 +1835,14 @@
       "variacao_mes_pct": 10.46,
       "noticias": [
         {
+          "titulo": "Soja aprofunda perdas em Chicago com baixas mais fortes também no óleo e no trigo  nesta 6ª",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-04",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427519-soja-aprofunda-perdas-em-chicago-com-baixas-mais-fortes-tambem-no-oleo-e-no-trigo-nesta-6.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja pisa no freio em Chicago após semana de fortes oscilações; mercado busca definir direção",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1908,14 +1897,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-02",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427355-importacoes-de-oleo-de-soja-pela-india-atingem-recorde-em-agosto-dizem-comerciantes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja recua em Chicago nesta 4ª feira (2) com realização de lucros e pressão do mercado de grãos",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427340-soja-recua-em-chicago-nesta-4-feira-2-com-realizacao-de-lucros-e-pressao-do-mercado-de-graos.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2264,6 +2245,14 @@
       "variacao_mes_pct": 2.99,
       "noticias": [
         {
+          "titulo": "Trigo evolui de forma satisfatória no Rio Grande do Sul",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-04",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427502-trigo-evolui-de-forma-satisfatoria-no-rio-grande-do-sul.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Preço do trigo cai em Chicago após Putin citar possibilidade de acordo de paz com Ucrânia",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2318,14 +2307,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-08-31",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427246-trigo-recua-em-chicago-apos-plano-turco-para-transporte-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo sobe para maior valor em 3 anos devido às tensões no Mar Negro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427174-trigo-sobe-para-maior-valor-em-3-anos-devido-as-tensoes-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
