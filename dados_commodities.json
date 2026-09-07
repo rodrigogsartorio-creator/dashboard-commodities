@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-07T07:50:17",
+  "ultima_atualizacao": "2026-09-07T13:06:44",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1253,
@@ -8,7 +8,7 @@
     "ask": 5.1253
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-07T07:50:17",
+    "ultima_atualizacao": "2026-09-07T13:06:44",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -1892,6 +1892,14 @@
       "variacao_mes_pct": 10.83,
       "noticias": [
         {
+          "titulo": "AgRural: Paraná dá a largada no plantio da safra 2026/27 de soja",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-07",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427575-parana-da-a-largada-no-plantio-da-safra-2026-27-de-soja.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Com mercado aquecido, comercialização da soja 26/27 do Brasil chega a 29,1% e supera média",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1946,14 +1954,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427416-soja-e-graos-despencam-em-chicago-nesta-5-com-realizacao-de-lucros-e-possivel-alivio-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja ameniza baixas em Chicago nesta 4ª feira e mantém suporte na demanda forte nos EUA",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427385-soja-ameniza-baixas-em-chicago-nesta-4-feira-e-mantem-suporte-na-demanda-forte-nos-eua.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
