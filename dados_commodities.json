@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-08T07:50:17",
+  "ultima_atualizacao": "2026-09-08T11:47:33",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1253,
@@ -8,7 +8,7 @@
     "ask": 5.1253
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-08T07:50:17",
+    "ultima_atualizacao": "2026-09-08T11:47:33",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -362,6 +362,14 @@
       "variacao_mes_pct": 10.87,
       "noticias": [
         {
+          "titulo": "Enfrentamento da seca no cultivo do arroz de terras altas no Cerrado é tema de cartilha",
+          "tema": "Clima",
+          "impacto": "alta",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-08",
+          "url": "https://planetaarroz.com.br/enfrentamento-da-seca-no-cultivo-do-arroz-de-terras-altas-no-cerrado-e-tema-de-cartilha/"
+        },
+        {
           "titulo": "Menos arroz no prato pressiona cadeia produtiva gaúcha",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -416,28 +424,29 @@
           "fonte": "Planeta Arroz",
           "data": "2026-09-02",
           "url": "https://planetaarroz.com.br/37a-abertura-da-colheita-do-arroz-lancamento-destaca-parceria-entre-pesquisa-e-setor-produtivo/"
-        },
-        {
-          "titulo": "Abertura Oficial da Colheita do Arroz é lançada na Expointer com projeção de 25 mil visitantes",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-01",
-          "url": "https://planetaarroz.com.br/abertura-oficial-da-colheita-do-arroz-e-lancada-na-expointer-com-projecao-de-25-mil-visitantes/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.32,
-      "score_noticias": 0.0,
-      "score_combinado": 0.19,
+      "score_noticias": 0.12,
+      "score_combinado": 0.24,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.6% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 79.07) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 58.98,
       "resistencia": 79.07,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "evento_externo",
+          "mensagem": "Evento externo detectado: Enfrentamento da seca no cultivo do arroz de terras altas no Cerrado é tema de cartilha",
+          "severidade": "media",
+          "impacto_tendencia": "alta",
+          "fonte": "Planeta Arroz",
+          "url": "https://planetaarroz.com.br/enfrentamento-da-seca-no-cultivo-do-arroz-de-terras-altas-no-cerrado-e-tema-de-cartilha/"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "feijao_carioca": {
@@ -1501,14 +1510,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427489-setor-da-cana-de-acucar-pede-juros-menores-e-regras-claras-para-acelerar-investimentos-no-setor.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Cotações internacionais do açúcar disparam em agosto puxadas por El Niño",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-09-04",
-          "url": "https://safras.com.br/cotacoes-internacionais-do-acucar-disparam-em-agosto-puxadas-por-el-nino/"
-        },
-        {
           "titulo": "Produção de açúcar do centro-sul recua 7,9% na 1ª quinzena de agosto, aponta ministério",
           "tema": "Safra",
           "impacto": "neutro",
@@ -1539,6 +1540,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427441-acucar-recua-nas-bolsas-internacionais-apos-maximas-recentes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar fecha em forte alta pelo 2º dia e alcança maiores níveis em meses",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427394-acucar-fecha-em-forte-alta-pelo-2-dia-e-alcanca-maiores-niveis-em-meses.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -1892,6 +1901,22 @@
       "variacao_mes_pct": 10.83,
       "noticias": [
         {
+          "titulo": "Importações de soja pela China caem em agosto; previsão para o ano aponta estabilidade ou queda",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427607-importacoes-de-soja-pela-china-caem-em-agosto-previsao-para-o-ano-aponta-estabilidade-ou-queda.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja/Cepea: Alta dos preços ganha força no início de setembro",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427585-soja-cepea-alta-dos-precos-ganha-forca-no-inicio-de-setembro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja tem leves altas nesta 3ª (8), na esteira de novos e fortes avanços do trigo em Chicago",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1938,22 +1963,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427462-china-acelera-compras-nos-eua-para-o-ritmo-mais-rapido-em-4-anos-e-sustenta-altas-da-soja-em-chicago.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Preços da soja 26/27 têm melhor semana da temporada e negócios aceleram no Brasil",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427454-janela-de-oportunidades-combinacao-de-chicago-a-us-13-premios-e-dolar-aceleram-negocios-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Produtor deve se preparar para potencial ataque intenso de mosca-branca na soja, recomenda pesquisador",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427440-produtor-deve-se-preparar-para-potencial-ataque-intenso-de-mosca-branca-na-soja-recomenda-pesquisador.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2307,6 +2316,14 @@
       "variacao_mes_pct": 3.05,
       "noticias": [
         {
+          "titulo": "Chuvas, granizo e doenças aumentam pressão sobre trigo no Sul; colheita chega a 11,5%",
+          "tema": "Clima",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427600-chuvas-granizo-e-doencas-aumentam-pressao-sobre-trigo-no-sul-colheita-chega-a-11-5.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo cai novamente em Chicago, com negociações sobre a guerra na Ucrânia em destaque",
           "tema": "Geopolítica",
           "impacto": "alta",
@@ -2361,14 +2378,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-01",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427301-brusone-ja-reduz-producao-de-trigo-em-ms-e-compromete-produtividade-em-areas-de-mg.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo/Cepea: Conflito no Mar Negro impulsiona preços futuros",
-          "tema": "Geopolítica",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427262-trigo-cepea-conflito-no-mar-negro-impulsiona-precos-futuros.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2385,19 +2394,19 @@
       "red_flags": [
         {
           "tipo": "evento_externo",
+          "mensagem": "Evento externo detectado: Chuvas, granizo e doenças aumentam pressão sobre trigo no Sul; colheita chega a 11,5%",
+          "severidade": "media",
+          "impacto_tendencia": "alta",
+          "fonte": "Notícias Agrícolas",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427600-chuvas-granizo-e-doencas-aumentam-pressao-sobre-trigo-no-sul-colheita-chega-a-11-5.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "tipo": "evento_externo",
           "mensagem": "Evento externo detectado: Trigo cai novamente em Chicago, com negociações sobre a guerra na Ucrânia em destaque",
           "severidade": "media",
           "impacto_tendencia": "alta",
           "fonte": "Notícias Agrícolas",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427567-trigo-cai-novamente-em-chicago-com-negociacoes-sobre-a-guerra-na-ucrania-em-destaque.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "tipo": "evento_externo",
-          "mensagem": "Evento externo detectado: Trigo/Cepea: Conflito no Mar Negro impulsiona preços futuros",
-          "severidade": "media",
-          "impacto_tendencia": "alta",
-          "fonte": "Notícias Agrícolas",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427262-trigo-cepea-conflito-no-mar-negro-impulsiona-precos-futuros.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "insight_gerado_por": "regras"
@@ -2739,6 +2748,14 @@
       "variacao_mes_pct": -4.17,
       "noticias": [
         {
+          "titulo": "El Niño pode antecipar florada e aumentar pressão fitossanitária na safra 2027 do café brasileiro",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427594-el-nino-pode-antecipar-florada-e-aumentar-pressao-fitossanitaria-na-safra-2027-do-cafe-brasileiro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café tenta estabilizar após forte queda da semana, mas oferta brasileira mantém pressão sobre NY",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -2793,14 +2810,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-01",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427259-colheita-de-cafe-arabica-chega-a-93-no-cerrado-mineiro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café arábica fecha estável em Nova York em sessão de consolidação; preços no BR acompanham",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-08-31",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427233-cafe-arabica-fecha-estavel-em-nova-york-em-sessao-de-consolidacao-precos-no-br-acompanham.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
