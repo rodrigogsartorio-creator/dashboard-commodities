@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-07T13:06:44",
+  "ultima_atualizacao": "2026-09-08T07:50:17",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1253,
@@ -8,18 +8,18 @@
     "ask": 5.1253
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-07T13:06:44",
+    "ultima_atualizacao": "2026-09-08T07:50:17",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
         "fonte": "IBGE SIDRA",
-        "data": "2026-09-07",
+        "data": "2026-09-08",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 96468779 t em 2024",
         "fonte": "IBGE SIDRA",
-        "data": "2026-09-07",
+        "data": "2026-09-08",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -1892,6 +1892,14 @@
       "variacao_mes_pct": 10.83,
       "noticias": [
         {
+          "titulo": "Soja tem leves altas nesta 3ª (8), na esteira de novos e fortes avanços do trigo em Chicago",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427581-soja-tem-leves-altas-nesta-3-8-na-esteira-de-novos-e-fortes-avancos-do-trigo-em-chicago.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "AgRural: Paraná dá a largada no plantio da safra 2026/27 de soja",
           "tema": "Safra",
           "impacto": "neutro",
@@ -1946,14 +1954,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427440-produtor-deve-se-preparar-para-potencial-ataque-intenso-de-mosca-branca-na-soja-recomenda-pesquisador.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja e grãos despencam em Chicago nesta 5ª  com realização de lucros e possível alívio no Mar Negro",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427416-soja-e-graos-despencam-em-chicago-nesta-5-com-realizacao-de-lucros-e-possivel-alivio-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2824,6 +2824,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-09-08",
+          "valor": 2.656,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-09-07",
           "valor": 2.656,
           "variacao_pct": 0.0
@@ -2842,14 +2847,14 @@
           "data": "2026-09-02",
           "valor": 2.656,
           "variacao_pct": 4.71
-        },
-        {
-          "data": "2026-09-01",
-          "valor": 2.5365,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-08",
+          "valor": 2.656,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-09-07",
           "valor": 2.656,
