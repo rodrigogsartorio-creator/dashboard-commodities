@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-09T07:50:19",
+  "ultima_atualizacao": "2026-09-09T11:49:13",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0856,
@@ -8,7 +8,7 @@
     "ask": 5.0856
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-09T07:50:19",
+    "ultima_atualizacao": "2026-09-09T11:49:13",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -1506,6 +1506,22 @@
       "variacao_mes_pct": 20.34,
       "noticias": [
         {
+          "titulo": "Açúcar/Cepea: Oferta restrita sustenta valorização do cristal em São Paulo",
+          "tema": "Oferta & Demanda",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427667-acucar-cepea-oferta-restrita-sustenta-valorizacao-do-cristal-em-sao-paulo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Refinarias de açúcar da Índia devem desviar 250.000 t para o mercado interno, diz executivo",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427659-refinarias-de-acucar-da-india-devem-desviar-250000-t-para-o-mercado-interno-diz-executivo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "General Mills e Mars processam produtores de açúcar nos EUA por suspeita de fixação de preços",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -1552,30 +1568,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427470-acucar-fecha-em-forte-queda-com-menor-expectativa-de-importacoes-pela-india.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Cana em PE: produtores ameaçam parar entregas diante de preços abaixo dos custos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427456-canavieiros-de-pe-ameacam-suspender-entrega-as-usinas-diante-de-prejuizo-de-r-75-por-tonelada.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar recua nas bolsas internacionais após máximas recentes",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427441-acucar-recua-nas-bolsas-internacionais-apos-maximas-recentes.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.94,
-      "score_noticias": 0.0,
-      "score_combinado": 0.57,
+      "score_noticias": 0.12,
+      "score_combinado": 0.61,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 4.7% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 117.34) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
@@ -1926,6 +1926,14 @@
       "variacao_mes_pct": 10.69,
       "noticias": [
         {
+          "titulo": "China avança nas compras de soja nos EUA, mas margem de esmagamento chinesa liga alerta no mercado",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427675-china-avanca-nas-compras-de-soja-nos-eua-mas-margem-de-esmagamento-chinesa-liga-alerta-no-mercado.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja sustenta leves ganhos em Chicago nesta 4ª (9), com foco no USDA e tensões globais no radar",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -1980,14 +1988,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-04",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427546-com-mercado-aquecido-comercializacao-da-soja-26-27-do-brasil-chega-a-29-1-e-supera-media.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja aprofunda perdas em Chicago com baixas mais fortes também no óleo e no trigo  nesta 6ª",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427519-soja-aprofunda-perdas-em-chicago-com-baixas-mais-fortes-tambem-no-oleo-e-no-trigo-nesta-6.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2346,6 +2346,14 @@
       "variacao_mes_pct": 3.32,
       "noticias": [
         {
+          "titulo": "Trigo/Cepea: Importações recuam; colheita avança no Brasil",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427660-trigo-cepea-importacoes-recuam-colheita-avanca-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Excedente de exportação de trigo francês pode desaparecer em 10 anos, dizem produtores",
           "tema": "Oferta & Demanda",
           "impacto": "queda",
@@ -2400,14 +2408,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-02",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427413-trigo-recua-em-chicago-apos-atingir-maior-cotacao-em-varios-anos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo atinge máxima de três anos e meio em Chicago por tensões no Mar Negro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427334-trigo-atinge-maxima-de-tres-anos-e-meio-em-chicago-por-tensoes-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2783,6 +2783,22 @@
       "variacao_mes_pct": -6.55,
       "noticias": [
         {
+          "titulo": "Café arábica sobe forte em NY: Petróleo a US$ 100 e produtor brasileiro 'segurando' vendas dão suporte às cotações",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427683-cafe-arabica-sobe-forte-em-ny-petroleo-a-us-100-e-produtor-brasileiro-segurando-vendas-dao-suporte-as-cotacoes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Colheita de café da Cooxupé chega a 95%",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427669-colheita-de-cafe-da-cooxupe-chega-a-95.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café: Oferta do Brasil e clima favorável pressionam NY, e arábica perde mais de 2% nesta 3ª feira (8)",
           "tema": "Clima",
           "impacto": "neutro",
@@ -2829,22 +2845,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-02",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427401-cafe-tem-mais-um-dia-de-volatilidade-e-fecha-recuando-mais-de-3-na-bolsa-de-nova-york.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "StoneX eleva previsão de safra de café do Brasil 26/27 para 77,2 mi sacas",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427406-stonex-eleva-previsao-de-safra-de-cafe-do-brasil-2627-para-772-mi-sacas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Colheita de café supera 90% entre cooperados da Cooxupé",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427373-colheita-de-cafe-supera-90-entre-cooperados-da-cooxupe.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
