@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-10T07:50:28",
+  "ultima_atualizacao": "2026-09-10T11:39:54",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0979,
@@ -8,7 +8,7 @@
     "ask": 5.0979
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-10T07:50:28",
+    "ultima_atualizacao": "2026-09-10T11:39:54",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -372,6 +372,14 @@
       "variacao_mes_pct": 9.11,
       "noticias": [
         {
+          "titulo": "Arroz/Cepea: Preços continuam em alta, mas reajustes perdem força no RS",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-10",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427741-arroz-cepea-precos-continuam-em-alta-mas-reajustes-perdem-forca-no-rs.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Abelhas nativas são chave para a produtividade do Arroz Anã de Porto Marinho",
           "tema": "Safra",
           "impacto": "neutro",
@@ -426,14 +434,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-09-03",
           "url": "https://planetaarroz.com.br/semana-arrozeira-de-alegrete-comeca-a-ganhar-forma-nesta-quinta-feira-na-expointer/"
-        },
-        {
-          "titulo": "Preço do arroz subiu em agosto e atingiu maior média mensal desde abril de 2025",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-02",
-          "url": "https://planetaarroz.com.br/preco-do-arroz-subiu-em-agosto-e-atingiu-maior-media-mensal-desde-abril-de-2025/"
         }
       ],
       "safra_noticias": [],
@@ -1951,6 +1951,30 @@
       "variacao_mes_pct": 10.51,
       "noticias": [
         {
+          "titulo": "Custo da soja sobe e rentabilidade deve cair 35% na safra 26/27, aponta estudo do Imea/Senar MT",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-10",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427752-custo-da-soja-sobe-e-rentabilidade-deve-cair-35-na-safra-26-27-aponta-estudo-do-imea-senar-mt.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "China volta às compras nos EUA e USDA confirma venda extra de quase 480 mil toneladas de soja",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-10",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427750-china-volta-as-compras-nos-eua-e-usda-confirma-venda-extra-de-quase-480-mil-toneladas-de-soja.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja volta a subir em Chicago nesta 5ª feira e contrato maio opera acima dos US$ 13,40/bushel",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-10",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427732-soja-volta-a-subir-em-chicago-nesta-5-feira-e-contrato-maio-opera-acima-dos-us-13-40-bushel.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Anec vê avanço na exportação de soja do Brasil em setembro e recorde para farelo",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -1989,30 +2013,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-09",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427650-soja-sustenta-leves-ganhos-em-chicago-nesta-4-9-com-foco-no-usda-e-tensoes-globais-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Importações de soja e farelo pela UE recuam no início da safra 2026/27",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-08",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427647-importacoes-de-soja-e-farelo-pela-ue-recuam-no-inicio-da-safra-202627.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Importações de soja pela China caem em agosto; previsão para o ano aponta estabilidade ou queda",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-08",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427607-importacoes-de-soja-pela-china-caem-em-agosto-previsao-para-o-ano-aponta-estabilidade-ou-queda.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja/Cepea: Alta dos preços ganha força no início de setembro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-08",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427585-soja-cepea-alta-dos-precos-ganha-forca-no-inicio-de-setembro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2827,6 +2827,22 @@
       "variacao_mes_pct": -6.53,
       "noticias": [
         {
+          "titulo": "Café/Cepea: Chuvas favorecem floradas e elevam expectativas para a próxima safra",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-10",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427739-cafe-cepea-chuvas-favorecem-floradas-e-elevam-expectativas-para-a-proxima-safra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Chuvas no Brasil e realização de lucros derrubam o café em Nova York mais uma vez nesta 5ª (10)",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-10",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427733-chuvas-no-brasil-e-realizacao-de-lucros-derrubam-o-cafe-em-nova-york-mais-uma-vez-nesta-5-10.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café perde força e fecha de lado em NY nesta 4ª, mas fundamentos mantêm cotações no positivo",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2873,22 +2889,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-08",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427594-el-nino-pode-antecipar-florada-e-aumentar-pressao-fitossanitaria-na-safra-2027-do-cafe-brasileiro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café tenta estabilizar após forte queda da semana, mas oferta brasileira mantém pressão sobre NY",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427561-cafe-tenta-estabilizar-apos-forte-queda-da-semana-mas-oferta-brasileira-mantem-pressao-sobre-ny.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Abaixo de 300 cents/lb: Arábica atinge mínima de três meses em NY com melhora no clima e maior oferta",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427468-abaixo-de-300-cents-lb-arabica-atinge-minima-de-tres-meses-em-ny-com-melhora-no-clima-e-maior-oferta.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
