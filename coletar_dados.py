@@ -728,10 +728,14 @@ RSS_POR_COMMODITY = {
                        ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/arroz.rss"),
                        ("Planeta Arroz",     "https://www.planetaarroz.com.br/feed/"),    # diária CEPEA/IRGA-RS
                        ("SNA",               "https://www.sna.agr.br/feed/")],            # diária CEPEA
-    "feijao_carioca": [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
-                       ("IBRAFE",            "https://www.ibrafe.org/feed/")],
-    "feijao_preto":   [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao.rss"),
-                       ("IBRAFE",            "https://www.ibrafe.org/feed/")],
+    # Feed correto do NoticiasAgricolas para feijão (o antigo "feijao.rss" retorna 404
+    # desde ~2026; a seção do site chama-se "Feijão e Grãos Especiais"). Boletim
+    # CEPEA/feijão é semanal, por isso "graos.rss" entra como fonte complementar diária.
+    # IBRAFE removido: o site não publica RSS (ibrafe.org/feed/ → 404).
+    "feijao_carioca": [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais.rss"),
+                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/graos.rss")],
+    "feijao_preto":   [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais.rss"),
+                       ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/graos.rss")],
     "acucar":         [("Notícias Agrícolas","https://www.noticiasagricolas.com.br/noticias/sucroenergetico.rss"),
                        ("CNN Brasil Agro",   "https://www.cnnbrasil.com.br/agro/feed/"),  # futuros NY/ICE no texto
                        ("SAFRAS",            "https://safras.com.br/feed/")],             # análise técnica açúcar
@@ -751,7 +755,10 @@ RSS_GERAIS = [
 KEYWORDS = {
     "arroz":          ["arroz"],
     "feijao_carioca": ["feijão carioca","feijao carioca","carioca"],
-    "feijao_preto":   ["feijão preto","feijao preto"],
+    # "preto" isolado é necessário: os boletins CEPEA escrevem "sustenta o preto",
+    # "cotações do preto" — nunca "feijão preto" literal. Nos feeds agrícolas usados
+    # aqui o termo só ocorre em contexto de feijão.
+    "feijao_preto":   ["feijão preto","feijao preto","preto"],
     "acucar":         ["açúcar","acucar","sucro","icumsa","cana"],
     "soja":           ["soja"],
     "trigo":          ["trigo"],
