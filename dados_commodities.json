@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-13T11:09:38",
+  "ultima_atualizacao": "2026-09-13T11:28:06",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0918,
@@ -8,8 +8,21 @@
     "ask": 5.0918
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-13T11:09:38",
-    "noticias": []
+    "ultima_atualizacao": "2026-09-13T11:28:06",
+    "noticias": [
+      {
+        "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
+        "fonte": "IBGE SIDRA",
+        "data": "2026-09-13",
+        "url": "https://sidra.ibge.gov.br/tabela/5457"
+      },
+      {
+        "titulo": "IBGE — Área colhida (Brasil): 96468779 t em 2024",
+        "fonte": "IBGE SIDRA",
+        "data": "2026-09-13",
+        "url": "https://sidra.ibge.gov.br/tabela/5457"
+      }
+    ]
   },
   "commodities": {
     "arroz": {
