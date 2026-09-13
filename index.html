@@ -657,9 +657,9 @@ function renderCards(commodities) {
     const temaSlug = t => (t || 'Mercado').replace(/[&\s]+/g, '-');
     const impactoIcon  = imp => ({ alta: '🔴', queda: '🟢', neutro: '🟡' }[imp] || '🟡');
     const impactoLabel = imp => ({ alta: 'pressão de alta', queda: 'pressão de queda', neutro: 'neutro' }[imp] || 'neutro');
-    // Exibe apenas notícias dos últimos 5 dias (coleta é 10 dias para o AI)
-    const corte5d = new Date(); corte5d.setDate(corte5d.getDate() - 5);
-    const noticiasFiltradas = (c.noticias || []).filter(n => !n.data || new Date(n.data) >= corte5d);
+    // Exibe apenas notícias dos últimos 7 dias (coleta é 10 dias para o AI)
+    const corteJanela = new Date(); corteJanela.setDate(corteJanela.getDate() - 7);
+    const noticiasFiltradas = (c.noticias || []).filter(n => !n.data || new Date(n.data) >= corteJanela);
     const newsHtml = noticiasFiltradas.length
       ? noticiasFiltradas.map(n => {
           const tema = n.tema || 'Mercado';
@@ -827,7 +827,7 @@ function renderCards(commodities) {
       ${safraHtml}
 
       <!-- notícias -->
-      <div class="sec-hdr">📰 Notícias recentes — últimos 5 dias</div>
+      <div class="sec-hdr">📰 Notícias recentes — últimos 7 dias</div>
       ${scoreBarHtml}
       <div class="news-list">${newsHtml}</div>
 

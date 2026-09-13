@@ -750,15 +750,20 @@ RSS_POR_COMMODITY = {
 RSS_GERAIS = [
     ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/rss/noticias"),
     ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
+    # Agrolink só publica um RSS geral (não há feed por cultura — /culturas/feijao/
+    # é página HTML). Entra aqui e é filtrado por KEYWORDS como os demais gerais.
+    ("Agrolink",          "https://www.agrolink.com.br/rss/noticias.xml"),
 ]
 
 KEYWORDS = {
     "arroz":          ["arroz"],
     "feijao_carioca": ["feijão carioca","feijao carioca","carioca"],
-    # "preto" isolado é necessário: os boletins CEPEA escrevem "sustenta o preto",
-    # "cotações do preto" — nunca "feijão preto" literal. Nos feeds agrícolas usados
-    # aqui o termo só ocorre em contexto de feijão.
-    "feijao_preto":   ["feijão preto","feijao preto","preto"],
+    # Os boletins CEPEA escrevem "sustenta o preto", "cotações do preto" — nunca
+    # "feijão preto" literal. Por isso "preto" precisa casar sozinho, mas só quando
+    # o título também cita feijão (tupla = todos os termos presentes): sem esse
+    # guard, feeds gerais trariam "café preto", "arroz preto" etc. para este card.
+    "feijao_preto":   ["feijão preto","feijao preto",
+                       ("preto","feijão"),("preto","feijao")],
     "acucar":         ["açúcar","acucar","sucro","icumsa","cana"],
     "soja":           ["soja"],
     "trigo":          ["trigo"],
@@ -1005,6 +1010,12 @@ def _processar_entry(entry, fonte: str, skip_relevance: bool = False) -> dict | 
     }
 
 
+def _casa_keyword(titulo_lower: str, palavras) -> bool:
+    """Casa KEYWORDS: str = substring; tupla = todos os termos presentes (AND)."""
+    return any(all(t in titulo_lower for t in p) if isinstance(p, tuple) else p in titulo_lower
+               for p in palavras)
+
+
 def coletar_noticias_rss() -> dict:
     por_commodity = {k: [] for k in KEYWORDS}
     print("  [RSS] Feeds por commodity...")
@@ -1019,7 +1030,7 @@ def coletar_noticias_rss() -> dict:
                 feed = feedparser.parse(r_feed.text if r_feed else "")
                 for entry in feed.entries:
                     n = _processar_entry(entry, fonte, skip_relevance=True)
-                    if n and any(p in n["titulo"].lower() for p in kws_chave):
+                    if n and _casa_keyword(n["titulo"].lower(), kws_chave):
                         por_commodity[chave].append(n)
             except Exception as exc:
                 print(f"    [{chave}/{fonte}] {exc}")
@@ -1035,7 +1046,7 @@ def coletar_noticias_rss() -> dict:
                     continue
                 tl = n["titulo"].lower()
                 for chave, palavras in KEYWORDS.items():
-                    if any(p in tl for p in palavras):
+                    if _casa_keyword(tl, palavras):
                         por_commodity[chave].append(n)
         except Exception as exc:
             print(f"    [{fonte}] {exc}")

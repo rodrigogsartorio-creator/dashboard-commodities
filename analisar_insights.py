@@ -30,7 +30,7 @@ MAX_TOKENS          = 1200
 ARTICLE_CHARS       = 2000   # máx. de caracteres por artigo enviados ao Claude
 MAX_ARTIGOS         = 4      # artigos lidos por commodity
 TIMEOUT_HTTP        = 12
-JANELA_DECISAO_DIAS = 5      # janela principal para notícias de curto prazo
+JANELA_DECISAO_DIAS = 7      # janela principal para notícias de curto prazo
 JANELA_CEPEA_DIAS   = 10     # busca diária CEPEA em janela estendida (marcada como contexto)
 
 # Preços Mínimos do Governo Federal (PGPM/CONAB — safra 2025/26)
@@ -147,11 +147,11 @@ Responda APENAS com JSON valido, sem texto antes ou depois, sem markdown. Siga e
 def montar_artigos_texto(noticias_todas: list) -> str:
     """
     Seleciona e formata os artigos para o prompt:
-    - Prioriza diárias CEPEA (mesmo que >5 dias, até 10 dias)
-    - Complementa com notícias dos últimos 5 dias
+    - Prioriza diárias CEPEA (mesmo que >7 dias, até 10 dias)
+    - Complementa com notícias dos últimos 7 dias
     - Máximo MAX_ARTIGOS artigos
     """
-    corte_5d  = (date.today() - timedelta(days=JANELA_DECISAO_DIAS)).isoformat()
+    corte_janela  = (date.today() - timedelta(days=JANELA_DECISAO_DIAS)).isoformat()
     corte_10d = (date.today() - timedelta(days=JANELA_CEPEA_DIAS)).isoformat()
 
     # Separa diárias CEPEA (janela estendida) das demais
@@ -161,7 +161,7 @@ def montar_artigos_texto(noticias_todas: list) -> str:
     ]
     noticias_5d = [
         n for n in noticias_todas
-        if n.get("data", "") >= corte_5d and not _is_diaria_cepea(n.get("titulo", ""))
+        if n.get("data", "") >= corte_janela and not _is_diaria_cepea(n.get("titulo", ""))
     ]
 
     # Ordena por data (mais recente primeiro)
