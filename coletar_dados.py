@@ -750,10 +750,12 @@ RSS_POR_COMMODITY = {
 RSS_GERAIS = [
     ("Notícias Agrícolas","https://www.noticiasagricolas.com.br/rss/noticias"),
     ("CONAB",             "https://www.conab.gov.br/noticias?format=feed&type=rss"),
-    # Agrolink só publica um RSS geral (não há feed por cultura — /culturas/feijao/
-    # é página HTML). Entra aqui e é filtrado por KEYWORDS como os demais gerais.
-    ("Agrolink",          "https://www.agrolink.com.br/rss/noticias.xml"),
 ]
+# Agrolink avaliado e descartado (13/09/2026): o RSS (rss/noticias.xml) está
+# congelado desde jul/2020 — todo item cai fora da janela. Não há feed por cultura
+# (/culturas/feijao/feed devolve HTML). A listagem /noticias/ é raspável, mas não
+# traz data por matéria e não cobre feijão nem leite (os cards carentes); nas demais
+# commodities os cards já batem no teto de MAX_POR_COMMODITY.
 
 KEYWORDS = {
     "arroz":          ["arroz"],
