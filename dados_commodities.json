@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-13T11:35:09",
+  "ultima_atualizacao": "2026-09-14T07:50:19",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0918,
@@ -8,18 +8,18 @@
     "ask": 5.0918
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-13T11:35:09",
+    "ultima_atualizacao": "2026-09-14T07:50:19",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
         "fonte": "IBGE SIDRA",
-        "data": "2026-09-13",
+        "data": "2026-09-14",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 96468779 t em 2024",
         "fonte": "IBGE SIDRA",
-        "data": "2026-09-13",
+        "data": "2026-09-14",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -2488,30 +2488,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-04",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427502-trigo-evolui-de-forma-satisfatoria-no-rio-grande-do-sul.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Preço do trigo cai em Chicago após Putin citar possibilidade de acordo de paz com Ucrânia",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427487-preco-do-trigo-cai-em-chicago-apos-putin-citar-possibilidade-de-acordo-de-paz-com-ucrania.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Compradores asiáticos recorrem ao trigo australiano e argentino em meio a interrupções no Mar Negro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427448-compradores-asiaticos-recorrem-ao-trigo-australiano-e-argentino-em-meio-a-interrupcoes-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.5,
-      "score_noticias": 0.12,
-      "score_combinado": 0.35,
+      "score_noticias": 0.17,
+      "score_combinado": 0.37,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.5% nos últimos 7 pregões.</li><li>Notícias com sinais mistos — monitorar de perto.</li><li>Preço próximo à resistência histórica (R$ 89.38) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
@@ -2979,6 +2963,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-09-14",
+          "valor": 2.656,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-09-11",
           "valor": 2.656,
           "variacao_pct": 0.0
@@ -2997,14 +2986,14 @@
           "data": "2026-09-08",
           "valor": 2.656,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-09-07",
-          "valor": 2.656,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-14",
+          "valor": 2.656,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-09-11",
           "valor": 2.656,
