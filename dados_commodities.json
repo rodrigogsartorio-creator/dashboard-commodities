@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-09-14T07:50:19",
+  "ultima_atualizacao": "2026-09-14T13:38:11",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.0918,
-    "variacao_pct": -0.45,
-    "bid": 5.0918,
-    "ask": 5.0918
+    "valor": 5.1696,
+    "variacao_pct": 1.53,
+    "bid": 5.1696,
+    "ask": 5.1696
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-14T07:50:19",
+    "ultima_atualizacao": "2026-09-14T13:38:11",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -1572,6 +1572,14 @@
       "variacao_mes_pct": 21.23,
       "noticias": [
         {
+          "titulo": "Açúcar opera em queda nas bolsas de Nova Iorque e Londres nesta segunda-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-14",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427909-acucar-opera-em-queda-nas-bolsas-de-nova-iorque-e-londres-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em queda com recuo do petróleo nas bolsas de Nova Iorque e Londres",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1586,14 +1594,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-11",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427839-acucar-opera-em-queda-nas-bolsas-de-nova-iorque-e-londres-nesta-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Line-up aponta exportação de 2,22 mi t de açúcar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-09-11",
-          "url": "https://safras.com.br/line-up-aponta-exportacao-de-222-mi-t-de-acucar/"
         },
         {
           "titulo": "Açúcar ganha força com disparada do petróleo e preocupação com oferta global",
@@ -1647,7 +1647,14 @@
       "recomendacao": "comprar",
       "suporte": 90.72,
       "resistencia": 119.18,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar +1.53% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "alta"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "soja": {
@@ -2007,6 +2014,22 @@
       "variacao_mes_pct": 9.26,
       "noticias": [
         {
+          "titulo": "Com Paraná e Mato Grosso em campo, plantio de soja chega a 0,4% no Brasil",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-14",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427882-com-parana-e-mato-grosso-em-campo-plantio-de-soja-chega-a-0-4-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja sobe em Chicago nesta 2ª (14), com apoio do petróleo e mercado monitora demanda",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-14",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427880-soja-sobe-em-chicago-nesta-2-14-com-apoio-do-petroleo-e-mercado-monitora-demanda.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "MT começa plantio de soja com atenção especial a riscos do El Niño em 2026/27, diz Imea",
           "tema": "Clima",
           "impacto": "neutro",
@@ -2053,22 +2076,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-10",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/427752-custo-da-soja-sobe-e-rentabilidade-deve-cair-35-na-safra-26-27-aponta-estudo-do-imea-senar-mt.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "China volta às compras nos EUA e USDA confirma venda extra de quase 480 mil toneladas de soja",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427750-china-volta-as-compras-nos-eua-e-usda-confirma-venda-extra-de-quase-480-mil-toneladas-de-soja.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja volta a subir em Chicago nesta 5ª feira e contrato maio opera acima dos US$ 13,40/bushel",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/427732-soja-volta-a-subir-em-chicago-nesta-5-feira-e-contrato-maio-opera-acima-dos-us-13-40-bushel.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2082,7 +2089,14 @@
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 161.73,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar +1.53% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "alta"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -2503,6 +2517,12 @@
       "resistencia": 89.379,
       "red_flags": [
         {
+          "tipo": "dolar",
+          "mensagem": "Dólar +1.53% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "alta"
+        },
+        {
           "tipo": "evento_externo",
           "mensagem": "Evento externo detectado: Chuvas, granizo e doenças aumentam pressão sobre trigo no Sul; colheita chega a 11,5%",
           "severidade": "media",
@@ -2878,6 +2898,14 @@
       "variacao_mes_pct": -10.26,
       "noticias": [
         {
+          "titulo": "Reta final: colheita de café arábica chega a 99% no Cerrado Mineiro",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-14",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427898-reta-final-colheita-de-cafe-arabica-chega-a-99-no-cerrado-mineiro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café em NY afunda para mínimas de 7 semanas nesta 6ª (11) e parte da pressão vem das exportações do BR",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2932,14 +2960,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-10",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427733-chuvas-no-brasil-e-realizacao-de-lucros-derrubam-o-cafe-em-nova-york-mais-uma-vez-nesta-5-10.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café perde força e fecha de lado em NY nesta 4ª, mas fundamentos mantêm cotações no positivo",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427706-cafe-perde-forca-e-fecha-de-lado-em-ny-nesta-4-mas-fundamentos-mantem-cotacoes-no-positivo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2953,7 +2973,14 @@
       "recomendacao": "segurar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar +1.53% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "alta"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "leite": {
