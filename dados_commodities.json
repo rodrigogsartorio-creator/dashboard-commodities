@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-15T07:50:17",
+  "ultima_atualizacao": "2026-09-15T12:17:21",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1696,
@@ -8,7 +8,7 @@
     "ask": 5.1696
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-15T07:50:17",
+    "ultima_atualizacao": "2026-09-15T12:17:21",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
@@ -387,6 +387,14 @@
       "variacao_mes_pct": 8.35,
       "noticias": [
         {
+          "titulo": "Arroz sobe 11% em um mês com retenção de produtores e maior disputa da indústria, aponta Itaú BBA",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-15",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427984-arroz-sobe-11-em-um-mes-com-retencao-de-produtores-e-maior-disputa-da-industria-aponta-itau-bba.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Estudo apoia pedido de selo de origem para Arroz Anã do Rio",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -441,14 +449,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-09-11",
           "url": "https://planetaarroz.com.br/producao-de-arroz-de-bangladesh-deve-alcancar-369-mi-de-t-em-2026-27/"
-        },
-        {
-          "titulo": "Arroz/Cepea: Preços continuam em alta, mas reajustes perdem força no RS",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427741-arroz-cepea-precos-continuam-em-alta-mas-reajustes-perdem-forca-no-rs.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
