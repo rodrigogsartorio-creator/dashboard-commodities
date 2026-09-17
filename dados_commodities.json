@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-17T07:50:17",
+  "ultima_atualizacao": "2026-09-17T12:19:58",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1527,
@@ -8,16 +8,16 @@
     "ask": 5.1527
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-17T07:50:17",
+    "ultima_atualizacao": "2026-09-17T12:19:58",
     "noticias": [
       {
-        "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2024",
+        "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
         "fonte": "IBGE SIDRA",
         "data": "2026-09-17",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
-        "titulo": "IBGE — Área colhida (Brasil): 96468779 t em 2024",
+        "titulo": "IBGE — Área colhida (Brasil): 100640485 t em 2025",
         "fonte": "IBGE SIDRA",
         "data": "2026-09-17",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
@@ -397,12 +397,28 @@
       "variacao_mes_pct": 7.15,
       "noticias": [
         {
-          "titulo": "Arroz: Exportações sustentam mercado",
+          "titulo": "Google usa 200 mil hectares de arroz no Brasil contra mudanças climáticas",
           "tema": "Mercado",
           "impacto": "neutro",
-          "fonte": "SNA",
+          "fonte": "Planeta Arroz",
           "data": "2026-09-16",
-          "url": "https://sna.agr.br/arroz-exportacoes-sustentam-mercado/"
+          "url": "https://planetaarroz.com.br/google-usa-200-mil-hectares-de-arroz-no-brasil-contra-mudancas-climaticas/"
+        },
+        {
+          "titulo": "Arroz chega a R$ 80,35 por saca no Estado",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-16",
+          "url": "https://planetaarroz.com.br/arroz-chega-a-r-8035-por-saca-no-estado/"
+        },
+        {
+          "titulo": "Leilão de compra de arroz da Conab negocia apenas 4 mil t",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-16",
+          "url": "https://planetaarroz.com.br/leilao-de-compra-de-arroz-da-conab-negocia-apenas-4-mil-t/"
         },
         {
           "titulo": "Arroz sobe 11% em um mês com retenção de produtores e maior disputa da indústria, aponta Itaú BBA",
@@ -413,31 +429,47 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/427984-arroz-sobe-11-em-um-mes-com-retencao-de-produtores-e-maior-disputa-da-industria-aponta-itau-bba.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Arroz cobra do próximo governo crédito mais barato e medidas para recuperar competitividade",
-          "tema": "Mercado",
+          "titulo": "Calor deixa Japão com menor estoque de arroz em 25 anos e cientistas correm para criar grão que suporte verões mais quentes",
+          "tema": "Oferta & Demanda",
           "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427812-arroz-cobra-do-proximo-governo-credito-mais-barato-e-medidas-para-recuperar-competitividade.html?utm_source=parceiros&utm_medium=rss"
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-15",
+          "url": "https://planetaarroz.com.br/calor-deixa-pais-com-menor-estoque-de-arroz-em-25-anos-e-cientistas-correm-para-criar-grao-que-suporte-veroes-mais-quentes/"
         },
         {
-          "titulo": "Arroz/Cepea: Preços continuam em alta, mas reajustes perdem força no RS",
+          "titulo": "Produção menor de arroz longo acende alerta para 2027 nos Estados Unidos",
+          "tema": "Geopolítica",
+          "impacto": "alta",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-15",
+          "url": "https://planetaarroz.com.br/producao-menor-de-arroz-longo-acende-alerta-para-2027/"
+        },
+        {
+          "titulo": "Mercado do arroz ganhou firmeza entre agosto e setembro",
           "tema": "Mercado",
           "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427741-arroz-cepea-precos-continuam-em-alta-mas-reajustes-perdem-forca-no-rs.html?utm_source=parceiros&utm_medium=rss"
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-15",
+          "url": "https://planetaarroz.com.br/fundamentos-globais-sustentam-vies-mais-construtivo/"
+        },
+        {
+          "titulo": "Fungo pode virar alternativa aos inseticidas no arroz irrigado de SC",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-15",
+          "url": "https://planetaarroz.com.br/fungo-pode-virar-alternativa-aos-inseticidas-no-arroz-irrigado-de-sc/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.57,
-      "score_noticias": 0.0,
-      "score_combinado": 0.34,
+      "score_noticias": 0.12,
+      "score_combinado": 0.39,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.9% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 81.39) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "aguardar",
+      "recomendacao": "comprar",
       "suporte": 58.98,
       "resistencia": 81.39,
       "red_flags": [],
@@ -1606,6 +1638,14 @@
       "variacao_mes_pct": 16.63,
       "noticias": [
         {
+          "titulo": "Açúcar opera em queda nas bolsas de Nova Iorque e Londres nesta quinta-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428144-acucar-opera-em-queda-nas-bolsas-de-nova-iorque-e-londres-nesta-quinta-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Riscos no Mar Negro e menor oferta canadense sustentam trigo em Chicago no fechamento",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -1660,14 +1700,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-14",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427959-maiores-riscos-podem-transformar-acucar-numa-commodity-super-quente-diz-ex-diretor-da-wilmar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em leve alta em Nova Iorque e Londres com suporte do petróleo",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-14",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/427948-acucar-fecha-em-leve-alta-em-nova-iorque-e-londres-com-suporte-do-petroleo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2965,6 +2997,22 @@
       "variacao_mes_pct": -13.71,
       "noticias": [
         {
+          "titulo": "Exportações de café solúvel crescem 12,8% até agosto e setor mira novo recorde em 2026",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428152-exportacoes-de-cafe-soluvel-crescem-12-8-ate-agosto-e-setor-mira-novo-recorde-em-2026.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café solúvel em alta: exportação cresce 12,8% e consumo interno 11,9% até agosto; setor mira recorde em 2026",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428138-cafe-soluvel-em-alta-exportacao-cresce-12-8-e-consumo-interno-11-9-ate-agosto-setor-mira-recorde-em-2026.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café despenca em NY nesta 4ª feira; BR aumenta pressão sobre os preços, mas estoques ainda preocupam",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -3011,22 +3059,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-14",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427957-exportacao-de-cafe-do-brasil-salta-no-inicio-de-setembro-embarque-de-petroleo-tambem-dispara.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café mantém volatilidade intensa após queda forte, 2ª feira fecha com mais de 1% de alta em NY",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-14",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427946-cafe-mantem-volatilidade-intensa-e-apos-queda-forte-2-feira-fecha-com-mais-de-1-de-alta-em-ny.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Reta final: colheita de café arábica chega a 99% no Cerrado Mineiro",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-14",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/427898-reta-final-colheita-de-cafe-arabica-chega-a-99-no-cerrado-mineiro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
