@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-18T07:50:20",
+  "ultima_atualizacao": "2026-09-18T11:39:48",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1521,
@@ -8,7 +8,7 @@
     "ask": 5.1521
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-18T07:50:20",
+    "ultima_atualizacao": "2026-09-18T11:39:48",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -2100,12 +2100,28 @@
       "variacao_mes_pct": 6.84,
       "noticias": [
         {
-          "titulo": "Preços da soja continuam subindo no Brasil e negócios evoluindo, apesar de correções em Chicago",
-          "tema": "Mercado",
+          "titulo": "China volta a comprar soja dos EUA e anuncia mais 111 mil toneladas antes de encontro Trump-Xi",
+          "tema": "Geopolítica",
           "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
-          "data": "2026-09-17",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428184-precos-da-soja-continuam-subindo-no-brasil-apesar-de-correcoes-em-chicago.html?utm_source=parceiros&utm_medium=rss"
+          "data": "2026-09-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428223-china-volta-a-comprar-soja-dos-eua-e-anuncia-mais-111-mil-toneladas-antes-de-encontro-trump-xi.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "ABIOVE atualiza projeções para 2026 e registra alta no processamento de soja",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428218-abiove-atualiza-projecoes-para-2026-e-registra-alta-no-processamento-de-soja.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja cai forte em Chicago nesta 6ª feira com pressão do farelo; mercado já mira Trump-Xi",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428194-soja-cai-forte-em-chicago-nesta-6-feira-com-pressao-do-farelo-mercado-ja-mira-trump-xi.html?utm_source=parceiros&utm_medium=rss"
         },
         {
           "titulo": "Soja desafia pressão externa e sobe em Chicago com suporte do farelo e da demanda",
@@ -2146,22 +2162,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428059-soja-mantem-boas-altas-em-chicago-nesta-4-feira-16-com-avanco-do-farelo-e-do-oleo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja dispara em Chicago com força do farelo e petróleo, mas recuo nos prêmios trava altas no Brasil",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428047-soja-dispara-em-chicago-com-forca-do-farelo-e-petroleo-mas-recuo-nos-premios-trava-altas-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "NOPA: Esmagamento de soja e estoques de óleo nos EUA ficam aquém do esperado em agosto",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428036-nopa-esmagamento-de-soja-e-estoques-de-oleo-nos-eua-ficam-aquem-do-esperado-em-agosto.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3019,6 +3019,14 @@
       "variacao_mes_pct": -14.56,
       "noticias": [
         {
+          "titulo": "Café tenta reação em NY nesta 6ª feira após despencar na sessão anterior",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428208-cafe-tenta-reacao-em-ny-nesta-6-feira-apos-despencar-na-sessao-anterior.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café fecha no vermelho no exterior e perdas passam de 3% no mercado físico brasileiro nesta 5ª (17)",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3073,14 +3081,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-15",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428040-cafe-avanco-da-oferta-brasileira-e-alivio-climatico-derrubam-precos-ny-cede-mais-de-2.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Acordo Internacional do Café 2022: aprovação no Senado não encerra o debate",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428025-acordo-internacional-do-cafe-2022-aprovacao-no-senado-nao-encerra-o-debate.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
