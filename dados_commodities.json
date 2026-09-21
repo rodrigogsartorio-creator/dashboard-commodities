@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-09-21T07:50:16",
+  "ultima_atualizacao": "2026-09-21T13:38:15",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.1575,
-    "variacao_pct": 0.1,
-    "bid": 5.1575,
-    "ask": 5.1575
+    "valor": 5.1117,
+    "variacao_pct": -0.89,
+    "bid": 5.1117,
+    "ask": 5.1117
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-21T07:50:16",
+    "ultima_atualizacao": "2026-09-21T13:38:15",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -407,6 +407,14 @@
       "variacao_mes_pct": 7.51,
       "noticias": [
         {
+          "titulo": "Arroz encerra semana com valorização no RS",
+          "tema": "Mercado",
+          "impacto": "alta",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-21",
+          "url": "https://planetaarroz.com.br/arroz-encerra-semana-com-valorizacao-no-rs/"
+        },
+        {
           "titulo": "Firmeza interna permanece dissociada de uma expansão exportadora consistente de arroz",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -461,25 +469,17 @@
           "fonte": "SNA",
           "data": "2026-09-16",
           "url": "https://sna.agr.br/arroz-exportacoes-sustentam-mercado/"
-        },
-        {
-          "titulo": "Arroz sobe 11% em um mês com retenção de produtores e maior disputa da indústria, aponta Itaú BBA",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/427984-arroz-sobe-11-em-um-mes-com-retencao-de-produtores-e-maior-disputa-da-industria-aponta-itau-bba.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.56,
-      "score_noticias": 0.0,
-      "score_combinado": 0.34,
+      "score_noticias": 0.12,
+      "score_combinado": 0.39,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.8% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 81.92) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "aguardar",
+      "recomendacao": "comprar",
       "suporte": 58.98,
       "resistencia": 81.92,
       "red_flags": [],
@@ -1669,6 +1669,14 @@
       "variacao_mes_pct": 15.02,
       "noticias": [
         {
+          "titulo": "Açúcar opera em alta nas bolsas de Nova Iorque e Londres nesta segunda-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428311-acucar-opera-em-alta-nas-bolsas-de-nova-iorque-e-londres-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha com movimentos opostos em Nova Iorque e Londres, após mínima de três semanas",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1693,22 +1701,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428229-acucar-opera-com-movimentos-opostos-nas-bolsas-de-nova-iorque-e-londres-nesta-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Line-up aponta exportação de 2,2 mi t de açúcar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-09-18",
-          "url": "https://safras.com.br/line-up-aponta-exportacao-de-22-mi-t-de-acucar/"
-        },
-        {
-          "titulo": "Conab aposta em pequeno aumento na produção de soja em 2026/27; USDA eleva estimativa para safra americana",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-09-18",
-          "url": "https://safras.com.br/conab-aposta-em-pequeno-aumento-na-producao-de-soja-em-2026-27-usda-eleva-estimativa-para-safra-americana/"
-        },
-        {
           "titulo": "Produção de açúcar do centro-sul cai quase 5% na 2ª quinzena de agosto, indica governo",
           "tema": "Safra",
           "impacto": "neutro",
@@ -1731,6 +1723,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-17",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428144-acucar-opera-em-queda-nas-bolsas-de-nova-iorque-e-londres-nesta-quinta-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Etanol ganha força com demanda maior, açúcar valorizado e mudanças regulatórias",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-15",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428034-etanol-ganha-forca-com-demanda-maior-acucar-valorizado-e-mudancas-regulatorias.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2129,6 +2129,14 @@
       "variacao_mes_pct": 4.7,
       "noticias": [
         {
+          "titulo": "Aprosoja realiza Abertura Nacional do Plantio da Soja nos próximos dias 24 e 25",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428312-aprosoja-realiza-abertura-nacional-do-plantio-da-soja-nos-proximos-dias-24-e-25.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja/Cepea: Participação do farelo na 'crush margin' aumenta no BR e nos EUA",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2143,6 +2151,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428266-soja-sobe-em-chicago-nesta-2-feira-21-acompanhando-altas-fortes-do-milho-e-do-trigo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Importações chinesas de soja dos EUA caem 12% em agosto",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428275-importacoes-chinesas-de-soja-dos-eua-caem-12-em-agosto.html?utm_source=parceiros&utm_medium=rss"
         },
         {
           "titulo": "Soja: Farelo despenca em Chicago, mas dólar e prêmios seguram preços no Brasil",
@@ -2175,22 +2191,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-18",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428223-china-volta-a-comprar-soja-dos-eua-e-anuncia-mais-111-mil-toneladas-antes-de-encontro-trump-xi.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "ABIOVE atualiza projeções para 2026 e registra alta no processamento de soja",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428218-abiove-atualiza-projecoes-para-2026-e-registra-alta-no-processamento-de-soja.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja cai forte em Chicago nesta 6ª feira com pressão do farelo; mercado já mira Trump-Xi",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428194-soja-cai-forte-em-chicago-nesta-6-feira-com-pressao-do-farelo-mercado-ja-mira-trump-xi.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3034,6 +3034,22 @@
       "variacao_mes_pct": -15.1,
       "noticias": [
         {
+          "titulo": "Exportações recordes pressionam preços do café no curto prazo, aponta Hedgepoint",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428290-exportacoes-recordes-pressionam-precos-do-cafe-no-curto-prazo-aponta-hedgepoint.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café amplia perdas em Nova York nesta 2ª feira, com mercado ainda pressionado por oferta e clima no BR",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428273-cafe-amplia-perdas-em-nova-york-nesta-2-feira-com-mercado-ainda-pressionado-por-oferta-e-clima-no-br.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café pouco muda em NY, mas preços seguem sustentados no Brasil nesta 6ª feira (18)",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3080,22 +3096,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-17",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428138-cafe-soluvel-em-alta-exportacao-cresce-12-8-e-consumo-interno-11-9-ate-agosto-setor-mira-recorde-em-2026.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café despenca em NY nesta 4ª feira; BR aumenta pressão sobre os preços, mas estoques ainda preocupam",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428105-cafe-despenca-em-ny-nesta-4-feira-br-aumenta-pressao-sobre-os-precos-mas-estoques-ainda-preocupam.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Colheita de café da Cooxupé chega a 97,3%",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428074-colheita-de-cafe-da-cooxupe-chega-a-97-3.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
