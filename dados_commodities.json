@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-22T07:50:18",
+  "ultima_atualizacao": "2026-09-22T12:11:32",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1117,
@@ -8,7 +8,7 @@
     "ask": 5.1117
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-22T07:50:18",
+    "ultima_atualizacao": "2026-09-22T12:11:32",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -1689,6 +1689,14 @@
       "variacao_mes_pct": 15.1,
       "noticias": [
         {
+          "titulo": "Açúcar/Cepea: Indicador segue em elevação",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428358-acucar-cepea-indicador-segue-em-elevacao.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar reage em Nova Iorque, mas fecha misto nas bolsas nesta segunda-feira",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1743,14 +1751,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-17",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428180-producao-de-acucar-do-centro-sul-cai-quase-5-na-2a-quinzena-de-agosto-indica-governo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em forte queda e recua para mínimas de três semanas em Nova Iorque e Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-17",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428178-acucar-fecha-em-forte-queda-e-recua-para-minimas-de-tres-semanas-em-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3077,6 +3077,14 @@
       "variacao_mes_pct": -14.94,
       "noticias": [
         {
+          "titulo": "Cafeicultor tem até 30 de setembro para se inscrever no Concurso Café Qualidade Paraná",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428370-cafeicultor-tem-ate-30-de-setembro-para-se-inscrever-no-concurso-cafe-qualidade-parana.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café volta a cair em Nova York nesta 3ª feira com oferta brasileira pressionando preços",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -3131,14 +3139,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-17",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428189-cafe-fecha-no-vermelho-no-exterior-e-perdas-passam-de-3-no-mercado-fisico-brasileiro-nesta-5-17.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Colheita da safra principal de café da Colômbia está prestes a começar, com expectativas mais modestas",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-17",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428187-colheita-da-safra-principal-de-cafe-da-colombia-esta-prestes-a-comecar-com-expectativas-mais-modestas.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
