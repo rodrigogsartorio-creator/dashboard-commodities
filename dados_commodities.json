@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-23T07:50:20",
+  "ultima_atualizacao": "2026-09-23T12:12:04",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1161,
@@ -8,7 +8,7 @@
     "ask": 5.1161
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-23T07:50:20",
+    "ultima_atualizacao": "2026-09-23T12:12:04",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -417,6 +417,22 @@
       "variacao_mes_pct": 7.57,
       "noticias": [
         {
+          "titulo": "Arroz/Cepea: Demanda externa intensifica disputa por matéria-prima",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/428442-arroz-cepea-demanda-externa-intensifica-disputa-por-materia-prima.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Federarroz amplia alternativas de cultivo para evento de Abertura da Colheita 2027",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-23",
+          "url": "https://planetaarroz.com.br/federarroz-amplia-alternativas-de-cultivo-para-evento-de-abertura-da-colheita-2027/"
+        },
+        {
           "titulo": "SindArroz-SC aponta prioridades para o próximo governo e defende previsibilidade e redução de custos na cadeia produtiva de arroz",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -463,22 +479,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-09-16",
           "url": "https://planetaarroz.com.br/e-book-gratuito-conta-historia-do-arroz-para-educar-sobre-producao-de-alimentos/"
-        },
-        {
-          "titulo": "Google usa 200 mil hectares de arroz no Brasil contra mudanças climáticas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-16",
-          "url": "https://planetaarroz.com.br/google-usa-200-mil-hectares-de-arroz-no-brasil-contra-mudancas-climaticas/"
-        },
-        {
-          "titulo": "Arroz chega a R$ 80,35 por saca no Estado",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-16",
-          "url": "https://planetaarroz.com.br/arroz-chega-a-r-8035-por-saca-no-estado/"
         }
       ],
       "safra_noticias": [],
@@ -1710,6 +1710,14 @@
       "variacao_mes_pct": 14.48,
       "noticias": [
         {
+          "titulo": "Açúcar opera em direções opostas nas bolsas de Nova Iorque e Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428453-acucar-opera-em-direcoes-opostas-nas-bolsas-de-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em alta em Nova Iorque e Londres após mínimas recentes",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1764,14 +1772,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428330-acucar-recua-nas-exportacoes-enquanto-etanol-avanca-em-agosto-agro-soma-us-15-2-bi.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar opera em alta nas bolsas de Nova Iorque e Londres nesta segunda-feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428311-acucar-opera-em-alta-nas-bolsas-de-nova-iorque-e-londres-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2650,6 +2650,14 @@
       "variacao_mes_pct": 6.69,
       "noticias": [
         {
+          "titulo": "Deral indica piora nas condições do trigo no Paraná e reforça alerta sobre qualidade",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428445-deral-indica-piora-nas-condicoes-do-trigo-no-parana-e-reforca-alerta-sobre-qualidade.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Conab registra germinação de trigo na própria planta em SP e produtividade baixa no PR",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2704,14 +2712,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-15",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428021-trigo-acelera-colheita-para-18-mas-geadas-atingem-areas-reprodutivas-no-rs-e-chuva-reduz-qualidade-em-sp.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo/Cepea: Preocupação com qualidade sustenta preços no Brasil",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/427967-trigo-cepea-preocupacao-com-qualidade-sustenta-precos-no-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3129,6 +3129,22 @@
       "variacao_mes_pct": -17.26,
       "noticias": [
         {
+          "titulo": "Café/Cepea: Clima segue favorável neste início de safra 27/28",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428443-cafe-cepea-clima-segue-favoravel-neste-inicio-de-safra-27-28.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café mantém pressão em NY nesta 4ª feira (23) com oferta maior no radar",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428439-cafe-mantem-pressao-em-ny-nesta-4-feira-23-com-oferta-maior-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Consumo de café no Brasil avança 2,29% no ano até agosto, diz Abic",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -3175,22 +3191,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428290-exportacoes-recordes-pressionam-precos-do-cafe-no-curto-prazo-aponta-hedgepoint.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café amplia perdas em Nova York nesta 2ª feira, com mercado ainda pressionado por oferta e clima no BR",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428273-cafe-amplia-perdas-em-nova-york-nesta-2-feira-com-mercado-ainda-pressionado-por-oferta-e-clima-no-br.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café pouco muda em NY, mas preços seguem sustentados no Brasil nesta 6ª feira (18)",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428254-cafe-pouco-muda-em-ny-mas-precos-seguem-sustentados-no-brasil-nesta-6-feira-18.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
