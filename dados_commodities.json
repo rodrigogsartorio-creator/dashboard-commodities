@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-24T07:50:18",
+  "ultima_atualizacao": "2026-09-24T12:30:57",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1414,
@@ -8,7 +8,7 @@
     "ask": 5.1414
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-24T07:50:18",
+    "ultima_atualizacao": "2026-09-24T12:30:57",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -422,6 +422,14 @@
       "variacao_mes_pct": 6.26,
       "noticias": [
         {
+          "titulo": "Leilões para compra de até 96,4 mil t de arroz ocorrem nesta sexta-feira (25)",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-24",
+          "url": "https://planetaarroz.com.br/leiloes-para-compra-de-ate-964-mil-t-de-arroz-ocorrem-nesta-sexta-feira-25/"
+        },
+        {
           "titulo": "Arroz/Cepea: Demanda externa intensifica disputa por matéria-prima",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -476,14 +484,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-09-19",
           "url": "https://planetaarroz.com.br/firmeza-interna-permanece-dissociada-de-uma-expansao-exportadora-consistente-de-arroz/"
-        },
-        {
-          "titulo": "Produção de arroz da Índia deve registrar maior queda em quase 20 anos",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-16",
-          "url": "https://planetaarroz.com.br/producao-de-arroz-da-india-deve-registrar-maior-queda-em-quase-20-anos/"
         }
       ],
       "safra_noticias": [],
@@ -1729,6 +1729,14 @@
       "variacao_mes_pct": 12.73,
       "noticias": [
         {
+          "titulo": "Açúcar opera em direções opostas nas bolsas de Nova Iorque e Londres nesta quinta-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428536-acucar-opera-em-direcoes-opostas-nas-bolsas-de-nova-iorque-e-londres-nesta-quinta-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha misto em Nova Iorque e Londres após revisão da StoneX sobre déficit global",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -1783,14 +1791,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428407-produtores-de-cana-debatem-safra-2026-27-mercado-de-combustiveis-e-estrategias-para-2027-em-encontro-da-orplana.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar opera em alta em Nova Iorque e Londres nesta terça-feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428383-acucar-opera-em-alta-em-nova-iorque-e-londres-nesta-terca-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2204,6 +2204,30 @@
       "variacao_mes_pct": 5.17,
       "noticias": [
         {
+          "titulo": "Safra de soja do Brasil 26/27 terá queda de 3,3%, prevê Pátria AgroNegócios",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428538-safra-de-soja-do-brasil-2627-tera-queda-de-33-preve-patria-agronegocios.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "China compra mais 120 mil toneladas de soja dos EUA no dia do encontro entre Trump e Xi",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428529-china-compra-mais-120-mil-toneladas-de-soja-dos-eua-no-dia-do-encontro-entre-trump-e-xi.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "AO VIVO: Aprosoja Brasil realiza a Abertura Nacional do Plantio da safra 2026/27 com o tema \"Plantio Consciente\"",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428512-ao-vivo-aprosoja-brasil-realiza-a-abertura-nacional-do-plantio-da-safra-2026-27-com-o-tema-plantio-consciente.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja sobe em Chicago com Xi em Washington para encontro com Trump nesta 5ª feira (24)",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2242,30 +2266,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428425-soja-recupera-perdas-em-chicago-e-precos-resistem-no-brasil-safra-nova-segue-acima-de-r-150.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Plantio da soja 2026/27 começou no Brasil, mas falta de umidade restringe avanço em MT",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428399-plantio-da-soja-2026-27-comecou-no-brasil-mas-falta-de-umidade-restringe-avanco-em-mt.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja reduz perdas em Chicago nesta 3ª feira com farelo subindo mais de 1%; mercado segue de olho na China",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428394-soja-reduz-perdas-em-chicago-nesta-3-feira-com-farelo-subindo-mais-de-1-mercado-segue-de-olho-na-china.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja recua em Chicago nesta 3ª feira(22) após forte alta; mercado ajusta posições de olho em Trump e Xi",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428348-soja-recua-em-chicago-nesta-3-feira-22-apos-forte-alta-mercado-ajusta-posicoes-de-olho-em-trump-e-xi.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3154,6 +3154,14 @@
       "variacao_mes_pct": -16.92,
       "noticias": [
         {
+          "titulo": "Conab: Produção de café é estimada em 67,6 milhões de sacas, influenciada por bienalidade positiva em 2026",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428514-conab-producao-de-cafe-e-estimada-em-67-6-milhoes-de-sacas-influenciada-por-bienalidade-positiva-em-2026.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café tenta reação em NY, mas mercado já precifica safra brasileira que ainda precisa ser confirmada",
           "tema": "Safra",
           "impacto": "neutro",
@@ -3208,14 +3216,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428349-cafe-volta-a-cair-em-nova-york-nesta-3-feira-com-oferta-brasileira-pressionando-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café do Brasil apresenta florada precoce e nova safra pode chegar mais cedo",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428317-cafe-do-brasil-apresenta-florada-precoce-e-nova-safra-pode-chegar-mais-cedo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3588,6 +3588,14 @@
       ],
       "variacao_mes_pct": 4.71,
       "noticias": [
+        {
+          "titulo": "Produção de leite cresce no RS, mas importações pressionam pequenas indústrias",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/leite/428540-producao-de-leite-cresce-no-rs-mas-importacoes-pressionam-pequenas-industrias.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Projeto fortalece cadeia produtiva do leite em comunidades rurais do Agreste pernambucano",
           "tema": "Mercado",
