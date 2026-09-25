@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-25T07:50:17",
+  "ultima_atualizacao": "2026-09-25T12:35:04",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.1795,
@@ -8,7 +8,7 @@
     "ask": 5.1795
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-25T07:50:17",
+    "ultima_atualizacao": "2026-09-25T12:35:04",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -427,6 +427,14 @@
       "variacao_mes_pct": 6.51,
       "noticias": [
         {
+          "titulo": "Nota oficial – Conab informa cancelamento dos leilões de Avisos nº 68/2026 e nº 69/2026, de compra de arroz em casca",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-25",
+          "url": "https://planetaarroz.com.br/nota-oficial-conab-informa-cancelamento-dos-leiloes-de-avisos-no-68-2026-e-no-69-2026-de-compra-de-arroz-em-casca/"
+        },
+        {
           "titulo": "SindArroz-SC aponta prioridades para o próximo governo e defende previsibilidade e redução de custos na cadeia produtiva de arroz",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -481,14 +489,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-09-21",
           "url": "https://planetaarroz.com.br/arroz-encerra-semana-com-valorizacao-no-rs/"
-        },
-        {
-          "titulo": "Firmeza interna permanece dissociada de uma expansão exportadora consistente de arroz",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-19",
-          "url": "https://planetaarroz.com.br/firmeza-interna-permanece-dissociada-de-uma-expansao-exportadora-consistente-de-arroz/"
         }
       ],
       "safra_noticias": [],
@@ -1743,6 +1743,22 @@
       "variacao_mes_pct": 12.18,
       "noticias": [
         {
+          "titulo": "Açúcar opera em direções opostas nas bolsas de Nova Iorque e Londres nesta sexta-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428601-acucar-opera-em-direcoes-opostas-nas-bolsas-de-nova-iorque-e-londres-nesta-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Line up aponta exportação de 2,4 mi t de açúcar",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-09-25",
+          "url": "https://safras.com.br/line-up-aponta-exportacao-de-24-mi-t-de-acucar/"
+        },
+        {
           "titulo": "Açúcar recua em Nova Iorque com demanda no radar e fecha em alta em Londres",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -1789,22 +1805,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428483-stonex-reduz-previsao-de-safra-de-cana-2627-do-centro-sul-e-ve-recorde-para-2728.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "A pedido da AGU, CNJ ordena devolução de R$4,7 bi ao Tesouro em processos do setor sucroalcooleiro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428479-a-pedido-da-agu-cnj-ordena-devolucao-de-r47-bi-ao-tesouro-em-processos-do-setor-sucroalcooleiro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar opera em direções opostas nas bolsas de Nova Iorque e Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428453-acucar-opera-em-direcoes-opostas-nas-bolsas-de-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2223,6 +2223,14 @@
       "variacao_mes_pct": 4.7,
       "noticias": [
         {
+          "titulo": "Atrasos na colheita de soja nos EUA levam processadoras a correr atrás de suprimentos",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428605-atrasos-na-colheita-de-soja-nos-eua-levam-processadoras-a-correr-atras-de-suprimentos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja cai mais de 1% em Chicago com grãos pressionados e mercado devolvendo prêmio de Trump-Xi",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2277,14 +2285,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428486-plantio-da-soja-avanca-em-ritmos-diferentes-e-poe-umidade-do-solo-no-centro-das-decisoes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja cai em Chicago nesta 4ª (23) às vésperas de Trump-Xi, mas compras da China limitam pressão",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428438-soja-cai-em-chicago-nesta-4-23-as-vesperas-de-trump-xi-mas-compras-da-china-limitam-pressao.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3183,6 +3183,14 @@
       "variacao_mes_pct": -15.77,
       "noticias": [
         {
+          "titulo": "Café sobe mais de 1% em Nova York e tenta recuperação após sequência de pressão",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428590-cafe-sobe-mais-de-1-em-nova-york-e-tenta-recuperacao-apos-sequencia-de-pressao.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café fecha em baixa em NY e Londres com safra recorde do Brasil reforçando pressão sobre preços",
           "tema": "Safra",
           "impacto": "queda",
@@ -3237,14 +3245,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428415-cafe-amplia-perdas-em-ny-com-oferta-global-maior-no-radar-e-fecha-3-22-recuando-mais-de-1.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Cafeicultor tem até 30 de setembro para se inscrever no Concurso Café Qualidade Paraná",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428370-cafeicultor-tem-ate-30-de-setembro-para-se-inscrever-no-concurso-cafe-qualidade-parana.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
