@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-09-28T07:50:16",
+  "ultima_atualizacao": "2026-09-28T15:16:24",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.1991,
-    "variacao_pct": 0.38,
-    "bid": 5.1991,
-    "ask": 5.1991
+    "valor": 5.2132,
+    "variacao_pct": 0.27,
+    "bid": 5.2132,
+    "ask": 5.2132
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-28T07:50:16",
+    "ultima_atualizacao": "2026-09-28T15:16:24",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -432,6 +432,22 @@
       "variacao_mes_pct": 5.96,
       "noticias": [
         {
+          "titulo": "Japão vai da escassez de arroz ao excesso recorde",
+          "tema": "Mercado",
+          "impacto": "alta",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-28",
+          "url": "https://planetaarroz.com.br/japao-vai-da-escassez-de-arroz-ao-excesso-recorde/"
+        },
+        {
+          "titulo": "Ex-deputado e empresário Érico Ribeiro, o Rei do Arroz, morre aos 90 anos",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-28",
+          "url": "https://planetaarroz.com.br/ex-deputado-e-empresario-erico-ribeiro-morre-aos-90-anos-em-pelot/"
+        },
+        {
           "titulo": "Pesquisa da UFLA desenvolve arroz que pode ser cultivado com menos água e ampliar produção em Minas",
           "tema": "Safra",
           "impacto": "neutro",
@@ -478,30 +494,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/428442-arroz-cepea-demanda-externa-intensifica-disputa-por-materia-prima.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Federarroz amplia alternativas de cultivo para evento de Abertura da Colheita 2027",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-23",
-          "url": "https://planetaarroz.com.br/federarroz-amplia-alternativas-de-cultivo-para-evento-de-abertura-da-colheita-2027/"
-        },
-        {
-          "titulo": "Arroz: Demanda externa acirra disputa por matéria-prima",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SNA",
-          "data": "2026-09-23",
-          "url": "https://sna.agr.br/arroz-demanda-externa-acirra-disputa-por-materia-prima/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": 0.33,
-      "score_noticias": 0.0,
-      "score_combinado": 0.2,
+      "score_noticias": 0.12,
+      "score_combinado": 0.25,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+1.0% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 82.48) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -910,7 +910,16 @@
         }
       ],
       "variacao_mes_pct": 9.06,
-      "noticias": [],
+      "noticias": [
+        {
+          "titulo": "Feijão/Cepea: Feijão-preto lidera altas; carioca também se valoriza",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais/428701-feijao-cepea-feijao-preto-lidera-altas-carioca-tambem-se-valoriza.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "safra_noticias": [],
       "tendencia_curta": "queda",
       "tendencia_media": "alta",
@@ -1339,6 +1348,14 @@
       ],
       "variacao_mes_pct": 19.2,
       "noticias": [
+        {
+          "titulo": "Feijão/Cepea: Feijão-preto lidera altas; carioca também se valoriza",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais/428701-feijao-cepea-feijao-preto-lidera-altas-carioca-tambem-se-valoriza.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Feijão/Cepea: Preços seguem firmes; feijão-preto registra maiores altas",
           "tema": "Mercado",
@@ -1769,6 +1786,14 @@
       "variacao_mes_pct": 9.07,
       "noticias": [
         {
+          "titulo": "Açúcar opera sob pressão em Nova Iorque com demanda fraca no radar",
+          "tema": "Oferta & Demanda",
+          "impacto": "queda",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428714-acucar-opera-sob-pressao-em-nova-iorque-com-demanda-fraca-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Chuvas derrubam produção de açúcar no Centro-Sul em 42,5% na 1ª quinzena de setembro",
           "tema": "Clima",
           "impacto": "neutro",
@@ -1801,14 +1826,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428601-acucar-opera-em-direcoes-opostas-nas-bolsas-de-nova-iorque-e-londres-nesta-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Line up aponta exportação de 2,4 mi t de açúcar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-09-25",
-          "url": "https://safras.com.br/line-up-aponta-exportacao-de-24-mi-t-de-acucar/"
-        },
-        {
           "titulo": "Açúcar recua em Nova Iorque com demanda no radar e fecha em alta em Londres",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -1837,8 +1854,8 @@
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": 0.29,
-      "score_noticias": -0.12,
-      "score_combinado": 0.13,
+      "score_noticias": -0.25,
+      "score_combinado": 0.07,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.9% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 121.13) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -2254,6 +2271,30 @@
       "variacao_mes_pct": 3.84,
       "noticias": [
         {
+          "titulo": "Soja/Cepea: Menor oferta mantém preços firmes no mercado interno",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428702-soja-cepea-menor-oferta-mantem-precos-firmes-no-mercado-interno.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja despenca quase 40 pontos em Chicago, perde os US$ 13 e amplia pressão nesta 2ª feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428698-soja-amplia-perdas-e-despenca-mais-de-25-pontos-em-chicago-com-frustracao-pos-trump-xi.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "AgRural: Com PR isolado na dianteira, plantio de soja do Brasil chega a 3,4% da área",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428664-ag-rural-com-pr-isolado-na-dianteira-plantio-de-soja-do-brasil-chega-a-3-4-da-area.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja despenca mais de 20 pontos em Chicago após China manter grão americano fora de corte de tarifas",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2292,30 +2333,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428626-maior-esmagamento-de-soja-em-mt-eleva-exportacoes-de-farelo-em-10-26-e-de-oleo-em-26-76-diz-imea.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Atrasos na colheita de soja nos EUA levam processadoras a correr atrás de suprimentos",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428605-atrasos-na-colheita-de-soja-nos-eua-levam-processadoras-a-correr-atras-de-suprimentos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja cai mais de 1% em Chicago com grãos pressionados e mercado devolvendo prêmio de Trump-Xi",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428587-soja-cai-mais-de-1-em-chicago-com-graos-pressionados-e-mercado-devolvendo-premio-de-trump-xi.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Safra de soja do Brasil 26/27 terá queda de 3,3%, prevê Pátria AgroNegócios",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428538-safra-de-soja-do-brasil-2627-tera-queda-de-33-preve-patria-agronegocios.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2739,6 +2756,14 @@
       "variacao_mes_pct": 6.14,
       "noticias": [
         {
+          "titulo": "Trigo paulista avança em qualidade, mas enfrenta perdas provocadas pelo clima",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428687-trigo-paulista-avanca-em-qualidade-mas-enfrenta-perdas-provocadas-pelo-clima.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo recua em meio a esforços para amenizar as interrupções nas exportações do Mar Negro",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2793,14 +2818,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428356-trigo-cepea-em-meio-a-incertezas-quanto-a-safra-cotacoes-seguem-em-alta.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Rio Grande do Sul começa a colheita de trigo, diz Emater",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428251-rio-grande-do-sul-comeca-a-colheita-de-trigo-diz-emater.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3224,6 +3241,14 @@
       "variacao_mes_pct": -11.73,
       "noticias": [
         {
+          "titulo": "Café dispara em Nova York nesta 2ª feira (28), com fundos cobrindo posições vendidas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428713-cafe-dispara-em-nova-york-nesta-2-feira-28-com-fundos-cobrindo-posicoes-vendidas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café sobe mais de 1% em NY nesta 6ª feira (25) com dólar fraco e cobertura de posições vendidas",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -3278,14 +3303,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428439-cafe-mantem-pressao-em-ny-nesta-4-feira-23-com-oferta-maior-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Consumo de café no Brasil avança 2,29% no ano até agosto, diz Abic",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428430-consumo-de-cafe-no-brasil-avanca-229-no-ano-ate-agosto-diz-abic.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
