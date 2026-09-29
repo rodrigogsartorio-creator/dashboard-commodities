@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-09-29T07:50:21",
+  "ultima_atualizacao": "2026-09-29T13:39:13",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.2132,
-    "variacao_pct": 0.27,
-    "bid": 5.2132,
-    "ask": 5.2132
+    "valor": 5.2204,
+    "variacao_pct": 0.14,
+    "bid": 5.2204,
+    "ask": 5.2204
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-29T07:50:21",
+    "ultima_atualizacao": "2026-09-29T13:39:13",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -437,6 +437,14 @@
       "variacao_mes_pct": 5.51,
       "noticias": [
         {
+          "titulo": "Plantio do arroz chega a 15,5% e mais que dobra ritmo de 2025; chuvas interrompem avanço no RS",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/428788-plantio-do-arroz-chega-a-15-5-e-mais-que-dobra-ritmo-de-2025-chuvas-interrompem-avanco-no-rs.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Japão vai da escassez de arroz ao excesso recorde",
           "tema": "Mercado",
           "impacto": "alta",
@@ -491,14 +499,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-09-24",
           "url": "https://planetaarroz.com.br/leiloes-para-compra-de-ate-964-mil-t-de-arroz-ocorrem-nesta-sexta-feira-25/"
-        },
-        {
-          "titulo": "Arroz/Cepea: Demanda externa intensifica disputa por matéria-prima",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/428442-arroz-cepea-demanda-externa-intensifica-disputa-por-materia-prima.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2296,6 +2296,22 @@
       "variacao_mes_pct": 0.42,
       "noticias": [
         {
+          "titulo": "Plantio da soja acelera para 3,9% após chuvas liberarem avanço em áreas de MT",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428787-plantio-da-soja-acelera-para-3-9-apos-chuvas-liberarem-avanco-em-areas-de-mt.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Manejo do solo eleva produtividade relativa da soja em 11,1 pontos percentuais a cada avanço de nível, aponta Embrapa",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428785-manejo-do-solo-eleva-produtividade-relativa-da-soja-em-11-1-pontos-percentuais-a-cada-avanco-de-nivel-aponta-embrapa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja opera de lado em Chicago nesta 3ª (29), após perdas da véspera e esperando pelo USDA",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -2342,22 +2358,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428664-ag-rural-com-pr-isolado-na-dianteira-plantio-de-soja-do-brasil-chega-a-3-4-da-area.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja despenca mais de 20 pontos em Chicago após China manter grão americano fora de corte de tarifas",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428661-soja-despenca-mais-de-20-pontos-em-chicago-apos-china-manter-grao-americano-fora-de-corte-de-tarifas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Preço da soja no Paraná é o maior em mais de 3 anos, aponta Cepea",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428654-preco-da-soja-no-parana-e-o-maior-em-mais-de-3-anos-aponta-cepea.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2786,6 +2786,14 @@
       "variacao_mes_pct": 5.31,
       "noticias": [
         {
+          "titulo": "Chuvas pioram condições do trigo no PR, elevam perdas e reduzem qualidade da safra",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428786-chuvas-pioram-condicoes-do-trigo-no-pr-elevam-perdas-e-reduzem-qualidade-da-safra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo paulista avança em qualidade, mas enfrenta perdas provocadas pelo clima",
           "tema": "Clima",
           "impacto": "neutro",
@@ -2840,14 +2848,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428393-trigo-de-menor-qualidade-ja-aparece-no-centro-sul-e-aumenta-alerta-sobre-oferta-para-moagem.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo/Cepea: Em meio a incertezas quanto à safra, cotações seguem em alta",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428356-trigo-cepea-em-meio-a-incertezas-quanto-a-safra-cotacoes-seguem-em-alta.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
