@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-09-29T13:39:13",
+  "ultima_atualizacao": "2026-09-30T07:50:19",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.2204,
@@ -8,18 +8,18 @@
     "ask": 5.2204
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-29T13:39:13",
+    "ultima_atualizacao": "2026-09-30T07:50:19",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-09-29",
+        "data": "2026-09-30",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 100640485 t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-09-29",
+        "data": "2026-09-30",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -31,6 +31,11 @@
       "fonte_primaria": "CEPEA/IRGA-RS via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-09-29",
+          "valor": 83.22,
+          "variacao_pct": 1.04
+        },
         {
           "data": "2026-09-28",
           "valor": 82.36,
@@ -50,14 +55,14 @@
           "data": "2026-09-23",
           "valor": 81.65,
           "variacao_pct": -0.31
-        },
-        {
-          "data": "2026-09-22",
-          "valor": 81.9,
-          "variacao_pct": -0.16
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-29",
+          "valor": 83.22,
+          "variacao_pct": 1.04
+        },
         {
           "data": "2026-09-28",
           "valor": 82.36,
@@ -434,7 +439,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 5.51,
+      "variacao_mes_pct": 6.19,
       "noticias": [
         {
           "titulo": "Plantio do arroz chega a 15,5% e mais que dobra ritmo de 2025; chuvas interrompem avanço no RS",
@@ -443,6 +448,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/428788-plantio-do-arroz-chega-a-15-5-e-mais-que-dobra-ritmo-de-2025-chuvas-interrompem-avanco-no-rs.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Plantio de arroz no Sul será o menor desde 1982, e preços sobem",
+          "tema": "Safra",
+          "impacto": "alta",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-29",
+          "url": "https://planetaarroz.com.br/plantio-de-arroz-no-sul-sera-o-menor-desde-1982-e-precos-sobem/"
         },
         {
           "titulo": "Japão vai da escassez de arroz ao excesso recorde",
@@ -491,27 +504,19 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/428548-sind-arroz-sc-aponta-prioridades-para-o-proximo-governo-e-defende-previsibilidade-e-reducao-de-custos-na-cadeia-produtiva-de-arroz.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Leilões para compra de até 96,4 mil t de arroz ocorrem nesta sexta-feira (25)",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-24",
-          "url": "https://planetaarroz.com.br/leiloes-para-compra-de-ate-964-mil-t-de-arroz-ocorrem-nesta-sexta-feira-25/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": 0.18,
-      "score_noticias": 0.12,
-      "score_combinado": 0.16,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.5% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 82.48) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_preco": 0.48,
+      "score_noticias": 0.25,
+      "score_combinado": 0.39,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+1.4% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "aguardar",
+      "recomendacao": "comprar",
       "suporte": 58.98,
-      "resistencia": 82.48,
+      "resistencia": 83.22,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -521,6 +526,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-09-29",
+          "valor": 289.48,
+          "variacao_pct": -0.72
+        },
         {
           "data": "2026-09-28",
           "valor": 291.58,
@@ -540,14 +550,14 @@
           "data": "2026-09-23",
           "valor": 334.51,
           "variacao_pct": 0.75
-        },
-        {
-          "data": "2026-09-22",
-          "valor": 332.01,
-          "variacao_pct": -0.64
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-29",
+          "valor": 289.48,
+          "variacao_pct": -0.72
+        },
         {
           "data": "2026-09-28",
           "valor": 291.58,
@@ -919,7 +929,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 3.41,
+      "variacao_mes_pct": 2.67,
       "noticias": [
         {
           "titulo": "Feijão/Cepea: Feijão-preto lidera altas; carioca também se valoriza",
@@ -933,24 +943,18 @@
       "safra_noticias": [],
       "tendencia_curta": "queda",
       "tendencia_media": "alta",
-      "score_preco": 0.47,
+      "score_preco": -1.0,
       "score_noticias": 0.0,
-      "score_combinado": -0.4,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.3% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
+      "score_combinado": -0.6,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em queda de 13.4% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "segurar",
       "suporte": 240.89,
       "resistencia": 354.9,
       "red_flags": [
         {
-          "tipo": "variacao_dia",
-          "mensagem": "Variação de -5.2% em 1 dia — movimento atípico de queda",
-          "severidade": "alta",
-          "impacto_tendencia": "queda"
-        },
-        {
           "tipo": "variacao_3d",
-          "mensagem": "Variação acumulada de -12.6% em 3 dias — tendência forte de queda",
+          "mensagem": "Variação acumulada de -5.9% em 3 dias — tendência forte de queda",
           "severidade": "alta",
           "impacto_tendencia": "queda"
         }
@@ -963,6 +967,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-09-29",
+          "valor": 280.75,
+          "variacao_pct": 2.11
+        },
         {
           "data": "2026-09-28",
           "valor": 274.96,
@@ -982,14 +991,14 @@
           "data": "2026-09-23",
           "valor": 274.48,
           "variacao_pct": 5.59
-        },
-        {
-          "data": "2026-09-22",
-          "valor": 259.95,
-          "variacao_pct": 3.34
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-29",
+          "valor": 280.75,
+          "variacao_pct": 2.11
+        },
         {
           "data": "2026-09-28",
           "valor": 274.96,
@@ -1361,7 +1370,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 19.87,
+      "variacao_mes_pct": 22.39,
       "noticias": [
         {
           "titulo": "Feijão/Cepea: Feijão-preto lidera altas; carioca também se valoriza",
@@ -1386,11 +1395,11 @@
       "score_preco": 1.0,
       "score_noticias": 0.0,
       "score_combinado": 0.6,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 9.7% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 279.01) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 11.6% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 280.75) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 211.63,
-      "resistencia": 279.01,
+      "resistencia": 280.75,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -1400,6 +1409,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-09-29",
+          "valor": 121.27,
+          "variacao_pct": 0.86
+        },
         {
           "data": "2026-09-28",
           "valor": 120.24,
@@ -1419,14 +1433,14 @@
           "data": "2026-09-23",
           "valor": 120.08,
           "variacao_pct": -0.59
-        },
-        {
-          "data": "2026-09-22",
-          "valor": 120.79,
-          "variacao_pct": 0.55
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-29",
+          "valor": 121.27,
+          "variacao_pct": 0.86
+        },
         {
           "data": "2026-09-28",
           "valor": 120.24,
@@ -1803,8 +1817,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 7.3,
+      "variacao_mes_pct": 6.61,
       "noticias": [
+        {
+          "titulo": "Açúcar ganha força após UE reduzir previsão para produção de beterraba",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428808-acucar-ganha-forca-apos-ue-reduzir-previsao-para-producao-de-beterraba.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Açúcar fecha misto após petróleo reverter alta e mercado avaliar demanda",
           "tema": "Oferta & Demanda",
@@ -1860,27 +1882,19 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428622-corte-da-cota-de-acucar-pelos-eua-ameaca-us-30-milhoes-em-receita-do-nordeste.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar opera em direções opostas nas bolsas de Nova Iorque e Londres nesta sexta-feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428601-acucar-opera-em-direcoes-opostas-nas-bolsas-de-nova-iorque-e-londres-nesta-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": 0.05,
+      "score_preco": 0.32,
       "score_noticias": -0.25,
-      "score_combinado": -0.07,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 121.13) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.09,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.9% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 121.27) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 90.72,
-      "resistencia": 121.13,
+      "resistencia": 121.27,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -1890,6 +1904,11 @@
       "fonte_primaria": "CEPEA/Paranaguá via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-09-29",
+          "valor": 161.27,
+          "variacao_pct": 0.52
+        },
         {
           "data": "2026-09-28",
           "valor": 160.43,
@@ -1909,14 +1928,14 @@
           "data": "2026-09-23",
           "valor": 161.65,
           "variacao_pct": -0.17
-        },
-        {
-          "data": "2026-09-22",
-          "valor": 161.93,
-          "variacao_pct": 0.25
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-29",
+          "valor": 161.27,
+          "variacao_pct": 0.52
+        },
         {
           "data": "2026-09-28",
           "valor": 160.43,
@@ -2293,8 +2312,24 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 0.42,
+      "variacao_mes_pct": 1.15,
       "noticias": [
+        {
+          "titulo": "Anec volta a reduzir estimativas de exportação de soja do Brasil em setembro",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428819-anec-volta-a-reduzir-estimativas-de-exportacao-de-soja-do-brasil-em-setembro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Plantio da soja chega a 28% no Paraná, mas frio, granizo e excesso de umidade já afetam áreas iniciais",
+          "tema": "Clima",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428801-plantio-da-soja-chega-a-28-no-parana-mas-frio-granizo-e-excesso-de-umidade-ja-afetam-areas-iniciais.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Plantio da soja acelera para 3,9% após chuvas liberarem avanço em áreas de MT",
           "tema": "Clima",
@@ -2342,36 +2377,29 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428702-soja-cepea-menor-oferta-mantem-precos-firmes-no-mercado-interno.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja despenca quase 40 pontos em Chicago, perde os US$ 13 e amplia pressão nesta 2ª feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428698-soja-amplia-perdas-e-despenca-mais-de-25-pontos-em-chicago-com-frustracao-pos-trump-xi.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "AgRural: Com PR isolado na dianteira, plantio de soja do Brasil chega a 3,4% da área",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428664-ag-rural-com-pr-isolado-na-dianteira-plantio-de-soja-do-brasil-chega-a-3-4-da-area.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
-      "score_preco": -0.3,
-      "score_noticias": 0.0,
-      "score_combinado": -0.18,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.9% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 162.02) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_preco": -0.05,
+      "score_noticias": 0.12,
+      "score_combinado": 0.02,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.1% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 162.02) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 162.02,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "evento_externo",
+          "mensagem": "Evento externo detectado: Plantio da soja chega a 28% no Paraná, mas frio, granizo e excesso de umidade já afetam áreas iniciais",
+          "severidade": "media",
+          "impacto_tendencia": "alta",
+          "fonte": "Notícias Agrícolas",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428801-plantio-da-soja-chega-a-28-no-parana-mas-frio-granizo-e-excesso-de-umidade-ja-afetam-areas-iniciais.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -2380,6 +2408,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-09-29",
+          "valor": 92.2038,
+          "variacao_pct": 0.46
+        },
         {
           "data": "2026-09-28",
           "valor": 91.7772,
@@ -2399,14 +2432,14 @@
           "data": "2026-09-23",
           "valor": 92.013,
           "variacao_pct": -0.11
-        },
-        {
-          "data": "2026-09-22",
-          "valor": 92.1138,
-          "variacao_pct": 0.2
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-29",
+          "valor": 92.2038,
+          "variacao_pct": 0.46
+        },
         {
           "data": "2026-09-28",
           "valor": 91.7772,
@@ -2783,7 +2816,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 5.31,
+      "variacao_mes_pct": 5.51,
       "noticias": [
         {
           "titulo": "Chuvas pioram condições do trigo no PR, elevam perdas e reduzem qualidade da safra",
@@ -2853,10 +2886,10 @@
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": 0.43,
+      "score_preco": 0.1,
       "score_noticias": 0.0,
-      "score_combinado": 0.26,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+1.3% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 92.37) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.06,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.3% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 92.37) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 80.739,
@@ -2870,6 +2903,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-09-29",
+          "valor": 1564.02,
+          "variacao_pct": 0.48
+        },
         {
           "data": "2026-09-28",
           "valor": 1556.57,
@@ -2889,14 +2927,14 @@
           "data": "2026-09-23",
           "valor": 1513.01,
           "variacao_pct": 0.11
-        },
-        {
-          "data": "2026-09-22",
-          "valor": 1511.31,
-          "variacao_pct": -1.49
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-29",
+          "valor": 1564.02,
+          "variacao_pct": 0.48
+        },
         {
           "data": "2026-09-28",
           "valor": 1556.57,
@@ -3273,8 +3311,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -9.95,
+      "variacao_mes_pct": -10.55,
       "noticias": [
+        {
+          "titulo": "Café reverte perdas e fecha com alta de mais de 1% em NY, mesmo com pressão do real",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428803-cafe-reverte-perdas-e-fecha-com-alta-de-mais-de-1-em-ny-mesmo-com-pressao-do-real.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Café recua em NY nesta 3ª feira (29) e realiza parte dos ganhos fortes da véspera",
           "tema": "Câmbio",
@@ -3330,23 +3376,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428514-conab-producao-de-cafe-e-estimada-em-67-6-milhoes-de-sacas-influenciada-por-bienalidade-positiva-em-2026.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café tenta reação em NY, mas mercado já precifica safra brasileira que ainda precisa ser confirmada",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428480-cafe-tenta-reacao-em-ny-mas-mercado-ja-precifica-safra-brasileira-que-ainda-precisa-ser-confirmada.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
+      "tendencia_curta": "alta",
       "tendencia_media": "queda",
-      "score_preco": 0.22,
+      "score_preco": 0.39,
       "score_noticias": -0.12,
-      "score_combinado": 0.08,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.7% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
+      "score_combinado": 0.18,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.9% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Tendência de queda no médio prazo (90-360 dias).</li><li>Negocie contratos e evite fixar preços altos por longos períodos.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 1427.63,
@@ -3360,6 +3398,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-09-30",
+          "valor": 2.656,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-09-29",
           "valor": 2.656,
@@ -3379,14 +3422,14 @@
           "data": "2026-09-24",
           "valor": 2.656,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-09-23",
-          "valor": 2.656,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-09-30",
+          "valor": 2.656,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-09-29",
           "valor": 2.656,
@@ -3723,7 +3766,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 4.71,
+      "variacao_mes_pct": 0.0,
       "noticias": [
         {
           "titulo": "Produção de leite cresce no RS, mas importações pressionam pequenas indústrias",
@@ -3736,12 +3779,12 @@
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
-      "tendencia_media": "alta",
+      "tendencia_media": "estavel",
       "score_preco": 0.0,
       "score_noticias": 0.0,
       "score_combinado": 0.0,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.0% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 2.66) — zona de pressão vendedora; possível correção à frente.</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 2.4884,
       "resistencia": 2.656,
