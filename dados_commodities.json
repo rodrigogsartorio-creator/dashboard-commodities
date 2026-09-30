@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-09-30T07:50:19",
+  "ultima_atualizacao": "2026-09-30T13:31:15",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.2204,
-    "variacao_pct": 0.14,
-    "bid": 5.2204,
-    "ask": 5.2204
+    "valor": 5.1809,
+    "variacao_pct": -0.76,
+    "bid": 5.1809,
+    "ask": 5.1809
   },
   "safra": {
-    "ultima_atualizacao": "2026-09-30T07:50:19",
+    "ultima_atualizacao": "2026-09-30T13:31:15",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -442,6 +442,30 @@
       "variacao_mes_pct": 6.19,
       "noticias": [
         {
+          "titulo": "MPRS firma acordo para pagamento por serviços ambientais a produtores de arroz",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-30",
+          "url": "https://planetaarroz.com.br/mprs-firma-acordo-para-pagamento-por-servicos-ambientais-a-produtores-de-arroz/"
+        },
+        {
+          "titulo": "Diesel amplia pressão sobre custos do arroz",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-30",
+          "url": "https://planetaarroz.com.br/diesel-amplia-pressao-sobre-custos-do-arroz/"
+        },
+        {
+          "titulo": "Semeadura acelera e muda debate sobre área de arroz",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-09-30",
+          "url": "https://planetaarroz.com.br/semeadura-acelera-e-muda-debate-sobre-area-de-arroz/"
+        },
+        {
           "titulo": "Plantio do arroz chega a 15,5% e mais que dobra ritmo de 2025; chuvas interrompem avanço no RS",
           "tema": "Clima",
           "impacto": "neutro",
@@ -480,30 +504,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-09-25",
           "url": "https://planetaarroz.com.br/pesquisa-da-ufla-desenvolve-arroz-que-pode-ser-cultivado-com-menos-agua-e-ampliar-producao-em-minas/"
-        },
-        {
-          "titulo": "Paridade do arroz melhora ao longo da semana e riscos da nova safra ganham peso",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-25",
-          "url": "https://planetaarroz.com.br/paridade-do-arroz-melhora-ao-longo-da-semana-e-riscos-da-nova-safra-ganham-peso/"
-        },
-        {
-          "titulo": "Conab cancela leilões de compra de arroz em casca previstos para esta sexta-feira",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-25",
-          "url": "https://planetaarroz.com.br/nota-oficial-conab-informa-cancelamento-dos-leiloes-de-avisos-no-68-2026-e-no-69-2026-de-compra-de-arroz-em-casca/"
-        },
-        {
-          "titulo": "SindArroz-SC aponta prioridades para o próximo governo e defende previsibilidade e redução de custos na cadeia produtiva de arroz",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/428548-sind-arroz-sc-aponta-prioridades-para-o-proximo-governo-e-defende-previsibilidade-e-reducao-de-custos-na-cadeia-produtiva-de-arroz.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -1820,6 +1820,14 @@
       "variacao_mes_pct": 6.61,
       "noticias": [
         {
+          "titulo": "Açúcar devolve ganhos e recua nas bolsas de Nova Iorque e Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-30",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428849-acucar-devolve-ganhos-e-recua-nas-bolsas-de-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar ganha força após UE reduzir previsão para produção de beterraba",
           "tema": "Safra",
           "impacto": "neutro",
@@ -1850,14 +1858,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428714-acucar-opera-sob-pressao-em-nova-iorque-com-demanda-fraca-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mercado futuro de açúcar inicia semana sem direcionamento",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-09-28",
-          "url": "https://safras.com.br/mercado-futuro-de-acucar-inicia-semana-sem-direcionamento/"
         },
         {
           "titulo": "Chuvas derrubam produção de açúcar no Centro-Sul em 42,5% na 1ª quinzena de setembro",
@@ -2315,6 +2315,30 @@
       "variacao_mes_pct": 1.15,
       "noticias": [
         {
+          "titulo": "Soja amplia altas em Chicago após USDA anunciar nova venda para a China nesta 4ª feira (30)",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-30",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428845-soja-amplia-altas-em-chicago-apos-usda-anunciar-nova-venda-para-a-china-nesta-4-feira-30.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Fraca demanda chinesa por soja diminui perspectivas de importações americanas após a recusa das tarifas",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-30",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428833-fraca-demanda-chinesa-por-soja-diminui-perspectivas-de-importacoes-americanas-apos-a-recusa-das-tarifas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja tenta recuperação em Chicago nesta 4ª (30), mas espera pelo USDA limita fôlego",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-30",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428832-soja-tenta-recuperacao-em-chicago-nesta-4-30-mas-espera-pelo-usda-limita-folego.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Anec volta a reduzir estimativas de exportação de soja do Brasil em setembro",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2353,30 +2377,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428760-soja-opera-de-lado-em-chicago-nesta-3-29-apos-perdas-da-vespera-e-esperando-pelo-usda.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja cai mais de 30 pontos em Chicago, enquanto dólar dá suporte aos preços no Brasil",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428744-soja-cai-mais-de-30-pontos-em-chicago-enquanto-dolar-da-suporte-aos-precos-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Exportações de soja do Brasil aceleram em setembro e média diária cresce 8,7%",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428734-exportacoes-de-soja-do-brasil-aceleram-em-setembro-e-media-diaria-cresce-8-7.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja/Cepea: Menor oferta mantém preços firmes no mercado interno",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428702-soja-cepea-menor-oferta-mantem-precos-firmes-no-mercado-interno.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3314,6 +3314,14 @@
       "variacao_mes_pct": -10.55,
       "noticias": [
         {
+          "titulo": "Expocacer apresenta cafés únicos do Cerrado Mineiro para EUA e Reino Unido",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-09-30",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428841-expocacer-apresenta-cafes-unicos-do-cerrado-mineiro-para-eua-e-reino-unido.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café reverte perdas e fecha com alta de mais de 1% em NY, mesmo com pressão do real",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -3368,14 +3376,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428565-cafe-fecha-em-baixa-em-ny-e-londres-com-safra-recorde-do-brasil-reforcando-pressao-sobre-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Conab: Produção de café é estimada em 67,6 milhões de sacas, influenciada por bienalidade positiva em 2026",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428514-conab-producao-de-cafe-e-estimada-em-67-6-milhoes-de-sacas-influenciada-por-bienalidade-positiva-em-2026.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
