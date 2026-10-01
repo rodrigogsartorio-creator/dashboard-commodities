@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-01T07:50:22",
+  "ultima_atualizacao": "2026-10-01T14:09:29",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.1809,
-    "variacao_pct": -0.76,
-    "bid": 5.1809,
-    "ask": 5.1809
+    "valor": 5.2079,
+    "variacao_pct": 0.52,
+    "bid": 5.2079,
+    "ask": 5.2079
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-01T07:50:22",
+    "ultima_atualizacao": "2026-10-01T14:09:29",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -17,7 +17,7 @@
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
-        "titulo": "IBGE — Área colhida (Brasil): 100640485 t em 2025",
+        "titulo": "IBGE — Área colhida (Brasil): 100646477 t em 2025",
         "fonte": "IBGE SIDRA",
         "data": "2026-10-01",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
@@ -940,16 +940,7 @@
         }
       ],
       "variacao_mes_pct": 1.78,
-      "noticias": [
-        {
-          "titulo": "Feijão/Cepea: Feijão-preto lidera altas; carioca também se valoriza",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais/428701-feijao-cepea-feijao-preto-lidera-altas-carioca-tambem-se-valoriza.html?utm_source=parceiros&utm_medium=rss"
-        }
-      ],
+      "noticias": [],
       "safra_noticias": [],
       "tendencia_curta": "queda",
       "tendencia_media": "alta",
@@ -1833,6 +1824,14 @@
       "variacao_mes_pct": 5.77,
       "noticias": [
         {
+          "titulo": "Açúcar recupera terreno em Nova Iorque e Londres com oferta no radar",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428928-acucar-recupera-terreno-em-nova-iorque-e-londres-com-oferta-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em baixa em Nova Iorque e Londres com demanda fraca no radar",
           "tema": "Oferta & Demanda",
           "impacto": "queda",
@@ -1887,22 +1886,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428731-stone-x-ve-deficit-global-de-acucar-em-2027-mas-aponta-pressao-sobre-precos-ate-o-fim-de-2026.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar opera sob pressão em Nova Iorque com demanda fraca no radar",
-          "tema": "Oferta & Demanda",
-          "impacto": "queda",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428714-acucar-opera-sob-pressao-em-nova-iorque-com-demanda-fraca-no-radar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": 0.09,
-      "score_noticias": -0.25,
-      "score_combinado": -0.05,
+      "score_noticias": -0.12,
+      "score_combinado": 0.01,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.3% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 121.27) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -2333,6 +2324,14 @@
       "variacao_mes_pct": 0.26,
       "noticias": [
         {
+          "titulo": "StoneX vê safra de soja 26/27 do Brasil em 183,36 mi t e menor exportação de milho em 25/26",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428930-stonex-ve-safra-de-soja-2627-do-brasil-em-18336-mi-t-e-menor-exportacao-de-milho-em-2526.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja recua em Chicago nesta 5ª feira com China ainda limitando demanda dos EUA",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2387,37 +2386,20 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/428819-anec-volta-a-reduzir-estimativas-de-exportacao-de-soja-do-brasil-em-setembro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Plantio da soja chega a 28% no Paraná, mas frio, granizo e excesso de umidade já afetam áreas iniciais",
-          "tema": "Clima",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428801-plantio-da-soja-chega-a-28-no-parana-mas-frio-granizo-e-excesso-de-umidade-ja-afetam-areas-iniciais.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.08,
-      "score_noticias": 0.12,
-      "score_combinado": 0.0,
+      "score_noticias": 0.0,
+      "score_combinado": -0.05,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 162.02) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 162.02,
-      "red_flags": [
-        {
-          "tipo": "evento_externo",
-          "mensagem": "Evento externo detectado: Plantio da soja chega a 28% no Paraná, mas frio, granizo e excesso de umidade já afetam áreas iniciais",
-          "severidade": "media",
-          "impacto_tendencia": "alta",
-          "fonte": "Notícias Agrícolas",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428801-plantio-da-soja-chega-a-28-no-parana-mas-frio-granizo-e-excesso-de-umidade-ja-afetam-areas-iniciais.html?utm_source=parceiros&utm_medium=rss"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -3342,6 +3324,22 @@
       "variacao_mes_pct": -8.88,
       "noticias": [
         {
+          "titulo": "Cafezais podem produzir mais e o segredo pode estar debaixo da terra",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428917-cafezais-podem-produzir-mais-e-o-segredo-pode-estar-debaixo-da-terra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Sistema Famato destaca avanço da produção de café em Mato Grosso",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428915-sistema-famato-destaca-avanco-da-producao-de-cafe-em-mato-grosso.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café fecha com leve alta em NY nesta 4ª (30); mercado atento aos riscos climáticos no Brasil",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3388,22 +3386,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428713-cafe-dispara-em-nova-york-nesta-2-feira-28-com-fundos-cobrindo-posicoes-vendidas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café sobe mais de 1% em NY nesta 6ª feira (25) com dólar fraco e cobertura de posições vendidas",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428634-cafe-sobe-mais-de-1-em-ny-nesta-6-feira-25-com-dolar-fraco-e-cobertura-de-posicoes-vendidas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café sobe mais de 1% em Nova York e tenta recuperação após sequência de pressão",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428590-cafe-sobe-mais-de-1-em-nova-york-e-tenta-recuperacao-apos-sequencia-de-pressao.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3801,6 +3783,14 @@
       ],
       "variacao_mes_pct": 0.0,
       "noticias": [
+        {
+          "titulo": "Conseleite/RS projeta valor de referência do leite em R$ 2,3910 para setembro",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-01",
+          "url": "https://www.noticiasagricolas.com.br/noticias/leite/428927-conseleite-rs-projeta-valor-de-referencia-do-leite-em-r-2-3910-para-setembro.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Produção de leite cresce no RS, mas importações pressionam pequenas indústrias",
           "tema": "Safra",
