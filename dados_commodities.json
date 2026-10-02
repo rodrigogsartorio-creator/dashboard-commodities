@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-02T07:50:18",
+  "ultima_atualizacao": "2026-10-02T13:22:55",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.2079,
-    "variacao_pct": 0.52,
-    "bid": 5.2079,
-    "ask": 5.2079
+    "valor": 5.2238,
+    "variacao_pct": 0.31,
+    "bid": 5.2238,
+    "ask": 5.2238
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-02T07:50:18",
+    "ultima_atualizacao": "2026-10-02T13:22:55",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -1858,6 +1858,22 @@
       "variacao_mes_pct": 5.04,
       "noticias": [
         {
+          "titulo": "Super El Niño amplia riscos à oferta de açúcar, aponta Hedgepoint",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428981-super-el-nino-amplia-riscos-a-oferta-de-acucar-aponta-hedgepoint.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Mercado internacional de açúcar voltou a disparar em setembro",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-10-02",
+          "url": "https://safras.com.br/mercado-internacional-de-acucar-voltou-a-disparar-em-setembro/"
+        },
+        {
           "titulo": "Moagem de cana do centro-sul cai pela 1ª vez no acumulado da safra por chuvas em setembro",
           "tema": "Clima",
           "impacto": "neutro",
@@ -1882,14 +1898,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428928-acucar-recupera-terreno-em-nova-iorque-e-londres-com-oferta-no-radar.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Açúcar escala máximas de 18 meses em NY e testa linha dos 19 centavos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-01",
-          "url": "https://safras.com.br/acucar-escala-maximas-de-18-meses-em-ny-e-testa-linha-dos-19-centavos/"
-        },
-        {
           "titulo": "Açúcar fecha em baixa em Nova Iorque e Londres com demanda fraca no radar",
           "tema": "Oferta & Demanda",
           "impacto": "queda",
@@ -1912,14 +1920,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-30",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428865-embrapa-desenvolve-metodo-que-amplia-em-ate-116-vezes-estimativa-do-impacto-de-herbicidas-na-cana.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar devolve ganhos e recua nas bolsas de Nova Iorque e Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428849-acucar-devolve-ganhos-e-recua-nas-bolsas-de-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2868,6 +2868,14 @@
       "variacao_mes_pct": 5.83,
       "noticias": [
         {
+          "titulo": "Área de plantio de trigo na Ucrânia pode cair por dificuldade na exportação, diz governo",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428987-area-de-plantio-de-trigo-na-ucrania-pode-cair-por-dificuldade-na-exportacao-diz-governo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Chuvas pioram condições do trigo no PR, elevam perdas e reduzem qualidade da safra",
           "tema": "Clima",
           "impacto": "neutro",
@@ -2922,14 +2930,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428398-conab-registra-germinacao-de-trigo-na-propria-planta-em-sp-e-produtividade-baixa-no-pr.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo de menor qualidade já aparece no Centro-Sul e aumenta alerta sobre oferta para moagem",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/428393-trigo-de-menor-qualidade-ja-aparece-no-centro-sul-e-aumenta-alerta-sobre-oferta-para-moagem.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3373,6 +3373,14 @@
       "variacao_mes_pct": -7.03,
       "noticias": [
         {
+          "titulo": "Café dispara mais de 2% em NY nesta 6ª (2), com mercado voltando às preocupações com clima no BR",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428967-cafe-dispara-mais-de-2-em-ny-nesta-6-2-com-mercado-voltando-as-preocupacoes-com-clima-no-br.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café fecha em baixa em NY e físico acompanha pressão em parte das praças nesta 5ª feira",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3427,14 +3435,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428803-cafe-reverte-perdas-e-fecha-com-alta-de-mais-de-1-em-ny-mesmo-com-pressao-do-real.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café recua em NY nesta 3ª feira (29) e realiza parte dos ganhos fortes da véspera",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428767-cafe-recua-em-ny-nesta-3-feira-29-e-realiza-parte-dos-ganhos-fortes-da-vespera.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
