@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-05T07:50:18",
+  "ultima_atualizacao": "2026-10-05T16:29:23",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.2238,
-    "variacao_pct": 0.31,
-    "bid": 5.2238,
-    "ask": 5.2238
+    "valor": 4.9859,
+    "variacao_pct": -4.55,
+    "bid": 4.9859,
+    "ask": 4.9859
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-05T07:50:18",
+    "ultima_atualizacao": "2026-10-05T16:29:23",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -457,76 +457,20 @@
       "variacao_mes_pct": 5.19,
       "noticias": [
         {
-          "titulo": "Expansão do arroz muda mapa produtivo do Paraguai",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-03",
-          "url": "https://planetaarroz.com.br/expansao-do-arroz-muda-mapa-produtivo-do-paraguai/"
-        },
-        {
-          "titulo": "Oferta restrita sustenta preços do arroz em setembro, mesmo com baixa liquidez",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-03",
-          "url": "https://planetaarroz.com.br/oferta-restrita-sustenta-precos-do-arroz-em-setembro-mesmo-com-baixa-liquidez/"
-        },
-        {
-          "titulo": "MPRS firma acordo para pagamento por serviços ambientais a produtores de arroz",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-30",
-          "url": "https://planetaarroz.com.br/mprs-firma-acordo-para-pagamento-por-servicos-ambientais-a-produtores-de-arroz/"
-        },
-        {
-          "titulo": "Diesel amplia pressão sobre custos do arroz",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-30",
-          "url": "https://planetaarroz.com.br/diesel-amplia-pressao-sobre-custos-do-arroz/"
-        },
-        {
-          "titulo": "Semeadura acelera e muda debate sobre área de arroz",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-30",
-          "url": "https://planetaarroz.com.br/semeadura-acelera-e-muda-debate-sobre-area-de-arroz/"
-        },
-        {
           "titulo": "Plantio do arroz chega a 15,5% e mais que dobra ritmo de 2025; chuvas interrompem avanço no RS",
           "tema": "Clima",
           "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-09-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/428788-plantio-do-arroz-chega-a-15-5-e-mais-que-dobra-ritmo-de-2025-chuvas-interrompem-avanco-no-rs.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Plantio de arroz no Sul será o menor desde 1982, e preços sobem",
-          "tema": "Safra",
-          "impacto": "alta",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-29",
-          "url": "https://planetaarroz.com.br/plantio-de-arroz-no-sul-sera-o-menor-desde-1982-e-precos-sobem/"
-        },
-        {
-          "titulo": "Japão vai da escassez de arroz ao excesso recorde",
-          "tema": "Mercado",
-          "impacto": "alta",
-          "fonte": "Planeta Arroz",
-          "data": "2026-09-28",
-          "url": "https://planetaarroz.com.br/japao-vai-da-escassez-de-arroz-ao-excesso-recorde/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.31,
-      "score_noticias": 0.25,
-      "score_combinado": 0.29,
+      "score_noticias": 0.0,
+      "score_combinado": 0.19,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.6% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -1878,6 +1822,46 @@
       "variacao_mes_pct": 6.25,
       "noticias": [
         {
+          "titulo": "Açúcar dispara e atinge máxima de 19 meses em Nova Iorque",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429162-acucar-dispara-e-atinge-maxima-de-19-meses-em-nova-iorque.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar dispara em Nova Iorque e Londres com clima e oferta no radar",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429139-acucar-dispara-em-nova-iorque-e-londres-com-clima-e-oferta-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar bruto supera 20 centavos na bolsa ICE e atinge maior cotação em 19 meses",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429134-acucar-bruto-supera-20-centavos-na-bolsa-ice-e-atinge-maior-cotacao-em-19-meses.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar atinge máxima de 19 meses em NY com chuvas reduzindo produção no Brasil",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-10-05",
+          "url": "https://safras.com.br/acucar-atinge-maxima-de-19-meses-em-ny-com-chuvas-reduzindo-producao-no-brasil/"
+        },
+        {
+          "titulo": "Preços globais do açúcar sobem com oferta mais restrita – FAO",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-10-05",
+          "url": "https://safras.com.br/precos-globais-do-acucar-sobem-com-oferta-mais-restrita-fao/"
+        },
+        {
           "titulo": "Açúcar dispara e bate máxima de 1 ano e meio em Nova York com risco climático no Brasil",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1894,66 +1878,33 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429014-tereos-investe-r-568-milhoes-para-renovar-canaviais-e-sustentar-producao-nas-proximas-safras.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Super El Niño amplia riscos à oferta de açúcar, aponta Hedgepoint",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428981-super-el-nino-amplia-riscos-a-oferta-de-acucar-aponta-hedgepoint.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mercado internacional de açúcar voltou a disparar em setembro",
+          "titulo": "Açúcar dispara nas bolsas de Nova Iorque e Londres nesta sexta-feira",
           "tema": "Mercado",
           "impacto": "neutro",
-          "fonte": "SAFRAS",
+          "fonte": "Notícias Agrícolas",
           "data": "2026-10-02",
-          "url": "https://safras.com.br/mercado-internacional-de-acucar-voltou-a-disparar-em-setembro/"
-        },
-        {
-          "titulo": "Moagem de cana do centro-sul cai pela 1ª vez no acumulado da safra por chuvas em setembro",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428952-moagem-de-cana-do-centro-sul-cai-pela-1a-vez-no-acumulado-da-safra-por-chuvas-em-setembro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em alta em Nova Iorque e Londres com sinais de demanda mais firme",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428948-acucar-fecha-em-alta-em-nova-iorque-e-londres-com-sinais-de-demanda-mais-firme.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar recupera terreno em Nova Iorque e Londres com oferta no radar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428928-acucar-recupera-terreno-em-nova-iorque-e-londres-com-oferta-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em baixa em Nova Iorque e Londres com demanda fraca no radar",
-          "tema": "Oferta & Demanda",
-          "impacto": "queda",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/428867-acucar-fecha-em-baixa-em-nova-iorque-e-londres-com-demanda-fraca-no-radar.html?utm_source=parceiros&utm_medium=rss"
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429004-acucar-dispara-nas-bolsas-de-nova-iorque-e-londres-nesta-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.37,
-      "score_noticias": -0.12,
-      "score_combinado": 0.17,
+      "score_noticias": 0.0,
+      "score_combinado": 0.22,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.9% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 123.37) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 90.72,
       "resistencia": 123.37,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -4.55% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "soja": {
@@ -2388,6 +2339,38 @@
       "variacao_mes_pct": -0.12,
       "noticias": [
         {
+          "titulo": "Soja reduz ganhos e fecha com leves altas em Chicago nesta segunda-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429157-soja-reduz-ganhos-e-fecha-com-leves-altas-em-chicago-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja mantém alta em Chicago, mas reduz ganhos ao longo da sessão nesta segunda-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429141-soja-mantem-alta-em-chicago-mas-reduz-ganhos-ao-longo-da-sessao-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja sobe em Chicago acompanhando avanço do trigo nesta segunda-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429114-soja-sobe-em-chicago-acompanhando-avanco-do-trigo-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "AgRural: MT ganha ritmo, mas plantio de soja do Brasil agora está atrás do ano passado",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429111-ag-rural-mt-ganha-ritmo-mas-plantio-de-soja-do-brasil-agora-esta-atras-do-ano-passado.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "SOJA/CEPEA: Preços recuam no Brasil e nos EUA",
           "tema": "Geopolítica",
           "impacto": "queda",
@@ -2418,38 +2401,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-02",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429025-plantio-de-soja-de-mt-atinge-1023-e-mantem-atraso-inicial-diz-imea.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja recua em Chicago nesta 6ª feira com farelo caindo mais de 1% e demanda chinesa ainda no radar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428966-soja-recua-em-chicago-nesta-6-feira-com-farelo-caindo-mais-de-1-e-demanda-chinesa-ainda-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja sente tombo de Chicago nos portos, mas dólar e demanda chinesa amortecem pressão no Brasil",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428959-soja-sente-tombo-de-chicago-nos-portos-mas-dolar-e-demanda-chinesa-amortecem-pressao-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja 26/27: chuva aperta janela no RS e exige precisão no plantio; especialista aponta estratégias para proteger produtividade",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428950-soja-26-27-chuva-aperta-janela-no-rs-e-exige-precisao-no-plantio-especialista-aponta-estrategias-para-proteger-produtividade.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja despenca mais de 15 pontos em Chicago com pressão dos derivados; dólar limita impacto no Brasil",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/428938-soja-despenca-mais-de-15-pontos-em-chicago-com-pressao-dos-derivados-dolar-limita-impacto-no-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2463,7 +2414,14 @@
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 162.02,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -4.55% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -2898,6 +2856,22 @@
       "variacao_mes_pct": 6.67,
       "noticias": [
         {
+          "titulo": "Trigo fecha em alta em Chicago com tensões no Leste Europeu mantendo prêmio sobre preços",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/429159-trigo-fecha-em-alta-em-chicago-com-tensoes-no-leste-europeu-mantendo-premio-sobre-precos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Trigo sobe em Chicago com tensão no Mar Negro e puxa soja e milho nesta segunda-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/429117-trigo-sobe-em-chicago-com-tensao-no-mar-negro-e-puxa-soja-e-milho-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Área de plantio de trigo na Ucrânia pode cair por dificuldade na exportação, diz governo",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2941,7 +2915,14 @@
       "recomendacao": "aguardar",
       "suporte": 80.739,
       "resistencia": 93.2226,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -4.55% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "cafe": {
@@ -3376,6 +3357,30 @@
       "variacao_mes_pct": -5.99,
       "noticias": [
         {
+          "titulo": "Café fecha em alta em NY e Londres, mas queda do dólar limita preços no mercado brasileiro",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429153-cafe-fecha-em-alta-em-ny-e-londres-mas-queda-do-dolar-limita-precos-no-mercado-brasileiro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café mantém alta em Nova York e Londres com mercado atento ao clima nas principais origens",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429142-cafe-mantem-alta-em-nova-york-e-londres-com-mercado-atento-ao-clima-nas-principais-origens.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café sobe mais de 1% em Nova York e 2% em Londres com mercado atento ao clima no Brasil e no Vietnã",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429115-cafe-sobe-mais-de-1-em-nova-york-e-2-em-londres-com-mercado-atento-ao-clima-no-brasil-e-no-vietna.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café sobe mais de 1% em NY; oferta apertada e incertezas com próxima safra mantêm volatilidade",
           "tema": "Safra",
           "impacto": "neutro",
@@ -3414,30 +3419,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-01",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428917-cafezais-podem-produzir-mais-e-o-segredo-pode-estar-debaixo-da-terra.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Sistema Famato destaca avanço da produção de café em Mato Grosso",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-01",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428915-sistema-famato-destaca-avanco-da-producao-de-cafe-em-mato-grosso.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café fecha com leve alta em NY nesta 4ª (30); mercado atento aos riscos climáticos no Brasil",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428864-cafe-fecha-com-leve-alta-em-ny-nesta-4-30-mercado-atento-aos-riscos-climaticos-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Expocacer apresenta cafés únicos do Cerrado Mineiro para EUA e Reino Unido",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-09-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/428841-expocacer-apresenta-cafes-unicos-do-cerrado-mineiro-para-eua-e-reino-unido.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3451,7 +3432,14 @@
       "recomendacao": "comprar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -4.55% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "leite": {
