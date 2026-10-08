@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-08T07:50:20",
+  "ultima_atualizacao": "2026-10-08T14:36:49",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 4.9935,
-    "variacao_pct": 0.48,
-    "bid": 4.9935,
-    "ask": 4.9935
+    "valor": 5.0119,
+    "variacao_pct": 0.37,
+    "bid": 5.0119,
+    "ask": 5.0119
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-08T07:50:20",
+    "ultima_atualizacao": "2026-10-08T14:36:49",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -1932,6 +1932,22 @@
       "variacao_mes_pct": 3.64,
       "noticias": [
         {
+          "titulo": "Açúcar recua nas bolsas após renovar máximas e dólar mais forte pressiona mercado",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429361-acucar-recua-nas-bolsas-apos-renovar-maximas-e-dolar-mais-forte-pressiona-mercado.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Produção total de açúcar do Brasil deve cair para 42,2 milhões de toneladas em 2026/27 – USDA",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-10-08",
+          "url": "https://safras.com.br/producao-total-de-acucar-do-brasil-deve-cair-para-422-milhoes-de-toneladas-em-2026-27-usda/"
+        },
+        {
           "titulo": "Açúcar fecha misto após renovar máximas de 19 meses em Nova Iorque e 22 meses em Londres",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -1978,22 +1994,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-06",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429183-acucar-cepea-com-chuvas-limitando-producao-cotacoes-seguem-em-alta.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar dispara e atinge máxima de 19 meses em Nova Iorque",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-05",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429162-acucar-dispara-e-atinge-maxima-de-19-meses-em-nova-iorque.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar dispara em Nova Iorque e Londres com clima e oferta no radar",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-05",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429139-acucar-dispara-em-nova-iorque-e-londres-com-clima-e-oferta-no-radar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3507,6 +3507,22 @@
       "variacao_mes_pct": -4.9,
       "noticias": [
         {
+          "titulo": "Preços do café sobem na América Central em meio à seca associada ao El Niño",
+          "tema": "Clima",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429365-precos-do-cafe-sobem-na-america-central-em-meio-a-seca-associada-ao-el-nino.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café amplia perdas em NY nesta 5ª (8) e dezembro volta abaixo dos 290 cents/lp",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429344-cafe-amplia-perdas-em-ny-nesta-5-8-e-dezembro-volta-abaixo-dos-290-cents-lp.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café fecha quarta-feira recuando quase 4% em Nova York com de aumento da oferta brasileira no radar",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -3553,36 +3569,29 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-06",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429248-exportacao-cafe-do-brasil-em-setembro-tem-maior-volume-em-20-meses-aponta-secex.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café dispara mais de 4% em NY e dezembro/26 fecha acima dos 300 cents/lbp",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-06",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429234-cafe-dispara-mais-de-4-em-ny-e-dezembro-26-fecha-acima-dos-300-cents-lbp.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café dispara quase 4% em Nova York e dezembro/26 supera os 300 cents/lbp",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-06",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429219-cafe-dispara-quase-4-em-nova-york-e-dezembro-26-supera-os-300-cents-lbp.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "queda",
       "score_preco": 0.05,
-      "score_noticias": -0.12,
-      "score_combinado": -0.02,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.2% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
+      "score_noticias": 0.0,
+      "score_combinado": 0.03,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.2% nos últimos 7 pregões).</li><li>Notícias com sinais mistos — monitorar de perto.</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Tendência de queda no médio prazo (90-360 dias).</li><li>Negocie contratos e evite fixar preços altos por longos períodos.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "evento_externo",
+          "mensagem": "Evento externo detectado: Preços do café sobem na América Central em meio à seca associada ao El Niño",
+          "severidade": "media",
+          "impacto_tendencia": "alta",
+          "fonte": "Notícias Agrícolas",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429365-precos-do-cafe-sobem-na-america-central-em-meio-a-seca-associada-ao-el-nino.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "leite": {
