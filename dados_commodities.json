@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-09T07:50:19",
+  "ultima_atualizacao": "2026-10-09T14:12:31",
   "status_coleta": "ok",
   "dolar": {
-    "valor": null,
-    "variacao_pct": null,
-    "bid": null,
-    "ask": null
+    "valor": 4.9892,
+    "variacao_pct": -0.45,
+    "bid": 4.9892,
+    "ask": 4.9892
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-09T07:50:19",
+    "ultima_atualizacao": "2026-10-09T14:12:31",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -1927,6 +1927,22 @@
       "variacao_mes_pct": 2.93,
       "noticias": [
         {
+          "titulo": "Açúcar recupera parte das perdas e volta a subir nas bolsas de Nova Iorque e Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429445-acucar-recupera-parte-das-perdas-e-volta-a-subir-nas-bolsas-de-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Line-up aponta exportação de 2,2 mi t de açúcar",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-10-09",
+          "url": "https://safras.com.br/line-up-aponta-exportacao-de-22-mi-t-de-acucar-2/"
+        },
+        {
           "titulo": "Açúcar despenca nas bolsas após máximas e realização de lucros pressiona mercado",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -1941,22 +1957,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-08",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429361-acucar-recua-nas-bolsas-apos-renovar-maximas-e-dolar-mais-forte-pressiona-mercado.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em baixa em NY com correção técnica após atingir máxima de 19 meses",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-08",
-          "url": "https://safras.com.br/acucar-fecha-em-baixa-em-ny-com-correcao-tecnica-apos-atingir-maxima-de-19-meses/"
-        },
-        {
-          "titulo": "Produção total de açúcar do Brasil deve cair para 42,2 milhões de toneladas em 2026/27 – USDA",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-08",
-          "url": "https://safras.com.br/producao-total-de-acucar-do-brasil-deve-cair-para-422-milhoes-de-toneladas-em-2026-27-usda/"
         },
         {
           "titulo": "Açúcar fecha misto após renovar máximas de 19 meses em Nova Iorque e 22 meses em Londres",
@@ -2457,6 +2457,22 @@
       "variacao_mes_pct": -4.22,
       "noticias": [
         {
+          "titulo": "Mauricio Buffon volta à liderança da Aprosoja Brasil",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429446-mauricio-buffon-volta-a-lideranca-da-aprosoja-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Emater/RS-Ascar amplia e inova no monitoramento da ferrugem asiática da soja",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429441-emater-rs-ascar-amplia-e-inova-no-monitoramento-da-ferrugem-asiatica-da-soja.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja sobe em Chicago nesta 6ª (9) à espera do USDA; mercado se prepara para novos números da safra dos EUA",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2503,22 +2519,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-07",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429303-plantio-da-soja-avanca-nas-regioes-centro-e-sul-mas-segue-lento-na-regiao-norte-do-mato-grosso-do-sul.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja reduz perdas em Chicago nesta quarta-feira, mas colheita dos EUA mantém pressão sobre preços",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429290-soja-reduz-perdas-em-chicago-nesta-quarta-feira-mas-colheita-dos-eua-mantem-pressao-sobre-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja abre a quarta-feira próxima da estabilidade em Chicago com colheita dos EUA no radar",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429277-soja-abre-a-quarta-feira-proxima-da-estabilidade-em-chicago-com-colheita-dos-eua-no-radar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3517,6 +3517,14 @@
       "variacao_mes_pct": -4.57,
       "noticias": [
         {
+          "titulo": "Café reduz perdas em NY nesta 6ª feira e contratos mais longos viram para o positivo",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429444-cafe-reduz-perdas-em-ny-nesta-6-feira-e-contratos-mais-longos-viram-para-o-positivo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café continua recuando em NY nesta 6ª feira, mas clima no BR permanece na atenção dos traders",
           "tema": "Clima",
           "impacto": "neutro",
@@ -3571,14 +3579,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-07",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429271-com-safra-recorde-de-cafe-em-2026-produtores-do-sul-de-minas-focam-na-implantacao-das-novas-lavouras.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café/Cepea: Poder de compra frente a fertilizantes diminui no início da safra 2027/28",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429260-cafe-cepea-poder-de-compra-frente-a-fertilizantes-diminui-no-inicio-da-safra-2027-28.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
