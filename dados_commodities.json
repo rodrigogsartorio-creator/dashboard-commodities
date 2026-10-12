@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-12T07:50:24",
+  "ultima_atualizacao": "2026-10-12T17:00:21",
   "status_coleta": "ok",
   "dolar": {
     "valor": 4.9892,
@@ -8,7 +8,7 @@
     "ask": 4.9892
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-12T07:50:24",
+    "ultima_atualizacao": "2026-10-12T17:00:21",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -482,22 +482,6 @@
       "variacao_mes_pct": 2.86,
       "noticias": [
         {
-          "titulo": "Semeadura do arroz irrigado alcança 32,82% da área prevista no Rio Grande do Sul",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-10",
-          "url": "https://planetaarroz.com.br/semeadura-do-arroz-irrigado-alcanca-3282-da-area-prevista-no-rio-grande-do-sul/"
-        },
-        {
-          "titulo": "Sem novidades, mercado brasileiro de arroz permanece lento e com baixa fluidez",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-09",
-          "url": "https://planetaarroz.com.br/sem-novidades-mercado-brasileiro-de-arroz-permanece-lento-e-com-baixa-fluidez/"
-        },
-        {
           "titulo": "Arroz/Cepea: Negócios perdem ritmo no início de outubro",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -512,38 +496,6 @@
           "fonte": "SNA",
           "data": "2026-10-07",
           "url": "https://sna.agr.br/arroz-negocios-perdem-ritmo-no-inicio-de-outubro/"
-        },
-        {
-          "titulo": "Rio Grande negocia instalação de fábrica de etanol de arroz de R$ 1 bilhão",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-06",
-          "url": "https://planetaarroz.com.br/rio-grande-negocia-instalacao-de-fabrica-de-etanol-de-arroz-de-r-1-bilhao/"
-        },
-        {
-          "titulo": "Mercado do arroz está ‘travado’, mas com preços firmes",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-06",
-          "url": "https://planetaarroz.com.br/mercado-do-arroz-esta-travado-mas-com-precos-firmes/"
-        },
-        {
-          "titulo": "Acordo faz avançar pagamento a produtores de arroz por redução de emissões",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-05",
-          "url": "https://planetaarroz.com.br/acordo-faz-avancar-pagamento-a-produtores-de-arroz-por-reducao-de-emissoes/"
-        },
-        {
-          "titulo": "Expansão do arroz muda mapa produtivo do Paraguai",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-03",
-          "url": "https://planetaarroz.com.br/expansao-do-arroz-muda-mapa-produtivo-do-paraguai/"
         }
       ],
       "safra_noticias": [],
@@ -1947,6 +1899,22 @@
       "variacao_mes_pct": 3.34,
       "noticias": [
         {
+          "titulo": "Açúcar dispara 3% em NY com clima ameaçando produção e mercado voltando a precificar oferta apertada",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429524-acucar-dispara-3-em-ny-com-clima-ameacando-producao-e-mercado-voltando-a-precificar-oferta-apertada.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar abre semana com alta de mais de 1,5% em NY; chuvas no Brasil sustentam preços",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429504-acucar-abre-semana-com-alta-de-mais-de-1-5-em-ny-chuvas-no-brasil-sustentam-precos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em alta com alerta de El Niño e riscos à produção global",
           "tema": "Clima",
           "impacto": "neutro",
@@ -1993,22 +1961,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-07",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429321-acucar-fecha-misto-apos-renovar-maximas-de-19-meses-em-nova-iorque-e-22-meses-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Chuvas podem deixar 32 milhões de toneladas de cana para a próxima safra",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429317-chuvas-podem-deixar-32-milhoes-de-toneladas-de-cana-para-a-proxima-safra.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar ganha nova rota para produção de químicos renováveis",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429312-acucar-ganha-nova-rota-para-producao-de-quimicos-renovaveis.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2482,6 +2434,22 @@
       "variacao_mes_pct": -3.61,
       "noticias": [
         {
+          "titulo": "Soja fecha no vermelho em Chicago com mercado digerindo safra maior nos EUA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429526-soja-fecha-no-vermelho-em-chicago-com-mercado-digerindo-safra-maior-nos-eua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "AgRural: Plantio de soja do Brasil salta para 15% com melhora das chuvas em áreas secas",
+          "tema": "Clima",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429506-ag-rural-plantio-de-soja-do-brasil-salta-para-15-com-melhora-das-chuvas-em-areas-secas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja abre semana em baixa em Chicago com colheita dos EUA voltando a pressionar",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2528,36 +2496,29 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-09",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429416-soja-sobe-em-chicago-nesta-6-9-a-espera-do-usda-mercado-se-prepara-para-novos-numeros-da-safra-dos-eua.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Argentina projeta alta de 4% na produção de soja e safra recorde de girassol em 2026/27",
-          "tema": "Safra",
-          "impacto": "queda",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429396-argentina-projeta-alta-de-4-na-producao-de-soja-e-safra-recorde-de-girassol-em-2026-27.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja amplia perdas em Chicago nesta 5ª feira, com farelo caindo mais de 2%",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-08",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429378-soja-amplia-perdas-em-chicago-nesta-5-feira-com-farelo-caindo-mais-de-2.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "queda",
       "tendencia_media": "queda",
       "score_preco": -0.76,
-      "score_noticias": -0.12,
-      "score_combinado": -0.51,
+      "score_noticias": 0.12,
+      "score_combinado": -0.41,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em queda de 3.8% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 129.24) e resistência (R$ 162.02).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Tendência de queda no médio prazo (90-360 dias).</li><li>Negocie contratos e evite fixar preços altos por longos períodos.</li></ul>",
       "recomendacao": "segurar",
       "suporte": 129.24,
       "resistencia": 162.02,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "evento_externo",
+          "mensagem": "Evento externo detectado: AgRural: Plantio de soja do Brasil salta para 15% com melhora das chuvas em áreas secas",
+          "severidade": "media",
+          "impacto_tendencia": "alta",
+          "fonte": "Notícias Agrícolas",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429506-ag-rural-plantio-de-soja-do-brasil-salta-para-15-com-melhora-das-chuvas-em-areas-secas.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -3552,6 +3513,30 @@
       "variacao_mes_pct": -4.07,
       "noticias": [
         {
+          "titulo": "Café fecha em alta em NY nesta 2ª (12), com produção menor na Colômbia dando suporte aos preços",
+          "tema": "Safra",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429523-cafe-fecha-em-alta-em-ny-nesta-2-12-com-producao-menor-na-colombia-dando-suporte-aos-precos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café vira para alta em NY e dezembro volta a se aproximar dos 290 cents/lbp",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429519-cafe-vira-para-alta-em-ny-e-dezembro-volta-a-se-aproximar-dos-290-cents-lbp.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café abre semana em baixa em Nova York e dezembro volta aos 285 cents/lbp",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429503-cafe-abre-semana-em-baixa-em-nova-york-e-dezembro-volta-aos-285-cents-lbp.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Alunos de Patrocínio (MG) recebem premiação por melhores redações no “Vivenciando a Prática: Café”",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3590,30 +3575,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-09",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429444-cafe-reduz-perdas-em-ny-nesta-6-feira-e-contratos-mais-longos-viram-para-o-positivo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café continua recuando em NY nesta 6ª feira, mas clima no BR permanece na atenção dos traders",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429422-cafe-continua-recuando-em-ny-nesta-6-feira-mas-clima-no-br-permanece-na-atencao-dos-traders.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Preços do café sobem na América Central em meio à seca associada ao El Niño",
-          "tema": "Clima",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-08",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429365-precos-do-cafe-sobem-na-america-central-em-meio-a-seca-associada-ao-el-nino.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café amplia perdas em NY nesta 5ª (8) e dezembro volta abaixo dos 290 cents/lp",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-08",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429344-cafe-amplia-perdas-em-ny-nesta-5-8-e-dezembro-volta-abaixo-dos-290-cents-lp.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3627,16 +3588,7 @@
       "recomendacao": "aguardar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [
-        {
-          "tipo": "evento_externo",
-          "mensagem": "Evento externo detectado: Preços do café sobem na América Central em meio à seca associada ao El Niño",
-          "severidade": "media",
-          "impacto_tendencia": "alta",
-          "fonte": "Notícias Agrícolas",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429365-precos-do-cafe-sobem-na-america-central-em-meio-a-seca-associada-ao-el-nino.html?utm_source=parceiros&utm_medium=rss"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "leite": {
