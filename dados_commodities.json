@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-13T07:50:27",
+  "ultima_atualizacao": "2026-10-13T14:48:59",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 4.9892,
-    "variacao_pct": -0.45,
-    "bid": 4.9892,
-    "ask": 4.9892
+    "valor": null,
+    "variacao_pct": null,
+    "bid": null,
+    "ask": null
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-13T07:50:27",
+    "ultima_atualizacao": "2026-10-13T14:48:59",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -482,6 +482,22 @@
       "variacao_mes_pct": 2.86,
       "noticias": [
         {
+          "titulo": "Camil ainda não virou o jogo — mas alta do arroz pode mudar o cenário",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-13",
+          "url": "https://planetaarroz.com.br/camil-ainda-nao-virou-o-jogo-mas-alta-do-arroz-pode-mudar-o-cenario/"
+        },
+        {
+          "titulo": "TJ proíbe cobrar multa de R$ 1,8 milhão de empresa por arroz “sem qualidade”!",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-13",
+          "url": "https://planetaarroz.com.br/tj-proibe-cobrar-multa-de-r-18-milhao-de-empresa-por-arroz-sem-qualidade/"
+        },
+        {
           "titulo": "Semeadura do arroz irrigado alcança 32,82% da área prevista no Rio Grande do Sul",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -528,22 +544,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-06",
           "url": "https://planetaarroz.com.br/mercado-do-arroz-esta-travado-mas-com-precos-firmes/"
-        },
-        {
-          "titulo": "Acordo faz avançar pagamento a produtores de arroz por redução de emissões",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-05",
-          "url": "https://planetaarroz.com.br/acordo-faz-avancar-pagamento-a-produtores-de-arroz-por-reducao-de-emissoes/"
-        },
-        {
-          "titulo": "Expansão do arroz muda mapa produtivo do Paraguai",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-03",
-          "url": "https://planetaarroz.com.br/expansao-do-arroz-muda-mapa-produtivo-do-paraguai/"
         }
       ],
       "safra_noticias": [],
@@ -1947,6 +1947,14 @@
       "variacao_mes_pct": 3.34,
       "noticias": [
         {
+          "titulo": "Açúcar sobe nas bolsas com compras de fundos e alerta para efeitos do El Niño",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429575-acucar-sobe-nas-bolsas-com-compras-de-fundos-e-alerta-para-efeitos-do-el-nino.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar dispara 3% em NY com clima ameaçando produção e mercado voltando a precificar oferta apertada",
           "tema": "Clima",
           "impacto": "neutro",
@@ -1979,14 +1987,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429445-acucar-recupera-parte-das-perdas-e-volta-a-subir-nas-bolsas-de-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Line-up aponta exportação de 2,2 mi t de açúcar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-09",
-          "url": "https://safras.com.br/line-up-aponta-exportacao-de-22-mi-t-de-acucar-2/"
-        },
-        {
           "titulo": "Açúcar despenca nas bolsas após máximas e realização de lucros pressiona mercado",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -1995,20 +1995,20 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429393-acucar-despenca-nas-bolsas-apos-maximas-e-realizacao-de-lucros-pressiona-mercado.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "Chuvas reduzem qualidade da cana, pressionam produção de açúcar e desafiam produtor no campo",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429385-chuvas-reduzem-qualidade-da-cana-pressionam-producao-de-acucar-e-desafiam-produtor-no-campo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar recua nas bolsas após renovar máximas e dólar mais forte pressiona mercado",
           "tema": "Câmbio",
           "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-08",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429361-acucar-recua-nas-bolsas-apos-renovar-maximas-e-dolar-mais-forte-pressiona-mercado.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha misto após renovar máximas de 19 meses em Nova Iorque e 22 meses em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429321-acucar-fecha-misto-apos-renovar-maximas-de-19-meses-em-nova-iorque-e-22-meses-em-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2482,6 +2482,22 @@
       "variacao_mes_pct": -3.61,
       "noticias": [
         {
+          "titulo": "Soja segue recuando em Chicago nesta 3ª feira (13) com farelo caindo quase 2%",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429576-soja-segue-recuando-em-chicago-nesta-3-feira-13-com-farelo-caindo-quase-2.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Plantio da soja chega a 15,6% e supera ritmo de 2025",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429543-plantio-da-soja-chega-a-15-6-e-supera-ritmo-de-2025.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja recua em Chicago nesta 3ª (13), com pressão do farelo e atenta à colheita nos EUA",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2528,22 +2544,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-09",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429497-plantio-de-soja-no-brasil-vai-a-quase-20-da-area-em-ritmo-recorde-diz-patria.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mato Grosso semeia 33% da soja e recupera ritmo de plantio na safra 2026/27",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429478-mato-grosso-semeia-33-da-soja-e-recupera-ritmo-de-plantio-na-safra-2026-27.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mauricio Buffon volta à liderança da Aprosoja Brasil",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429446-mauricio-buffon-volta-a-lideranca-da-aprosoja-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3561,6 +3561,14 @@
       "variacao_mes_pct": -4.07,
       "noticias": [
         {
+          "titulo": "Café mantém alta em Nova York e dezembro volta a se aproximar dos 300 cents/lb nesta 3ª (13)",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429539-cafe-mantem-alta-em-nova-york-e-dezembro-volta-a-se-aproximar-dos-300-cents-lb-nesta-3-13.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café fecha em alta em NY nesta 2ª (12), com produção menor na Colômbia dando suporte aos preços",
           "tema": "Safra",
           "impacto": "alta",
@@ -3615,14 +3623,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-09",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429453-producao-colombiana-de-cafe-aumenta-em-setembro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café reduz perdas em NY nesta 6ª feira e contratos mais longos viram para o positivo",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429444-cafe-reduz-perdas-em-ny-nesta-6-feira-e-contratos-mais-longos-viram-para-o-positivo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
