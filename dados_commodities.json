@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-12T17:00:21",
+  "ultima_atualizacao": "2026-10-13T07:50:27",
   "status_coleta": "ok",
   "dolar": {
     "valor": 4.9892,
@@ -8,18 +8,18 @@
     "ask": 4.9892
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-12T17:00:21",
+    "ultima_atualizacao": "2026-10-13T07:50:27",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-10-12",
+        "data": "2026-10-13",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 100646477 t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-10-12",
+        "data": "2026-10-13",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -482,6 +482,22 @@
       "variacao_mes_pct": 2.86,
       "noticias": [
         {
+          "titulo": "Semeadura do arroz irrigado alcança 32,82% da área prevista no Rio Grande do Sul",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-10",
+          "url": "https://planetaarroz.com.br/semeadura-do-arroz-irrigado-alcanca-3282-da-area-prevista-no-rio-grande-do-sul/"
+        },
+        {
+          "titulo": "Sem novidades, mercado brasileiro de arroz permanece lento e com baixa fluidez",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-09",
+          "url": "https://planetaarroz.com.br/sem-novidades-mercado-brasileiro-de-arroz-permanece-lento-e-com-baixa-fluidez/"
+        },
+        {
           "titulo": "Arroz/Cepea: Negócios perdem ritmo no início de outubro",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -496,6 +512,38 @@
           "fonte": "SNA",
           "data": "2026-10-07",
           "url": "https://sna.agr.br/arroz-negocios-perdem-ritmo-no-inicio-de-outubro/"
+        },
+        {
+          "titulo": "Rio Grande negocia instalação de fábrica de etanol de arroz de R$ 1 bilhão",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-06",
+          "url": "https://planetaarroz.com.br/rio-grande-negocia-instalacao-de-fabrica-de-etanol-de-arroz-de-r-1-bilhao/"
+        },
+        {
+          "titulo": "Mercado do arroz está ‘travado’, mas com preços firmes",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-06",
+          "url": "https://planetaarroz.com.br/mercado-do-arroz-esta-travado-mas-com-precos-firmes/"
+        },
+        {
+          "titulo": "Acordo faz avançar pagamento a produtores de arroz por redução de emissões",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-05",
+          "url": "https://planetaarroz.com.br/acordo-faz-avancar-pagamento-a-produtores-de-arroz-por-reducao-de-emissoes/"
+        },
+        {
+          "titulo": "Expansão do arroz muda mapa produtivo do Paraguai",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-03",
+          "url": "https://planetaarroz.com.br/expansao-do-arroz-muda-mapa-produtivo-do-paraguai/"
         }
       ],
       "safra_noticias": [],
@@ -2434,6 +2482,22 @@
       "variacao_mes_pct": -3.61,
       "noticias": [
         {
+          "titulo": "Soja recua em Chicago nesta 3ª (13), com pressão do farelo e atenta à colheita nos EUA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429537-soja-recua-em-chicago-nesta-3-13-com-pressao-do-farelo-e-atenta-a-colheita-nos-eua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja/Cepea: Câmbio pressiona cotações internas; exportações recordes limitam quedas",
+          "tema": "Câmbio",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429533-soja-cepea-cambio-pressiona-cotacoes-internas-exportacoes-recordes-limitam-quedas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja fecha no vermelho em Chicago com mercado digerindo safra maior nos EUA",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2480,30 +2544,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-09",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429446-mauricio-buffon-volta-a-lideranca-da-aprosoja-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Emater/RS-Ascar amplia e inova no monitoramento da ferrugem asiática da soja",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429441-emater-rs-ascar-amplia-e-inova-no-monitoramento-da-ferrugem-asiatica-da-soja.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja sobe em Chicago nesta 6ª (9) à espera do USDA; mercado se prepara para novos números da safra dos EUA",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429416-soja-sobe-em-chicago-nesta-6-9-a-espera-do-usda-mercado-se-prepara-para-novos-numeros-da-safra-dos-eua.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "queda",
       "tendencia_media": "queda",
       "score_preco": -0.76,
-      "score_noticias": 0.12,
-      "score_combinado": -0.41,
+      "score_noticias": 0.25,
+      "score_combinado": -0.36,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em queda de 3.8% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 129.24) e resistência (R$ 162.02).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Tendência de queda no médio prazo (90-360 dias).</li><li>Negocie contratos e evite fixar preços altos por longos períodos.</li></ul>",
       "recomendacao": "segurar",
@@ -3598,6 +3646,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-10-13",
+          "valor": 2.6545,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-10-12",
           "valor": 2.6545,
           "variacao_pct": 0.0
@@ -3616,14 +3669,14 @@
           "data": "2026-10-07",
           "valor": 2.6545,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-10-06",
-          "valor": 2.6545,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-13",
+          "valor": 2.6545,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-10-12",
           "valor": 2.6545,
