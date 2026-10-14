@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-14T07:50:15",
+  "ultima_atualizacao": "2026-10-14T12:32:41",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0096,
@@ -8,7 +8,7 @@
     "ask": 5.0096
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-14T07:50:15",
+    "ultima_atualizacao": "2026-10-14T12:32:41",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -1983,14 +1983,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429575-acucar-sobe-nas-bolsas-com-compras-de-fundos-e-alerta-para-efeitos-do-el-nino.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Açúcar fecha em alta em NY com sinalização de menor oferta no Brasil e na Índia",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-13",
-          "url": "https://safras.com.br/acucar-fecha-em-alta-em-ny-com-sinalizacao-de-menor-oferta-no-brasil-e-na-india/"
-        },
-        {
           "titulo": "Açúcar dispara 3% em NY com clima ameaçando produção e mercado voltando a precificar oferta apertada",
           "tema": "Clima",
           "impacto": "neutro",
@@ -2029,6 +2021,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-08",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429393-acucar-despenca-nas-bolsas-apos-maximas-e-realizacao-de-lucros-pressiona-mercado.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Chuvas reduzem qualidade da cana, pressionam produção de açúcar e desafiam produtor no campo",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-08",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429385-chuvas-reduzem-qualidade-da-cana-pressionam-producao-de-acucar-e-desafiam-produtor-no-campo.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2507,6 +2507,14 @@
       "variacao_mes_pct": -3.92,
       "noticias": [
         {
+          "titulo": "USDA anuncia nova venda de 470 mil toneladas de soja dos EUA para a China nesta 4ª feira (14)",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-14",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429618-usda-anuncia-venda-de-470-mil-toneladas-de-soja-dos-eua-para-a-china.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "China compra de 8 a 10 cargas de soja dos EUA em primeiros negócios desde o encontro Trump-Xi",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2561,14 +2569,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-13",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429533-soja-cepea-cambio-pressiona-cotacoes-internas-exportacoes-recordes-limitam-quedas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja fecha no vermelho em Chicago com mercado digerindo safra maior nos EUA",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-12",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429526-soja-fecha-no-vermelho-em-chicago-com-mercado-digerindo-safra-maior-nos-eua.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
