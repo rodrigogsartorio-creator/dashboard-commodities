@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-15T07:50:18",
+  "ultima_atualizacao": "2026-10-15T12:20:39",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0441,
@@ -8,7 +8,7 @@
     "ask": 5.0441
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-15T07:50:18",
+    "ultima_atualizacao": "2026-10-15T12:20:39",
     "noticias": []
   },
   "commodities": {
@@ -479,6 +479,14 @@
       "variacao_mes_pct": 1.87,
       "noticias": [
         {
+          "titulo": "Arroz 2026/27: queda de produção no RS deve pesar sobre oferta brasileira, apesar de expansão do sequeiro em MT",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-15",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/429699-arroz-2026-27-queda-de-producao-no-rs-deve-pesar-sobre-oferta-brasileira-apesar-de-expansao-do-sequeiro-em-mt.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "China registra produção recorde de sementes de arroz híbrido em Hunan",
           "tema": "Geopolítica",
           "impacto": "queda",
@@ -533,14 +541,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-06",
           "url": "https://planetaarroz.com.br/rio-grande-negocia-instalacao-de-fabrica-de-etanol-de-arroz-de-r-1-bilhao/"
-        },
-        {
-          "titulo": "Mercado do arroz está ‘travado’, mas com preços firmes",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-06",
-          "url": "https://planetaarroz.com.br/mercado-do-arroz-esta-travado-mas-com-precos-firmes/"
         }
       ],
       "safra_noticias": [],
@@ -1492,7 +1492,16 @@
         }
       ],
       "variacao_mes_pct": 14.26,
-      "noticias": [],
+      "noticias": [
+        {
+          "titulo": "Feijão deve manter produção praticamente estável em 2026/27, mas projeções mostram avanço do preto e retração do caupi",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-15",
+          "url": "https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais/429712-feijao-deve-manter-producao-praticamente-estavel-em-2026-27-mas-projecoes-mostram-avanco-do-preto-e-retracao-do-caupi.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
