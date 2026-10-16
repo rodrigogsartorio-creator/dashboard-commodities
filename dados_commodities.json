@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-16T07:50:17",
+  "ultima_atualizacao": "2026-10-16T12:01:07",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0521,
@@ -8,8 +8,21 @@
     "ask": 5.0521
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-16T07:50:17",
-    "noticias": []
+    "ultima_atualizacao": "2026-10-16T12:01:07",
+    "noticias": [
+      {
+        "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
+        "fonte": "IBGE SIDRA",
+        "data": "2026-10-16",
+        "url": "https://sidra.ibge.gov.br/tabela/5457"
+      },
+      {
+        "titulo": "IBGE — Área colhida (Brasil): 100646477 t em 2025",
+        "fonte": "IBGE SIDRA",
+        "data": "2026-10-16",
+        "url": "https://sidra.ibge.gov.br/tabela/5457"
+      }
+    ]
   },
   "commodities": {
     "arroz": {
@@ -484,12 +497,28 @@
       "variacao_mes_pct": 0.64,
       "noticias": [
         {
+          "titulo": "Arroz para exportação alcança R$ 90 por saca após retomada das compras",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-16",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/429776-arroz-para-exportacao-alcanca-r-90-por-saca-apos-retomada-das-compras.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Arroz 2026/27: queda de produção no RS deve pesar sobre oferta brasileira, apesar de expansão do sequeiro em MT",
           "tema": "Safra",
           "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/429699-arroz-2026-27-queda-de-producao-no-rs-deve-pesar-sobre-oferta-brasileira-apesar-de-expansao-do-sequeiro-em-mt.html?utm_source=parceiros&utm_medium=rss"
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-16",
+          "url": "https://planetaarroz.com.br/arroz-2026-27-queda-de-producao-no-rs-deve-pesar-sobre-oferta-brasileira-apesar-de-expansao-do-sequeiro-em-mt/"
+        },
+        {
+          "titulo": "Cientistas descobrem nova defesa contra fungo que ameaça arroz, trigo e cevada",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-16",
+          "url": "https://planetaarroz.com.br/cientistas-descobrem-nova-defesa-contra-fungo-que-ameaca-arroz-trigo-e-cevada/"
         },
         {
           "titulo": "Arroz dispara 58,33% em Chicago e acende alerta para oferta global em 2027",
@@ -530,22 +559,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-10",
           "url": "https://planetaarroz.com.br/semeadura-do-arroz-irrigado-alcanca-3282-da-area-prevista-no-rio-grande-do-sul/"
-        },
-        {
-          "titulo": "Sem novidades, mercado brasileiro de arroz permanece lento e com baixa fluidez",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-09",
-          "url": "https://planetaarroz.com.br/sem-novidades-mercado-brasileiro-de-arroz-permanece-lento-e-com-baixa-fluidez/"
-        },
-        {
-          "titulo": "Arroz/Cepea: Negócios perdem ritmo no início de outubro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-07",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/429259-arroz-cepea-negocios-perdem-ritmo-no-inicio-de-outubro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2027,14 +2040,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429730-biometano-da-cana-substitui-diesel-em-mais-de-70-caminhoes-que-transportam-acucar-ate-santos.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Algodão fecha em baixa em NY com estimativa de maior produção brasileira e expectativa por vendas americanas",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-15",
-          "url": "https://safras.com.br/algodao-fecha-em-baixa-em-ny-com-estimativa-de-maior-producao-brasileira-e-expectativa-por-vendas-americanas/"
-        },
-        {
           "titulo": "Açúcar despenca nas bolsas internacionais nesta 4ª feira (14) com disparada do dólar",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -2065,6 +2070,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-13",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429588-acucar-dispara-nas-bolsas-com-temor-de-el-nino-sobre-a-oferta-global.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar sobe nas bolsas com compras de fundos e alerta para efeitos do El Niño",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429575-acucar-sobe-nas-bolsas-com-compras-de-fundos-e-alerta-para-efeitos-do-el-nino.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3645,6 +3658,38 @@
       "variacao_mes_pct": 0.68,
       "noticias": [
         {
+          "titulo": "CNC defende inclusão de todos os países produtores nos investimentos globais na cafeicultura",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-16",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429774-cnc-defende-inclusao-de-todos-os-paises-produtores-nos-investimentos-globais-na-cafeicultura.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Fraudes no comércio de café e mercado consciente reforçam debate sobre defesa do consumidor no Espírito Santo",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-16",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429768-fraudes-no-comercio-de-cafe-e-mercado-consciente-reforcam-debate-sobre-defesa-do-consumidor-no-espirito-santo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "El Niño reforça a importância de proteger a planta: tecnologia de proteção solar da Synkka busca conforto para o cafeeiro e rentabilidade para o produtor",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-16",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429764-el-nino-reforca-a-importancia-de-proteger-a-planta-tecnologia-de-protecao-solar-da-synkka-busca-conforto-para-o-cafeeiro-e-rentabilidade-para-o-produtor.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café dispara mais de 3% em Nova York nesta 6ª feira (16) e volta a superar os US$ 3,05/lb",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-16",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429761-cafe-dispara-mais-de-3-em-nova-york-nesta-6-feira-16-e-volta-a-superar-os-us-3-05-lb.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café/Cepea: Exportações têm segundo melhor início de safra da série histórica",
           "tema": "Safra",
           "impacto": "neutro",
@@ -3675,46 +3720,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-13",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429539-cafe-mantem-alta-em-nova-york-e-dezembro-volta-a-se-aproximar-dos-300-cents-lb-nesta-3-13.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café fecha em alta em NY nesta 2ª (12), com produção menor na Colômbia dando suporte aos preços",
-          "tema": "Safra",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-12",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429523-cafe-fecha-em-alta-em-ny-nesta-2-12-com-producao-menor-na-colombia-dando-suporte-aos-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café vira para alta em NY e dezembro volta a se aproximar dos 290 cents/lbp",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-12",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429519-cafe-vira-para-alta-em-ny-e-dezembro-volta-a-se-aproximar-dos-290-cents-lbp.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café abre semana em baixa em Nova York e dezembro volta aos 285 cents/lbp",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-12",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429503-cafe-abre-semana-em-baixa-em-nova-york-e-dezembro-volta-aos-285-cents-lbp.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Alunos de Patrocínio (MG) recebem premiação por melhores redações no “Vivenciando a Prática: Café”",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429488-alunos-de-patrocinio-mg-recebem-premiacao-por-melhores-redacoes-no-vivenciando-a-pratica-cafe.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": 0.18,
-      "score_noticias": 0.12,
-      "score_combinado": 0.15,
+      "score_noticias": 0.0,
+      "score_combinado": 0.11,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.5% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
