@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-19T07:50:17",
+  "ultima_atualizacao": "2026-10-19T14:12:19",
   "status_coleta": "ok",
   "dolar": {
-    "valor": null,
-    "variacao_pct": null,
-    "bid": null,
-    "ask": null
+    "valor": 5.0564,
+    "variacao_pct": -0.52,
+    "bid": 5.0564,
+    "ask": 5.0564
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-19T07:50:17",
+    "ultima_atualizacao": "2026-10-19T14:12:19",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -521,17 +521,57 @@
           "titulo": "Arroz 2026/27: queda de produção no RS deve pesar sobre oferta brasileira, apesar de expansão do sequeiro em MT",
           "tema": "Safra",
           "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-16",
+          "url": "https://planetaarroz.com.br/arroz-2026-27-queda-de-producao-no-rs-deve-pesar-sobre-oferta-brasileira-apesar-de-expansao-do-sequeiro-em-mt/"
+        },
+        {
+          "titulo": "Cientistas descobrem nova defesa contra fungo que ameaça arroz, trigo e cevada",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-16",
+          "url": "https://planetaarroz.com.br/cientistas-descobrem-nova-defesa-contra-fungo-que-ameaca-arroz-trigo-e-cevada/"
+        },
+        {
+          "titulo": "Arroz dispara 58,33% em Chicago e acende alerta para oferta global em 2027",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
           "data": "2026-10-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/429699-arroz-2026-27-queda-de-producao-no-rs-deve-pesar-sobre-oferta-brasileira-apesar-de-expansao-do-sequeiro-em-mt.html?utm_source=parceiros&utm_medium=rss"
+          "url": "https://planetaarroz.com.br/arroz-dispara-5833-em-chicago-e-acende-alerta-para-oferta-global-em-2027/"
+        },
+        {
+          "titulo": "China registra produção recorde de sementes de arroz híbrido em Hunan",
+          "tema": "Geopolítica",
+          "impacto": "queda",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-13",
+          "url": "https://planetaarroz.com.br/china-registra-producao-recorde-de-sementes-de-arroz-hibrido-em-hunan/"
+        },
+        {
+          "titulo": "Camil ainda não virou o jogo — mas alta do arroz pode mudar o cenário",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-13",
+          "url": "https://planetaarroz.com.br/camil-ainda-nao-virou-o-jogo-mas-alta-do-arroz-pode-mudar-o-cenario/"
+        },
+        {
+          "titulo": "TJ proíbe cobrar multa de R$ 1,8 milhão de empresa por arroz “sem qualidade”!",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-13",
+          "url": "https://planetaarroz.com.br/tj-proibe-cobrar-multa-de-r-18-milhao-de-empresa-por-arroz-sem-qualidade/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.17,
-      "score_noticias": 0.0,
-      "score_combinado": -0.1,
+      "score_noticias": -0.12,
+      "score_combinado": -0.15,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.5% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
@@ -2012,14 +2052,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429813-acucar-cai-mais-de-1-em-nova-iorque-e-londres-com-previsao-de-tempo-seco-no-brasil.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Line-up aponta exportação de 1,9 mi t de açúcar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-16",
-          "url": "https://safras.com.br/line-up-aponta-exportacao-de-19-mi-t-de-acucar-2/"
-        },
-        {
           "titulo": "Produção de açúcar no centro-sul do Brasil cai 6% na 2ª quinzena de setembro, aponta governo",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2066,6 +2098,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-14",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429643-acucar-perde-forca-nas-bolsas-apos-maximas-recentes-e-recua-em-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar dispara nas bolsas nesta 3ª feira (13) com temor de El Niño sobre a oferta global",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429588-acucar-dispara-nas-bolsas-com-temor-de-el-nino-sobre-a-oferta-global.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2559,6 +2599,22 @@
       "variacao_mes_pct": -4.57,
       "noticias": [
         {
+          "titulo": "Soja amplia perdas em Chicago mesmo após inspeções de exportação crescerem 80% nos EUA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429881-soja-amplia-perdas-em-chicago-mesmo-apos-inspecoes-de-exportacao-crescerem-80-nos-eua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Plantio de soja no Brasil alcança 26% da área estimada, diz AgRural",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429856-plantio-de-soja-no-brasil-alcanca-26-da-area-estimada-diz-agrural.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja abre segunda-feira próxima da estabilidade em Chicago com novas compras chinesas no radar",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2605,22 +2661,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429777-da-falta-ao-excesso-de-agua-plantio-da-soja-2026-27-avanca-em-ritmos-diferentes-pelo-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja recua em Chicago nesta 6ª feira (16) com pressão dos derivados",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429754-soja-recua-em-chicago-nesta-6-feira-16-com-pressao-dos-derivados.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "NOPA frustra no esmagamento de soja nos EUA, mas estoques de óleo caem ao menor nível desde 2014",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429733-nopa-frustra-no-esmagamento-de-soja-nos-eua-mas-estoques-de-oleo-caem-ao-menor-nivel-desde-2014.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3613,6 +3653,22 @@
       "variacao_mes_pct": 3.84,
       "noticias": [
         {
+          "titulo": "Café acelera altas e arábica supera 313 cents em Nova York nesta segunda-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429873-cafe-acelera-altas-e-arabica-supera-313-cents-em-nova-york-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Produção de café do Vietnã deve ficar estável ante ciclo anterior; El Niño ameaça próxima safra",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429869-producao-de-cafe-do-vietna-deve-ficar-estavel-ante-ciclo-anterior-el-nino-ameaca-proxima-safra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café inicia semana em alta nas bolsas de Nova York e Londres com clima no radar",
           "tema": "Clima",
           "impacto": "neutro",
@@ -3659,22 +3715,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429764-el-nino-reforca-a-importancia-de-proteger-a-planta-tecnologia-de-protecao-solar-da-synkka-busca-conforto-para-o-cafeeiro-e-rentabilidade-para-o-produtor.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café dispara mais de 3% em Nova York nesta 6ª feira (16) e volta a superar os US$ 3,05/lb",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429761-cafe-dispara-mais-de-3-em-nova-york-nesta-6-feira-16-e-volta-a-superar-os-us-3-05-lb.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café/Cepea: Exportações têm segundo melhor início de safra da série histórica",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429759-cafe-cepea-exportacoes-tem-segundo-melhor-inicio-de-safra-da-serie-historica.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
