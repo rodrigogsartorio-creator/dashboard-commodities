@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-19T14:12:19",
+  "ultima_atualizacao": "2026-10-20T07:50:17",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0564,
@@ -8,18 +8,18 @@
     "ask": 5.0564
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-19T14:12:19",
+    "ultima_atualizacao": "2026-10-20T07:50:17",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-10-19",
+        "data": "2026-10-20",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 100646477 t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-10-19",
+        "data": "2026-10-20",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -31,6 +31,11 @@
       "fonte_primaria": "CEPEA/IRGA-RS via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-10-19",
+          "valor": 82.04,
+          "variacao_pct": -0.02
+        },
         {
           "data": "2026-10-16",
           "valor": 82.06,
@@ -50,14 +55,14 @@
           "data": "2026-10-13",
           "valor": 82.21,
           "variacao_pct": 0.17
-        },
-        {
-          "data": "2026-10-09",
-          "valor": 82.07,
-          "variacao_pct": -0.62
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-19",
+          "valor": 82.04,
+          "variacao_pct": -0.02
+        },
         {
           "data": "2026-10-16",
           "valor": 82.06,
@@ -499,8 +504,40 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 0.48,
+      "variacao_mes_pct": 0.15,
       "noticias": [
+        {
+          "titulo": "Entidades do agro contestam volta de licença para arroz em SC",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-19",
+          "url": "https://planetaarroz.com.br/entidades-do-agro-contestam-volta-de-licenca-para-arroz-em-sc/"
+        },
+        {
+          "titulo": "BASF amplia ferramentas para manejo de doenças no arroz",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-19",
+          "url": "https://planetaarroz.com.br/basf-amplia-ferramentas-para-manejo-de-doencas-no-arroz/"
+        },
+        {
+          "titulo": "Preços do arroz deverão seguir estáveis no RS",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-19",
+          "url": "https://planetaarroz.com.br/precos-do-arroz-deverao-seguir-estaveis-no-rs/"
+        },
+        {
+          "titulo": "Licenciamento ambiental da rizicultura ameaça produção de arroz em Santa Catarina",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-19",
+          "url": "https://planetaarroz.com.br/licenciamento-ambiental-da-rizicultura-ameaca-producao-de-arroz-em-santa-catarina/"
+        },
         {
           "titulo": "Semeadura do arroz irrigado alcança 36,83% da área prevista no Rio Grande do Sul",
           "tema": "Mercado",
@@ -532,47 +569,15 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-16",
           "url": "https://planetaarroz.com.br/cientistas-descobrem-nova-defesa-contra-fungo-que-ameaca-arroz-trigo-e-cevada/"
-        },
-        {
-          "titulo": "Arroz dispara 58,33% em Chicago e acende alerta para oferta global em 2027",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-15",
-          "url": "https://planetaarroz.com.br/arroz-dispara-5833-em-chicago-e-acende-alerta-para-oferta-global-em-2027/"
-        },
-        {
-          "titulo": "China registra produção recorde de sementes de arroz híbrido em Hunan",
-          "tema": "Geopolítica",
-          "impacto": "queda",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-13",
-          "url": "https://planetaarroz.com.br/china-registra-producao-recorde-de-sementes-de-arroz-hibrido-em-hunan/"
-        },
-        {
-          "titulo": "Camil ainda não virou o jogo — mas alta do arroz pode mudar o cenário",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-13",
-          "url": "https://planetaarroz.com.br/camil-ainda-nao-virou-o-jogo-mas-alta-do-arroz-pode-mudar-o-cenario/"
-        },
-        {
-          "titulo": "TJ proíbe cobrar multa de R$ 1,8 milhão de empresa por arroz “sem qualidade”!",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-13",
-          "url": "https://planetaarroz.com.br/tj-proibe-cobrar-multa-de-r-18-milhao-de-empresa-por-arroz-sem-qualidade/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
-      "score_preco": -0.17,
-      "score_noticias": -0.12,
-      "score_combinado": -0.15,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.5% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_preco": -0.22,
+      "score_noticias": 0.0,
+      "score_combinado": -0.13,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.7% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 58.98,
@@ -586,6 +591,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-10-19",
+          "valor": 289.3,
+          "variacao_pct": 0.29
+        },
         {
           "data": "2026-10-16",
           "valor": 288.46,
@@ -605,14 +615,14 @@
           "data": "2026-10-13",
           "valor": 296.3,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-10-09",
-          "valor": 296.3,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-19",
+          "valor": 289.3,
+          "variacao_pct": 0.29
+        },
         {
           "data": "2026-10-16",
           "valor": 288.46,
@@ -1049,16 +1059,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -7.29,
+      "variacao_mes_pct": 1.53,
       "noticias": [],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
-      "tendencia_media": "queda",
-      "score_preco": -0.08,
+      "tendencia_curta": "queda",
+      "tendencia_media": "alta",
+      "score_preco": -0.47,
       "score_noticias": 0.0,
-      "score_combinado": -0.05,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.2% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Tendência de queda no médio prazo (90-360 dias).</li><li>Negocie contratos e evite fixar preços altos por longos períodos.</li></ul>",
+      "score_combinado": -0.28,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em queda de 2.4% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 240.89,
       "resistencia": 354.9,
@@ -1071,6 +1081,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-10-19",
+          "valor": 278.14,
+          "variacao_pct": 0.36
+        },
         {
           "data": "2026-10-16",
           "valor": 277.13,
@@ -1090,14 +1105,14 @@
           "data": "2026-10-13",
           "valor": 273.14,
           "variacao_pct": 0.11
-        },
-        {
-          "data": "2026-10-09",
-          "valor": 272.83,
-          "variacao_pct": 0.12
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-19",
+          "valor": 278.14,
+          "variacao_pct": 0.36
+        },
         {
           "data": "2026-10-16",
           "valor": 277.13,
@@ -1534,7 +1549,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 10.87,
+      "variacao_mes_pct": 10.96,
       "noticias": [
         {
           "titulo": "Feijão/Cepea: Cotações do preto avançam, mesmo com demanda lenta",
@@ -1554,12 +1569,12 @@
         }
       ],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
+      "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": -0.17,
+      "score_preco": 0.41,
       "score_noticias": 0.0,
-      "score_combinado": -0.1,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.5% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 280.75) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.25,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.1% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 280.75) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 211.63,
@@ -1573,6 +1588,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-10-19",
+          "valor": 125.62,
+          "variacao_pct": -0.1
+        },
         {
           "data": "2026-10-16",
           "valor": 125.74,
@@ -1592,14 +1612,14 @@
           "data": "2026-10-13",
           "valor": 123.78,
           "variacao_pct": 0.5
-        },
-        {
-          "data": "2026-10-09",
-          "valor": 123.16,
-          "variacao_pct": 0.46
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-19",
+          "valor": 125.62,
+          "variacao_pct": -0.1
+        },
         {
           "data": "2026-10-16",
           "valor": 125.74,
@@ -2041,8 +2061,48 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 5.15,
+      "variacao_mes_pct": 4.64,
       "noticias": [
+        {
+          "titulo": "Açúcar/Cepea: Menor oferta e alta externa impulsionam preços do cristal",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429922-acucar-cepea-menor-oferta-e-alta-externa-impulsionam-precos-do-cristal.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar cai mais de 1% em Nova Iorque e Londres após Índia suspender compras de etanol de cana",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429901-acucar-cai-mais-de-1-em-nova-iorque-e-londres-apos-india-suspender-compras-de-etanol-de-cana.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "StoneX vê açúcar acima de 37,5 milhões de toneladas no Centro-Sul, mas ATR preocupa",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429897-stone-x-ve-acucar-acima-de-37-5-milhoes-de-toneladas-no-centro-sul-mas-atr-preocupa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Raízen usa inteligência artificial para detectar focos de incêndio em 500 mil hectares de cana",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429894-raizen-usa-inteligencia-artificial-para-detectar-focos-de-incendio-em-500-mil-hectares-de-cana.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Moagem de cana soma 42,42 mi/t em setembro, com queda na segunda quinzena",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429891-moagem-de-cana-soma-42-42-mi-t-em-setembro-com-queda-na-segunda-quinzena.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Açúcar cai mais de 1% em Nova Iorque e Londres com previsão de tempo seco no Brasil",
           "tema": "Clima",
@@ -2066,55 +2126,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-15",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429735-acucar-sobe-nas-bolsas-e-volta-a-se-aproximar-das-maximas-recentes-com-temor-de-deficit-global.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Biometano da cana substitui diesel em mais de 70 caminhões que transportam açúcar até Santos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429730-biometano-da-cana-substitui-diesel-em-mais-de-70-caminhoes-que-transportam-acucar-ate-santos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar despenca nas bolsas internacionais nesta 4ª feira (14) com disparada do dólar",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-14",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429656-acucar-despenca-nas-bolsas-com-disparada-do-dolar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Czarnikow eleva estimativa de déficit global 2026/27 de açúcar para 500 t",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-14",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429654-.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar perde força nas bolsas após máximas recentes e recua em Nova Iorque e Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-14",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429643-acucar-perde-forca-nas-bolsas-apos-maximas-recentes-e-recua-em-nova-iorque-e-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar dispara nas bolsas nesta 3ª feira (13) com temor de El Niño sobre a oferta global",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-13",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429588-acucar-dispara-nas-bolsas-com-temor-de-el-nino-sobre-a-oferta-global.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.52,
+      "score_preco": 0.49,
       "score_noticias": 0.0,
-      "score_combinado": 0.31,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.6% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 125.74) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.3,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.5% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 125.74) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 90.72,
@@ -2128,6 +2148,11 @@
       "fonte_primaria": "CEPEA/Paranaguá via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-10-19",
+          "valor": 154.24,
+          "variacao_pct": -0.24
+        },
         {
           "data": "2026-10-16",
           "valor": 154.61,
@@ -2147,14 +2172,14 @@
           "data": "2026-10-13",
           "valor": 154.15,
           "variacao_pct": -0.39
-        },
-        {
-          "data": "2026-10-09",
-          "valor": 154.75,
-          "variacao_pct": -0.1
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-19",
+          "valor": 154.24,
+          "variacao_pct": -0.24
+        },
         {
           "data": "2026-10-16",
           "valor": 154.61,
@@ -2596,8 +2621,32 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -4.57,
+      "variacao_mes_pct": -4.73,
       "noticias": [
+        {
+          "titulo": "Soja abre terça-feira em alta em Chicago com novos dados de importação da China no radar",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429924-soja-abre-terca-feira-em-alta-em-chicago-com-novos-dados-de-importacao-da-china-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja fecha segunda-feira em queda em Chicago apesar de forte avanço das exportações dos EUA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429898-soja-fecha-segunda-feira-em-queda-em-chicago-apesar-de-forte-avanco-das-exportacoes-dos-eua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Exportações de farelo de soja reagem em outubro e voltam a superar ritmo de 2025",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429896-exportacoes-de-farelo-de-soja-reagem-em-outubro-e-voltam-a-superar-ritmo-de-2025.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Soja amplia perdas em Chicago mesmo após inspeções de exportação crescerem 80% nos EUA",
           "tema": "Geopolítica",
@@ -2637,39 +2686,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429831-patria-plantio-chega-a-30-38-da-area-de-soja-no-br-ainda-acima-de-2025.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Excesso de chuva exige atenção no plantio da soja",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429803-excesso-de-chuva-exige-atencao-no-plantio-da-soja.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Aprosoja Tocantins acompanha início da safra e destaca força da soja no cotidiano",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429801-aprosoja-tocantins-acompanha-inicio-da-safra-e-destaca-forca-da-soja-no-cotidiano.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Do excesso à falta de água: irregularidade marca plantio da soja 26/27, que avança em ritmos diferentes pelo BR",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429777-da-falta-ao-excesso-de-agua-plantio-da-soja-2026-27-avanca-em-ritmos-diferentes-pelo-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "queda",
-      "score_preco": 0.15,
+      "score_preco": -0.14,
       "score_noticias": 0.0,
-      "score_combinado": 0.09,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.5% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 129.24) e resistência (R$ 162.02).</li></ul>",
+      "score_combinado": -0.09,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.4% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 129.24) e resistência (R$ 162.02).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Tendência de queda no médio prazo (90-360 dias).</li><li>Negocie contratos e evite fixar preços altos por longos períodos.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 129.24,
@@ -2683,6 +2708,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-10-19",
+          "valor": 93.9114,
+          "variacao_pct": -0.38
+        },
         {
           "data": "2026-10-16",
           "valor": 94.2708,
@@ -2702,14 +2732,14 @@
           "data": "2026-10-13",
           "valor": 93.6948,
           "variacao_pct": -0.07
-        },
-        {
-          "data": "2026-10-09",
-          "valor": 93.7608,
-          "variacao_pct": 0.11
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-19",
+          "valor": 93.9114,
+          "variacao_pct": -0.38
+        },
         {
           "data": "2026-10-16",
           "valor": 94.2708,
@@ -3151,24 +3181,24 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 4.07,
+      "variacao_mes_pct": 3.64,
       "noticias": [
         {
-          "titulo": "USDA reduz safra de trigo dos EUA, mas eleva estoques americanos e mundiais",
-          "tema": "Geopolítica",
+          "titulo": "Trigo/Cepea: Chuvas afetam qualidade do cereal e restringem oferta",
+          "tema": "Clima",
           "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
-          "data": "2026-10-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/429459-usda-reduz-safra-de-trigo-dos-eua-mas-eleva-estoques-americanos-e-mundiais.html?utm_source=parceiros&utm_medium=rss"
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/429920-trigo-cepea-chuvas-afetam-qualidade-do-cereal-e-restringem-oferta.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
-      "tendencia_curta": "alta",
+      "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": 0.43,
+      "score_preco": 0.09,
       "score_noticias": 0.0,
-      "score_combinado": 0.26,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.1% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 94.45) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.05,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.3% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.45) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 80.739,
@@ -3182,6 +3212,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-10-19",
+          "valor": 1606.94,
+          "variacao_pct": 0.36
+        },
         {
           "data": "2026-10-16",
           "valor": 1601.25,
@@ -3201,14 +3236,14 @@
           "data": "2026-10-13",
           "valor": 1547.28,
           "variacao_pct": 1.01
-        },
-        {
-          "data": "2026-10-09",
-          "valor": 1531.88,
-          "variacao_pct": -0.85
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-19",
+          "valor": 1606.94,
+          "variacao_pct": 0.36
+        },
         {
           "data": "2026-10-16",
           "valor": 1601.25,
@@ -3650,8 +3685,24 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 3.84,
+      "variacao_mes_pct": 3.9,
       "noticias": [
+        {
+          "titulo": "Café recua em Nova York e Londres nesta terça-feira após disparada de mais de 3% do arábica",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429926-cafe-recua-em-nova-york-e-londres-nesta-terca-feira-apos-disparada-de-mais-de-3-do-arabica.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café arábica salta mais de 3% em Nova York nesta segunda-feira e robusta também avança em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-19",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429904-cafe-arabica-salta-mais-de-3-em-nova-york-nesta-segunda-feira-e-robusta-tambem-avanca-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Café acelera altas e arábica supera 313 cents em Nova York nesta segunda-feira",
           "tema": "Mercado",
@@ -3699,33 +3750,17 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429774-cnc-defende-inclusao-de-todos-os-paises-produtores-nos-investimentos-globais-na-cafeicultura.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Fraudes no comércio de café e mercado consciente reforçam debate sobre defesa do consumidor no Espírito Santo",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429768-fraudes-no-comercio-de-cafe-e-mercado-consciente-reforcam-debate-sobre-defesa-do-consumidor-no-espirito-santo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "El Niño reforça a importância de proteger a planta: tecnologia de proteção solar da Synkka busca conforto para o cafeeiro e rentabilidade para o produtor",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429764-el-nino-reforca-a-importancia-de-proteger-a-planta-tecnologia-de-protecao-solar-da-synkka-busca-conforto-para-o-cafeeiro-e-rentabilidade-para-o-produtor.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.44,
+      "score_preco": 0.8,
       "score_noticias": 0.0,
-      "score_combinado": 0.27,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.2% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
+      "score_combinado": 0.48,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 4.0% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "aguardar",
+      "recomendacao": "comprar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
       "red_flags": [],
@@ -3737,6 +3772,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-10-20",
+          "valor": 2.6545,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-10-19",
           "valor": 2.6545,
@@ -3756,14 +3796,14 @@
           "data": "2026-10-14",
           "valor": 2.6545,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-10-13",
-          "valor": 2.6545,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-20",
+          "valor": 2.6545,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-10-19",
           "valor": 2.6545,
