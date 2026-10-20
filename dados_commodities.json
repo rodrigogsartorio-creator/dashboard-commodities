@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-20T07:50:17",
+  "ultima_atualizacao": "2026-10-20T12:23:57",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0564,
@@ -8,7 +8,7 @@
     "ask": 5.0564
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-20T07:50:17",
+    "ultima_atualizacao": "2026-10-20T12:23:57",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -507,6 +507,14 @@
       "variacao_mes_pct": 0.15,
       "noticias": [
         {
+          "titulo": "Plantio do arroz salta quase 10 pontos na semana, mas segue abaixo do ritmo histórico",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/429930-plantio-do-arroz-salta-quase-10-pontos-na-semana-mas-segue-abaixo-do-ritmo-historico.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Entidades do agro contestam volta de licença para arroz em SC",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -561,14 +569,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-16",
           "url": "https://planetaarroz.com.br/arroz-2026-27-queda-de-producao-no-rs-deve-pesar-sobre-oferta-brasileira-apesar-de-expansao-do-sequeiro-em-mt/"
-        },
-        {
-          "titulo": "Cientistas descobrem nova defesa contra fungo que ameaça arroz, trigo e cevada",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-16",
-          "url": "https://planetaarroz.com.br/cientistas-descobrem-nova-defesa-contra-fungo-que-ameaca-arroz-trigo-e-cevada/"
         }
       ],
       "safra_noticias": [],
@@ -2064,6 +2064,14 @@
       "variacao_mes_pct": 4.64,
       "noticias": [
         {
+          "titulo": "Déficit no mercado global de açúcar deve crescer acentuadamente, diz analista",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429951-deficit-no-mercado-global-de-acucar-deve-crescer-acentuadamente-diz-analista.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar/Cepea: Menor oferta e alta externa impulsionam preços do cristal",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -2118,14 +2126,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-15",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429746-producao-de-acucar-no-centro-sul-do-brasil-cai-6-na-2a-quinzena-de-setembro-aponta-governo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar sobe nas bolsas e volta a se aproximar das máximas recentes com temor de déficit global",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-15",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429735-acucar-sobe-nas-bolsas-e-volta-a-se-aproximar-das-maximas-recentes-com-temor-de-deficit-global.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2624,6 +2624,38 @@
       "variacao_mes_pct": -4.73,
       "noticias": [
         {
+          "titulo": "Soja perde ganhos da manhã e oscila próxima da estabilidade em Chicago nesta terça-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429958-soja-perde-ganhos-da-manha-e-oscila-proxima-da-estabilidade-em-chicago-nesta-terca-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "USDA anuncia venda de 612 mil toneladas de soja dos EUA para a China nesta terça-feira",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429943-usda-anuncia-venda-de-612-mil-toneladas-de-soja-dos-eua-para-a-china-nesta-terca-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Excesso de chuva atrasa plantio da soja no Paraná",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429932-excesso-de-chuva-atrasa-plantio-da-soja-no-parana.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Plantio da soja quase dobra em uma semana e chega a 30,1% no Brasil",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429928-plantio-da-soja-quase-dobra-em-uma-semana-e-chega-a-30-1-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja abre terça-feira em alta em Chicago com novos dados de importação da China no radar",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2654,38 +2686,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-19",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429881-soja-amplia-perdas-em-chicago-mesmo-apos-inspecoes-de-exportacao-crescerem-80-nos-eua.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Plantio de soja no Brasil alcança 26% da área estimada, diz AgRural",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429856-plantio-de-soja-no-brasil-alcanca-26-da-area-estimada-diz-agrural.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja abre segunda-feira próxima da estabilidade em Chicago com novas compras chinesas no radar",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429847-soja-abre-segunda-feira-proxima-da-estabilidade-em-chicago-com-novas-compras-chinesas-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja/Cepea: Perspectiva de maior oferta pressiona cotações",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429842-soja-cepea-perspectiva-de-maior-oferta-pressiona-cotacoes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Pátria: Plantio chega a 30,38% da área de soja no BR, ainda acima de 2025",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429831-patria-plantio-chega-a-30-38-da-area-de-soja-no-br-ainda-acima-de-2025.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3688,6 +3688,22 @@
       "variacao_mes_pct": 3.9,
       "noticias": [
         {
+          "titulo": "Café reduz parte das perdas em Nova York, mas arábica e robusta seguem em queda nesta terça-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429960-cafe-reduz-parte-das-perdas-em-nova-york-mas-arabica-e-robusta-seguem-em-queda-nesta-terca-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Exportações de café pelo Espírito Santo superam 5 milhões de sacas em 2026; conilon acumulado é o terceiro maior da história",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429953-exportacoes-de-cafe-pelo-espirito-santo-superam-5-milhoes-de-sacas-em-2026-conilon-acumulado-e-o-terceiro-maior-da-historia.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café recua em Nova York e Londres nesta terça-feira após disparada de mais de 3% do arábica",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3734,22 +3750,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429829-cafe-dispara-quase-4-em-nova-york-com-riscos-climaticos-e-fisico-sobe-ate-4-7-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café brasileiro bate recorde em leilão das lendas mundiais da ACE",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429814-cafe-brasileiro-bate-recorde-em-leilao-das-lendas-mundiais-da-ace.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "CNC defende inclusão de todos os países produtores nos investimentos globais na cafeicultura",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429774-cnc-defende-inclusao-de-todos-os-paises-produtores-nos-investimentos-globais-na-cafeicultura.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
