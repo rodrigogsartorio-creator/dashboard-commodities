@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-21T07:50:20",
+  "ultima_atualizacao": "2026-10-21T12:39:34",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.014,
@@ -8,7 +8,7 @@
     "ask": 5.014
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-21T07:50:20",
+    "ultima_atualizacao": "2026-10-21T12:39:34",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -520,6 +520,22 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/430005-arroz-cepea-exportacoes-dao-suporte-aos-precos-mas-mercado-interno-segue-lento.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "Embarques de arroz do Brasil crescem quase 50% no ano",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-21",
+          "url": "https://planetaarroz.com.br/embarques-de-arroz-do-brasil-crescem-quase-50-no-ano/"
+        },
+        {
+          "titulo": "Brasil fecha 2025 com aumento de 13% no volume de arroz exportado",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-21",
+          "url": "https://planetaarroz.com.br/brasil-fecha-2025-com-aumento-de-13-no-volume-de-arroz-exportado-2/"
+        },
+        {
           "titulo": "Plantio do arroz salta quase 10 pontos na semana, mas segue abaixo do ritmo histórico",
           "tema": "Safra",
           "impacto": "neutro",
@@ -558,22 +574,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-19",
           "url": "https://planetaarroz.com.br/licenciamento-ambiental-da-rizicultura-ameaca-producao-de-arroz-em-santa-catarina/"
-        },
-        {
-          "titulo": "Semeadura do arroz irrigado alcança 36,83% da área prevista no Rio Grande do Sul",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/429804-semeadura-do-arroz-irrigado-alcanca-36-83-da-area-prevista-no-rio-grande-do-sul.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Arroz para exportação alcança R$ 90 por saca após retomada das compras",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/429776-arroz-para-exportacao-alcanca-r-90-por-saca-apos-retomada-das-compras.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2084,6 +2084,14 @@
       "variacao_mes_pct": 4.49,
       "noticias": [
         {
+          "titulo": "Chuvas acima da média atrasam colheita de cana e ameaçam produção no Sudeste",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430046-chuvas-acima-da-media-atrasam-colheita-de-cana-e-ameacam-producao-no-sudeste.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar reage nas bolsas após projeção de déficit global saltar para 6,3 milhões de toneladas",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -2138,14 +2146,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-19",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429901-acucar-cai-mais-de-1-em-nova-iorque-e-londres-apos-india-suspender-compras-de-etanol-de-cana.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "StoneX vê açúcar acima de 37,5 milhões de toneladas no Centro-Sul, mas ATR preocupa",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429897-stone-x-ve-acucar-acima-de-37-5-milhoes-de-toneladas-no-centro-sul-mas-atr-preocupa.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2649,6 +2649,22 @@
       "variacao_mes_pct": -5.03,
       "noticias": [
         {
+          "titulo": "Soja mantém perdas em Chicago nesta quarta-feira, mas reduz parte das quedas ao longo da manhã",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430047-soja-mantem-perdas-em-chicago-nesta-quarta-feira-mas-reduz-parte-das-quedas-ao-longo-da-manha.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja amplia sequência de perdas em Chicago nesta quarta-feira com avanço da colheita dos EUA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430015-soja-amplia-sequencia-de-perdas-em-chicago-nesta-quarta-feira-com-avanco-da-colheita-dos-eua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja fecha terça-feira em queda em Chicago apesar de nova venda de 612 mil toneladas à China",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2695,22 +2711,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-20",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429924-soja-abre-terca-feira-em-alta-em-chicago-com-novos-dados-de-importacao-da-china-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja fecha segunda-feira em queda em Chicago apesar de forte avanço das exportações dos EUA",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429898-soja-fecha-segunda-feira-em-queda-em-chicago-apesar-de-forte-avanco-das-exportacoes-dos-eua.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Exportações de farelo de soja reagem em outubro e voltam a superar ritmo de 2025",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429896-exportacoes-de-farelo-de-soja-reagem-em-outubro-e-voltam-a-superar-ritmo-de-2025.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3213,6 +3213,14 @@
       ],
       "variacao_mes_pct": 2.03,
       "noticias": [
+        {
+          "titulo": "Sinditrigo vê agravamento do déficit de trigo para panificação no Paraná",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430032-sinditrigo-ve-agravamento-do-deficit-de-trigo-para-panificacao-no-parana.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Deral relata trigo abaixo das exigências do mercado no Paraná e casos em que safra não cobre custos",
           "tema": "Safra",
@@ -3731,6 +3739,22 @@
       "variacao_mes_pct": 4.95,
       "noticias": [
         {
+          "titulo": "Café arábica perde força em Nova York nesta quarta-feira e robusta amplia quedas em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430049-cafe-arabica-perde-forca-em-nova-york-nesta-quarta-feira-e-robusta-amplia-quedas-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café arábica volta a subir mais de 1% em Nova York nesta quarta-feira, enquanto robusta recua em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430017-cafe-arabica-volta-a-subir-mais-de-1-em-nova-york-nesta-quarta-feira-enquanto-robusta-recua-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café/Cepea: Apesar do bom início da safra 2027/28, clima preocupa",
           "tema": "Clima",
           "impacto": "neutro",
@@ -3777,22 +3801,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-19",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429904-cafe-arabica-salta-mais-de-3-em-nova-york-nesta-segunda-feira-e-robusta-tambem-avanca-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café acelera altas e arábica supera 313 cents em Nova York nesta segunda-feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429873-cafe-acelera-altas-e-arabica-supera-313-cents-em-nova-york-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Produção de café do Vietnã deve ficar estável ante ciclo anterior; El Niño ameaça próxima safra",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429869-producao-de-cafe-do-vietna-deve-ficar-estavel-ante-ciclo-anterior-el-nino-ameaca-proxima-safra.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
