@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-22T07:50:17",
+  "ultima_atualizacao": "2026-10-22T12:41:18",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0277,
@@ -8,21 +8,8 @@
     "ask": 5.0277
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-22T07:50:17",
-    "noticias": [
-      {
-        "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
-        "fonte": "IBGE SIDRA",
-        "data": "2026-10-22",
-        "url": "https://sidra.ibge.gov.br/tabela/5457"
-      },
-      {
-        "titulo": "IBGE — Área colhida (Brasil): 100646477 t em 2025",
-        "fonte": "IBGE SIDRA",
-        "data": "2026-10-22",
-        "url": "https://sidra.ibge.gov.br/tabela/5457"
-      }
-    ]
+    "ultima_atualizacao": "2026-10-22T12:41:18",
+    "noticias": []
   },
   "commodities": {
     "arroz": {
@@ -557,6 +544,14 @@
           "url": "https://planetaarroz.com.br/brasil-fecha-2025-com-aumento-de-13-no-volume-de-arroz-exportado-2/"
         },
         {
+          "titulo": "Arroz: Exportações sustentam preços, mas demanda interna é lenta",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "SNA",
+          "data": "2026-10-21",
+          "url": "https://sna.agr.br/arroz-exportacoes-sustentam-precos-mas-demanda-interna-e-lenta/"
+        },
+        {
           "titulo": "Entidades do agro contestam volta de licença para arroz em SC",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -571,14 +566,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-19",
           "url": "https://planetaarroz.com.br/basf-amplia-ferramentas-para-manejo-de-doencas-no-arroz/"
-        },
-        {
-          "titulo": "Preços do arroz deverão seguir estáveis no RS",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-19",
-          "url": "https://planetaarroz.com.br/precos-do-arroz-deverao-seguir-estaveis-no-rs/"
         }
       ],
       "safra_noticias": [],
@@ -2674,6 +2661,22 @@
       "variacao_mes_pct": -6.05,
       "noticias": [
         {
+          "titulo": "Soja amplia ganhos em Chicago após USDA apontar melhor semana de vendas da temporada",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430116-soja-amplia-ganhos-em-chicago-apos-usda-apontar-melhor-semana-de-vendas-da-temporada.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "USDA informa nova venda de 202 mil toneladas de soja dos EUA para a China",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430106-usda-informa-nova-venda-de-202-mil-toneladas-de-soja-dos-eua-para-a-china.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja abre quinta-feira em alta em Chicago e tenta interromper sequência de três quedas",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2720,22 +2723,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-20",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/429989-soja-fecha-terca-feira-em-queda-em-chicago-apesar-de-nova-venda-de-612-mil-toneladas-a-china.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja perde ganhos da manhã e oscila próxima da estabilidade em Chicago nesta terça-feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429958-soja-perde-ganhos-da-manha-e-oscila-proxima-da-estabilidade-em-chicago-nesta-terca-feira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "USDA anuncia venda de 612 mil toneladas de soja dos EUA para a China nesta terça-feira",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429943-usda-anuncia-venda-de-612-mil-toneladas-de-soja-dos-eua-para-a-china-nesta-terca-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3790,6 +3777,14 @@
       "variacao_mes_pct": 7.25,
       "noticias": [
         {
+          "titulo": "Café mantém perdas superiores a 2% em Nova York e Londres nesta quinta-feira com oferta no radar",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430118-cafe-mantem-perdas-superiores-a-2-em-nova-york-e-londres-nesta-quinta-feira-com-oferta-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café despenca mais de 2% em Nova York e Londres nesta quinta-feira com oferta no radar",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -3844,14 +3839,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-20",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429986-cafe-devolve-parte-dos-ganhos-da-segunda-feira-e-fecha-em-queda-nas-bolsas-de-nova-york-e-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café reduz parte das perdas em Nova York, mas arábica e robusta seguem em queda nesta terça-feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429960-cafe-reduz-parte-das-perdas-em-nova-york-mas-arabica-e-robusta-seguem-em-queda-nesta-terca-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
