@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-22T12:41:18",
+  "ultima_atualizacao": "2026-10-23T07:50:18",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.0277,
-    "variacao_pct": 0.27,
-    "bid": 5.0277,
-    "ask": 5.0277
+    "valor": 5.0383,
+    "variacao_pct": 0.21,
+    "bid": 5.0383,
+    "ask": 5.0383
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-22T12:41:18",
+    "ultima_atualizacao": "2026-10-23T07:50:18",
     "noticias": []
   },
   "commodities": {
@@ -2091,6 +2091,22 @@
       "variacao_mes_pct": 3.97,
       "noticias": [
         {
+          "titulo": "Açúcar cai nas bolsas e Nova Iorque registra menor cotação em duas semanas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430143-acucar-cai-nas-bolsas-e-nova-iorque-registra-menor-cotacao-em-duas-semanas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar volta a cair em NY com liquidação de posições compradas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-10-22",
+          "url": "https://safras.com.br/acucar-volta-a-cair-em-ny-com-liquidacao-de-posicoes-compradas/"
+        },
+        {
           "titulo": "Açúcar cai pelo quarto dia em Nova Iorque com pressão de fundos e expectativa de maior oferta",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -2137,22 +2153,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-20",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429976-com-expectativa-de-mix-mais-alcooleiro-moagem-da-safra-de-cana-2026-2027-do-norte-nordeste-atinge-16-7-do-previsto.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Déficit no mercado global de açúcar deve crescer acentuadamente, diz analista",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429951-deficit-no-mercado-global-de-acucar-deve-crescer-acentuadamente-diz-analista.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar/Cepea: Menor oferta e alta externa impulsionam preços do cristal",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429922-acucar-cepea-menor-oferta-e-alta-externa-impulsionam-precos-do-cristal.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2661,6 +2661,46 @@
       "variacao_mes_pct": -6.05,
       "noticias": [
         {
+          "titulo": "Soja abre sexta-feira perto da estabilidade em Chicago após reação às compras chinesas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430169-soja-abre-sexta-feira-perto-da-estabilidade-em-chicago-apos-reacao-as-compras-chinesas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja de Mato Grosso deve render menos por hectare em 2026/27",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430163-soja-de-mato-grosso-deve-render-menos-por-hectare-em-2026-27.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Produção de óleo deve ampliar demanda por soja no Brasil em 2027 e pode acirrar disputa pelo grão",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430147-producao-de-oleo-deve-ampliar-demanda-por-soja-no-brasil-em-2027-e-pode-acirrar-disputa-pelo-grao.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Elevada umidade retarda plantio de soja no Rio Grande do Sul, diz Emater",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430155-elevada-umidade-retarda-plantio-de-soja-no-rio-grande-do-sul-diz-emater.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja interrompe sequência de três quedas em Chicago após USDA revelar melhor semana de vendas da temporada",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430140-soja-interrompe-sequencia-de-tres-quedas-em-chicago-apos-usda-revelar-melhor-semana-de-vendas-da-temporada.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja amplia ganhos em Chicago após USDA apontar melhor semana de vendas da temporada",
           "tema": "Clima",
           "impacto": "neutro",
@@ -2683,46 +2723,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430091-soja-abre-quinta-feira-em-alta-em-chicago-e-tenta-interromper-sequencia-de-tres-quedas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Clima e demanda chinesa devem definir próximos movimentos da soja, aponta Itaú BBA",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430070-clima-e-demanda-chinesa-devem-definir-proximos-movimentos-da-soja-aponta-itau-bba.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja fecha em queda pelo terceiro dia consecutivo em Chicago, apesar de novas compras chinesas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430066-soja-fecha-em-queda-pelo-terceiro-dia-consecutivo-em-chicago-apesar-de-novas-compras-chinesas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja mantém perdas em Chicago nesta quarta-feira, mas reduz parte das quedas ao longo da manhã",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430047-soja-mantem-perdas-em-chicago-nesta-quarta-feira-mas-reduz-parte-das-quedas-ao-longo-da-manha.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja amplia sequência de perdas em Chicago nesta quarta-feira com avanço da colheita dos EUA",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430015-soja-amplia-sequencia-de-perdas-em-chicago-nesta-quarta-feira-com-avanco-da-colheita-dos-eua.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja fecha terça-feira em queda em Chicago apesar de nova venda de 612 mil toneladas à China",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/429989-soja-fecha-terca-feira-em-queda-em-chicago-apesar-de-nova-venda-de-612-mil-toneladas-a-china.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3231,6 +3231,22 @@
       "variacao_mes_pct": 1.62,
       "noticias": [
         {
+          "titulo": "Com projeção de importação recorde, Congresso Internacional do Trigo debate o futuro do setor",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430168-com-projecao-de-importacao-recorde-congresso-internacional-do-trigo-debate-o-futuro-do-setor.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Geadas tardias causam perdas de até 15% em algumas áreas de trigo na Argentina, diz bolsa",
+          "tema": "Clima",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430150-geadas-tardias-causam-perdas-de-ate-15-em-algumas-areas-de-trigo-na-argentina-diz-bolsa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Estatal egípcia volta ao mercado e adquire 5 cargas de trigo, dizem operadores",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3275,14 +3291,23 @@
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": -0.03,
-      "score_noticias": 0.0,
-      "score_combinado": -0.02,
+      "score_noticias": 0.14,
+      "score_combinado": 0.04,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.1% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.45) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 80.739,
       "resistencia": 94.449,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "evento_externo",
+          "mensagem": "Evento externo detectado: Geadas tardias causam perdas de até 15% em algumas áreas de trigo na Argentina, diz bolsa",
+          "severidade": "media",
+          "impacto_tendencia": "alta",
+          "fonte": "Notícias Agrícolas",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430150-geadas-tardias-causam-perdas-de-ate-15-em-algumas-areas-de-trigo-na-argentina-diz-bolsa.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "cafe": {
@@ -3777,6 +3802,22 @@
       "variacao_mes_pct": 7.25,
       "noticias": [
         {
+          "titulo": "Café abre sexta-feira próximo da estabilidade em Nova York, mas robusta segue em queda em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430171-cafe-abre-sexta-feira-proximo-da-estabilidade-em-nova-york-mas-robusta-segue-em-queda-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café reduz perdas durante o pregão, mas fecha quinta-feira em queda em Nova York e Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-22",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430139-cafe-reduz-perdas-durante-o-pregao-mas-fecha-quinta-feira-em-queda-em-nova-york-e-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café mantém perdas superiores a 2% em Nova York e Londres nesta quinta-feira com oferta no radar",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -3823,22 +3864,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430017-cafe-arabica-volta-a-subir-mais-de-1-em-nova-york-nesta-quarta-feira-enquanto-robusta-recua-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café/Cepea: Apesar do bom início da safra 2027/28, clima preocupa",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430006-cafe-cepea-apesar-do-bom-inicio-da-safra-2027-28-clima-preocupa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café devolve parte dos ganhos da segunda-feira e fecha em queda nas bolsas de Nova York e Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/429986-cafe-devolve-parte-dos-ganhos-da-segunda-feira-e-fecha-em-queda-nas-bolsas-de-nova-york-e-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3862,6 +3887,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-10-23",
+          "valor": 2.6545,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-10-22",
           "valor": 2.6545,
           "variacao_pct": 0.0
@@ -3880,14 +3910,14 @@
           "data": "2026-10-19",
           "valor": 2.6545,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-10-16",
-          "valor": 2.6545,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-10-23",
+          "valor": 2.6545,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-10-22",
           "valor": 2.6545,
