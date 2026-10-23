@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-23T07:50:18",
+  "ultima_atualizacao": "2026-10-23T12:29:24",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.0383,
@@ -8,7 +8,7 @@
     "ask": 5.0383
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-23T07:50:18",
+    "ultima_atualizacao": "2026-10-23T12:29:24",
     "noticias": []
   },
   "commodities": {
@@ -2091,20 +2091,20 @@
       "variacao_mes_pct": 3.97,
       "noticias": [
         {
+          "titulo": "Moagem de cana atinge 100,59 milhões de toneladas em agosto – Unica",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-10-23",
+          "url": "https://safras.com.br/moagem-de-cana-atinge-10059-milhoes-de-toneladas-em-agosto-unica/"
+        },
+        {
           "titulo": "Açúcar cai nas bolsas e Nova Iorque registra menor cotação em duas semanas",
           "tema": "Mercado",
           "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430143-acucar-cai-nas-bolsas-e-nova-iorque-registra-menor-cotacao-em-duas-semanas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar volta a cair em NY com liquidação de posições compradas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-22",
-          "url": "https://safras.com.br/acucar-volta-a-cair-em-ny-com-liquidacao-de-posicoes-compradas/"
         },
         {
           "titulo": "Açúcar cai pelo quarto dia em Nova Iorque com pressão de fundos e expectativa de maior oferta",
@@ -2661,6 +2661,14 @@
       "variacao_mes_pct": -6.05,
       "noticias": [
         {
+          "titulo": "Soja ganha força em Chicago nesta sexta-feira com demanda chinesa e petróleo em alta",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430199-soja-ganha-forca-em-chicago-nesta-sexta-feira-com-demanda-chinesa-e-petroleo-em-alta.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja abre sexta-feira perto da estabilidade em Chicago após reação às compras chinesas",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2715,14 +2723,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430106-usda-informa-nova-venda-de-202-mil-toneladas-de-soja-dos-eua-para-a-china.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja abre quinta-feira em alta em Chicago e tenta interromper sequência de três quedas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430091-soja-abre-quinta-feira-em-alta-em-chicago-e-tenta-interromper-sequencia-de-tres-quedas.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3802,6 +3802,14 @@
       "variacao_mes_pct": 7.25,
       "noticias": [
         {
+          "titulo": "Café segue em queda nesta sexta-feira, mas robusta reduz perdas em Londres enquanto arábica recua em Nova York",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-23",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430200-cafe-segue-em-queda-nesta-sexta-feira-mas-robusta-reduz-perdas-em-londres-enquanto-arabica-recua-em-nova-york.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café abre sexta-feira próximo da estabilidade em Nova York, mas robusta segue em queda em Londres",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3856,14 +3864,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430049-cafe-arabica-perde-forca-em-nova-york-nesta-quarta-feira-e-robusta-amplia-quedas-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café arábica volta a subir mais de 1% em Nova York nesta quarta-feira, enquanto robusta recua em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430017-cafe-arabica-volta-a-subir-mais-de-1-em-nova-york-nesta-quarta-feira-enquanto-robusta-recua-em-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
