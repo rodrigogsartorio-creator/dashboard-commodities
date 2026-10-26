@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-26T07:50:19",
+  "ultima_atualizacao": "2026-10-26T14:01:22",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.0377,
-    "variacao_pct": -0.01,
-    "bid": 5.0377,
-    "ask": 5.0377
+    "valor": null,
+    "variacao_pct": null,
+    "bid": null,
+    "ask": null
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-26T07:50:19",
+    "ultima_atualizacao": "2026-10-26T14:01:22",
     "noticias": []
   },
   "commodities": {
@@ -514,6 +514,14 @@
       "variacao_mes_pct": 0.16,
       "noticias": [
         {
+          "titulo": "Preço do arroz cai no RS e diferença entre padrões de qualidade recua para R$ 0,58 por saca",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-26",
+          "url": "https://planetaarroz.com.br/preco-do-arroz-cai-no-rs-e-diferenca-entre-padroes-de-qualidade-recua-para-r-058-por-saca/"
+        },
+        {
           "titulo": "Resistência dos produtores sustenta preços do arroz no RS, mas baixa liquidez limita recuperação",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -568,14 +576,6 @@
           "fonte": "SNA",
           "data": "2026-10-21",
           "url": "https://sna.agr.br/arroz-exportacoes-sustentam-precos-mas-demanda-interna-e-lenta/"
-        },
-        {
-          "titulo": "Entidades do agro contestam volta de licença para arroz em SC",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-19",
-          "url": "https://planetaarroz.com.br/entidades-do-agro-contestam-volta-de-licenca-para-arroz-em-sc/"
         }
       ],
       "safra_noticias": [],
@@ -2130,6 +2130,22 @@
       "variacao_mes_pct": 3.56,
       "noticias": [
         {
+          "titulo": "Datagro vê queda de 5% na produção de açúcar do centro-sul em 26/27 e alta de 10,4% para etanol",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430315-datagro-ve-queda-de-5-na-producao-de-acucar-do-centro-sul-em-2627-e-alta-de-104-para-etanol.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar despenca quase 6% nesta segunda-feira nas bolsas internacionais com queda do petróleo",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430311-acucar-recua-nesta-segunda-feira-nas-bolsas-internacionais-com-queda-do-petroleo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Moagem de cana no Centro-Sul cresce 1,8%, mas produção de açúcar cai 10,3% na safra 2026/27",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2176,22 +2192,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430046-chuvas-acima-da-media-atrasam-colheita-de-cana-e-ameacam-producao-no-sudeste.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar reage nas bolsas após projeção de déficit global saltar para 6,3 milhões de toneladas",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429983-acucar-reage-nas-bolsas-apos-projecao-de-deficit-global-saltar-para-6-3-milhoes-de-toneladas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Conferência Internacional DATAGRO reúne líderes do setor para debater futuro do açúcar, etanol e biocombustíveis",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/429981-conferencia-internacional-datagro-reune-lideres-do-setor-para-debater-futuro-do-acucar-etanol-e-biocombustiveis.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2710,6 +2710,22 @@
       "variacao_mes_pct": -5.83,
       "noticias": [
         {
+          "titulo": "Soja amplia perdas em Chicago nesta segunda-feira e novembro recua quase 2% com pressão do câmbio brasileiro",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430312-soja-amplia-perdas-em-chicago-nesta-segunda-feira-e-novembro-recua-quase-2-com-pressao-do-cambio-brasileiro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "AgRural: Menos chuva de um lado e mais de outro levam plantio de soja a 40% no país",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430282-ag-rural-menos-chuva-de-um-lado-e-mais-de-outro-levam-plantio-de-soja-a-40-no-pais.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja abre segunda-feira com perdas superiores a 1% em Chicago e novembro volta abaixo de US$ 12,50",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2756,22 +2772,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430199-soja-ganha-forca-em-chicago-nesta-sexta-feira-com-demanda-chinesa-e-petroleo-em-alta.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja abre sexta-feira perto da estabilidade em Chicago após reação às compras chinesas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430169-soja-abre-sexta-feira-perto-da-estabilidade-em-chicago-apos-reacao-as-compras-chinesas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja de Mato Grosso deve render menos por hectare em 2026/27",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430163-soja-de-mato-grosso-deve-render-menos-por-hectare-em-2026-27.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3879,6 +3879,22 @@
       "variacao_mes_pct": 5.61,
       "noticias": [
         {
+          "titulo": "Café amplia perdas em Nova York e arábica cai abaixo dos 300 cents nesta segunda-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430314-cafe-amplia-perdas-em-nova-york-e-arabica-cai-abaixo-dos-300-cents-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café inicia segunda-feira com quedas de 2% em Nova York e Londres e arábica se aproxima dos 300 cents",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430279-cafe-inicia-segunda-feira-com-quedas-de-2-em-nova-york-e-londres-e-arabica-se-aproxima-dos-300-cents.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café fecha sexta-feira em queda, mas arábica dezembro acumula alta semanal de 0,61%; robusta perde mais de 5% em Londres",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3925,22 +3941,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-22",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430093-cafe-despenca-mais-de-2-em-nova-york-e-londres-nesta-quinta-feira-com-oferta-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Rabobank vê perspectiva de recuperação dos estoques globais de café após chuvas favoráveis no Brasil",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430076-rabobank-ve-perspectiva-de-recuperacao-dos-estoques-globais-de-cafe-apos-chuvas-favoraveis-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café arábica fecha quarta-feira em alta em Nova York, enquanto robusta amplia perdas em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430059-cafe-arabica-fecha-quarta-feira-em-alta-em-nova-york-enquanto-robusta-amplia-perdas-em-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4422,7 +4422,24 @@
         }
       ],
       "variacao_mes_pct": -0.06,
-      "noticias": [],
+      "noticias": [
+        {
+          "titulo": "Chuvas acendem alerta para doenças em vacas leiteiras; perdas podem chegar a 98% da margem bruta",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/leite/430302-chuvas-acendem-alerta-para-doencas-em-vacas-leiteiras-perdas-podem-chegar-a-98-da-margem-bruta.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Mercado do leite pressionado com maior oferta e importações; queda no spot acende alerta para produtores",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/leite/430290-mercado-do-leite-pressionado-com-maior-oferta-e-importacoes-queda-no-spot-acende-alerta-para-produtores.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
