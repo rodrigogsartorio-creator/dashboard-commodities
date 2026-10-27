@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-10-27T07:50:22",
+  "ultima_atualizacao": "2026-10-27T13:03:24",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.5007,
@@ -8,7 +8,7 @@
     "ask": 5.5007
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-27T07:50:22",
+    "ultima_atualizacao": "2026-10-27T13:03:24",
     "noticias": []
   },
   "commodities": {
@@ -519,6 +519,14 @@
       "variacao_mes_pct": -0.53,
       "noticias": [
         {
+          "titulo": "Semana do Arroz destaca adaptação do grão às novas rotinas de consumo dos brasileiros",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-27",
+          "url": "https://planetaarroz.com.br/semana-do-arroz-destaca-adaptacao-do-grao-as-novas-rotinas-de-consumo-dos-brasileiros/"
+        },
+        {
           "titulo": "Preço do arroz cai no RS e diferença entre padrões de qualidade recua para R$ 0,58 por saca",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -573,14 +581,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-21",
           "url": "https://planetaarroz.com.br/brasil-fecha-2025-com-aumento-de-13-no-volume-de-arroz-exportado-2/"
-        },
-        {
-          "titulo": "Arroz: Exportações sustentam preços, mas demanda interna é lenta",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SNA",
-          "data": "2026-10-21",
-          "url": "https://sna.agr.br/arroz-exportacoes-sustentam-precos-mas-demanda-interna-e-lenta/"
         }
       ],
       "safra_noticias": [],
@@ -2735,6 +2735,38 @@
       "variacao_mes_pct": -3.39,
       "noticias": [
         {
+          "titulo": "Recuperação da soja perde força em Chicago nesta terça-feira e contratos passam a operar próximos da estabilidade",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430401-recuperacao-da-soja-perde-forca-em-chicago-nesta-terca-feira-e-contratos-passam-a-operar-proximos-da-estabilidade.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Safra de soja do Brasil poderia cair a 163,6 mi t em cenário de perdas por El Niño, diz Serasa",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430396-safra-de-soja-do-brasil-poderia-cair-a-1636-mi-t-em-cenario-de-perdas-por-el-nino-diz-serasa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Plantio da soja chega a 42,8% e segue acima da média histórica; MT supera 75%",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430375-plantio-da-soja-chega-a-42-8-e-segue-acima-da-media-historica-mt-supera-75.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja abre terça-feira em alta em Chicago após queda forte de ontem e avanço das exportações americanas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430372-soja-abre-terca-feira-em-alta-em-chicago-apos-queda-forte-de-ontem-e-avanco-das-exportacoes-americanas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja fecha segunda-feira com queda superior a 1% em Chicago após disparada do dólar no Brasil",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -2765,38 +2797,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430282-ag-rural-menos-chuva-de-um-lado-e-mais-de-outro-levam-plantio-de-soja-a-40-no-pais.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja abre segunda-feira com perdas superiores a 1% em Chicago e novembro volta abaixo de US$ 12,50",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430277-soja-abre-segunda-feira-com-perdas-superiores-a-1-em-chicago-e-novembro-volta-abaixo-de-us-12-50.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja/Cepea: Expectativa de safra volumosa pressiona cotações para 2027",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430269-soja-cepea-expectativa-de-safra-volumosa-pressiona-cotacoes-para-2027.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Adido do USDA prevê queda de 35% nos estoques de soja do Brasil em 2026/27",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430250-adido-do-usda-preve-queda-de-35-nos-estoques-de-soja-do-brasil-em-2026-27.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Plantio da soja chega a 75,81% da área em Mato Grosso, afirma Imea",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430227-plantio-da-soja-chega-a-75-81-da-area-em-mato-grosso-afirma-imea.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3927,6 +3927,22 @@
       "variacao_mes_pct": 5.8,
       "noticias": [
         {
+          "titulo": "Queda do arábica se aproxima de 4% em Nova York nesta terça-feira, enquanto robusta resiste em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430403-queda-do-arabica-se-aproxima-de-4-em-nova-york-nesta-terca-feira-enquanto-robusta-resiste-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café abre terça-feira com queda superior a 2% em Nova York, enquanto robusta tenta recuperação em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430374-cafe-abre-terca-feira-com-queda-superior-a-2-em-nova-york-enquanto-robusta-tenta-recuperacao-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café fecha segunda-feira com queda de mais de 2% em Nova York; robusta também recua em Londres",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3973,22 +3989,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430171-cafe-abre-sexta-feira-proximo-da-estabilidade-em-nova-york-mas-robusta-segue-em-queda-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café reduz perdas durante o pregão, mas fecha quinta-feira em queda em Nova York e Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430139-cafe-reduz-perdas-durante-o-pregao-mas-fecha-quinta-feira-em-queda-em-nova-york-e-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café mantém perdas superiores a 2% em Nova York e Londres nesta quinta-feira com oferta no radar",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-22",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430118-cafe-mantem-perdas-superiores-a-2-em-nova-york-e-londres-nesta-quinta-feira-com-oferta-no-radar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
