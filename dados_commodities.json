@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-28T07:50:22",
+  "ultima_atualizacao": "2026-10-28T13:50:47",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.3346,
-    "variacao_pct": -3.02,
-    "bid": 5.3346,
-    "ask": 5.3346
+    "valor": 5.342,
+    "variacao_pct": 0.14,
+    "bid": 5.342,
+    "ask": 5.342
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-28T07:50:22",
+    "ultima_atualizacao": "2026-10-28T13:50:47",
     "noticias": []
   },
   "commodities": {
@@ -2163,6 +2163,14 @@
       "variacao_mes_pct": 7.07,
       "noticias": [
         {
+          "titulo": "Com mix alcooleiro, moagem de cana na safra 2026-2027 no Norte-Nordeste atinge 23,1% da projeção",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430460-com-mix-alcooleiro-moagem-de-cana-na-safra-2026-2027-no-norte-nordeste-atinge-23-1-da-projecao.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar se recupera após tombo de mais de 5% e fecha em alta nas bolsas",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2211,14 +2219,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430311-acucar-recua-nesta-segunda-feira-nas-bolsas-internacionais-com-queda-do-petroleo.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Açúcar fecha em forte baixa em NY pressionado pela desvalorização do real",
-          "tema": "Câmbio",
-          "impacto": "alta",
-          "fonte": "SAFRAS",
-          "data": "2026-10-26",
-          "url": "https://safras.com.br/acucar-fecha-em-forte-baixa-em-ny-pressionado-pela-desvalorizacao-do-real/"
-        },
-        {
           "titulo": "Moagem de cana no Centro-Sul cresce 1,8%, mas produção de açúcar cai 10,3% na safra 2026/27",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2231,21 +2231,14 @@
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.5,
-      "score_noticias": 0.0,
-      "score_combinado": 0.3,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.5% nos últimos 7 pregões.</li><li>Notícias com sinais mistos — monitorar de perto.</li><li>Preço próximo à resistência histórica (R$ 128.74) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_noticias": -0.12,
+      "score_combinado": 0.25,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.5% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 128.74) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 90.72,
       "resistencia": 128.74,
-      "red_flags": [
-        {
-          "tipo": "dolar",
-          "mensagem": "Dólar -3.02% no dia — pressão cambial sobre preços desta commodity",
-          "severidade": "media",
-          "impacto_tendencia": "queda"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "soja": {
@@ -2760,6 +2753,38 @@
       "variacao_mes_pct": -1.88,
       "noticias": [
         {
+          "titulo": "Soja perde força em Chicago nesta quarta-feira e passa a operar próxima da estabilidade",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430471-soja-perde-forca-em-chicago-nesta-quarta-feira-e-passa-a-operar-proxima-da-estabilidade.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Importações de soja pela Índia atingem nível recorde em 2025/26",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430477-importacoes-de-soja-pela-india-atingem-nivel-recorde-em-202526.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Argentina foca mercado de farelo de soja da UE, enquanto regras antidesmatamento ameaçam Brasil",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430481-argentina-foca-mercado-de-farelo-de-soja-da-ue-enquanto-regras-antidesmatamento-ameacam-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Após dois dias de perdas, soja tenta recuperação em Chicago nesta quarta-feira com compras técnicas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430461-apos-dois-dias-de-perdas-soja-tenta-recuperacao-em-chicago-nesta-quarta-feira-com-compras-tecnicas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja devolve ganhos da manhã e fecha terça-feira em queda de quase 1% em Chicago",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2790,38 +2815,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-27",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430396-safra-de-soja-do-brasil-poderia-cair-a-1636-mi-t-em-cenario-de-perdas-por-el-nino-diz-serasa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Plantio da soja chega a 42,8% e segue acima da média histórica; MT supera 75%",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430375-plantio-da-soja-chega-a-42-8-e-segue-acima-da-media-historica-mt-supera-75.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja abre terça-feira em alta em Chicago após queda forte de ontem e avanço das exportações americanas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430372-soja-abre-terca-feira-em-alta-em-chicago-apos-queda-forte-de-ontem-e-avanco-das-exportacoes-americanas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja fecha segunda-feira com queda superior a 1% em Chicago após disparada do dólar no Brasil",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430338-soja-fecha-segunda-feira-com-queda-superior-a-1-em-chicago-apos-disparada-do-dolar-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Exportações de farelo de soja ampliam recuperação em outubro e ficam 5,5% acima de 2025",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430333-exportacoes-de-farelo-de-soja-ampliam-recuperacao-em-outubro-e-ficam-5-5-acima-de-2025.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2835,14 +2828,7 @@
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 162.02,
-      "red_flags": [
-        {
-          "tipo": "dolar",
-          "mensagem": "Dólar -3.02% no dia — pressão cambial sobre preços desta commodity",
-          "severidade": "media",
-          "impacto_tendencia": "queda"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -3434,12 +3420,6 @@
       "resistencia": 94.449,
       "red_flags": [
         {
-          "tipo": "dolar",
-          "mensagem": "Dólar -3.02% no dia — pressão cambial sobre preços desta commodity",
-          "severidade": "media",
-          "impacto_tendencia": "queda"
-        },
-        {
           "tipo": "evento_externo",
           "mensagem": "Evento externo detectado: Geadas tardias causam perdas de até 15% em algumas áreas de trigo na Argentina, diz bolsa",
           "severidade": "media",
@@ -3962,6 +3942,22 @@
       "variacao_mes_pct": 3.44,
       "noticias": [
         {
+          "titulo": "Arábica amplia sequência de perdas em Nova York e já recua mais de 7% desde sexta-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430474-arabica-amplia-sequencia-de-perdas-em-nova-york-e-ja-recua-mais-de-7-desde-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Arábica perde quase 3% em Nova York nesta quarta-feira e amplia sequência de quedas no mercado de café",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-28",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430463-arabica-perde-quase-3-em-nova-york-nesta-quarta-feira-e-amplia-sequencia-de-quedas-no-mercado-de-cafe.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café/Cepea: Alta do dólar sustenta cotações domésticas, apesar de baixas externas",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -4008,22 +4004,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430314-cafe-amplia-perdas-em-nova-york-e-arabica-cai-abaixo-dos-300-cents-nesta-segunda-feira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café inicia segunda-feira com quedas de 2% em Nova York e Londres e arábica se aproxima dos 300 cents",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430279-cafe-inicia-segunda-feira-com-quedas-de-2-em-nova-york-e-londres-e-arabica-se-aproxima-dos-300-cents.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café fecha sexta-feira em queda, mas arábica dezembro acumula alta semanal de 0,61%; robusta perde mais de 5% em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430216-cafe-fecha-sexta-feira-em-queda-mas-arabica-dezembro-acumula-alta-semanal-de-0-61-robusta-perde-mais-de-5-em-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4037,14 +4017,7 @@
       "recomendacao": "aguardar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [
-        {
-          "tipo": "dolar",
-          "mensagem": "Dólar -3.02% no dia — pressão cambial sobre preços desta commodity",
-          "severidade": "media",
-          "impacto_tendencia": "queda"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "leite": {
