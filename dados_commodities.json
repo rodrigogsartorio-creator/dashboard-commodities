@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-29T07:50:23",
+  "ultima_atualizacao": "2026-10-29T14:06:25",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.342,
-    "variacao_pct": 0.14,
-    "bid": 5.342,
-    "ask": 5.342
+    "valor": 5.3744,
+    "variacao_pct": 0.61,
+    "bid": 5.3744,
+    "ask": 5.3744
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-29T07:50:23",
+    "ultima_atualizacao": "2026-10-29T14:06:25",
     "noticias": []
   },
   "commodities": {
@@ -529,6 +529,14 @@
       "variacao_mes_pct": -1.31,
       "noticias": [
         {
+          "titulo": "Fiscalização apreende 47 toneladas de arroz com irregularidades em mercados do Rio",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-10-29",
+          "url": "https://planetaarroz.com.br/fiscalizacao-apreende-47-toneladas-de-arroz-com-irregularidades-em-mercados-do-rio/"
+        },
+        {
           "titulo": "Arroz/Cepea: Indústrias abastecidas e menor demanda externa limitam negócios",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -583,14 +591,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/430005-arroz-cepea-exportacoes-dao-suporte-aos-precos-mas-mercado-interno-segue-lento.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Plantio do arroz salta quase 10 pontos na semana, mas segue abaixo do ritmo histórico",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-21",
-          "url": "https://planetaarroz.com.br/plantio-do-arroz-salta-quase-10-pontos-na-semana-mas-segue-abaixo-do-ritmo-historico/"
         }
       ],
       "safra_noticias": [],
@@ -2778,6 +2778,38 @@
       "variacao_mes_pct": -2.39,
       "noticias": [
         {
+          "titulo": "Soja amplia perdas em Chicago nesta quinta-feira mesmo após vendas superiores a 2,5 milhões de toneladas nos EUA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430550-soja-amplia-perdas-em-chicago-nesta-quinta-feira-mesmo-apos-vendas-superiores-a-2-5-milhoes-de-toneladas-nos-eua.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Esmagamento de soja em MT cresce 4,74% e registra recorde no acumulado do ano",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430549-esmagamento-de-soja-em-mt-cresce-4-74-e-registra-recorde-no-acumulado-do-ano.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Quarta sessão de perdas pressiona soja em Chicago nesta quinta-feira, com novembro próximo dos US$ 12,20",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430528-quarta-sessao-de-perdas-pressiona-soja-em-chicago-nesta-quinta-feira-com-novembro-proximo-dos-us-12-20.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Mato Grosso do Sul já plantou 2,5 milhões de hectares de soja",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430526-mato-grosso-do-sul-ja-plantou-2-5-milhoes-de-hectares-de-soja.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja fecha em queda pelo terceiro dia consecutivo em Chicago e já perde 2,55% na semana",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2808,38 +2840,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430481-argentina-foca-mercado-de-farelo-de-soja-da-ue-enquanto-regras-antidesmatamento-ameacam-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Após dois dias de perdas, soja tenta recuperação em Chicago nesta quarta-feira com compras técnicas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430461-apos-dois-dias-de-perdas-soja-tenta-recuperacao-em-chicago-nesta-quarta-feira-com-compras-tecnicas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja devolve ganhos da manhã e fecha terça-feira em queda de quase 1% em Chicago",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430432-soja-devolve-ganhos-da-manha-e-fecha-terca-feira-em-queda-de-quase-1-em-chicago.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "El Niño pode reduzir produção de soja em 9,7% e colocar R$ 33 bilhões em risco, estima Serasa",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430420-el-nino-pode-reduzir-producao-de-soja-em-9-7-e-colocar-r-33-bilhoes-em-risco-estima-serasa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Recuperação da soja perde força em Chicago nesta terça-feira e contratos passam a operar próximos da estabilidade",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430401-recuperacao-da-soja-perde-forca-em-chicago-nesta-terca-feira-e-contratos-passam-a-operar-proximos-da-estabilidade.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3977,6 +3977,22 @@
       "variacao_mes_pct": 1.91,
       "noticias": [
         {
+          "titulo": "Café vira para o positivo em Nova York nesta quinta-feira após três sessões de fortes perdas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430552-cafe-vira-para-o-positivo-em-nova-york-nesta-quinta-feira-apos-tres-sessoes-de-fortes-perdas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Após perder quase 7% na semana, arábica busca estabilidade em Nova York nesta quinta-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-29",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430532-apos-perder-quase-7-na-semana-arabica-busca-estabilidade-em-nova-york-nesta-quinta-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Com expectativa de maior oferta e câmbio no radar, café arábica cai mais de 2% em NY nesta quarta-feira",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -4023,22 +4039,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-27",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430403-queda-do-arabica-se-aproxima-de-4-em-nova-york-nesta-terca-feira-enquanto-robusta-resiste-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café abre terça-feira com queda superior a 2% em Nova York, enquanto robusta tenta recuperação em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430374-cafe-abre-terca-feira-com-queda-superior-a-2-em-nova-york-enquanto-robusta-tenta-recuperacao-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café fecha segunda-feira com queda de mais de 2% em Nova York; robusta também recua em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430337-cafe-fecha-segunda-feira-com-queda-de-mais-de-2-em-nova-york-robusta-tambem-recua-em-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
