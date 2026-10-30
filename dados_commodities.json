@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-10-30T07:50:18",
+  "ultima_atualizacao": "2026-10-30T13:49:56",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.3744,
-    "variacao_pct": 0.61,
-    "bid": 5.3744,
-    "ask": 5.3744
+    "valor": 5.4212,
+    "variacao_pct": 0.87,
+    "bid": 5.4212,
+    "ask": 5.4212
   },
   "safra": {
-    "ultima_atualizacao": "2026-10-30T07:50:18",
+    "ultima_atualizacao": "2026-10-30T13:49:56",
     "noticias": []
   },
   "commodities": {
@@ -558,14 +558,6 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/430449-arroz-cepea-industrias-abastecidas-e-menor-demanda-externa-limitam-negocios.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Arroz: Demanda externa menor limita negócios",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "SNA",
-          "data": "2026-10-28",
-          "url": "https://sna.agr.br/arroz-demanda-externa-menor-limita-negocios/"
-        },
-        {
           "titulo": "Possibilidade de chuvas acima da média nos próximos meses acende alerta para desenvolvimento do arroz em SC",
           "tema": "Clima",
           "impacto": "neutro",
@@ -596,6 +588,14 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-23",
           "url": "https://planetaarroz.com.br/resistencia-dos-produtores-sustenta-precos-do-arroz-no-rs-mas-baixa-liquidez-limita-recuperacao/"
+        },
+        {
+          "titulo": "Arroz/Cepea: Exportações dão suporte aos preços, mas mercado interno segue lento",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-21",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/430005-arroz-cepea-exportacoes-dao-suporte-aos-precos-mas-mercado-interno-segue-lento.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2207,6 +2207,14 @@
       "variacao_mes_pct": 7.31,
       "noticias": [
         {
+          "titulo": "Preços internacionais do açúcar escalam máximas de 19 meses em outubro",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-10-30",
+          "url": "https://safras.com.br/precos-internacionais-do-acucar-escalam-maximas-de-19-meses-em-outubro/"
+        },
+        {
           "titulo": "Açúcar sobe nas bolsas com quebra na moagem e chuvas no Brasil",
           "tema": "Clima",
           "impacto": "alta",
@@ -2221,14 +2229,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430564-producao-de-acucar-no-centro-sul-despenca-27-na-primeira-quinzena-de-outubro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar estende ganhos em NY com previsão de mais chuvas para o Brasil",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-29",
-          "url": "https://safras.com.br/acucar-estende-ganhos-em-ny-com-previsao-de-mais-chuvas-para-o-brasil/"
         },
         {
           "titulo": "El Niño, fundos especulativos e perdas de safra elevam incertezas no mercado global de açúcar",
@@ -2807,6 +2807,14 @@
       "variacao_mes_pct": -2.03,
       "noticias": [
         {
+          "titulo": "Soja vira para o positivo em Chicago nesta sexta-feira e tenta interromper sequência de quatro quedas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-30",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430625-soja-vira-para-o-positivo-em-chicago-nesta-sexta-feira-e-tenta-interromper-sequencia-de-quatro-quedas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja tenta interromper sequência de quatro quedas em Chicago, mas abre sexta-feira com preços mistos",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2861,14 +2869,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430495-soja-fecha-em-queda-pelo-terceiro-dia-consecutivo-em-chicago-e-ja-perde-2-55-na-semana.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja perde força em Chicago nesta quarta-feira e passa a operar próxima da estabilidade",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430471-soja-perde-forca-em-chicago-nesta-quarta-feira-e-passa-a-operar-proxima-da-estabilidade.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3407,6 +3407,14 @@
       "variacao_mes_pct": 2.19,
       "noticias": [
         {
+          "titulo": "Perdas na safra de trigo paulista agravam desafios para a cadeia produtiva estadual",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-30",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430620-perdas-na-safra-de-trigo-paulista-agravam-desafios-para-a-cadeia-produtiva-estadual.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo perde quase 2% em Chicago nesta quarta-feira e fecha abaixo de US$ 6,00 pela primeira vez desde julho",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3461,14 +3469,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-21",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430050-trigo-de-baixa-qualidade-enfrenta-descontos-e-moinhos-brasileiros-buscam-reposicao-na-argentina.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Sinditrigo vê agravamento do déficit de trigo para panificação no Paraná",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-21",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430032-sinditrigo-ve-agravamento-do-deficit-de-trigo-para-panificacao-no-parana.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4016,6 +4016,14 @@
       "variacao_mes_pct": 0.88,
       "noticias": [
         {
+          "titulo": "Arábica vira e sobe mais de 1% em Nova York nesta sexta-feira, após quatro sessões consecutivas de perdas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-10-30",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430627-arabica-vira-e-sobe-mais-de-1-em-nova-york-nesta-sexta-feira-apos-quatro-sessoes-consecutivas-de-perdas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Arábica volta a cair em Nova York nesta sexta-feira e caminha para quinta perda consecutiva; robusta sobe em Londres",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -4070,14 +4078,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-28",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430474-arabica-amplia-sequencia-de-perdas-em-nova-york-e-ja-recua-mais-de-7-desde-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Arábica perde quase 3% em Nova York nesta quarta-feira e amplia sequência de quedas no mercado de café",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430463-arabica-perde-quase-3-em-nova-york-nesta-quarta-feira-e-amplia-sequencia-de-quedas-no-mercado-de-cafe.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
