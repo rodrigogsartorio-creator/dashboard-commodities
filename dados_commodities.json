@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-02T07:50:28",
+  "ultima_atualizacao": "2026-11-02T17:31:00",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.4212,
@@ -8,7 +8,7 @@
     "ask": 5.4212
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-02T07:50:28",
+    "ultima_atualizacao": "2026-11-02T17:31:00",
     "noticias": []
   },
   "commodities": {
@@ -2221,6 +2221,38 @@
       "variacao_mes_pct": 5.87,
       "noticias": [
         {
+          "titulo": "Açúcar cai mais de 1% em Nova York e Londres com petróleo em forte baixa e produção indiana em alta",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430694-acucar-cai-mais-de-1-em-nova-york-e-londres-com-petroleo-em-forte-baixa-e-producao-indiana-em-alta.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Produção de açúcar da Índia em outubro salta 745% com início antecipado da moagem em Maharashtra",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430686-producao-de-acucar-da-india-em-outubro-salta-745-com-inicio-antecipado-da-moagem-em-maharashtra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "ORPLANA defende políticas públicas para produtores independentes de cana-de-açúcar de todo o país",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430680-orplana-defende-politicas-publicas-para-produtores-independentes-de-cana-de-acucar-de-todo-o-pais.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar amplia perdas em Nova York no início de novembro, apesar de preocupações com a oferta global",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430675-acucar-amplia-perdas-em-nova-york-no-inicio-de-novembro-apesar-de-preocupacoes-com-a-oferta-global.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em queda e acumula perda de 4% na semana em Nova Iorque",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2251,46 +2283,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430564-producao-de-acucar-no-centro-sul-despenca-27-na-primeira-quinzena-de-outubro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "El Niño, fundos especulativos e perdas de safra elevam incertezas no mercado global de açúcar",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430500-el-nino-fundos-especulativos-e-perdas-de-safra-elevam-incertezas-no-mercado-global-de-acucar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar sobe nas bolsas com queda na produção do Brasil",
-          "tema": "Safra",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430497-acucar-sobe-nas-bolsas-com-queda-na-producao-do-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Produção de açúcar do centro-sul recua 27% na 1ª quinzena de outubro, aponta ministério",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430494-producao-de-acucar-do-centro-sul-recua-27-na-1a-quinzena-de-outubro-aponta-ministerio.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Câmara aprova auxílio de R$ 270 milhões para produtores de cana do Nordeste",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430491-camara-aprova-auxilio-de-r-270-milhoes-para-produtores-de-cana-do-nordeste.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
       "score_preco": 0.38,
-      "score_noticias": 0.25,
-      "score_combinado": 0.33,
+      "score_noticias": 0.12,
+      "score_combinado": 0.27,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.9% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 129.97) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -2826,6 +2826,46 @@
       "variacao_mes_pct": -1.26,
       "noticias": [
         {
+          "titulo": "Esmagamento de soja nos EUA recua 5% em setembro e estoques de óleo bruto caem mais de 16%, aponta USDA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430697-esmagamento-de-soja-nos-eua-recua-5-em-setembro-e-estoques-de-oleo-bruto-caem-mais-de-16-aponta-usda.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja inicia novembro com perdas superiores a 1% em Chicago, apesar de inspeções de exportação acima de 2,44 milhões de toneladas",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430693-soja-inicia-novembro-com-perdas-superiores-a-1-em-chicago-apesar-de-inspecoes-de-exportacao-acima-de-2-44-milhoes-de-toneladas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja amplia perdas em Chicago nesta segunda-feira e novembro se aproxima dos US$ 12,00, apesar de exportações fortes",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430684-soja-amplia-perdas-em-chicago-nesta-segunda-feira-e-novembro-se-aproxima-dos-us-12-00-apesar-de-exportacoes-fortes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Plantio de soja no Brasil chega a 53%, segundo a AgRural",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430672-plantio-de-soja-no-brasil-chega-a-53-segundo-a-agrural.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja volta a recuar em Chicago no início de novembro, com oferta americana e safra brasileira no radar",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430670-soja-volta-a-recuar-em-chicago-no-inicio-de-novembro-com-oferta-americana-e-safra-brasileira-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Mato Grosso realizou o plantio de soja em quase 90% da área projetada, diz Imea",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2848,46 +2888,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-30",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430625-soja-vira-para-o-positivo-em-chicago-nesta-sexta-feira-e-tenta-interromper-sequencia-de-quatro-quedas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja tenta interromper sequência de quatro quedas em Chicago, mas abre sexta-feira com preços mistos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430601-soja-tenta-interromper-sequencia-de-quatro-quedas-em-chicago-mas-abre-sexta-feira-com-precos-mistos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja fecha em queda pelo quarto dia em Chicago, mas reduz perdas após vendas fortes dos EUA",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430573-soja-fecha-em-queda-pelo-quarto-dia-em-chicago-mas-reduz-perdas-apos-vendas-fortes-dos-eua.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja amplia perdas em Chicago nesta quinta-feira mesmo após vendas superiores a 2,5 milhões de toneladas nos EUA",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430550-soja-amplia-perdas-em-chicago-nesta-quinta-feira-mesmo-apos-vendas-superiores-a-2-5-milhoes-de-toneladas-nos-eua.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Esmagamento de soja em MT cresce 4,74% e registra recorde no acumulado do ano",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430549-esmagamento-de-soja-em-mt-cresce-4-74-e-registra-recorde-no-acumulado-do-ano.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Quarta sessão de perdas pressiona soja em Chicago nesta quinta-feira, com novembro próximo dos US$ 12,20",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430528-quarta-sessao-de-perdas-pressiona-soja-em-chicago-nesta-quinta-feira-com-novembro-proximo-dos-us-12-20.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3430,6 +3430,14 @@
       ],
       "variacao_mes_pct": 2.05,
       "noticias": [
+        {
+          "titulo": "Trigo recupera os US$ 6,00 em Chicago e inicia novembro com pequenas altas, apesar da pressão sobre exportações",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430696-trigo-recupera-os-us-6-00-em-chicago-e-inicia-novembro-com-pequenas-altas-apesar-da-pressao-sobre-exportacoes.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Perdas na safra de trigo paulista agravam desafios para a cadeia produtiva estadual",
           "tema": "Safra",
@@ -4012,6 +4020,22 @@
       "variacao_mes_pct": 1.33,
       "noticias": [
         {
+          "titulo": "Café inicia novembro com altas superiores a 1% em Nova York e Londres, em meio à atenção aos estoques da ICE",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430691-cafe-inicia-novembro-com-altas-superiores-a-1-em-nova-york-e-londres-em-meio-a-atencao-aos-estoques-da-ice.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café dispara mais de 2% no início de novembro e arábica recupera os 290 cents em Nova York",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-02",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430674-cafe-dispara-mais-de-2-no-inicio-de-novembro-e-arabica-recupera-os-290-cents-em-nova-york.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café arábica interrompe sequência de perdas nesta sexta-feira, mas encerra semana com queda de 6,59% em NY",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -4058,22 +4082,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430552-cafe-vira-para-o-positivo-em-nova-york-nesta-quinta-feira-apos-tres-sessoes-de-fortes-perdas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Após perder quase 7% na semana, arábica busca estabilidade em Nova York nesta quinta-feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430532-apos-perder-quase-7-na-semana-arabica-busca-estabilidade-em-nova-york-nesta-quinta-feira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Com expectativa de maior oferta e câmbio no radar, café arábica cai mais de 2% em NY nesta quarta-feira",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430493-com-expectativa-de-maior-oferta-e-cambio-no-radar-cafe-arabica-cai-mais-de-2-em-ny-nesta-quarta-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
