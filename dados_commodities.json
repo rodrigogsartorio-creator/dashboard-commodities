@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-02T17:31:00",
+  "ultima_atualizacao": "2026-11-03T07:50:18",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.4212,
@@ -8,7 +8,7 @@
     "ask": 5.4212
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-02T17:31:00",
+    "ultima_atualizacao": "2026-11-03T07:50:18",
     "noticias": []
   },
   "commodities": {
@@ -1679,7 +1679,16 @@
         }
       ],
       "variacao_mes_pct": 4.36,
-      "noticias": [],
+      "noticias": [
+        {
+          "titulo": "Feijão/Cepea: Preto atinge maior patamar em dois anos",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais/430702-feijao-cepea-preto-atinge-maior-patamar-em-dois-anos.html?utm_source=parceiros&utm_medium=rss"
+        }
+      ],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
@@ -2826,6 +2835,22 @@
       "variacao_mes_pct": -1.26,
       "noticias": [
         {
+          "titulo": "Soja tenta recuperar perdas em Chicago nesta terça-feira, após USDA confirmar avanço da colheita americana",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430708-soja-tenta-recuperar-perdas-em-chicago-nesta-terca-feira-apos-usda-confirmar-avanco-da-colheita-americana.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja/Cepea: Alta do dólar impulsiona preços no Brasil",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430701-soja-cepea-alta-do-dolar-impulsiona-precos-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Esmagamento de soja nos EUA recua 5% em setembro e estoques de óleo bruto caem mais de 16%, aponta USDA",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2872,22 +2897,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-30",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430654-mato-grosso-realizou-o-plantio-de-soja-em-quase-90-da-area-projetada-diz-imea.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja interrompe sequência de quedas em Chicago, mas novembro fecha semana com perda de 2,73%",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430645-soja-interrompe-sequencia-de-quedas-em-chicago-mas-novembro-fecha-semana-com-perda-de-2-73.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja vira para o positivo em Chicago nesta sexta-feira e tenta interromper sequência de quatro quedas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430625-soja-vira-para-o-positivo-em-chicago-nesta-sexta-feira-e-tenta-interromper-sequencia-de-quatro-quedas.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3461,22 +3470,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-27",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430359-trigo-cepea-precos-externos-recuam-mas-oferta-restrita-sustenta-cotacoes-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Brasil deve importar até 10 milhões de toneladas de trigo em 2027",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430217-brasil-deve-importar-ate-10-milhoes-de-toneladas-de-trigo-em-2027.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Com projeção de importação recorde, Congresso Internacional do Trigo debate o futuro do setor",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430168-com-projecao-de-importacao-recorde-congresso-internacional-do-trigo-debate-o-futuro-do-setor.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4020,6 +4013,14 @@
       "variacao_mes_pct": 1.33,
       "noticias": [
         {
+          "titulo": "Café volta a subir nesta terça-feira, com arábica se aproximando dos 300 cents em Nova York",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430710-cafe-volta-a-subir-nesta-terca-feira-com-arabica-se-aproximando-dos-300-cents-em-nova-york.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café inicia novembro com altas superiores a 1% em Nova York e Londres, em meio à atenção aos estoques da ICE",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -4074,14 +4075,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-29",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430567-brasil-conhecera-seus-melhores-cafes-especiais-da-especie-arabica-no-proximo-sabado.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café vira para o positivo em Nova York nesta quinta-feira após três sessões de fortes perdas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430552-cafe-vira-para-o-positivo-em-nova-york-nesta-quinta-feira-apos-tres-sessoes-de-fortes-perdas.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4105,6 +4098,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-11-03",
+          "valor": 2.6545,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-11-02",
           "valor": 2.6545,
           "variacao_pct": 0.0
@@ -4123,14 +4121,14 @@
           "data": "2026-10-28",
           "valor": 2.6545,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-10-27",
-          "valor": 2.6545,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-03",
+          "valor": 2.6545,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-02",
           "valor": 2.6545,
