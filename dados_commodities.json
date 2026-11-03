@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-03T07:50:18",
+  "ultima_atualizacao": "2026-11-03T15:04:57",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.4212,
-    "variacao_pct": 0.87,
-    "bid": 5.4212,
-    "ask": 5.4212
+    "valor": 5.4935,
+    "variacao_pct": 1.33,
+    "bid": 5.4935,
+    "ask": 5.4935
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-03T07:50:18",
+    "ultima_atualizacao": "2026-11-03T15:04:57",
     "noticias": []
   },
   "commodities": {
@@ -2230,6 +2230,14 @@
       "variacao_mes_pct": 5.87,
       "noticias": [
         {
+          "titulo": "Açúcar cai nas bolsas e atinge menor nível em cinco semanas em Nova Iorque",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430749-acucar-cai-nas-bolsas-e-atinge-menor-nivel-em-cinco-semanas-em-nova-iorque.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar cai mais de 1% em Nova York e Londres com petróleo em forte baixa e produção indiana em alta",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2268,14 +2276,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-30",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430649-acucar-fecha-em-queda-e-acumula-perda-de-4-na-semana-em-nova-iorque.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Preços internacionais do açúcar escalam máximas de 19 meses em outubro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-10-30",
-          "url": "https://safras.com.br/precos-internacionais-do-acucar-escalam-maximas-de-19-meses-em-outubro/"
         },
         {
           "titulo": "Açúcar sobe nas bolsas com quebra na moagem e chuvas no Brasil",
@@ -2835,6 +2835,30 @@
       "variacao_mes_pct": -1.26,
       "noticias": [
         {
+          "titulo": "Soja reverte ganhos e volta a cair em Chicago, mesmo após USDA anunciar novas vendas para exportação",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430741-soja-reverte-ganhos-e-volta-a-cair-em-chicago-mesmo-apos-usda-anunciar-novas-vendas-para-exportacao.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "StoneX eleva previsão de safra de soja 26/27 do Brasil para 184,95 mi t",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430732-stonex-eleva-previsao-de-safra-de-soja-2627-do-brasil-para-18495-mi-t.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja 2026/27 passa da metade da área semeada e segue acima do ritmo histórico",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430714-soja-2026-27-passa-da-metade-da-area-semeada-e-segue-acima-do-ritmo-historico.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja tenta recuperar perdas em Chicago nesta terça-feira, após USDA confirmar avanço da colheita americana",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2873,30 +2897,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-02",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430684-soja-amplia-perdas-em-chicago-nesta-segunda-feira-e-novembro-se-aproxima-dos-us-12-00-apesar-de-exportacoes-fortes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Plantio de soja no Brasil chega a 53%, segundo a AgRural",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430672-plantio-de-soja-no-brasil-chega-a-53-segundo-a-agrural.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja volta a recuar em Chicago no início de novembro, com oferta americana e safra brasileira no radar",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430670-soja-volta-a-recuar-em-chicago-no-inicio-de-novembro-com-oferta-americana-e-safra-brasileira-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mato Grosso realizou o plantio de soja em quase 90% da área projetada, diz Imea",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430654-mato-grosso-realizou-o-plantio-de-soja-em-quase-90-da-area-projetada-diz-imea.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4013,6 +4013,22 @@
       "variacao_mes_pct": 1.33,
       "noticias": [
         {
+          "titulo": "Café despenca mais de 3% em Nova York nesta terça-feira e devolve recuperação dos últimos pregões",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430743-cafe-despenca-mais-de-3-em-nova-york-nesta-terca-feira-e-devolve-recuperacao-dos-ultimos-pregoes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Exportações de café do Vietnã aumentam 18,8% no ano até outubro",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-03",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430737-exportacoes-de-cafe-do-vietna-aumentam-188-no-ano-ate-outubro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café volta a subir nesta terça-feira, com arábica se aproximando dos 300 cents em Nova York",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -4059,22 +4075,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-30",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430603-arabica-volta-a-cair-em-nova-york-nesta-sexta-feira-e-caminha-para-quinta-perda-consecutiva-robusta-sobe-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Arábica acumula queda de mais de 7% em quatro sessões e café fecha quinta-feira com preços mistos em Nova York",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430572-arabica-acumula-queda-de-mais-de-7-em-quatro-sessoes-e-cafe-fecha-quinta-feira-com-precos-mistos-em-nova-york.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Brasil conhecerá seus melhores cafés especiais da espécie arábica no próximo sábado",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-29",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430567-brasil-conhecera-seus-melhores-cafes-especiais-da-especie-arabica-no-proximo-sabado.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
