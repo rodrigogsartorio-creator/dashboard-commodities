@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-05T07:50:19",
+  "ultima_atualizacao": "2026-11-05T15:20:12",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.4778,
+    "valor": 5.4621,
     "variacao_pct": -0.29,
-    "bid": 5.4778,
-    "ask": 5.4778
+    "bid": 5.4621,
+    "ask": 5.4621
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-05T07:50:19",
+    "ultima_atualizacao": "2026-11-05T15:20:12",
     "noticias": []
   },
   "commodities": {
@@ -549,6 +549,30 @@
       "variacao_mes_pct": -1.31,
       "noticias": [
         {
+          "titulo": "Semeadura do arroz irrigado alcança 75,70% da área prevista no Rio Grande do Sul.",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-05",
+          "url": "https://planetaarroz.com.br/semeadura-do-arroz-irrigado-alcanca-7570-da-area-prevista-no-rio-grande-do-sul/"
+        },
+        {
+          "titulo": "Área plantada com arroz encolhe 51% e produção recua em Mato Grosso",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-05",
+          "url": "https://planetaarroz.com.br/area-plantada-com-arroz-encolhe-51-e-producao-recua-em-mato-grosso/"
+        },
+        {
+          "titulo": "Preço médio do arroz em outubro foi o maior desde fevereiro de 25",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-05",
+          "url": "https://planetaarroz.com.br/media-de-outubro-e-a-maior-desde-fev-25/"
+        },
+        {
           "titulo": "Arroz/Cepea: Média de outubro é a maior desde fev/25",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -587,38 +611,14 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-31",
           "url": "https://planetaarroz.com.br/tradicao-a-mesa-forca-no-campo-e-desafios-para-a-producao-brasileira-de-arroz/"
-        },
-        {
-          "titulo": "Retenção dos produtores limita oferta de arroz, mas demanda fraca impede recuperação dos preços em outubro",
-          "tema": "Oferta & Demanda",
-          "impacto": "queda",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-31",
-          "url": "https://planetaarroz.com.br/retencao-dos-produtores-limita-oferta-de-arroz-mas-demanda-fraca-impede-recuperacao-dos-precos-em-outubro/"
-        },
-        {
-          "titulo": "Argentina avança no plantio da soja com boa umidade do solo; milho e arroz evoluem à frente de 2025",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-30",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/430580-argentina-avanca-no-plantio-da-soja-com-boa-umidade-do-solo-milho-e-arroz-evoluem-a-frente-de-2025.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Semeadura do arroz irrigado alcança 61,86% da área prevista no Rio Grande do Sul",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-30",
-          "url": "https://planetaarroz.com.br/semeadura-do-arroz-irrigado-alcanca-6186-da-area-prevista-no-rio-grande-do-sul/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.01,
-      "score_noticias": -0.12,
-      "score_combinado": -0.06,
+      "score_noticias": 0.0,
+      "score_combinado": -0.01,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.0% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
@@ -2263,6 +2263,22 @@
       "variacao_mes_pct": 3.97,
       "noticias": [
         {
+          "titulo": "Mix açucareiro deve chegar a 49,5% em 2027/28 e impulsionar produção de açúcar no Centro-Sul, estima Rabobank",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430900-mix-acucareiro-deve-chegar-a-49-5-em-2027-28-e-impulsionar-producao-de-acucar-no-centro-sul-estima-rabobank.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar: contratos futuros em Nova Iorque podem recuar para 15 centavos de dólar, aponta analista",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430886-acucar-contratos-futuros-em-nova-iorque-podem-recuar-para-15-centavos-de-dolar-aponta-analista.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em direções opostas com queda do petróleo e recuo do dólar",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -2309,22 +2325,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430754-tres-usinas-de-alagoas-mantem-preco-do-atr-de-setembro-para-aliviar-perdas-dos-fornecedores-de-cana.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar cai nas bolsas e atinge menor nível em cinco semanas em Nova Iorque",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430749-acucar-cai-nas-bolsas-e-atinge-menor-nivel-em-cinco-semanas-em-nova-iorque.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar cai mais de 1% em Nova York e Londres com petróleo em forte baixa e produção indiana em alta",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430694-acucar-cai-mais-de-1-em-nova-york-e-londres-com-petroleo-em-forte-baixa-e-producao-indiana-em-alta.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2878,6 +2878,22 @@
       "variacao_mes_pct": 0.05,
       "noticias": [
         {
+          "titulo": "Soja mantém leves altas em Chicago nesta quinta-feira; mercado acompanha demanda americana",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430885-soja-mantem-leves-altas-em-chicago-nesta-quinta-feira-mercado-acompanha-demanda-americana.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja tenta recuperação em Chicago nesta quinta-feira após três sessões de perdas; mercado aguarda vendas do USDA",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430866-soja-tenta-recuperacao-em-chicago-nesta-quinta-feira-apos-tres-sessoes-de-perdas-mercado-aguarda-vendas-do-usda.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja acumula 3ª queda seguida em Chicago e janeiro se aproxima dos US$ 12,00 nesta 4ª feira com pressão das expectativas de oferta",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -2924,22 +2940,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430765-soja-fecha-em-queda-pelo-2-dia-em-chicago-mesmo-com-novas-vendas-dos-eua-stone-x-eleva-projecao-da-safra-brasileira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja reverte ganhos e volta a cair em Chicago, mesmo após USDA anunciar novas vendas para exportação",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430741-soja-reverte-ganhos-e-volta-a-cair-em-chicago-mesmo-apos-usda-anunciar-novas-vendas-para-exportacao.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "StoneX eleva previsão de safra de soja 26/27 do Brasil para 184,95 mi t",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430732-stonex-eleva-previsao-de-safra-de-soja-2627-do-brasil-para-18495-mi-t.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4092,6 +4092,30 @@
       "variacao_mes_pct": 2.05,
       "noticias": [
         {
+          "titulo": "Café volta a cair em Nova York nesta 5ª feira, enquanto robusta mantém ganhos em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430889-cafe-volta-a-cair-em-nova-york-nesta-5-feira-enquanto-robusta-mantem-ganhos-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Preços de café no Vietnã caem ainda mais com nova safra",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430894-precos-de-cafe-no-vietna-caem-ainda-mais-com-nova-safra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café tenta recuperação em Nova York nesta quinta-feira, enquanto robusta sobe mais de 1,6% em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430869-cafe-tenta-recuperacao-em-nova-york-nesta-quinta-feira-enquanto-robusta-sobe-mais-de-1-6-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café/Cepea: Preços internos e externos do arábica oscilam com força",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -4130,30 +4154,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-04",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430793-cafe-amplia-perdas-em-nova-york-e-arabica-se-aproxima-dos-280-cents-robusta-tenta-recuperacao-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café cai quase 3% nesta terça-feira em Nova York com pressão do câmbio brasileiro, apesar de estoques reduzidos",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430759-cafe-cai-quase-3-nesta-terca-feira-em-nova-york-com-pressao-do-cambio-brasileiro-apesar-de-estoques-reduzidos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café despenca mais de 3% em Nova York nesta terça-feira e devolve recuperação dos últimos pregões",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430743-cafe-despenca-mais-de-3-em-nova-york-nesta-terca-feira-e-devolve-recuperacao-dos-ultimos-pregoes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Exportações de café do Vietnã aumentam 18,8% no ano até outubro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430737-exportacoes-de-cafe-do-vietna-aumentam-188-no-ano-ate-outubro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
