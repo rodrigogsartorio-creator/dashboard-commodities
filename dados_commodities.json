@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-06T07:50:19",
+  "ultima_atualizacao": "2026-11-06T14:42:15",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.4621,
-    "variacao_pct": -0.29,
-    "bid": 5.4621,
-    "ask": 5.4621
+    "valor": 5.5013,
+    "variacao_pct": 0.72,
+    "bid": 5.5013,
+    "ask": 5.5013
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-06T07:50:19",
+    "ultima_atualizacao": "2026-11-06T14:42:15",
     "noticias": []
   },
   "commodities": {
@@ -554,6 +554,14 @@
       "variacao_mes_pct": -2.04,
       "noticias": [
         {
+          "titulo": "Câmbio e Chicago sustentam, mas ainda não destravam mercado brasileiro de arroz",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-06",
+          "url": "https://planetaarroz.com.br/cambio-e-chicago-sustentam-mas-ainda-nao-destravam-mercado-brasileiro-de-arroz/"
+        },
+        {
           "titulo": "Semeadura do arroz irrigado alcança 75,70% da área prevista no Rio Grande do Sul.",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -608,14 +616,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-31",
           "url": "https://planetaarroz.com.br/o-que-mantem-o-arroz-na-mesa-dos-brasileiros/"
-        },
-        {
-          "titulo": "Tradição à mesa, força no campo e desafios para a produção brasileira de arroz",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-31",
-          "url": "https://planetaarroz.com.br/tradicao-a-mesa-forca-no-campo-e-desafios-para-a-producao-brasileira-de-arroz/"
         }
       ],
       "safra_noticias": [],
@@ -2283,6 +2283,14 @@
       "variacao_mes_pct": 5.23,
       "noticias": [
         {
+          "titulo": "Line up aponta exportação de 1,5 mi t de açúcar",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-11-06",
+          "url": "https://safras.com.br/line-up-aponta-exportacao-de-15-mi-t-de-acucar/"
+        },
+        {
           "titulo": "Açúcar fecha em alta nas bolsas com dólar fraco e recuperação do petróleo",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -2337,14 +2345,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430763-acucar-desaba-nas-bolsas-e-contrato-em-nova-iorque-cai-ao-menor-nivel-em-cinco-semanas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "ORPLANA cobra apoio federal também para produtores de cana do Centro-Sul",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430755-orplana-cobra-apoio-federal-tambem-para-produtores-de-cana-do-centro-sul.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2903,6 +2903,30 @@
       "variacao_mes_pct": 1.84,
       "noticias": [
         {
+          "titulo": "Soja opera em direções diferentes em Chicago nesta sexta-feira, com janeiro ainda abaixo dos US$ 12,00",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430956-soja-opera-em-direcoes-diferentes-em-chicago-nesta-sexta-feira-com-janeiro-ainda-abaixo-dos-us-12-00.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja oscila perto da estabilidade em Chicago nesta sexta-feira, com janeiro ainda abaixo dos US$ 12,00",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430940-soja-oscila-perto-da-estabilidade-em-chicago-nesta-sexta-feira-com-janeiro-ainda-abaixo-dos-us-12-00.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Importações de soja pela China em 2026/27 estimadas em 110 mi t, diz adido do USDA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430938-importacoes-de-soja-pela-china-em-202627-estimadas-em-110-mi-t-diz-adido-do-usda.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja mantém leves altas em Chicago nesta quinta-feira; mercado acompanha demanda americana",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -2941,30 +2965,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-04",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430808-rabobank-ve-queda-na-safra-e-na-exportacao-de-soja-do-brasil-em-202627.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "USDA anuncia venda de 167 mil toneladas de soja dos EUA para a Espanha",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430806-usda-anuncia-venda-de-167-mil-toneladas-de-soja-dos-eua-para-a-espanha.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja amplia perdas em Chicago nesta quarta-feira e janeiro se aproxima dos US$ 12,00 com novas projeções de oferta",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430791-soja-amplia-perdas-em-chicago-nesta-quarta-feira-e-janeiro-se-aproxima-dos-us-12-00-com-novas-projecoes-de-oferta.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja fecha em queda pelo 2ºdia em Chicago, mesmo com novas vendas dos EUA; StoneX eleva projeção da safra brasileira",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430765-soja-fecha-em-queda-pelo-2-dia-em-chicago-mesmo-com-novas-vendas-dos-eua-stone-x-eleva-projecao-da-safra-brasileira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3523,6 +3523,14 @@
       "variacao_mes_pct": 2.18,
       "noticias": [
         {
+          "titulo": "Trigo abre a sexta-feira com desvalorização de 1,5% em Chicago com diversos fatores negativos pesando",
+          "tema": "Mercado",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430942-trigo-abre-a-sexta-feira-com-desvalorizacao-de-1-5-em-chicago-com-diversos-fatores-negativos-pesando.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo/Cepea: Baixa oferta de grão de qualidade e dólar elevam preços no BR",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -3575,8 +3583,8 @@
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": -0.2,
-      "score_noticias": 0.0,
-      "score_combinado": -0.12,
+      "score_noticias": 0.14,
+      "score_combinado": -0.06,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.6% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.69) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -4127,6 +4135,22 @@
       "variacao_mes_pct": 2.23,
       "noticias": [
         {
+          "titulo": "Café amplia recuperação nesta sexta-feira, com arábica próximo dos 280 cents em Nova York e robusta em alta",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430958-cafe-amplia-recuperacao-nesta-sexta-feira-com-arabica-proximo-dos-280-cents-em-nova-york-e-robusta-em-alta.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café tenta recuperação em Nova York após três quedas consecutivas, enquanto robusta amplia ganhos em Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430943-cafe-tenta-recuperacao-em-nova-york-apos-tres-quedas-consecutivas-enquanto-robusta-amplia-ganhos-em-londres.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café acumula 3ª queda seguida em Nova York e fecha nos 277 cents; robusta sobe em Londres nesta quinta-feira",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -4173,22 +4197,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-04",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430852-producao-de-cafe-da-america-central-e-do-mexico-deve-cair-93-em-202627-afirma-corretora.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café fecha abaixo dos 280 cents em Nova York nesta 4ªfeira com perspectiva de exportações brasileiras maiores; robusta sobe em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430839-cafe-fecha-abaixo-dos-280-cents-em-nova-york-nesta-4-feira-com-perspectiva-de-exportacoes-brasileiras-maiores-robusta-sobe-em-londres.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café reduz perdas em Nova York, enquanto robusta amplia ganhos em Londres nesta quarta-feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430820-cafe-reduz-perdas-em-nova-york-enquanto-robusta-amplia-ganhos-em-londres-nesta-quarta-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
