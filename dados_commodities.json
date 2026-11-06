@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-05T15:20:12",
+  "ultima_atualizacao": "2026-11-06T07:50:19",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.4621,
@@ -8,7 +8,7 @@
     "ask": 5.4621
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-05T15:20:12",
+    "ultima_atualizacao": "2026-11-06T07:50:19",
     "noticias": []
   },
   "commodities": {
@@ -18,6 +18,11 @@
       "fonte_primaria": "CEPEA/IRGA-RS via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-05",
+          "valor": 81.16,
+          "variacao_pct": -1.04
+        },
         {
           "data": "2026-11-04",
           "valor": 82.01,
@@ -37,14 +42,14 @@
           "data": "2026-10-29",
           "valor": 82.4,
           "variacao_pct": 0.33
-        },
-        {
-          "data": "2026-10-28",
-          "valor": 82.13,
-          "variacao_pct": -0.18
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-05",
+          "valor": 81.16,
+          "variacao_pct": -1.04
+        },
         {
           "data": "2026-11-04",
           "valor": 82.01,
@@ -546,7 +551,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -1.31,
+      "variacao_mes_pct": -2.04,
       "noticias": [
         {
           "titulo": "Semeadura do arroz irrigado alcança 75,70% da área prevista no Rio Grande do Sul.",
@@ -615,12 +620,12 @@
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
-      "tendencia_media": "estavel",
-      "score_preco": -0.01,
+      "tendencia_media": "queda",
+      "score_preco": -0.45,
       "score_noticias": 0.0,
-      "score_combinado": -0.01,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.0% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
+      "score_combinado": -0.27,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.4% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Tendência de queda no médio prazo (90-360 dias).</li><li>Negocie contratos e evite fixar preços altos por longos períodos.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 58.98,
       "resistencia": 83.22,
@@ -633,6 +638,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-05",
+          "valor": 312.86,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-04",
           "valor": 312.86,
@@ -652,14 +662,14 @@
           "data": "2026-10-29",
           "valor": 312.5,
           "variacao_pct": 7.34
-        },
-        {
-          "data": "2026-10-28",
-          "valor": 291.12,
-          "variacao_pct": 0.64
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-05",
+          "valor": 312.86,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-04",
           "valor": 312.86,
@@ -1156,16 +1166,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 0.46,
+      "variacao_mes_pct": 8.2,
       "noticias": [],
       "safra_noticias": [],
       "tendencia_curta": "alta",
-      "tendencia_media": "estavel",
+      "tendencia_media": "alta",
       "score_preco": 1.0,
       "score_noticias": 0.0,
       "score_combinado": 0.6,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 5.8% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 8.2% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 240.89,
       "resistencia": 354.9,
@@ -1178,6 +1188,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-05",
+          "valor": 290.37,
+          "variacao_pct": 1.3
+        },
         {
           "data": "2026-11-04",
           "valor": 286.64,
@@ -1197,14 +1212,14 @@
           "data": "2026-10-29",
           "valor": 287.83,
           "variacao_pct": 0.53
-        },
-        {
-          "data": "2026-10-28",
-          "valor": 286.32,
-          "variacao_pct": 0.39
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-05",
+          "valor": 290.37,
+          "variacao_pct": 1.3
+        },
         {
           "data": "2026-11-04",
           "valor": 286.64,
@@ -1701,7 +1716,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 2.38,
+      "variacao_mes_pct": 4.48,
       "noticias": [
         {
           "titulo": "Feijão/Cepea: Preto atinge maior patamar em dois anos",
@@ -1717,12 +1732,12 @@
       "tendencia_media": "alta",
       "score_preco": 0.36,
       "score_noticias": 0.0,
-      "score_combinado": 0.21,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.8% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 289.25) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.22,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.8% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 290.37) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 211.63,
-      "resistencia": 289.25,
+      "resistencia": 290.37,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -1732,6 +1747,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-05",
+          "valor": 128.99,
+          "variacao_pct": 1.04
+        },
         {
           "data": "2026-11-04",
           "valor": 127.66,
@@ -1751,14 +1771,14 @@
           "data": "2026-10-29",
           "valor": 129.97,
           "variacao_pct": 0.96
-        },
-        {
-          "data": "2026-10-28",
-          "valor": 128.74,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-05",
+          "valor": 128.99,
+          "variacao_pct": 1.04
+        },
         {
           "data": "2026-11-04",
           "valor": 127.66,
@@ -2260,8 +2280,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 3.97,
+      "variacao_mes_pct": 5.23,
       "noticias": [
+        {
+          "titulo": "Açúcar fecha em alta nas bolsas com dólar fraco e recuperação do petróleo",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430910-acucar-fecha-em-alta-nas-bolsas-com-dolar-fraco-e-recuperacao-do-petroleo.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Mix açucareiro deve chegar a 49,5% em 2027/28 e impulsionar produção de açúcar no Centro-Sul, estima Rabobank",
           "tema": "Safra",
@@ -2317,23 +2345,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430755-orplana-cobra-apoio-federal-tambem-para-produtores-de-cana-do-centro-sul.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Três usinas de Alagoas mantêm preço do ATR de setembro para aliviar perdas dos fornecedores de cana",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430754-tres-usinas-de-alagoas-mantem-preco-do-atr-de-setembro-para-aliviar-perdas-dos-fornecedores-de-cana.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": 0.16,
+      "score_preco": 0.06,
       "score_noticias": 0.0,
-      "score_combinado": 0.1,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.5% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 129.97) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.04,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 129.97) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 90.72,
@@ -2347,6 +2367,11 @@
       "fonte_primaria": "CEPEA/Paranaguá via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-05",
+          "valor": 158.53,
+          "variacao_pct": 0.23
+        },
         {
           "data": "2026-11-04",
           "valor": 158.17,
@@ -2366,14 +2391,14 @@
           "data": "2026-10-29",
           "valor": 158.28,
           "variacao_pct": 0.55
-        },
-        {
-          "data": "2026-10-28",
-          "valor": 157.42,
-          "variacao_pct": 0.01
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-05",
+          "valor": 158.53,
+          "variacao_pct": 0.23
+        },
         {
           "data": "2026-11-04",
           "valor": 158.17,
@@ -2875,7 +2900,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 0.05,
+      "variacao_mes_pct": 1.84,
       "noticias": [
         {
           "titulo": "Soja mantém leves altas em Chicago nesta quinta-feira; mercado acompanha demanda americana",
@@ -2943,13 +2968,13 @@
         }
       ],
       "safra_noticias": [],
-      "tendencia_curta": "alta",
-      "tendencia_media": "estavel",
-      "score_preco": 0.34,
+      "tendencia_curta": "estavel",
+      "tendencia_media": "alta",
+      "score_preco": 0.24,
       "score_noticias": 0.0,
-      "score_combinado": 0.2,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.7% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 162.02) — zona de pressão vendedora; possível correção à frente.</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
+      "score_combinado": 0.14,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.7% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 162.02) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 162.02,
@@ -2962,6 +2987,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-05",
+          "valor": 93.6126,
+          "variacao_pct": -0.43
+        },
         {
           "data": "2026-11-04",
           "valor": 94.0128,
@@ -2981,14 +3011,14 @@
           "data": "2026-10-29",
           "valor": 94.6872,
           "variacao_pct": 0.43
-        },
-        {
-          "data": "2026-10-28",
-          "valor": 94.278,
-          "variacao_pct": 0.11
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-05",
+          "valor": 93.6126,
+          "variacao_pct": -0.43
+        },
         {
           "data": "2026-11-04",
           "valor": 94.0128,
@@ -3490,7 +3520,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 1.0,
+      "variacao_mes_pct": 2.18,
       "noticias": [
         {
           "titulo": "Trigo/Cepea: Baixa oferta de grão de qualidade e dólar elevam preços no BR",
@@ -3543,12 +3573,12 @@
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
-      "tendencia_media": "estavel",
-      "score_preco": 0.07,
+      "tendencia_media": "alta",
+      "score_preco": -0.2,
       "score_noticias": 0.0,
-      "score_combinado": 0.04,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.69) — zona de pressão vendedora; possível correção à frente.</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
+      "score_combinado": -0.12,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.6% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.69) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 80.739,
       "resistencia": 94.6872,
@@ -3561,6 +3591,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-05",
+          "valor": 1603.86,
+          "variacao_pct": 0.19
+        },
         {
           "data": "2026-11-04",
           "valor": 1600.77,
@@ -3580,14 +3615,14 @@
           "data": "2026-10-29",
           "valor": 1590.72,
           "variacao_pct": -0.2
-        },
-        {
-          "data": "2026-10-28",
-          "valor": 1593.89,
-          "variacao_pct": -1.01
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-05",
+          "valor": 1603.86,
+          "variacao_pct": 0.19
+        },
         {
           "data": "2026-11-04",
           "valor": 1600.77,
@@ -4089,8 +4124,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 2.05,
+      "variacao_mes_pct": 2.23,
       "noticias": [
+        {
+          "titulo": "Café acumula 3ª queda seguida em Nova York e fecha nos 277 cents; robusta sobe em Londres nesta quinta-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-05",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430909-cafe-acumula-3-queda-seguida-em-nova-york-e-fecha-nos-277-cents-robusta-sobe-em-londres-nesta-quinta-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Café volta a cair em Nova York nesta 5ª feira, enquanto robusta mantém ganhos em Londres",
           "tema": "Mercado",
@@ -4146,23 +4189,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-04",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430820-cafe-reduz-perdas-em-nova-york-enquanto-robusta-amplia-ganhos-em-londres-nesta-quarta-feira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café amplia perdas em Nova York e arábica se aproxima dos 280 cents; robusta tenta recuperação em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430793-cafe-amplia-perdas-em-nova-york-e-arabica-se-aproxima-dos-280-cents-robusta-tenta-recuperacao-em-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
-      "tendencia_curta": "queda",
+      "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": -0.33,
+      "score_preco": -0.13,
       "score_noticias": 0.0,
-      "score_combinado": -0.2,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em queda de 1.6% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
+      "score_combinado": -0.08,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.4% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 1427.63,
@@ -4176,6 +4211,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-06",
+          "valor": 2.6544,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-05",
           "valor": 2.6544,
@@ -4195,14 +4235,14 @@
           "data": "2026-11-02",
           "valor": 2.6545,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-10-30",
-          "valor": 2.6545,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-06",
+          "valor": 2.6544,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-05",
           "valor": 2.6544,
@@ -4675,24 +4715,7 @@
         }
       ],
       "variacao_mes_pct": -0.0,
-      "noticias": [
-        {
-          "titulo": "Chuvas acendem alerta para doenças em vacas leiteiras; perdas podem chegar a 98% da margem bruta",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/leite/430302-chuvas-acendem-alerta-para-doencas-em-vacas-leiteiras-perdas-podem-chegar-a-98-da-margem-bruta.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mercado do leite pressionado com maior oferta e importações; queda no spot acende alerta para produtores",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-26",
-          "url": "https://www.noticiasagricolas.com.br/noticias/leite/430290-mercado-do-leite-pressionado-com-maior-oferta-e-importacoes-queda-no-spot-acende-alerta-para-produtores.html?utm_source=parceiros&utm_medium=rss"
-        }
-      ],
+      "noticias": [],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
