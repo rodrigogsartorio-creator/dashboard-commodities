@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-06T14:42:15",
+  "ultima_atualizacao": "2026-11-09T07:50:19",
   "status_coleta": "ok",
   "dolar": {
     "valor": 5.5013,
@@ -8,7 +8,7 @@
     "ask": 5.5013
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-06T14:42:15",
+    "ultima_atualizacao": "2026-11-09T07:50:19",
     "noticias": []
   },
   "commodities": {
@@ -18,6 +18,11 @@
       "fonte_primaria": "CEPEA/IRGA-RS via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-06",
+          "valor": 81.01,
+          "variacao_pct": -0.18
+        },
         {
           "data": "2026-11-05",
           "valor": 81.16,
@@ -37,14 +42,14 @@
           "data": "2026-10-30",
           "valor": 82.2,
           "variacao_pct": -0.24
-        },
-        {
-          "data": "2026-10-29",
-          "valor": 82.4,
-          "variacao_pct": 0.33
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-06",
+          "valor": 81.01,
+          "variacao_pct": -0.18
+        },
         {
           "data": "2026-11-05",
           "valor": 81.16,
@@ -551,8 +556,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -2.04,
+      "variacao_mes_pct": -1.78,
       "noticias": [
+        {
+          "titulo": "Banco CEAGESP de Alimentos recebe cerca de 40 toneladas de arroz da Conab",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-07",
+          "url": "https://planetaarroz.com.br/banco-ceagesp-de-alimentos-recebe-cerca-de-40-toneladas-de-arroz-da-conab/"
+        },
         {
           "titulo": "Câmbio e Chicago sustentam, mas ainda não destravam mercado brasileiro de arroz",
           "tema": "Câmbio",
@@ -608,14 +621,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-10-31",
           "url": "https://planetaarroz.com.br/custo-de-producao-logistica-e-armazenamento-desafiam-a-producao-de-arroz-em-mato-grosso/"
-        },
-        {
-          "titulo": "O que mantém o arroz na mesa dos brasileiros",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-10-31",
-          "url": "https://planetaarroz.com.br/o-que-mantem-o-arroz-na-mesa-dos-brasileiros/"
         }
       ],
       "safra_noticias": [],
@@ -639,6 +644,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-11-06",
+          "valor": 312.86,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-11-05",
           "valor": 312.86,
           "variacao_pct": 0.0
@@ -657,14 +667,14 @@
           "data": "2026-10-30",
           "valor": 312.5,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-10-29",
-          "valor": 312.5,
-          "variacao_pct": 7.34
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-06",
+          "valor": 312.86,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-05",
           "valor": 312.86,
@@ -1174,7 +1184,7 @@
       "score_preco": 1.0,
       "score_noticias": 0.0,
       "score_combinado": 0.6,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 8.2% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 7.5% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 240.89) e resistência (R$ 354.90).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "comprar",
       "suporte": 240.89,
@@ -1188,6 +1198,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-06",
+          "valor": 294.63,
+          "variacao_pct": 1.47
+        },
         {
           "data": "2026-11-05",
           "valor": 290.37,
@@ -1207,14 +1222,14 @@
           "data": "2026-10-30",
           "valor": 286.99,
           "variacao_pct": -0.29
-        },
-        {
-          "data": "2026-10-29",
-          "valor": 287.83,
-          "variacao_pct": 0.53
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-06",
+          "valor": 294.63,
+          "variacao_pct": 1.47
+        },
         {
           "data": "2026-11-05",
           "valor": 290.37,
@@ -1716,8 +1731,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 4.48,
+      "variacao_mes_pct": 5.79,
       "noticias": [
+        {
+          "titulo": "Feijão/Cepea: Cotações do preto seguem em alta; chuvas preocupam no Paraná",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais/430999-feijao-cepea-cotacoes-do-preto-seguem-em-alta-chuvas-preocupam-no-parana.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Feijão/Cepea: Preto atinge maior patamar em dois anos",
           "tema": "Mercado",
@@ -1730,14 +1753,14 @@
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
-      "score_preco": 0.36,
+      "score_preco": 0.58,
       "score_noticias": 0.0,
-      "score_combinado": 0.22,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 1.8% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 290.37) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.35,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 2.9% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 294.63) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "aguardar",
+      "recomendacao": "comprar",
       "suporte": 211.63,
-      "resistencia": 290.37,
+      "resistencia": 294.63,
       "red_flags": [],
       "insight_gerado_por": "regras"
     },
@@ -1747,6 +1770,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-06",
+          "valor": 129.58,
+          "variacao_pct": 0.46
+        },
         {
           "data": "2026-11-05",
           "valor": 128.99,
@@ -1766,14 +1794,14 @@
           "data": "2026-10-30",
           "valor": 128.35,
           "variacao_pct": -1.25
-        },
-        {
-          "data": "2026-10-29",
-          "valor": 129.97,
-          "variacao_pct": 0.96
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-06",
+          "valor": 129.58,
+          "variacao_pct": 0.46
+        },
         {
           "data": "2026-11-05",
           "valor": 128.99,
@@ -2280,8 +2308,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 5.23,
+      "variacao_mes_pct": 5.71,
       "noticias": [
+        {
+          "titulo": "Açúcar fecha em queda em Nova Iorque e renova mínima de cinco semanas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430977-acucar-fecha-em-queda-em-nova-iorque-e-renova-minima-de-cinco-semanas.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Line up aponta exportação de 1,5 mi t de açúcar",
           "tema": "Oferta & Demanda",
@@ -2337,23 +2373,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-04",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430781-acucar-cepea-dolar-reforca-movimento-de-alta-no-preco-do-cristal.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar desaba nas bolsas e contrato em Nova Iorque cai ao menor nível em cinco semanas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-03",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430763-acucar-desaba-nas-bolsas-e-contrato-em-nova-iorque-cai-ao-menor-nivel-em-cinco-semanas.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": 0.06,
+      "score_preco": 0.22,
       "score_noticias": 0.0,
-      "score_combinado": 0.04,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 129.97) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": 0.13,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.7% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 129.97) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 90.72,
@@ -2367,6 +2395,11 @@
       "fonte_primaria": "CEPEA/Paranaguá via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-06",
+          "valor": 158.52,
+          "variacao_pct": -0.01
+        },
         {
           "data": "2026-11-05",
           "valor": 158.53,
@@ -2386,14 +2419,14 @@
           "data": "2026-10-30",
           "valor": 158.88,
           "variacao_pct": 0.38
-        },
-        {
-          "data": "2026-10-29",
-          "valor": 158.28,
-          "variacao_pct": 0.55
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-06",
+          "valor": 158.52,
+          "variacao_pct": -0.01
+        },
         {
           "data": "2026-11-05",
           "valor": 158.53,
@@ -2900,8 +2933,48 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 1.84,
+      "variacao_mes_pct": 3.0,
       "noticias": [
+        {
+          "titulo": "Soja sobe em Chicago nesta 2ª (9), com China e USDA no radar; oferta recorde limita ganhos",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431002-soja-sobe-em-chicago-nesta-2-9-com-china-e-usda-no-radar-oferta-recorde-limita-ganhos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja/Cepea: Queda nos preços dos derivados reduz margem de esmagamento",
+          "tema": "Mercado",
+          "impacto": "queda",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431001-soja-cepea-queda-nos-precos-dos-derivados-reduz-margem-de-esmagamento.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja reage em Chicago nesta 6ªfeira, mas acumula perdas superiores a 3% na semana; físico tem movimentos distintos no Brasil",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430980-soja-reage-em-chicago-nesta-6-feira-mas-acumula-perdas-superiores-a-3-na-semana-fisico-tem-movimentos-distintos-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Mato Grosso chega perto do fim do plantio de soja com antecipação dos trabalhos, diz Imea",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430982-mato-grosso-chega-perto-do-fim-do-plantio-de-soja-com-antecipacao-dos-trabalhos-diz-imea.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Exportações de farelo de soja aceleram na reta final e fecham outubro 21% acima de 2025",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430969-exportacoes-de-farelo-de-soja-aceleram-na-reta-final-e-fecham-outubro-21-acima-de-2025.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Soja opera em direções diferentes em Chicago nesta sexta-feira, com janeiro ainda abaixo dos US$ 12,00",
           "tema": "Mercado",
@@ -2925,54 +2998,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-06",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/430938-importacoes-de-soja-pela-china-em-202627-estimadas-em-110-mi-t-diz-adido-do-usda.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja mantém leves altas em Chicago nesta quinta-feira; mercado acompanha demanda americana",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-05",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430885-soja-mantem-leves-altas-em-chicago-nesta-quinta-feira-mercado-acompanha-demanda-americana.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja tenta recuperação em Chicago nesta quinta-feira após três sessões de perdas; mercado aguarda vendas do USDA",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-05",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430866-soja-tenta-recuperacao-em-chicago-nesta-quinta-feira-apos-tres-sessoes-de-perdas-mercado-aguarda-vendas-do-usda.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja acumula 3ª queda seguida em Chicago e janeiro se aproxima dos US$ 12,00 nesta 4ª feira com pressão das expectativas de oferta",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430841-soja-acumula-3-queda-seguida-em-chicago-e-janeiro-se-aproxima-dos-us-12-00-nesta-4-feira-com-pressao-das-expectativas-de-oferta.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja mantém perdas em Chicago nesta quarta-feira e janeiro segue próximo dos US$ 12,00 por bushel",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430816-soja-mantem-perdas-em-chicago-nesta-quarta-feira-e-janeiro-segue-proximo-dos-us-12-00-por-bushel.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Rabobank vê queda na safra e na exportação de soja do Brasil em 2026/27",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/430808-rabobank-ve-queda-na-safra-e-na-exportacao-de-soja-do-brasil-em-202627.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": 0.24,
-      "score_noticias": 0.0,
-      "score_combinado": 0.14,
+      "score_preco": 0.23,
+      "score_noticias": -0.12,
+      "score_combinado": 0.09,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.7% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 162.02) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -2987,6 +3020,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-06",
+          "valor": 94.3596,
+          "variacao_pct": 0.8
+        },
         {
           "data": "2026-11-05",
           "valor": 93.6126,
@@ -3006,14 +3044,14 @@
           "data": "2026-10-30",
           "valor": 94.1892,
           "variacao_pct": -0.53
-        },
-        {
-          "data": "2026-10-29",
-          "valor": 94.6872,
-          "variacao_pct": 0.43
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-06",
+          "valor": 94.3596,
+          "variacao_pct": 0.8
+        },
         {
           "data": "2026-11-05",
           "valor": 93.6126,
@@ -3520,7 +3558,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 2.18,
+      "variacao_mes_pct": 2.22,
       "noticias": [
         {
           "titulo": "Trigo abre a sexta-feira com desvalorização de 1,5% em Chicago com diversos fatores negativos pesando",
@@ -3561,31 +3599,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-10-30",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430620-perdas-na-safra-de-trigo-paulista-agravam-desafios-para-a-cadeia-produtiva-estadual.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo perde quase 2% em Chicago nesta quarta-feira e fecha abaixo de US$ 6,00 pela primeira vez desde julho",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-28",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430498-trigo-perde-quase-2-em-chicago-nesta-quarta-feira-e-fecha-abaixo-de-us-6-00-pela-primeira-vez-desde-julho.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo/Cepea: Preços externos recuam, mas oferta restrita sustenta cotações no Brasil",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-10-27",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430359-trigo-cepea-precos-externos-recuam-mas-oferta-restrita-sustenta-cotacoes-no-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": -0.2,
-      "score_noticias": 0.14,
-      "score_combinado": -0.06,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.6% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.69) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_preco": 0.03,
+      "score_noticias": 0.2,
+      "score_combinado": 0.1,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.1% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.69) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 80.739,
@@ -3599,6 +3621,11 @@
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-06",
+          "valor": 1611.14,
+          "variacao_pct": 0.45
+        },
         {
           "data": "2026-11-05",
           "valor": 1603.86,
@@ -3618,14 +3645,14 @@
           "data": "2026-10-30",
           "valor": 1598.37,
           "variacao_pct": 0.48
-        },
-        {
-          "data": "2026-10-29",
-          "valor": 1590.72,
-          "variacao_pct": -0.2
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-06",
+          "valor": 1611.14,
+          "variacao_pct": 0.45
+        },
         {
           "data": "2026-11-05",
           "valor": 1603.86,
@@ -4132,8 +4159,16 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 2.23,
+      "variacao_mes_pct": 2.84,
       "noticias": [
+        {
+          "titulo": "Café fecha sexta-feira em alta, mas arábica perde 2,51% na semana; robusta acumula valorização de 2,06%",
+          "tema": "Mercado",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-06",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430975-cafe-fecha-sexta-feira-em-alta-mas-arabica-perde-2-51-na-semana-robusta-acumula-valorizacao-de-2-06.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Café amplia recuperação nesta sexta-feira, com arábica próximo dos 280 cents em Nova York e robusta em alta",
           "tema": "Mercado",
@@ -4189,23 +4224,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-05",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430855-cafe-cepea-precos-internos-e-externos-do-arabica-oscilam-com-forca.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Produção de café da América Central e do México deve cair 9,3% em 2026/27, afirma corretora",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-04",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/430852-producao-de-cafe-da-america-central-e-do-mexico-deve-cair-93-em-202627-afirma-corretora.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
-      "score_preco": -0.13,
-      "score_noticias": 0.0,
-      "score_combinado": -0.08,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.4% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
+      "score_preco": 0.36,
+      "score_noticias": 0.12,
+      "score_combinado": 0.26,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+1.1% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 1427.63,
@@ -4219,6 +4246,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-09",
+          "valor": 2.6544,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-06",
           "valor": 2.6544,
@@ -4238,14 +4270,14 @@
           "data": "2026-11-03",
           "valor": 2.6545,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-11-02",
-          "valor": 2.6545,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-09",
+          "valor": 2.6544,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-06",
           "valor": 2.6544,
