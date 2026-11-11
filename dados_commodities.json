@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-11T07:50:18",
+  "ultima_atualizacao": "2026-11-11T15:09:06",
   "status_coleta": "ok",
   "dolar": {
-    "valor": 5.584,
-    "variacao_pct": 1.26,
-    "bid": 5.584,
-    "ask": 5.584
+    "valor": 5.5606,
+    "variacao_pct": -0.42,
+    "bid": 5.5606,
+    "ask": 5.5606
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-11T07:50:18",
+    "ultima_atualizacao": "2026-11-11T15:09:06",
     "noticias": []
   },
   "commodities": {
@@ -577,68 +577,68 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/431159-arroz-cepea-maior-oferta-e-demanda-enfraquecida-pressionam-valores-no-rs.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Arroz recupera ritmo e chega a 63,1% semeado, mas segue atrás de 2025",
+          "titulo": "Erva daninha conhecida como cebolinha coloca em alerta produtores de arroz do Sul do Estado",
           "tema": "Mercado",
           "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431090-arroz-recupera-ritmo-e-chega-a-63-1-semeado-mas-segue-atras-de-2025.html?utm_source=parceiros&utm_medium=rss"
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-11",
+          "url": "https://planetaarroz.com.br/erva-daninha-conhecida-como-cebolinha-coloca-em-alerta-produtores-de-arroz-do-sul-do-estado/"
+        },
+        {
+          "titulo": "Safra de arroz deve alcançar 43 mil toneladas e movimentar R$ 72 milhões em Sergipe",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-11",
+          "url": "https://planetaarroz.com.br/safra-de-arroz-deve-alcancar-43-mil-toneladas-e-movimentar-r-72-milhoes-em-sergipe/"
+        },
+        {
+          "titulo": "Mercado de arroz tem queda nas negociações e preços oscilam no RS",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-11",
+          "url": "https://planetaarroz.com.br/mercado-de-arroz-tem-queda-nas-negociacoes-e-precos-oscilam-no-rs/"
+        },
+        {
+          "titulo": "Arroz: exportações sobem 367% e importações avançam 266,6% no início de novembro",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-11",
+          "url": "https://planetaarroz.com.br/arroz-exportacoes-sobem-367-e-importacoes-avancam-2666-no-inicio-de-novembro/"
         },
         {
           "titulo": "Mosaico de cultivares de arroz irrigado é alternativa para o manejo da brusone no Tocantins",
           "tema": "Mercado",
           "impacto": "neutro",
           "fonte": "Planeta Arroz",
-          "data": "2026-11-10",
-          "url": "https://planetaarroz.com.br/mosaico-de-cultivares-de-arroz-irrigado-e-alternativa-para-o-manejo-da-brusone-no-tocantins/"
+          "data": "2026-11-11",
+          "url": "https://planetaarroz.com.br/mosaico-de-cultivares-de-arroz-irrigado-e-alternativa-para-o-manejo-da-brusone-no-tocantins-2/"
         },
         {
-          "titulo": "Exportações e importações de arroz disparam no início de novembro e reforçam movimento de duas vias no mercado",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431043-exportacoes-e-importacoes-de-arroz-disparam-no-inicio-de-novembro-e-reforcam-movimento-de-duas-vias-no-mercado.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Desafios e oportunidades para o arroz até 2050",
+          "titulo": "Arroz recupera ritmo e chega a 63,1% semeado, mas segue atrás de 2025",
           "tema": "Mercado",
           "impacto": "neutro",
           "fonte": "Planeta Arroz",
-          "data": "2026-11-09",
-          "url": "https://planetaarroz.com.br/desafios-e-oportunidades-para-o-arroz-ate-2050/"
+          "data": "2026-11-11",
+          "url": "https://planetaarroz.com.br/arroz-recupera-ritmo-e-chega-a-631-semeado-mas-segue-atras-de-2025/"
         },
         {
-          "titulo": "Safra da Tailândia deve somar 20,288 mi de t de arroz beneficiadas em 2026/27",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-09",
-          "url": "https://planetaarroz.com.br/safra-da-tailandia-deve-somar-20288-mi-de-t-de-arroz-beneficiadas-em-2026-27/"
-        },
-        {
-          "titulo": "Arroz testado em Rio do Campo aumenta produtividade e ocupa 48% das lavouras de SC",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-09",
-          "url": "https://planetaarroz.com.br/arroz-testado-em-rio-do-campo-aumenta-produtividade-e-ocupa-48-das-lavouras-de-sc/"
-        },
-        {
-          "titulo": "Arroz no Japão: mercado prevê estabilidade dos preços nos próximos meses",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-09",
-          "url": "https://planetaarroz.com.br/arroz-no-japao-mercado-preve-estabilidade-dos-precos-nos-proximos-meses/"
+          "titulo": "Arroz: Oferta elevada e demanda fraca pressionam preços no RS",
+          "tema": "Oferta & Demanda",
+          "impacto": "queda",
+          "fonte": "SNA",
+          "data": "2026-11-11",
+          "url": "https://sna.agr.br/arroz-oferta-elevada-e-demanda-fraca-pressionam-precos-no-rs/"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.45,
-      "score_noticias": 0.0,
-      "score_combinado": -0.27,
+      "score_noticias": -0.12,
+      "score_combinado": -0.32,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.4% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
@@ -2364,6 +2364,14 @@
       "variacao_mes_pct": 4.64,
       "noticias": [
         {
+          "titulo": "USDA reduz projeção para produção de açúcar do Brasil",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-11",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431192-.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar cai nas bolsas e contrato em Nova Iorque atinge mínima de seis semanas",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2418,14 +2426,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-05",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430910-acucar-fecha-em-alta-nas-bolsas-com-dolar-fraco-e-recuperacao-do-petroleo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mix açucareiro deve chegar a 49,5% em 2027/28 e impulsionar produção de açúcar no Centro-Sul, estima Rabobank",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-05",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/430900-mix-acucareiro-deve-chegar-a-49-5-em-2027-28-e-impulsionar-producao-de-acucar-no-centro-sul-estima-rabobank.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4261,6 +4261,14 @@
       "variacao_mes_pct": 5.18,
       "noticias": [
         {
+          "titulo": "Abertura da SIC 2026 destaca desafio de ampliar competitividade e valorização do café brasileiro",
+          "tema": "Mercado",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-11",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431186-abertura-da-sic-2026-destaca-desafio-de-ampliar-competitividade-e-valorizacao-do-cafe-brasileiro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café/Cepea: Dólar limita impacto das quedas externas sobre preços domésticos",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -4315,22 +4323,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-09",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431060-cafe-mercado-fecha-no-vermelho-em-ny-e-derruba-precos-tambem-no-fisico-brasileiro-nesta-2-9.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "EM NY, futuros do arábica perdem mais de 1%, pressionado por perspectivas de maior oferta brasileira",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431030-em-ny-futuros-do-arabica-perdem-mais-de-1-pressionado-por-perspectivas-de-maior-oferta-brasileira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": 0.27,
-      "score_noticias": 0.12,
-      "score_combinado": 0.21,
+      "score_noticias": 0.25,
+      "score_combinado": 0.26,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.8% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
