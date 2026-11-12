@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-12T07:50:21",
-  "status_coleta": "ok",
+  "ultima_atualizacao": "2026-11-12T15:37:22",
+  "status_coleta": "parcial",
   "dolar": {
-    "valor": 5.5606,
-    "variacao_pct": -0.42,
-    "bid": 5.5606,
-    "ask": 5.5606
+    "valor": 5.6143,
+    "variacao_pct": 0.97,
+    "bid": 5.6143,
+    "ask": 5.6143
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-12T07:50:21",
+    "ultima_atualizacao": "2026-11-12T15:37:22",
     "noticias": []
   },
   "commodities": {
@@ -16,7 +16,7 @@
       "nome": "Arroz em Casca",
       "unidade": "R$/sc 50kg",
       "fonte_primaria": "CEPEA/IRGA-RS via NoticiasAgricolas",
-      "status": "ok",
+      "status": "fallback",
       "historico_5d": [
         {
           "data": "2026-11-11",
@@ -574,6 +574,22 @@
       "variacao_mes_pct": -1.39,
       "noticias": [
         {
+          "titulo": "Semeadura do arroz irrigado alcança 85,01% da área prevista no Rio Grande do Sul",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-12",
+          "url": "https://planetaarroz.com.br/semeadura-do-arroz-irrigado-alcanca-8501-da-area-prevista-no-rio-grande-do-sul/"
+        },
+        {
+          "titulo": "Consumo global de arroz recua para 538,2 milhões de toneladas",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-12",
+          "url": "https://planetaarroz.com.br/consumo-global-de-arroz-recua-para-5382-milhoes-de-toneladas/"
+        },
+        {
           "titulo": "Arroz/Cepea: Maior oferta e demanda enfraquecida pressionam valores no RS",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -582,7 +598,7 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/431159-arroz-cepea-maior-oferta-e-demanda-enfraquecida-pressionam-valores-no-rs.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Erva daninha conhecida como cebolinha coloca em alerta produtores de arroz do Sul do Estado",
+          "titulo": "Erva daninha conhecida como cebolinha coloca em alerta produtores de arroz de Santa Catarina",
           "tema": "Mercado",
           "impacto": "neutro",
           "fonte": "Planeta Arroz",
@@ -620,22 +636,6 @@
           "fonte": "Planeta Arroz",
           "data": "2026-11-11",
           "url": "https://planetaarroz.com.br/mosaico-de-cultivares-de-arroz-irrigado-e-alternativa-para-o-manejo-da-brusone-no-tocantins-2/"
-        },
-        {
-          "titulo": "Arroz recupera ritmo e chega a 63,1% semeado, mas segue atrás de 2025",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-11",
-          "url": "https://planetaarroz.com.br/arroz-recupera-ritmo-e-chega-a-631-semeado-mas-segue-atras-de-2025/"
-        },
-        {
-          "titulo": "Exportações e importações de arroz disparam no início de novembro e reforçam movimento de duas vias no mercado",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431043-exportacoes-e-importacoes-de-arroz-disparam-no-inicio-de-novembro-e-reforcam-movimento-de-duas-vias-no-mercado.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -656,7 +656,7 @@
       "nome": "Feijão Carioca",
       "unidade": "R$/sc 60kg",
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
-      "status": "ok",
+      "status": "fallback",
       "historico_5d": [
         {
           "data": "2026-11-11",
@@ -1233,7 +1233,7 @@
       "nome": "Feijão Preto",
       "unidade": "R$/sc 60kg",
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
-      "status": "ok",
+      "status": "fallback",
       "historico_5d": [
         {
           "data": "2026-11-11",
@@ -1820,7 +1820,7 @@
       "nome": "Açúcar Cristal (ICUMSA 130-180)",
       "unidade": "R$/sc 50kg",
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
-      "status": "ok",
+      "status": "fallback",
       "historico_5d": [
         {
           "data": "2026-11-11",
@@ -2378,6 +2378,22 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Hedgepoint avalia efeitos do câmbio e das chuvas sobre o mercado de açúcar",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431278-hedgepoint-avalia-efeitos-do-cambio-e-das-chuvas-sobre-o-mercado-de-acucar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Brasileiro é escolhido para assumir direção-executiva da Organização Internacional do Açúcar",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431272-brasileiro-e-escolhido-para-assumir-direcao-executiva-da-organizacao-internacional-do-acucar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em alta com valorização do petróleo e cobertura de posições vendidas",
           "tema": "Mercado",
           "impacto": "alta",
@@ -2424,22 +2440,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-10",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431078-acucar-cepea-precos-do-cristal-seguem-firmes-no-mercado-paulista.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em alta nas bolsas com dólar fraco e avanço da produção na Índia no radar",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431055-acucar-fecha-em-alta-nas-bolsas-com-dolar-fraco-e-avanco-da-producao-na-india-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar mantém preços estáveis desde outubro, apesar de oscilações externas, aponta StoneX",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-09",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431040-acucar-mantem-precos-estaveis-desde-outubro-apesar-de-oscilacoes-externas-aponta-stone-x.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2460,7 +2460,7 @@
       "nome": "Soja",
       "unidade": "R$/sc 60kg",
       "fonte_primaria": "CEPEA/Paranaguá via NoticiasAgricolas",
-      "status": "ok",
+      "status": "fallback",
       "historico_5d": [
         {
           "data": "2026-11-11",
@@ -3018,6 +3018,30 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Soja perde força em Chicago e recua mais de 10 pontos, mas mantém patamar acima dos US$ 12",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431279-soja-perde-forca-em-chicago-e-recua-mais-de-10-pontos-mas-mantem-patamar-acima-dos-us-12.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "USDA anuncia venda de soja à China, enquanto Pequim cobra dos EUA avanço em acordo de redução de tarifas",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431265-usda-anuncia-venda-de-soja-a-china-enquanto-pequim-cobra-dos-eua-avanco-em-acordo-de-reducao-de-tarifas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja recua em Chicago nesta 5ª com realização de lucros, mas estoques dos EUA limitam pressão",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431253-soja-recua-em-chicago-nesta-5-com-realizacao-de-lucros-mas-estoques-dos-eua-limitam-pressao.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja volta a cair em Chicago nesta 5ª (12), mas se mantém ainda acima dos US$ 12 por bushel",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3056,30 +3080,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-10",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431143-precos-da-soja-fecham-com-forte-alta-em-chicago-pelo-usda-e-no-brasil-com-disparada-do-dolar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Chuvas mantêm dificuldades para avanço do plantio de soja no Paraná, diz Deral",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431145-chuvas-mantem-dificuldades-para-avanco-do-plantio-de-soja-no-parana-diz-deral.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja 2026/27 chega a 66,8% semeada e mantém ritmo acima da média histórica",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431087-soja-2026-27-chega-a-66-8-semeada-e-mantem-ritmo-acima-da-media-historica.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Importação de soja pela China cai em outubro em meio a estoques altos e margens de esmagamento fracas",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431096-importacao-de-soja-pela-china-cai-em-outubro-em-meio-a-estoques-altos-e-margens-de-esmagamento-fracas.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3100,7 +3100,7 @@
       "nome": "Trigo",
       "unidade": "R$/sc 60kg",
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
-      "status": "ok",
+      "status": "fallback",
       "historico_5d": [
         {
           "data": "2026-11-11",
@@ -3732,7 +3732,7 @@
       "nome": "Café Arábica (Tipo 6)",
       "unidade": "R$/sc 60kg",
       "fonte_primaria": "CEPEA/ESALQ via NoticiasAgricolas",
-      "status": "ok",
+      "status": "fallback",
       "historico_5d": [
         {
           "data": "2026-11-11",
@@ -4290,6 +4290,46 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Além da bienalidade baixa, floradas irregulares ampliam preocupação com safra de café de 2027",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431271-alem-da-bienalidade-baixa-floradas-irregulares-ampliam-preocupacao-com-safra-de-cafe-de-2027.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café dispara quase 3% em Nova York nesta 5ª feira e supera resistência técnica após abrir em queda",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431264-cafe-dispara-quase-3-em-nova-york-nesta-5-feira-e-supera-resistencia-tecnica-apos-abrir-em-queda.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café vira e passa a subir em Nova York nesta 5ª feira, após sequência de perdas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431246-cafe-vira-e-passa-a-subir-em-nova-york-nesta-5-feira-apos-sequencia-de-perdas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Prêmio Melhores Cafés Cocatrel celebra excelência da produção na safra 2026/2027",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431234-premio-melhores-cafes-cocatrel-celebra-excelencia-da-producao-na-safra-2026-2027.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café segue pressionado em Nova York e abre 5ª feira (12) com novas e leves baixas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431231-cafe-segue-pressionado-em-nova-york-e-abre-5-feira-12-com-novas-e-leves-baixas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Cafeicultores encerram 2026 com margens apertadas e podem enfrentar cenário ainda pior em 2027, aponta Campo Futuro",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -4312,55 +4352,15 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-11",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431214-cafe-volta-a-cair-em-nova-york-e-perde-forca-tambem-no-mercado-brasileiro-nesta-4-feira.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Brasil exporta recorde de 5,3 milhões de sacas de café em outubro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431211-brasil-exporta-recorde-de-5-3-milhoes-de-sacas-de-cafe-em-outubro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Abertura da SIC 2026 destaca desafio de ampliar competitividade e valorização do café brasileiro",
-          "tema": "Mercado",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431186-abertura-da-sic-2026-destaca-desafio-de-ampliar-competitividade-e-valorizacao-do-cafe-brasileiro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café/Cepea: Dólar limita impacto das quedas externas sobre preços domésticos",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431160-cafe-cepea-dolar-limita-impacto-das-quedas-externas-sobre-precos-domesticos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café amplia perdas nesta 4ª feira com arábica e robusta em baixa nas bolsas internacionais",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431157-cafe-amplia-perdas-nesta-4-feira-com-arabica-e-robusta-em-baixa-nas-bolsas-internacionais.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café arábica atinge mínima de sete semanas em NY, mas preços sobem no BR com alta forte do dólar",
-          "tema": "Câmbio",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431149-cafe-arabica-atinge-minima-de-sete-semanas-em-ny-mas-precos-sobem-no-br-com-alta-forte-do-dolar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": -0.37,
-      "score_noticias": 0.38,
-      "score_combinado": -0.07,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.1% nos últimos 7 pregões).</li><li>Fatores de pressão de alta nas notícias: Café: Cooxupé avalia quebra de potencial de safra de 10% para 2027 durante ; Abertura da SIC 2026 destaca desafio de ampliar competitividade e valorizaç.</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
+      "score_noticias": 0.12,
+      "score_combinado": -0.17,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.1% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 1427.63,
@@ -4376,8 +4376,8 @@
       "historico_5d": [
         {
           "data": "2026-11-12",
-          "valor": 2.6544,
-          "variacao_pct": 0.0
+          "valor": 2.8113,
+          "variacao_pct": 5.91
         },
         {
           "data": "2026-11-11",
@@ -4403,8 +4403,8 @@
       "historico_30d": [
         {
           "data": "2026-11-12",
-          "valor": 2.6544,
-          "variacao_pct": 0.0
+          "valor": 2.8113,
+          "variacao_pct": 5.91
         },
         {
           "data": "2026-11-11",
@@ -4897,20 +4897,33 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": -0.0,
+      "variacao_mes_pct": 5.91,
       "noticias": [],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
-      "tendencia_media": "estavel",
-      "score_preco": 0.0,
+      "tendencia_curta": "alta",
+      "tendencia_media": "alta",
+      "score_preco": 1.0,
       "score_noticias": 0.0,
-      "score_combinado": 0.0,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.0% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 2.66) — zona de pressão vendedora; possível correção à frente.</li></ul>",
-      "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
-      "recomendacao": "aguardar",
+      "score_combinado": 0.6,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em alta de 5.9% nos últimos 7 pregões.</li><li>Preço próximo à resistência histórica (R$ 2.81) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
+      "recomendacao": "comprar",
       "suporte": 2.4884,
-      "resistencia": 2.656,
-      "red_flags": [],
+      "resistencia": 2.8113,
+      "red_flags": [
+        {
+          "tipo": "variacao_dia",
+          "mensagem": "Variação de +5.9% em 1 dia — movimento atípico de alta",
+          "severidade": "alta",
+          "impacto_tendencia": "alta"
+        },
+        {
+          "tipo": "variacao_3d",
+          "mensagem": "Variação acumulada de +5.9% em 3 dias — tendência forte de alta",
+          "severidade": "alta",
+          "impacto_tendencia": "alta"
+        }
+      ],
       "insight_gerado_por": "regras"
     }
   }
