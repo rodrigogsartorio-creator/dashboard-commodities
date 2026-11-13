@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-12T15:37:22",
+  "ultima_atualizacao": "2026-11-13T07:50:19",
   "status_coleta": "parcial",
   "dolar": {
     "valor": 5.6143,
@@ -8,7 +8,7 @@
     "ask": 5.6143
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-12T15:37:22",
+    "ultima_atualizacao": "2026-11-13T07:50:19",
     "noticias": []
   },
   "commodities": {
@@ -2378,6 +2378,14 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Açúcar fecha em queda nas bolsas com real mais fraco e pressão da oferta global",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-12",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431284-acucar-fecha-em-queda-nas-bolsas-com-real-mais-fraco-e-pressao-da-oferta-global.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Hedgepoint avalia efeitos do câmbio e das chuvas sobre o mercado de açúcar",
           "tema": "Clima",
           "impacto": "neutro",
@@ -2408,14 +2416,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-11",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431192-.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em alta em NY com correção técnica e cobertura de posições vendidas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-11-11",
-          "url": "https://safras.com.br/acucar-fecha-em-alta-em-ny-com-correcao-tecnica-e-cobertura-de-posicoes-vendidas/"
         },
         {
           "titulo": "Açúcar cai nas bolsas e contrato em Nova Iorque atinge mínima de seis semanas",
@@ -3018,6 +3018,14 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Soja sobe forte em Chicago nesta 6ª feira, acompanhada por altas do farelo e do óleo",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431311-soja-sobe-forte-em-chicago-nesta-6-feira-acompanhada-por-altas-do-farelo-e-do-oleo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja perde força em Chicago e recua mais de 10 pontos, mas mantém patamar acima dos US$ 12",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3072,14 +3080,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-11",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431156-soja-recua-levemente-em-chicago-nesta-4-feira-mas-mantem-precos-acima-dos-us-12-apos-forte-reacao-ao-usda.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Preços da soja fecham com forte alta em Chicago pelo USDA e, no Brasil, com disparada do dólar",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431143-precos-da-soja-fecham-com-forte-alta-em-chicago-pelo-usda-e-no-brasil-com-disparada-do-dolar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3704,22 +3704,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-03",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430766-trigo-volta-a-cair-em-chicago-e-perde-os-us-6-00-com-exportacoes-americanas-enfraquecidas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo recupera os US$ 6,00 em Chicago e inicia novembro com pequenas altas, apesar da pressão sobre exportações",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-02",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/430696-trigo-recupera-os-us-6-00-em-chicago-e-inicia-novembro-com-pequenas-altas-apesar-da-pressao-sobre-exportacoes.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.08,
-      "score_noticias": 0.14,
-      "score_combinado": 0.01,
+      "score_noticias": 0.17,
+      "score_combinado": 0.02,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.69) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
@@ -4290,6 +4282,22 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Após disparada na véspera, café arábica recua em Nova York nesta 6ª feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431319-apos-disparada-de-mais-de-4-na-vespera-cafe-arabica-recua-em-nova-york-nesta-6-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Mercado de café na China pode dobrar nos próximos cinco anos e Brasil busca espaço nessa expansão",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-13",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431287-mercado-de-cafe-na-china-pode-dobrar-nos-proximos-cinco-anos-e-brasil-busca-espaco-nessa-expansao.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Além da bienalidade baixa, floradas irregulares ampliam preocupação com safra de café de 2027",
           "tema": "Safra",
           "impacto": "neutro",
@@ -4336,30 +4344,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-12",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431223-cafeicultores-encerram-2026-com-margens-apertadas-e-podem-enfrentar-cenario-ainda-pior-em-2027-aponta-campo-futuro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café: Cooxupé avalia quebra de potencial de safra de 10% para 2027 durante a SIC",
-          "tema": "Safra",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431215-cafe-cooxupe-avalia-quebra-de-potencial-de-safra-de-10-para-2027-durante-a-sic.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café volta a cair em Nova York e perde força também no mercado brasileiro nesta 4ª feira",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431214-cafe-volta-a-cair-em-nova-york-e-perde-forca-tambem-no-mercado-brasileiro-nesta-4-feira.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": -0.37,
-      "score_noticias": 0.12,
-      "score_combinado": -0.17,
+      "score_noticias": 0.0,
+      "score_combinado": -0.22,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.1% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -4374,6 +4366,11 @@
       "fonte_primaria": "CEPEA/CNA via NoticiasAgricolas",
       "status": "ok",
       "historico_5d": [
+        {
+          "data": "2026-11-13",
+          "valor": 2.8113,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-12",
           "valor": 2.8113,
@@ -4393,14 +4390,14 @@
           "data": "2026-11-09",
           "valor": 2.6544,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-11-06",
-          "valor": 2.6544,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-13",
+          "valor": 2.8113,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-12",
           "valor": 2.8113,
@@ -4911,12 +4908,6 @@
       "suporte": 2.4884,
       "resistencia": 2.8113,
       "red_flags": [
-        {
-          "tipo": "variacao_dia",
-          "mensagem": "Variação de +5.9% em 1 dia — movimento atípico de alta",
-          "severidade": "alta",
-          "impacto_tendencia": "alta"
-        },
         {
           "tipo": "variacao_3d",
           "mensagem": "Variação acumulada de +5.9% em 3 dias — tendência forte de alta",
