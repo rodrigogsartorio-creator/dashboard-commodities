@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-17T07:50:17",
+  "ultima_atualizacao": "2026-11-17T16:26:27",
   "status_coleta": "parcial",
   "dolar": {
-    "valor": 5.7324,
-    "variacao_pct": 1.43,
-    "bid": 5.7324,
-    "ask": 5.7324
+    "valor": 5.7851,
+    "variacao_pct": 0.92,
+    "bid": 5.7851,
+    "ask": 5.7851
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-17T07:50:17",
+    "ultima_atualizacao": "2026-11-17T16:26:27",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -587,79 +587,55 @@
       "variacao_mes_pct": -1.39,
       "noticias": [
         {
-          "titulo": "Arroz longo dos EUA pode ter safra 33% menor e abrir espaço para o Mercosul",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-16",
-          "url": "https://planetaarroz.com.br/arroz-longo-dos-eua-pode-ter-safra-33-menor-e-abrir-espaco-para-o-mercosul/"
-        },
-        {
-          "titulo": "Arroz vai ficar mais caro? Como a queda na produção mexe com o seu bolso",
-          "tema": "Safra",
-          "impacto": "alta",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-13",
-          "url": "https://planetaarroz.com.br/arroz-vai-ficar-mais-caro-como-a-queda-na-producao-mexe-com-o-seu-bolso/"
-        },
-        {
-          "titulo": "Abelhas surpreendem pesquisadores em lavouras de arroz no interior do Rio, aumentam a quantidade de grãos em 26% e elevam o peso em 41% em experimento com variedade tradicional",
+          "titulo": "Arroz recupera atraso e chega a 70,4% semeado; preço cai pela quinta semana no RS",
           "tema": "Mercado",
           "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-13",
-          "url": "https://planetaarroz.com.br/abelhas-surpreendem-pesquisadores-em-lavouras-de-arroz-no-interior-do-rio-aumentam-a-quantidade-de-graos-em-26-e-elevam-o-peso-em-41-em-experimento-com-variedade-tradicional/"
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431513-arroz-recupera-atraso-e-chega-a-70-4-semeado-preco-cai-pela-quinta-semana-no-rs.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Retenção dos produtores restringe lotes disponíveis, mas mercado de arroz segue travado",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-13",
-          "url": "https://planetaarroz.com.br/retencao-dos-produtores-restringe-lotes-disponiveis-mas-mercado-de-arroz-segue-travado/"
-        },
-        {
-          "titulo": "Por que o preço do arroz custa a reagir no Brasil",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-13",
-          "url": "https://planetaarroz.com.br/por-que-o-preco-do-arroz-custa-a-reagir-no-brasil/"
-        },
-        {
-          "titulo": "Conab realiza leilões de compra de 67,09 mil toneladas de arroz para formar estoques públicos",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-12",
-          "url": "https://planetaarroz.com.br/conab-realiza-leiloes-de-compra-de-6709-mil-toneladas-de-arroz-para-formar-estoques-publicos/"
-        },
-        {
-          "titulo": "Semeadura do arroz irrigado alcança 85,01% da área prevista no Rio Grande do Sul",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-12",
-          "url": "https://planetaarroz.com.br/semeadura-do-arroz-irrigado-alcanca-8501-da-area-prevista-no-rio-grande-do-sul/"
-        },
-        {
-          "titulo": "Consumo global de arroz recua para 538,2 milhões de toneladas",
+          "titulo": "Arroz/Cepea: Maior oferta e demanda enfraquecida pressionam valores no RS",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-12",
-          "url": "https://planetaarroz.com.br/consumo-global-de-arroz-recua-para-5382-milhoes-de-toneladas/"
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-11",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431159-arroz-cepea-maior-oferta-e-demanda-enfraquecida-pressionam-valores-no-rs.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Arroz: Oferta elevada e demanda fraca pressionam preços no RS",
+          "tema": "Oferta & Demanda",
+          "impacto": "queda",
+          "fonte": "SNA",
+          "data": "2026-11-11",
+          "url": "https://sna.agr.br/arroz-oferta-elevada-e-demanda-fraca-pressionam-precos-no-rs/"
+        },
+        {
+          "titulo": "Arroz recupera ritmo e chega a 63,1% semeado, mas segue atrás de 2025",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-10",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431090-arroz-recupera-ritmo-e-chega-a-63-1-semeado-mas-segue-atras-de-2025.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Exportações e importações de arroz disparam no início de novembro e reforçam movimento de duas vias no mercado",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431043-exportacoes-e-importacoes-de-arroz-disparam-no-inicio-de-novembro-e-reforcam-movimento-de-duas-vias-no-mercado.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.49,
-      "score_noticias": 0.12,
-      "score_combinado": -0.24,
+      "score_noticias": -0.2,
+      "score_combinado": -0.37,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.5% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
-      "recomendacao": "aguardar",
+      "recomendacao": "segurar",
       "suporte": 58.98,
       "resistencia": 83.22,
       "red_flags": [],
@@ -2391,6 +2367,30 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Setor sucroenergético mantém liquidez adequada apesar da pressão sobre margens, aponta Itaú BBA",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431532-setor-sucroenergetico-mantem-liquidez-adequada-apesar-da-pressao-sobre-margens-aponta-itau-bba.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar inverte perdas e passa a subir nas bolsas de Nova York e Londres nesta terça-feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431527-acucar-inverte-perdas-e-passa-a-subir-nas-bolsas-de-nova-york-e-londres-nesta-terca-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar abre com pequenas baixas nas bolsas internacionais após produção da Índia mais que dobrar no início da safra",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431491-acucar-abre-com-pequenas-baixas-nas-bolsas-internacionais-apos-producao-da-india-mais-que-dobrar-no-inicio-da-safra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em queda nas bolsas com avanço da produção na Índia",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2429,30 +2429,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-13",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431365-acucar-fecha-em-alta-nas-bolsas-com-perspectiva-de-deficit-global-na-safra-2026-27.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Lei garante subvenção de R$ 12 por tonelada de cana a produtores do Nordeste",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-13",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431358-lei-garante-subvencao-de-r-12-por-tonelada-de-cana-a-produtores-do-nordeste.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Lei libera apoio a produtores de cana e até R$ 14,5 bi para renovar frota de caminhões",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-13",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431356-lei-libera-apoio-a-produtores-de-cana-e-ate-r-14-5-bi-para-renovar-frota-de-caminhoes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em queda nas bolsas com real mais fraco e pressão da oferta global",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-12",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431284-acucar-fecha-em-queda-nas-bolsas-com-real-mais-fraco-e-pressao-da-oferta-global.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3031,6 +3007,22 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Soja inverte perdas e volta a subir em Chicago nesta 3ª feira, com demanda chinesa e encontro Trump-Xi no radar",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431523-soja-inverte-perdas-e-volta-a-subir-em-chicago-nesta-3-feira-com-demanda-chinesa-e-encontro-trump-xi-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja chega a 75% semeada, mas veranico já provoca estresse hídrico em MT",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431510-soja-chega-a-75-semeada-mas-veranico-ja-provoca-estresse-hidrico-em-mt.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja recua levemente em Chicago nesta 3ª feira, mas mantém janeiro acima dos US$ 12,28",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3077,22 +3069,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431428-soja-amplia-perdas-em-chicago-nesta-2-pressionada-tambem-pela-forte-queda-do-petroleo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "AgRural: Plantio de soja chega a 78% no Brasil com tempo firme no Sul e chuvas no Cerrado",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431402-ag-rural-plantio-de-soja-chega-a-78-no-brasil-com-tempo-firme-no-sul-e-chuvas-no-cerrado.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja/Cepea: Alta do dólar impulsiona preços",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431388-soja-cepea-alta-do-dolar-impulsiona-precos.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3671,6 +3647,46 @@
       "variacao_mes_pct": 0.01,
       "noticias": [
         {
+          "titulo": "Quebra da safra de trigo leva cooperativa do Paraná a preparar importações da Argentina para 2027",
+          "tema": "Safra",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431531-quebra-da-safra-de-trigo-leva-cooperativa-do-parana-a-preparar-importacoes-da-argentina-para-2027.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Trigo amplia ganhos em Chicago e se aproxima dos US$ 6 por bushel com preocupações sobre transporte no Mar Negro",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431526-trigo-amplia-ganhos-em-chicago-e-se-aproxima-dos-us-6-por-bushel-com-preocupacoes-sobre-transporte-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Logística influencia importações de trigo de 60 países e exportações para 142",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431501-logistica-influencia-importacoes-de-trigo-de-60-paises-e-exportacoes-para-142.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Trigo dispara mais de 1% em Chicago nesta terça-feira, com novos ataques a navios elevando preocupações no Mar Negro",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431492-trigo-dispara-mais-de-1-em-chicago-nesta-terca-feira-com-novos-ataques-a-navios-elevando-preocupacoes-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Trigo/Cepea: Excesso de umidade reduz safra e amplia necessidade de importações",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431487-trigo-cepea-excesso-de-umidade-reduz-safra-e-amplia-necessidade-de-importacoes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo encerra em baixa em Chicago devido ao fortalecimento do dólar",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -3693,46 +3709,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431451-trigo-continua-refem-da-geopolitica-guerras-disputas-comerciais-e-custos-ameacam-abastecimento-global.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Conab corta previsão de safra de trigo do Brasil e vê mais importações",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-13",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431327-conab-corta-previsao-de-safra-de-trigo-do-brasil-e-ve-mais-importacoes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "USDA eleva produção e estoques finais globais de trigo; Argentina deve exportar mais",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431132-usda-eleva-producao-e-estoques-finais-de-trigo-argentina-deve-exportar-mais.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo HB4® com tolerância ao estresse hídrico e ao glufosinato deve chegar ao produtor em 2029",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431106-trigo-hb-4-com-tolerancia-ao-estresse-hidrico-e-ao-glufosinato-deve-chegar-ao-produtor-em-2029.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo/Cepea: Preço do trigo importado atinge maior patamar em mais de dois anos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431075-trigo-cepea-preco-do-trigo-importado-atinge-maior-patamar-em-mais-de-dois-anos.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.08,
-      "score_noticias": 0.14,
-      "score_combinado": 0.01,
+      "score_noticias": 0.25,
+      "score_combinado": 0.05,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.69) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
@@ -4312,6 +4296,22 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Café Conilon se apresenta como boa alternativa de renda para os produtores mineiros",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431517-cafe-conilon-se-apresenta-como-boa-alternativa-de-renda-para-os-produtores-mineiros.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café sobe mais de 1% em Nova York com estoques baixos dando suporte aos preços",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431488-cafe-sobe-mais-de-1-em-nova-york-com-estoques-baixos-dando-suporte-aos-precos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café: Arábica sobe em Nova York com atenção aos estoques da ICE; preços avançam até 3,5% no BR",
           "tema": "Oferta & Demanda",
           "impacto": "alta",
@@ -4358,22 +4358,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431404-especialissimo-2026-cooxupe-revelara-os-50-melhores-cafes-da-safra.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café sobe mais de 1% em Nova York nesta 2ª e inicia semana recuperando parte das perdas recentes",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431396-cafe-sobe-mais-de-1-em-nova-york-nesta-2-e-inicia-semana-recuperando-parte-das-perdas-recentes.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café fecha 6ªfeira (13) em queda em NY, pressionado pelo dólar; mercado físico brasileiro tem poucas alterações",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-13",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431370-cafe-fecha-6-feira-13-em-queda-em-ny-pressionado-pelo-dolar-mercado-fisico-brasileiro-tem-poucas-alteracoes.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
