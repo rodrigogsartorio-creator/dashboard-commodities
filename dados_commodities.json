@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-18T07:50:25",
+  "ultima_atualizacao": "2026-11-18T16:08:01",
   "status_coleta": "parcial",
   "dolar": {
     "valor": null,
@@ -8,7 +8,7 @@
     "ask": null
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-18T07:50:25",
+    "ultima_atualizacao": "2026-11-18T16:08:01",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -603,60 +603,36 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/431513-arroz-recupera-atraso-e-chega-a-70-4-semeado-preco-cai-pela-quinta-semana-no-rs.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Arroz longo dos EUA pode ter safra 33% menor e abrir espaço para o Mercosul",
-          "tema": "Geopolítica",
+          "titulo": "Arroz/Cepea: Maior oferta e demanda enfraquecida pressionam valores no RS",
+          "tema": "Oferta & Demanda",
           "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-16",
-          "url": "https://planetaarroz.com.br/arroz-longo-dos-eua-pode-ter-safra-33-menor-e-abrir-espaco-para-o-mercosul/"
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-11",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431159-arroz-cepea-maior-oferta-e-demanda-enfraquecida-pressionam-valores-no-rs.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Arroz vai ficar mais caro? Como a queda na produção mexe com o seu bolso",
-          "tema": "Safra",
-          "impacto": "alta",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-13",
-          "url": "https://planetaarroz.com.br/arroz-vai-ficar-mais-caro-como-a-queda-na-producao-mexe-com-o-seu-bolso/"
-        },
-        {
-          "titulo": "Abelhas surpreendem pesquisadores em lavouras de arroz no interior do Rio, aumentam a quantidade de grãos em 26% e elevam o peso em 41% em experimento com variedade tradicional",
+          "titulo": "Arroz recupera ritmo e chega a 63,1% semeado, mas segue atrás de 2025",
           "tema": "Mercado",
           "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-13",
-          "url": "https://planetaarroz.com.br/abelhas-surpreendem-pesquisadores-em-lavouras-de-arroz-no-interior-do-rio-aumentam-a-quantidade-de-graos-em-26-e-elevam-o-peso-em-41-em-experimento-com-variedade-tradicional/"
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-10",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431090-arroz-recupera-ritmo-e-chega-a-63-1-semeado-mas-segue-atras-de-2025.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Retenção dos produtores restringe lotes disponíveis, mas mercado de arroz segue travado",
+          "titulo": "Exportações e importações de arroz disparam no início de novembro e reforçam movimento de duas vias no mercado",
           "tema": "Mercado",
           "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-13",
-          "url": "https://planetaarroz.com.br/retencao-dos-produtores-restringe-lotes-disponiveis-mas-mercado-de-arroz-segue-travado/"
-        },
-        {
-          "titulo": "Por que o preço do arroz custa a reagir no Brasil",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-13",
-          "url": "https://planetaarroz.com.br/por-que-o-preco-do-arroz-custa-a-reagir-no-brasil/"
-        },
-        {
-          "titulo": "Conab realiza leilões de compra de 67,09 mil toneladas de arroz para formar estoques públicos",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-12",
-          "url": "https://planetaarroz.com.br/conab-realiza-leiloes-de-compra-de-6709-mil-toneladas-de-arroz-para-formar-estoques-publicos/"
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-09",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431043-exportacoes-e-importacoes-de-arroz-disparam-no-inicio-de-novembro-e-reforcam-movimento-de-duas-vias-no-mercado.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.49,
-      "score_noticias": 0.12,
-      "score_combinado": -0.24,
+      "score_noticias": 0.0,
+      "score_combinado": -0.29,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.5% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
@@ -2391,6 +2367,30 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "China deve reduzir importações de açúcar e déficit pode cair até 2035, projeta StoneX",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431606-china-deve-reduzir-importacoes-de-acucar-e-deficit-pode-cair-ate-2035-projeta-stone-x.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Índia abre nova licitação para importação de açúcar bruto isenta de taxa",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431587-india-abre-nova-licitacao-para-importacao-de-acucar-bruto-isenta-de-taxa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "USDA reduz estimativa para produção mundial de açúcar",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-11-18",
+          "url": "https://safras.com.br/usda-reduz-estimativa-para-producao-mundial-de-acucar/"
+        },
+        {
           "titulo": "Açúcar perde força após recuperação durante o pregão e fecha terça-feira com pequenas oscilações em Nova York e Londres",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2429,30 +2429,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431460-acucar-fecha-em-queda-nas-bolsas-com-avanco-da-producao-na-india.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar recua nas bolsas com avanço da produção na Índia; contratos operam em baixa",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431445-acucar-recua-nas-bolsas-com-avanco-da-producao-na-india-contratos-operam-em-baixa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar pode enfrentar pressão de baixa até dezembro com fraqueza do petróleo e movimento dos fundos",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431443-acucar-pode-enfrentar-pressao-de-baixa-ate-dezembro-com-fraqueza-do-petroleo-e-movimento-dos-fundos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em baixa em NY pressionado pela fraqueza do real e pela queda do petróleo",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-11-16",
-          "url": "https://safras.com.br/acucar-fecha-em-baixa-em-ny-pressionado-pela-fraqueza-do-real-e-pela-queda-do-petroleo/"
         }
       ],
       "safra_noticias": [],
@@ -3031,6 +3007,30 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Soja amplia perdas em Chicago e recua mais de 13 pontos; dólar forte e safra brasileira pressionam",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431598-soja-amplia-perdas-em-chicago-e-recua-mais-de-13-pontos-dolar-forte-e-safra-brasileira-pressionam.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Safra de soja do Brasil vai bem; dólar, e não El Niño, impulsiona preços, diz AgRural",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431605-safra-de-soja-do-brasil-vai-bem-dolar-e-nao-el-nino-impulsiona-precos-diz-agrural.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja abre 4ª feira em queda em Chicago e acompanha perdas generalizadas das commodities",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431567-soja-abre-4-feira-em-queda-em-chicago-e-acompanha-perdas-generalizadas-das-commodities.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja: Com melhores preços desde 2023, BR negocia mais de 1 mi de toneladas em um dia e mantém ritmo forte de vendas",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3069,30 +3069,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431471-soja-chega-a-r-170-nos-portos-atinge-melhores-precos-desde-23-e-acelera-negocios-com-disparada-do-dolar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Exportações de soja do Brasil avançam em receita e volume na média diária de novembro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431459-exportacoes-de-soja-do-brasil-avancam-em-receita-e-volume-na-media-diaria-de-novembro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Óleo de soja amplia queda em Chicago após NOPA revelar estoques muito acima das expectativas",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431454-oleo-de-soja-amplia-queda-em-chicago-apos-nopa-revelar-estoques-muito-acima-das-expectativas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "NOPA: Esmagamento de soja nos EUA supera expectativas e supera 6 milhões de t em outubro",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431444-nopa-esmagamento-de-soja-nos-eua-supera-expectativas-e-supera-6-milhoes-de-t-em-outubro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3671,6 +3647,14 @@
       "variacao_mes_pct": 0.01,
       "noticias": [
         {
+          "titulo": "Trigo despenca quase 4% em Chicago, pressionado por dólar forte e aversão ao risco nos mercados globais",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431602-trigo-despenca-quase-4-em-chicago-pressionado-por-dolar-forte-e-aversao-ao-risco-nos-mercados-globais.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Trigo sustenta alta de até 1,5% em Chicago com preocupações no Mar Negro; qualidade da safra brasileira segue no radar",
           "tema": "Safra",
           "impacto": "neutro",
@@ -3725,14 +3709,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-16",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431477-trigo-encerra-em-baixa-em-chicago-devido-ao-fortalecimento-do-dolar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Importações de trigo avançam quase 28% em novembro e gasto cresce ainda mais",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431452-importacoes-de-trigo-avancam-quase-28-em-novembro-e-gasto-cresce-ainda-mais.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4311,6 +4287,38 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "PR: BSCA compartilha conhecimentos sobre café especial no festival Origem Curitiba",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431613-pr-bsca-compartilha-conhecimentos-sobre-cafe-especial-no-festival-origem-curitiba.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café recua forte e desaba mais de 2,5% em NY; pressão com dólar oferta do Brasil no radar",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431603-cafe-despenca-mais-de-2-5-em-ny-pressao-com-dolar-oferta-do-brasil-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café recua em NY após forte alta; estoques apertados e perspectiva de oferta do BR no radar",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431577-cafe-recua-em-ny-apos-forte-alta-estoques-apertados-e-perspectiva-de-oferta-do-br-no-radar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café/Cepea: Embarques recordes em outubro reforçam oferta e pressionam preços externos do arábica",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431565-cafe-cepea-embarques-recordes-em-outubro-reforcam-oferta-e-pressionam-precos-externos-do-arabica.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café: Arábica sobe em Nova York com estoques apertados, enquanto robusta recua em Londres",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -4341,46 +4349,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-17",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431517-cafe-conilon-se-apresenta-como-boa-alternativa-de-renda-para-os-produtores-mineiros.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café sobe mais de 1% em Nova York com estoques baixos dando suporte aos preços",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-17",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431488-cafe-sobe-mais-de-1-em-nova-york-com-estoques-baixos-dando-suporte-aos-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café: Arábica sobe em Nova York com atenção aos estoques da ICE; preços avançam até 3,5% no BR",
-          "tema": "Oferta & Demanda",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431466-cafe-arabica-sobe-em-nova-york-com-atencao-aos-estoques-da-ice-precos-avancam-ate-3-5-no-br.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Fornecedor de café da Nestlé no Brasil enfrenta audiência por denúncias de violações trabalhistas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431470-fornecedor-de-cafe-da-nestle-no-brasil-enfrenta-audiencia-por-denuncias-de-violacoes-trabalhistas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café especial: Tiago de Mello é o novo campeão brasileiro de barista",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431453-cafe-especial-tiago-de-mello-e-o-novo-campeao-brasileiro-de-barista.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": -0.37,
-      "score_noticias": 0.12,
-      "score_combinado": -0.17,
+      "score_noticias": 0.0,
+      "score_combinado": -0.22,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.1% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
