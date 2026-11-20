@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-20T07:50:23",
+  "ultima_atualizacao": "2026-11-20T15:52:18",
   "status_coleta": "parcial",
   "dolar": {
     "valor": 5.8889,
@@ -8,7 +8,7 @@
     "ask": 5.8889
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-20T07:50:23",
+    "ultima_atualizacao": "2026-11-20T15:52:18",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -595,6 +595,22 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/431662-credito-para-o-arroz-recua-37-e-dificuldades-financeiras-podem-reduzir-investimentos-na-safra.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "O custo oculto do arroz barato da Índia",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-19",
+          "url": "https://planetaarroz.com.br/o-custo-oculto-do-arroz-barato-da-india/"
+        },
+        {
+          "titulo": "Sistema Arroz RS14 busca ampliar produtividade e sustentabilidade nas terras baixas",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-19",
+          "url": "https://planetaarroz.com.br/sistema-arroz-rs14-busca-ampliar-produtividade-e-sustentabilidade-nas-terras-baixas/"
+        },
+        {
           "titulo": "Arroz/Cepea: Exportações elevam preços de grãos de menor rendimento no RS",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -603,36 +619,36 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/431564-arroz-cepea-exportacoes-elevam-precos-de-graos-de-menor-rendimento-no-rs.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "Arroz: Exportações impulsionam preços no RS",
-          "tema": "Mercado",
+          "titulo": "Cerimônia abre o plantio de arroz agroecológico em Viamão",
+          "tema": "Safra",
           "impacto": "neutro",
-          "fonte": "SNA",
+          "fonte": "Planeta Arroz",
           "data": "2026-11-18",
-          "url": "https://sna.agr.br/arroz-exportacoes-impulsionam-precos-no-rs/"
+          "url": "https://planetaarroz.com.br/cerimonia-abre-o-plantio-de-arroz-agroecologico-em-viamao/"
         },
         {
-          "titulo": "Arroz recupera atraso e chega a 70,4% semeado; preço cai pela quinta semana no RS",
+          "titulo": "Plantio do arroz chega a 85% no RS, mas frio dificulta desenvolvimento das lavouras",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-18",
+          "url": "https://planetaarroz.com.br/plantio-do-arroz-chega-a-85-no-rs-mas-frio-dificulta-desenvolvimento-das-lavouras/"
+        },
+        {
+          "titulo": "Milho ganha espaço do arroz irrigado enquanto soja enfrenta atrasos no Tocantins",
           "tema": "Mercado",
           "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-17",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431513-arroz-recupera-atraso-e-chega-a-70-4-semeado-preco-cai-pela-quinta-semana-no-rs.html?utm_source=parceiros&utm_medium=rss"
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-18",
+          "url": "https://planetaarroz.com.br/milho-ganha-espaco-do-arroz-irrigado-enquanto-soja-enfrenta-atrasos-no-tocantins/"
         },
         {
-          "titulo": "Arroz/Cepea: Maior oferta e demanda enfraquecida pressionam valores no RS",
-          "tema": "Oferta & Demanda",
+          "titulo": "Conab realiza leilão de compra de 73 mil toneladas arroz com entrega programada a partir de março de 2027",
+          "tema": "Safra",
           "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-11",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431159-arroz-cepea-maior-oferta-e-demanda-enfraquecida-pressionam-valores-no-rs.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Arroz recupera ritmo e chega a 63,1% semeado, mas segue atrás de 2025",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-10",
-          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431090-arroz-recupera-ritmo-e-chega-a-63-1-semeado-mas-segue-atras-de-2025.html?utm_source=parceiros&utm_medium=rss"
+          "fonte": "Planeta Arroz",
+          "data": "2026-11-18",
+          "url": "https://planetaarroz.com.br/conab-realiza-leilao-de-compra-de-73-mil-toneladas-arroz-com-entrega-programada-a-partir-de-marco-de-2027/"
         }
       ],
       "safra_noticias": [],
@@ -4287,6 +4303,30 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Mercado de café desacelera com aumento da pressão da oferta",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431715-mercado-de-cafe-desacelera-com-aumento-da-pressao-da-oferta.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café arábica recua mais de 1% em Nova York nesta Sexta-Feira",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431713-cafe-arabica-recua-mais-de-1-em-nova-york-nesta-sexta-feira.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Revoada da broca acende alerta nos cafezais e exige ação imediata dos produtores para safra 2026/27",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-20",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431712-revoada-da-broca-acende-alerta-nos-cafezais-e-exige-acao-imediata-dos-produtores-para-safra-2026-27.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Produção de café da Colômbia deve se recuperar na nova safra, afirma USDA",
           "tema": "Safra",
           "impacto": "neutro",
@@ -4325,30 +4365,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-19",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431640-cafe-sobe-em-ny-nesta-5-feira-mas-oferta-brasileira-limita-recuperacao-dos-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Em dia de pressão geral nas commodities, café tem forte recuo nas bolsas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431636-em-dia-de-pressao-geral-nas-commodities-cafe-tem-forte-recuo-nas-bolsas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "PR: BSCA compartilha conhecimentos sobre café especial no festival Origem Curitiba",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431613-pr-bsca-compartilha-conhecimentos-sobre-cafe-especial-no-festival-origem-curitiba.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café recua forte e desaba mais de 2,5% em NY; pressão com dólar oferta do Brasil no radar",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431603-cafe-despenca-mais-de-2-5-em-ny-pressao-com-dolar-oferta-do-brasil-no-radar.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
