@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-24T07:50:23",
+  "ultima_atualizacao": "2026-11-24T17:53:37",
   "status_coleta": "parcial",
   "dolar": {
-    "valor": 5.9708,
-    "variacao_pct": 1.39,
-    "bid": 5.9708,
-    "ask": 5.9708
+    "valor": 5.8573,
+    "variacao_pct": -1.9,
+    "bid": 5.8573,
+    "ask": 5.8573
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-24T07:50:23",
+    "ultima_atualizacao": "2026-11-24T17:53:37",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -2359,6 +2359,14 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Açúcar fecha em alta nas bolsas com dólar mais fraco e perspectiva de menor oferta global",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431876-acucar-fecha-em-alta-nas-bolsas-com-dolar-mais-fraco-e-perspectiva-de-menor-oferta-global.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar/Cepea: Oferta limitada de cristal de melhor qualidade sustenta alta dos preços",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -2381,14 +2389,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431792-acucar-oferta-global-encolhe-e-estoques-atingem-menor-nivel-em-15-anos-aponta-itau-bba.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em forte alta em NY com correção técnica após atingir menor nível em três meses",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-11-23",
-          "url": "https://safras.com.br/acucar-fecha-em-forte-alta-em-ny-com-correcao-tecnica-apos-atingir-menor-nivel-em-tres-meses/"
         },
         {
           "titulo": "Açúcar desaba mais de 5% em NY com dólar alto e pressão da oferta global",
@@ -2434,7 +2434,14 @@
       "recomendacao": "aguardar",
       "suporte": 90.72,
       "resistencia": 131.21,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -1.90% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "soja": {
@@ -2999,6 +3006,22 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Soja sustenta R$ 172,50 nos portos e sobe em Chicago; atenção à safra nova",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431888-soja-sustenta-r-172-50-nos-portos-e-sobe-em-chicago-atencao-a-safra-nova.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja amplia altas em Chicago, mas dólar cai mais de 1% e limita suporte no Brasil",
+          "tema": "Câmbio",
+          "impacto": "queda",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431858-soja-amplia-altas-em-chicago-mas-dolar-cai-mais-de-1-e-limita-suporte-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja sobe em Chicago nesta 3ª feira, com maio acima dos US$ 12,40 por bushel",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3045,36 +3068,27 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431774-ag-rural-com-chuvas-favoraveis-plantio-de-soja-alcanca-86-da-area-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja/Cepea: Alta do dólar impulsiona preços do grão e dos derivados",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431747-soja-cepea-alta-do-dolar-impulsiona-precos-do-grao-e-dos-derivados.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja sobe em Chicago nesta 2ª feira, com apoio do farelo; óleo cai mais de 1%",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431744-soja-sobe-em-chicago-nesta-2-feira-com-apoio-do-farelo-oleo-cai-mais-de-1.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": 0.24,
-      "score_noticias": 0.0,
-      "score_combinado": 0.14,
+      "score_noticias": -0.12,
+      "score_combinado": 0.09,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.7% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 162.02) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 162.02,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -1.90% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -3714,7 +3728,14 @@
       "recomendacao": "aguardar",
       "suporte": 80.739,
       "resistencia": 94.6872,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -1.90% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "cafe": {
@@ -4279,6 +4300,30 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Café cai mais de 2% em NY com boas perspectivas para safras de Brasil e Vietnã",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431878-cafe-cai-mais-de-2-em-ny-com-boas-perspectivas-para-safras-de-brasil-e-vietna.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café intensifica baixas em NY e dólar em queda amplia pressão no Brasil",
+          "tema": "Câmbio",
+          "impacto": "queda",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431860-cafe-intensifica-baixas-em-ny-e-dolar-em-queda-amplia-pressao-no-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Cecafé debate implementação da Plataforma Agro Brasil + Sustentável e demandas de mercado",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431839-cecafe-debate-implementacao-da-plataforma-agro-brasil-sustentavel-e-demandas-de-mercado.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café recua em NY nesta 3ª feira, com mercado atento à oferta global",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -4317,44 +4362,27 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431789-cafe-vira-em-nova-york-e-passa-a-cair-quase-1-apos-fortes-altas-pela-manha.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Saca de café atinge R$ 220 mil e estabelece recorde nacional no 14º Prêmio Região do Cerrado Mineiro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431777-saca-de-cafe-atinge-r-220-mil-e-estabelece-recorde-nacional-no-14-premio-regiao-do-cerrado-mineiro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mesmo com chuvas na colheita, produtores da Cooxupé alcançam recordes de qualidade nos cafés especiais",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431756-mesmo-com-chuvas-na-colheita-produtores-da-cooxupe-alcancam-recordes-de-qualidade-nos-cafes-especiais.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café dispara mais de 1,7% em Nova York nesta 2ª feira; março/27 supera os 273 cents",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431752-cafe-dispara-mais-de-1-7-em-nova-york-nesta-2-feira-marco-27-supera-os-273-cents.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": -0.37,
-      "score_noticias": 0.0,
-      "score_combinado": -0.22,
+      "score_noticias": -0.12,
+      "score_combinado": -0.27,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.1% nos últimos 7 pregões).</li><li>Preço em zona neutra entre suporte (R$ 1427.63) e resistência (R$ 1826.58).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -1.90% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "leite": {
@@ -4928,6 +4956,14 @@
       ],
       "variacao_mes_pct": 5.91,
       "noticias": [
+        {
+          "titulo": "El Niño acende alerta na indústria leiteira com excesso de chuva e queda na produtividade",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/leite/431854-el-nino-acende-alerta-na-industria-leiteira-com-excesso-de-chuva-e-queda-na-produtividade.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Produtores de leite do Extremo-Oeste aumentam produção em 14,7% com assistência do Senar/SC",
           "tema": "Safra",
