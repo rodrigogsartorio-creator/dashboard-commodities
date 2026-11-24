@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-23T19:15:47",
+  "ultima_atualizacao": "2026-11-24T07:50:23",
   "status_coleta": "parcial",
   "dolar": {
     "valor": 5.9708,
@@ -8,18 +8,18 @@
     "ask": 5.9708
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-23T19:15:47",
+    "ultima_atualizacao": "2026-11-24T07:50:23",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-11-23",
+        "data": "2026-11-24",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 100646477 t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-11-23",
+        "data": "2026-11-24",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -595,68 +595,44 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/431773-federarroz-negocia-acordo-de-cooperacao-com-governo-do-rj-para-combater-fraudes-no-arroz.html?utm_source=parceiros&utm_medium=rss"
         },
         {
-          "titulo": "SindArroz-SC promove debate para indústrias associadas sobre implantação da escala 5×2",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-21",
-          "url": "https://planetaarroz.com.br/sindarroz-sc-promove-debate-para-industrias-associadas-sobre-implantacao-da-escala-5x2/"
-        },
-        {
           "titulo": "Crédito para o arroz recua 37% e dificuldades financeiras podem reduzir investimentos na safra",
           "tema": "Safra",
           "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-21",
-          "url": "https://planetaarroz.com.br/credito-para-o-arroz-recua-37-e-dificuldades-financeiras-podem-reduzir-investimentos-na-safra/"
-        },
-        {
-          "titulo": "Preço do arroz cai até 49% no Japão; veja onde está mais barato",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-21",
-          "url": "https://planetaarroz.com.br/preco-do-arroz-cai-ate-49-no-japao-veja-onde-esta-mais-barato/"
-        },
-        {
-          "titulo": "Entidade prevê 1ª queda da produção de arroz em 11 anos",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-21",
-          "url": "https://planetaarroz.com.br/entidade-preve-1a-queda-da-producao-de-arroz-em-11-anos/"
-        },
-        {
-          "titulo": "Arroz paraguaio vende mais e perde receita em 2026",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-21",
-          "url": "https://planetaarroz.com.br/arroz-paraguaio-vende-mais-e-perde-receita-em-2026/"
-        },
-        {
-          "titulo": "Produção brasileira de arroz deve cair 4,7% em 2027",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Planeta Arroz",
-          "data": "2026-11-21",
-          "url": "https://planetaarroz.com.br/producao-brasileira-de-arroz-deve-cair-47-em-2027/"
-        },
-        {
-          "titulo": "Valorização do dólar amplia competitividade de arroz brasileiro para exportação",
-          "tema": "Câmbio",
-          "impacto": "alta",
-          "fonte": "Planeta Arroz",
+          "fonte": "Notícias Agrícolas",
           "data": "2026-11-19",
-          "url": "https://planetaarroz.com.br/valorizacao-do-dolar-amplia-competitividade-de-arroz-brasileiro-para-exportacao/"
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431662-credito-para-o-arroz-recua-37-e-dificuldades-financeiras-podem-reduzir-investimentos-na-safra.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Arroz/Cepea: Exportações elevam preços de grãos de menor rendimento no RS",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-18",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431564-arroz-cepea-exportacoes-elevam-precos-de-graos-de-menor-rendimento-no-rs.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Arroz: Exportações impulsionam preços no RS",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "SNA",
+          "data": "2026-11-18",
+          "url": "https://sna.agr.br/arroz-exportacoes-impulsionam-precos-no-rs/"
+        },
+        {
+          "titulo": "Arroz recupera atraso e chega a 70,4% semeado; preço cai pela quinta semana no RS",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-17",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/431513-arroz-recupera-atraso-e-chega-a-70-4-semeado-preco-cai-pela-quinta-semana-no-rs.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.49,
-      "score_noticias": 0.12,
-      "score_combinado": -0.24,
+      "score_noticias": 0.0,
+      "score_combinado": -0.29,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-1.5% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 83.22) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
@@ -2383,6 +2359,14 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Açúcar/Cepea: Oferta limitada de cristal de melhor qualidade sustenta alta dos preços",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431829-acucar-cepea-oferta-limitada-de-cristal-de-melhor-qualidade-sustenta-alta-dos-precos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar dispara nas bolsas com cobertura de posições vendidas após forte queda",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -2437,14 +2421,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-18",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431606-china-deve-reduzir-importacoes-de-acucar-e-deficit-pode-cair-ate-2035-projeta-stone-x.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Índia abre nova licitação para importação de açúcar bruto isenta de taxa",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431587-india-abre-nova-licitacao-para-importacao-de-acucar-bruto-isenta-de-taxa.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3023,6 +2999,14 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Soja sobe em Chicago nesta 3ª feira, com maio acima dos US$ 12,40 por bushel",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431822-soja-sobe-em-chicago-nesta-3-feira-com-maio-acima-dos-us-12-40-por-bushel.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja continua subindo nos portos do BR e pode alcançar R$ 175 nesta semana, afirma consultor",
           "tema": "Oferta & Demanda",
           "impacto": "neutro",
@@ -3077,14 +3061,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431744-soja-sobe-em-chicago-nesta-2-feira-com-apoio-do-farelo-oleo-cai-mais-de-1.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Puxado pelo farelo e demanda pela commodity americana, mercado da soja em Chicago fecha em forte alta nesta sexta",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431739-soja-fecha-em-alta-de-ate-12-pontos-em-chicago-puxada-pelo-farelo-e-demanda-firme-enquanto-dolar-proximo-de-r-5-93-sustenta-precos-historicos-no-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4303,6 +4279,22 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Café recua em NY nesta 3ª feira, com mercado atento à oferta global",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431830-cafe-recua-em-ny-nesta-3-feira-com-mercado-atento-a-oferta-global.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "De 81 a mais de 90 pontos: como produtores da Cooxupé elevaram o padrão dos cafés especiais",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-24",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431808-de-81-a-mais-de-90-pontos-como-produtores-da-cooxupe-elevaram-o-padrao-dos-cafes-especiais.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Lavouras de café da Bahia acumulam até 87,6 mm de chuva em novembro",
           "tema": "Clima",
           "impacto": "neutro",
@@ -4349,22 +4341,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431752-cafe-dispara-mais-de-1-7-em-nova-york-nesta-2-feira-marco-27-supera-os-273-cents.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café arábica fecha sexta-feira em queda superior a 2% em Nova York",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431738-cafe-arabica-fecha-em-queda-superior-a-2-em-nova-york.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Mercado de café desacelera com aumento da pressão da oferta",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-20",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431715-mercado-de-cafe-desacelera-com-aumento-da-pressao-da-oferta.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4388,6 +4364,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-11-24",
+          "valor": 2.8113,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-11-23",
           "valor": 2.8113,
           "variacao_pct": 0.0
@@ -4406,14 +4387,14 @@
           "data": "2026-11-18",
           "valor": 2.8113,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-11-17",
-          "valor": 2.8113,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-24",
+          "valor": 2.8113,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-23",
           "valor": 2.8113,
