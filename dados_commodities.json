@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-25T07:50:21",
+  "ultima_atualizacao": "2026-11-25T17:13:57",
   "status_coleta": "parcial",
   "dolar": {
-    "valor": 5.8573,
-    "variacao_pct": -1.9,
-    "bid": 5.8573,
-    "ask": 5.8573
+    "valor": 5.8825,
+    "variacao_pct": 0.43,
+    "bid": 5.8825,
+    "ask": 5.8825
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-25T07:50:21",
+    "ultima_atualizacao": "2026-11-25T17:13:57",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -595,6 +595,14 @@
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/431900-arroz-cepea-demanda-externa-sustenta-precos-de-graos-de-menor-rendimento-no-rs.html?utm_source=parceiros&utm_medium=rss"
         },
         {
+          "titulo": "Arroz: Demanda externa sustenta preços dos grãos de menor rendimento no RS",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "SNA",
+          "data": "2026-11-25",
+          "url": "https://sna.agr.br/arroz-demanda-externa-sustenta-precos-dos-graos-de-menor-rendimento-no-rs/"
+        },
+        {
           "titulo": "Federarroz negocia acordo de cooperação com governo do RJ para combater fraudes no arroz",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -617,14 +625,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-18",
           "url": "https://www.noticiasagricolas.com.br/noticias/graos/431564-arroz-cepea-exportacoes-elevam-precos-de-graos-de-menor-rendimento-no-rs.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Arroz: Exportações impulsionam preços no RS",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SNA",
-          "data": "2026-11-18",
-          "url": "https://sna.agr.br/arroz-exportacoes-impulsionam-precos-no-rs/"
         },
         {
           "titulo": "Arroz recupera atraso e chega a 70,4% semeado; preço cai pela quinta semana no RS",
@@ -2367,6 +2367,54 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Açúcar fecha em forte alta com previsão de queda na produção da Índia",
+          "tema": "Safra",
+          "impacto": "alta",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431963-acucar-fecha-em-forte-alta-com-previsao-de-queda-na-producao-da-india.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "EUA propõem novas tarifas sobre açúcar importado e podem elevar custo de entrada do produto brasileiro",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431957-eua-propoem-novas-tarifas-sobre-acucar-importado-e-podem-elevar-custo-de-entrada-do-produto-brasileiro.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Moagem de cana no Norte e Nordeste recua 1,9% até outubro, aponta NovaBio",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431954-moagem-de-cana-no-norte-e-nordeste-recua-1-9-ate-outubro-aponta-nova-bio.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Barreiras comerciais dos EUA ampliam desafios para o açúcar brasileiro no exterior",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431952-barreiras-comerciais-dos-eua-ampliam-desafios-para-o-acucar-brasileiro-no-exterior.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Produção de açúcar da Índia deve cair ao nível mais baixo da década, diz entidade do setor",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431922-producao-de-acucar-da-india-deve-cair-ao-nivel-mais-baixo-da-decada-diz-entidade-do-setor.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar volta a disparar em NY após Índia projetar menor safra dos últimos dez anos",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-11-25",
+          "url": "https://safras.com.br/acucar-volta-a-disparar-em-ny-apos-india-projetar-menor-safra-dos-ultimos-dez-anos/"
+        },
+        {
           "titulo": "Açúcar fecha em alta nas bolsas com dólar mais fraco e perspectiva de menor oferta global",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -2381,54 +2429,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431829-acucar-cepea-oferta-limitada-de-cristal-de-melhor-qualidade-sustenta-alta-dos-precos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar dispara nas bolsas com cobertura de posições vendidas após forte queda",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431802-acucar-dispara-nas-bolsas-com-cobertura-de-posicoes-vendidas-apos-forte-queda.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar: oferta global encolhe e estoques atingem menor nível em 15 anos, aponta Itaú BBA",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431792-acucar-oferta-global-encolhe-e-estoques-atingem-menor-nivel-em-15-anos-aponta-itau-bba.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar desaba mais de 5% em NY com dólar alto e pressão da oferta global",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431682-acucar-desaba-mais-de-5-em-ny-com-dolar-alto-e-pressao-da-oferta-global.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar recua nas bolsas com pressão do real e avanço da produção indiana",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-19",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431661-acucar-recua-nas-bolsas-com-pressao-do-real-e-avanco-da-producao-indiana.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar fecha em queda nas bolsas com pressão do real desvalorizado e do petróleo",
-          "tema": "Câmbio",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431620-acucar-fecha-em-queda-nas-bolsas-com-pressao-do-real-desvalorizado-e-do-petroleo.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "China deve reduzir importações de açúcar e déficit pode cair até 2035, projeta StoneX",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-18",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431606-china-deve-reduzir-importacoes-de-acucar-e-deficit-pode-cair-ate-2035-projeta-stone-x.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2442,14 +2442,7 @@
       "recomendacao": "aguardar",
       "suporte": 90.72,
       "resistencia": 131.21,
-      "red_flags": [
-        {
-          "tipo": "dolar",
-          "mensagem": "Dólar -1.90% no dia — pressão cambial sobre preços desta commodity",
-          "severidade": "media",
-          "impacto_tendencia": "queda"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "soja": {
@@ -3014,6 +3007,30 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Imea projeta aumento de 35,66% na safra de soja de Mato Grosso em dez anos",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431958-imea-projeta-aumento-de-3566-na-safra-de-soja-de-mato-grosso-em-dez-anos.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja ameniza perdas em Chicago com altas nos derivados e nova compra chinesa",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431930-soja-ameniza-perdas-em-chicago-com-altas-nos-derivados-e-nova-compra-chinesa.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "USDA: EUA vendem 132 mil toneladas de soja para a China nesta 4ª feira (25)",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431924-usda-eua-vendem-132-mil-toneladas-de-soja-para-a-china-nesta-4-feira-25.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Soja recua mais de 10 pontos em Chicago nesta 4ª (25) em manhã de baixas generalizadas",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3052,30 +3069,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-23",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431812-soja-continua-subindo-nos-portos-do-br-e-pode-alcancar-r-175-nesta-semana-afirma-consultor.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja: Receita com as exportações do Brasil cresce 7%, apesar de recuo de 5% na média diária embarcada",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431800-soja-receita-com-as-exportacoes-do-brasil-cresce-7-apesar-de-recuo-de-5-na-media-diaria-embarcada.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "EUDR ameaça farelo de soja brasileiro; Argentina mira UE e EUA avançam nas vendas",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431799-eudr-ameaca-farelo-de-soja-brasileiro-argentina-mira-ue-e-eua-avancam-nas-vendas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja mantém ganhos em Chicago nesta 2ª feira, mas reduz ritmo de alta durante a tarde",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431787-soja-mantem-ganhos-em-chicago-nesta-2-feira-mas-reduz-ritmo-de-alta-durante-a-tarde.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3089,14 +3082,7 @@
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 162.02,
-      "red_flags": [
-        {
-          "tipo": "dolar",
-          "mensagem": "Dólar -1.90% no dia — pressão cambial sobre preços desta commodity",
-          "severidade": "media",
-          "impacto_tendencia": "queda"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -3736,14 +3722,7 @@
       "recomendacao": "aguardar",
       "suporte": 80.739,
       "resistencia": 94.6872,
-      "red_flags": [
-        {
-          "tipo": "dolar",
-          "mensagem": "Dólar -1.90% no dia — pressão cambial sobre preços desta commodity",
-          "severidade": "media",
-          "impacto_tendencia": "queda"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "cafe": {
@@ -4308,6 +4287,38 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Café sobe mais de 700 pontos em NY e impulsiona altas de até 2,3% no Brasil nesta 4ª",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431970-cafe-sobe-mais-de-700-pontos-em-ny-e-impulsiona-altas-de-ate-2-3-no-brasil-nesta-4.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café especial: ações no Japão podem render US$ 25,9 milhões ao Brasil",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431942-cafe-especial-acoes-no-japao-podem-render-us-25-9-milhoes-ao-brasil.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café vira em NY, sobe mais de 3% e março supera os 270 cents/lb",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431933-cafe-vira-em-ny-sobe-mais-de-3-e-marco-supera-os-270-cents-lb.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Café amplia baixas em NY em manhã de aversão ao risco nesta 4ª feira (25)",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431903-cafe-amplia-baixas-em-ny-em-manha-de-aversao-ao-risco-nesta-4-feira-25.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café/Cepea: Dólar sustenta alta do arábica no Brasil; robusta segue em queda",
           "tema": "Câmbio",
           "impacto": "neutro",
@@ -4338,38 +4349,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431839-cecafe-debate-implementacao-da-plataforma-agro-brasil-sustentavel-e-demandas-de-mercado.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café recua em NY nesta 3ª feira, com mercado atento à oferta global",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431830-cafe-recua-em-ny-nesta-3-feira-com-mercado-atento-a-oferta-global.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "De 81 a mais de 90 pontos: como produtores da Cooxupé elevaram o padrão dos cafés especiais",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431808-de-81-a-mais-de-90-pontos-como-produtores-da-cooxupe-elevaram-o-padrao-dos-cafes-especiais.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Lavouras de café da Bahia acumulam até 87,6 mm de chuva em novembro",
-          "tema": "Clima",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431820-lavouras-de-cafe-da-bahia-acumulam-ate-87-6-mm-de-chuva-em-novembro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café recua em Nova York e perde até 3,26% no Brasil; robusta fecha misto em Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431817-cafe-recua-em-nova-york-e-perde-ate-3-26-no-brasil-robusta-fecha-misto-em-londres.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4383,14 +4362,7 @@
       "recomendacao": "aguardar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [
-        {
-          "tipo": "dolar",
-          "mensagem": "Dólar -1.90% no dia — pressão cambial sobre preços desta commodity",
-          "severidade": "media",
-          "impacto_tendencia": "queda"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     },
     "leite": {
