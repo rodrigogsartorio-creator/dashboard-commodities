@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-26T07:50:20",
+  "ultima_atualizacao": "2026-11-26T16:51:36",
   "status_coleta": "parcial",
   "dolar": {
-    "valor": 5.8825,
-    "variacao_pct": 0.43,
-    "bid": 5.8825,
-    "ask": 5.8825
+    "valor": 5.7446,
+    "variacao_pct": -2.34,
+    "bid": 5.7446,
+    "ask": 5.7446
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-26T07:50:20",
+    "ultima_atualizacao": "2026-11-26T16:51:36",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -586,6 +586,14 @@
       ],
       "variacao_mes_pct": -1.39,
       "noticias": [
+        {
+          "titulo": "Safra de arroz da Índia 2026/27 deve cair 2,3%, prevê ministro",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/graos/432025-safra-de-arroz-da-india-202627-deve-cair-23-preve-ministro.html?utm_source=parceiros&utm_medium=rss"
+        },
         {
           "titulo": "Arroz/Cepea: Demanda externa sustenta preços de grãos de menor rendimento no RS",
           "tema": "Oferta & Demanda",
@@ -2367,6 +2375,22 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Produção de açúcar da Índia deve cair 5,2% em 2026/27 e ampliar necessidade de importações",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432036-producao-de-acucar-da-india-deve-cair-5-2-em-2026-27-e-ampliar-necessidade-de-importacoes.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Nova tarifa dos EUA pode elevar custo do açúcar brasileiro em mais de 200%, alerta UNICA",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432013-nova-tarifa-dos-eua-pode-elevar-custo-do-acucar-brasileiro-em-mais-de-200-alerta-unica.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Açúcar fecha em forte alta com previsão de queda na produção da Índia",
           "tema": "Safra",
           "impacto": "alta",
@@ -2413,22 +2437,6 @@
           "fonte": "SAFRAS",
           "data": "2026-11-25",
           "url": "https://safras.com.br/acucar-volta-a-disparar-em-ny-apos-india-projetar-menor-safra-dos-ultimos-dez-anos/"
-        },
-        {
-          "titulo": "Açúcar fecha em alta nas bolsas com dólar mais fraco e perspectiva de menor oferta global",
-          "tema": "Câmbio",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431876-acucar-fecha-em-alta-nas-bolsas-com-dolar-mais-fraco-e-perspectiva-de-menor-oferta-global.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar/Cepea: Oferta limitada de cristal de melhor qualidade sustenta alta dos preços",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431829-acucar-cepea-oferta-limitada-de-cristal-de-melhor-qualidade-sustenta-alta-dos-precos.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -2442,7 +2450,14 @@
       "recomendacao": "aguardar",
       "suporte": 90.72,
       "resistencia": 131.21,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -2.34% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "soja": {
@@ -3007,6 +3022,22 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Brasil já comercializou 38,1% da safra 2026/27 de soja, aponta StoneX",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/432022-brasil-ja-comercializou-38-1-da-safra-2026-27-de-soja-aponta-stone-x.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Deral faz leve corte na previsão de safra de soja do Paraná; reduz colheita de trigo",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/432005-deral-faz-leve-corte-na-previsao-de-safra-de-soja-do-parana-reduz-colheita-de-trigo.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Farelo acumula alta de 14% em novembro e puxa avanço da soja em Chicago nesta 4ª feira (25)",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3053,36 +3084,27 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431888-soja-sustenta-r-172-50-nos-portos-e-sobe-em-chicago-atencao-a-safra-nova.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja amplia altas em Chicago, mas dólar cai mais de 1% e limita suporte no Brasil",
-          "tema": "Câmbio",
-          "impacto": "queda",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431858-soja-amplia-altas-em-chicago-mas-dolar-cai-mais-de-1-e-limita-suporte-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja sobe em Chicago nesta 3ª feira, com maio acima dos US$ 12,40 por bushel",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431822-soja-sobe-em-chicago-nesta-3-feira-com-maio-acima-dos-us-12-40-por-bushel.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": 0.24,
-      "score_noticias": -0.12,
-      "score_combinado": 0.09,
+      "score_noticias": 0.0,
+      "score_combinado": 0.14,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.7% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 162.02) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 129.24,
       "resistencia": 162.02,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -2.34% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "trigo": {
@@ -3647,6 +3669,22 @@
       "variacao_mes_pct": 0.01,
       "noticias": [
         {
+          "titulo": "Safra de trigo do Paraná será a menor em 20 anos; soja também sofre com chuva excessiva",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/432015-safra-de-trigo-do-parana-sera-a-menor-em-20-anos-soja-tambem-sofre-com-chuva-excessiva.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Brasil deve ampliar importância do trigo argentino em 2027 diante da menor produção nacional",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431995-brasil-deve-ampliar-importancia-do-trigo-argentino-em-2027-diante-da-menor-producao-nacional.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Importações de trigo aceleram em novembro e volume fica 59% acima de 2025",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -3693,36 +3731,27 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-17",
           "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431545-trigo-sustenta-alta-de-ate-1-5-em-chicago-com-preocupacoes-no-mar-negro-qualidade-da-safra-brasileira-segue-no-radar.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Quebra da safra de trigo leva cooperativa do Paraná a preparar importações da Argentina para 2027",
-          "tema": "Safra",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-17",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431531-quebra-da-safra-de-trigo-leva-cooperativa-do-parana-a-preparar-importacoes-da-argentina-para-2027.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Trigo amplia ganhos em Chicago e se aproxima dos US$ 6 por bushel com preocupações sobre transporte no Mar Negro",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-17",
-          "url": "https://www.noticiasagricolas.com.br/noticias/trigo/431526-trigo-amplia-ganhos-em-chicago-e-se-aproxima-dos-us-6-por-bushel-com-preocupacoes-sobre-transporte-no-mar-negro.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "estavel",
       "score_preco": -0.08,
-      "score_noticias": 0.12,
-      "score_combinado": 0.0,
+      "score_noticias": 0.0,
+      "score_combinado": -0.05,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (-0.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 94.69) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Mercado equilibrado no médio prazo (90-360 dias).</li><li>Contratos padrão adequados.</li></ul>",
       "recomendacao": "aguardar",
       "suporte": 80.739,
       "resistencia": 94.6872,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -2.34% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "cafe": {
@@ -4287,6 +4316,14 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Preços do café no Vietnã continuam em queda devido à pressão da colheita",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/432007-precos-do-cafe-no-vietna-continuam-em-queda-devido-a-pressao-da-colheita.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Café sobe mais de 700 pontos em NY e impulsiona altas de até 2,3% no Brasil nesta 4ª",
           "tema": "Mercado",
           "impacto": "neutro",
@@ -4341,14 +4378,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431860-cafe-intensifica-baixas-em-ny-e-dolar-em-queda-amplia-pressao-no-brasil.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Cecafé debate implementação da Plataforma Agro Brasil + Sustentável e demandas de mercado",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431839-cecafe-debate-implementacao-da-plataforma-agro-brasil-sustentavel-e-demandas-de-mercado.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4362,7 +4391,14 @@
       "recomendacao": "aguardar",
       "suporte": 1427.63,
       "resistencia": 1826.58,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "dolar",
+          "mensagem": "Dólar -2.34% no dia — pressão cambial sobre preços desta commodity",
+          "severidade": "media",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     },
     "leite": {
@@ -4373,8 +4409,8 @@
       "historico_5d": [
         {
           "data": "2026-11-26",
-          "valor": 2.8113,
-          "variacao_pct": 0.0
+          "valor": 2.7157,
+          "variacao_pct": -3.4
         },
         {
           "data": "2026-11-25",
@@ -4400,8 +4436,8 @@
       "historico_30d": [
         {
           "data": "2026-11-26",
-          "valor": 2.8113,
-          "variacao_pct": 0.0
+          "valor": 2.7157,
+          "variacao_pct": -3.4
         },
         {
           "data": "2026-11-25",
@@ -4944,7 +4980,7 @@
           "variacao_pct": null
         }
       ],
-      "variacao_mes_pct": 5.91,
+      "variacao_mes_pct": 2.31,
       "noticias": [
         {
           "titulo": "El Niño acende alerta na indústria leiteira com excesso de chuva e queda na produtividade",
@@ -4964,17 +5000,24 @@
         }
       ],
       "safra_noticias": [],
-      "tendencia_curta": "estavel",
+      "tendencia_curta": "queda",
       "tendencia_media": "alta",
-      "score_preco": 0.0,
+      "score_preco": -0.68,
       "score_noticias": 0.0,
-      "score_combinado": 0.0,
-      "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+0.0% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 2.81) — zona de pressão vendedora; possível correção à frente.</li></ul>",
+      "score_combinado": -0.41,
+      "insight_curto_prazo": "<ul class='insight-list'><li>Preço em queda de 3.4% nos últimos 7 pregões.</li><li>Preço em zona neutra entre suporte (R$ 2.49) e resistência (R$ 2.81).</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
-      "recomendacao": "aguardar",
+      "recomendacao": "segurar",
       "suporte": 2.4884,
       "resistencia": 2.8113,
-      "red_flags": [],
+      "red_flags": [
+        {
+          "tipo": "variacao_dia",
+          "mensagem": "Variação de -3.4% em 1 dia — movimento atípico de queda",
+          "severidade": "alta",
+          "impacto_tendencia": "queda"
+        }
+      ],
       "insight_gerado_por": "regras"
     }
   }
