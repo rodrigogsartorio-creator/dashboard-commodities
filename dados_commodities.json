@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-25T17:13:57",
+  "ultima_atualizacao": "2026-11-26T07:50:20",
   "status_coleta": "parcial",
   "dolar": {
     "valor": 5.8825,
@@ -8,18 +8,18 @@
     "ask": 5.8825
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-25T17:13:57",
+    "ultima_atualizacao": "2026-11-26T07:50:20",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-11-25",
+        "data": "2026-11-26",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 100646477 t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-11-25",
+        "data": "2026-11-26",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -3007,8 +3007,16 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
-          "titulo": "Imea projeta aumento de 35,66% na safra de soja de Mato Grosso em dez anos",
-          "tema": "Safra",
+          "titulo": "Farelo acumula alta de 14% em novembro e puxa avanço da soja em Chicago nesta 4ª feira (25)",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-25",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431976-farelo-acumula-alta-de-14-em-novembro-e-puxa-avanco-da-soja-em-chicago-nesta-4-feira-25.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Imea vê redução no ritmo de avanço de área de soja em MT até 2036, com alta 2,35% anual",
+          "tema": "Mercado",
           "impacto": "neutro",
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-25",
@@ -3061,14 +3069,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431822-soja-sobe-em-chicago-nesta-3-feira-com-maio-acima-dos-us-12-40-por-bushel.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja continua subindo nos portos do BR e pode alcançar R$ 175 nesta semana, afirma consultor",
-          "tema": "Oferta & Demanda",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-23",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431812-soja-continua-subindo-nos-portos-do-br-e-pode-alcancar-r-175-nesta-semana-afirma-consultor.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4372,6 +4372,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-11-26",
+          "valor": 2.8113,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-11-25",
           "valor": 2.8113,
           "variacao_pct": 0.0
@@ -4390,14 +4395,14 @@
           "data": "2026-11-20",
           "valor": 2.8113,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-11-19",
-          "valor": 2.8113,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-26",
+          "valor": 2.8113,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-25",
           "valor": 2.8113,
