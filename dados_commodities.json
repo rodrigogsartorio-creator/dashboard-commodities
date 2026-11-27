@@ -1,5 +1,5 @@
 {
-  "ultima_atualizacao": "2026-11-26T16:51:36",
+  "ultima_atualizacao": "2026-11-27T07:50:22",
   "status_coleta": "parcial",
   "dolar": {
     "valor": 5.7446,
@@ -8,18 +8,18 @@
     "ask": 5.7446
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-26T16:51:36",
+    "ultima_atualizacao": "2026-11-27T07:50:22",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-11-26",
+        "data": "2026-11-27",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       },
       {
         "titulo": "IBGE — Área colhida (Brasil): 100646477 t em 2025",
         "fonte": "IBGE SIDRA",
-        "data": "2026-11-26",
+        "data": "2026-11-27",
         "url": "https://sidra.ibge.gov.br/tabela/5457"
       }
     ]
@@ -1789,16 +1789,7 @@
         }
       ],
       "variacao_mes_pct": 11.4,
-      "noticias": [
-        {
-          "titulo": "Feijão/Cepea: Cotações do preto avançam; importações são as maiores para outubro desde 2021",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/feijao-e-graos-especiais/431386-feij-ao-cepea-cotacoes-do-preto-avancam-importacoes-sao-as-maiores-para-outubro-desde-2021.html?utm_source=parceiros&utm_medium=rss"
-        }
-      ],
+      "noticias": [],
       "safra_noticias": [],
       "tendencia_curta": "alta",
       "tendencia_media": "alta",
@@ -2375,6 +2366,14 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Nova tarifa dos EUA não deve afetar embarques de açúcar do Norte e Nordeste, diz NovaBio",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432047-ova-tarifa-dos-eua-nao-deve-afetar-embarques-de-acucar-do-norte-e-nordeste-diz-nova-bio.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Produção de açúcar da Índia deve cair 5,2% em 2026/27 e ampliar necessidade de importações",
           "tema": "Safra",
           "impacto": "neutro",
@@ -2389,6 +2388,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432013-nova-tarifa-dos-eua-pode-elevar-custo-do-acucar-brasileiro-em-mais-de-200-alerta-unica.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Açúcar refinado fecha em alta na Bolsa de Londres",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-11-26",
+          "url": "https://safras.com.br/acucar-refinado-fecha-em-alta-na-bolsa-de-londres/"
         },
         {
           "titulo": "Açúcar fecha em forte alta com previsão de queda na produção da Índia",
@@ -2421,22 +2428,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431952-barreiras-comerciais-dos-eua-ampliam-desafios-para-o-acucar-brasileiro-no-exterior.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Produção de açúcar da Índia deve cair ao nível mais baixo da década, diz entidade do setor",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431922-producao-de-acucar-da-india-deve-cair-ao-nivel-mais-baixo-da-decada-diz-entidade-do-setor.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar volta a disparar em NY após Índia projetar menor safra dos últimos dez anos",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-11-25",
-          "url": "https://safras.com.br/acucar-volta-a-disparar-em-ny-apos-india-projetar-menor-safra-dos-ultimos-dez-anos/"
         }
       ],
       "safra_noticias": [],
@@ -3022,6 +3013,22 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Safra de soja do Brasil em 2026/27 deve cair 1,3%, prevê Agroconsult",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/432058-safra-de-soja-do-brasil-em-202627-deve-cair-13-preve-agroconsult.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Soja perde R$ 3/sc nos portos na semana com recuo de mais de 1% do dólar",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/432051-soja-perde-r-3-sc-nos-portos-na-semana-com-recuo-de-mais-de-1-do-dolar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Brasil já comercializou 38,1% da safra 2026/27 de soja, aponta StoneX",
           "tema": "Safra",
           "impacto": "neutro",
@@ -3068,22 +3075,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431924-usda-eua-vendem-132-mil-toneladas-de-soja-para-a-china-nesta-4-feira-25.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja recua mais de 10 pontos em Chicago nesta 4ª (25) em manhã de baixas generalizadas",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431896-soja-recua-mais-de-10-pontos-em-chicago-nesta-4-25-em-manha-de-baixas-generalizadas.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja sustenta R$ 172,50 nos portos e sobe em Chicago; atenção à safra nova",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431888-soja-sustenta-r-172-50-nos-portos-e-sobe-em-chicago-atencao-a-safra-nova.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4316,6 +4307,14 @@
       "variacao_mes_pct": 2.97,
       "noticias": [
         {
+          "titulo": "Café robusta sobe mais de 2% em Londres, mas preços recuam em praças brasileiras",
+          "tema": "Mercado",
+          "impacto": "queda",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-26",
+          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/432048-cafe-robusta-sobe-mais-de-2-em-londres-mas-precos-recuam-em-pracas-brasileiras.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Preços do café no Vietnã continuam em queda devido à pressão da colheita",
           "tema": "Safra",
           "impacto": "neutro",
@@ -4370,14 +4369,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431878-cafe-cai-mais-de-2-em-ny-com-boas-perspectivas-para-safras-de-brasil-e-vietna.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Café intensifica baixas em NY e dólar em queda amplia pressão no Brasil",
-          "tema": "Câmbio",
-          "impacto": "queda",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-24",
-          "url": "https://www.noticiasagricolas.com.br/noticias/cafe/431860-cafe-intensifica-baixas-em-ny-e-dolar-em-queda-amplia-pressao-no-brasil.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -4408,6 +4399,11 @@
       "status": "ok",
       "historico_5d": [
         {
+          "data": "2026-11-27",
+          "valor": 2.7157,
+          "variacao_pct": 0.0
+        },
+        {
           "data": "2026-11-26",
           "valor": 2.7157,
           "variacao_pct": -3.4
@@ -4426,14 +4422,14 @@
           "data": "2026-11-23",
           "valor": 2.8113,
           "variacao_pct": 0.0
-        },
-        {
-          "data": "2026-11-20",
-          "valor": 2.8113,
-          "variacao_pct": 0.0
         }
       ],
       "historico_30d": [
+        {
+          "data": "2026-11-27",
+          "valor": 2.7157,
+          "variacao_pct": 0.0
+        },
         {
           "data": "2026-11-26",
           "valor": 2.7157,
@@ -4989,14 +4985,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-24",
           "url": "https://www.noticiasagricolas.com.br/noticias/leite/431854-el-nino-acende-alerta-na-industria-leiteira-com-excesso-de-chuva-e-queda-na-produtividade.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Produtores de leite do Extremo-Oeste aumentam produção em 14,7% com assistência do Senar/SC",
-          "tema": "Safra",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-16",
-          "url": "https://www.noticiasagricolas.com.br/noticias/leite/431455-produtores-de-leite-do-extremo-oeste-aumentam-producao-em-14-7-com-assistencia-do-senar-sc.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -5010,14 +4998,7 @@
       "recomendacao": "segurar",
       "suporte": 2.4884,
       "resistencia": 2.8113,
-      "red_flags": [
-        {
-          "tipo": "variacao_dia",
-          "mensagem": "Variação de -3.4% em 1 dia — movimento atípico de queda",
-          "severidade": "alta",
-          "impacto_tendencia": "queda"
-        }
-      ],
+      "red_flags": [],
       "insight_gerado_por": "regras"
     }
   }
