@@ -1,14 +1,14 @@
 {
-  "ultima_atualizacao": "2026-11-27T07:50:22",
+  "ultima_atualizacao": "2026-11-27T16:40:32",
   "status_coleta": "parcial",
   "dolar": {
-    "valor": 5.7446,
-    "variacao_pct": -2.34,
-    "bid": 5.7446,
-    "ask": 5.7446
+    "valor": 5.543,
+    "variacao_pct": -3.51,
+    "bid": 5.543,
+    "ask": 5.543
   },
   "safra": {
-    "ultima_atualizacao": "2026-11-27T07:50:22",
+    "ultima_atualizacao": "2026-11-27T16:40:32",
     "noticias": [
       {
         "titulo": "IBGE — Quantidade produzida (Brasil): .. t em 2025",
@@ -2366,6 +2366,46 @@
       "variacao_mes_pct": 4.1,
       "noticias": [
         {
+          "titulo": "Açúcar fecha em alta nas bolsas com déficit global e problemas na oferta da Índia",
+          "tema": "Oferta & Demanda",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432115-acucar-fecha-em-alta-nas-bolsas-com-deficit-global-e-problemas-na-oferta-da-india.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Orplana alerta para reflexos de novas tarifas dos EUA sobre preços do açúcar e renda do produtor",
+          "tema": "Geopolítica",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432112-orplana-alerta-para-reflexos-de-novas-tarifas-dos-eua-sobre-precos-do-acucar-e-renda-do-produtor.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Do laboratório ao canavial: ciência e experiência no campo se unem para construir o futuro da cana-de-açúcar",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432101-do-laboratorio-ao-canavial-ciencia-e-experiencia-no-campo-se-unem-para-construir-o-futuro-da-cana-de-acucar.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Itaú BBA reduz previsão de moagem de cana no centro-sul em 26/27 por chuvas excessivas",
+          "tema": "Clima",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432090-itau-bba-reduz-previsao-de-moagem-de-cana-no-centro-sul-em-2627-por-chuvas-excessivas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Mercado internacional de açúcar tem forte volatilidade em novembro com perspectiva de menor produção na Índia e preocupações climáticas",
+          "tema": "Safra",
+          "impacto": "neutro",
+          "fonte": "SAFRAS",
+          "data": "2026-11-27",
+          "url": "https://safras.com.br/mercado-internacional-de-acucar-tem-forte-volatilidade-em-novembro-com-perspectiva-de-menor-producao-na-india-e-preocupacoes-climaticas/"
+        },
+        {
           "titulo": "Nova tarifa dos EUA não deve afetar embarques de açúcar do Norte e Nordeste, diz NovaBio",
           "tema": "Geopolítica",
           "impacto": "neutro",
@@ -2388,54 +2428,14 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-26",
           "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/432013-nova-tarifa-dos-eua-pode-elevar-custo-do-acucar-brasileiro-em-mais-de-200-alerta-unica.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Açúcar refinado fecha em alta na Bolsa de Londres",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "SAFRAS",
-          "data": "2026-11-26",
-          "url": "https://safras.com.br/acucar-refinado-fecha-em-alta-na-bolsa-de-londres/"
-        },
-        {
-          "titulo": "Açúcar fecha em forte alta com previsão de queda na produção da Índia",
-          "tema": "Safra",
-          "impacto": "alta",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431963-acucar-fecha-em-forte-alta-com-previsao-de-queda-na-producao-da-india.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "EUA propõem novas tarifas sobre açúcar importado e podem elevar custo de entrada do produto brasileiro",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431957-eua-propoem-novas-tarifas-sobre-acucar-importado-e-podem-elevar-custo-de-entrada-do-produto-brasileiro.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Moagem de cana no Norte e Nordeste recua 1,9% até outubro, aponta NovaBio",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431954-moagem-de-cana-no-norte-e-nordeste-recua-1-9-ate-outubro-aponta-nova-bio.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Barreiras comerciais dos EUA ampliam desafios para o açúcar brasileiro no exterior",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/sucroenergetico/431952-barreiras-comerciais-dos-eua-ampliam-desafios-para-o-acucar-brasileiro-no-exterior.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
       "tendencia_curta": "estavel",
       "tendencia_media": "alta",
       "score_preco": 0.4,
-      "score_noticias": 0.12,
-      "score_combinado": 0.29,
+      "score_noticias": 0.0,
+      "score_combinado": 0.24,
       "insight_curto_prazo": "<ul class='insight-list'><li>Preço estável (+1.2% nos últimos 7 pregões).</li><li>Preço próximo à resistência histórica (R$ 131.21) — zona de pressão vendedora; possível correção à frente.</li></ul>",
       "insight_medio_prazo": "<ul class='insight-list'><li>Perspectiva de pressão no médio prazo (90-360 dias).</li><li>Considere contratos mais longos ou estoque estratégico.</li></ul>",
       "recomendacao": "aguardar",
@@ -2444,7 +2444,7 @@
       "red_flags": [
         {
           "tipo": "dolar",
-          "mensagem": "Dólar -2.34% no dia — pressão cambial sobre preços desta commodity",
+          "mensagem": "Dólar -3.51% no dia — pressão cambial sobre preços desta commodity",
           "severidade": "media",
           "impacto_tendencia": "queda"
         }
@@ -3013,6 +3013,30 @@
       "variacao_mes_pct": 4.06,
       "noticias": [
         {
+          "titulo": "Soja dispara mais de 25 pontos em Chicago, mas dólar desaba e limita ganhos no Brasil",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/432092-soja-dispara-mais-de-25-pontos-em-chicago-na-volta-dos-negocios-pos-feriado-de-acao-de-gracas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "USDA anuncia venda de 132 mil toneladas de soja para a Holanda",
+          "tema": "Câmbio",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/432082-usda-anuncia-venda-de-132-mil-toneladas-de-soja-para-a-holanda.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
+          "titulo": "Brasil bate recorde de vendas antecipadas de soja, com quase 75 mi de toneladas negociadas",
+          "tema": "Mercado",
+          "impacto": "neutro",
+          "fonte": "Notícias Agrícolas",
+          "data": "2026-11-27",
+          "url": "https://www.noticiasagricolas.com.br/noticias/soja/432063-brasil-bate-recorde-de-vendas-antecipadas-de-soja-com-quase-75-mi-de-toneladas-negociadas.html?utm_source=parceiros&utm_medium=rss"
+        },
+        {
           "titulo": "Safra de soja do Brasil em 2026/27 deve cair 1,3%, prevê Agroconsult",
           "tema": "Safra",
           "impacto": "neutro",
@@ -3051,30 +3075,6 @@
           "fonte": "Notícias Agrícolas",
           "data": "2026-11-25",
           "url": "https://www.noticiasagricolas.com.br/noticias/soja/431976-farelo-acumula-alta-de-14-em-novembro-e-puxa-avanco-da-soja-em-chicago-nesta-4-feira-25.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Imea vê redução no ritmo de avanço de área de soja em MT até 2036, com alta 2,35% anual",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431958-imea-projeta-aumento-de-3566-na-safra-de-soja-de-mato-grosso-em-dez-anos.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "Soja ameniza perdas em Chicago com altas nos derivados e nova compra chinesa",
-          "tema": "Mercado",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431930-soja-ameniza-perdas-em-chicago-com-altas-nos-derivados-e-nova-compra-chinesa.html?utm_source=parceiros&utm_medium=rss"
-        },
-        {
-          "titulo": "USDA: EUA vendem 132 mil toneladas de soja para a China nesta 4ª feira (25)",
-          "tema": "Geopolítica",
-          "impacto": "neutro",
-          "fonte": "Notícias Agrícolas",
-          "data": "2026-11-25",
-          "url": "https://www.noticiasagricolas.com.br/noticias/soja/431924-usda-eua-vendem-132-mil-toneladas-de-soja-para-a-china-nesta-4-feira-25.html?utm_source=parceiros&utm_medium=rss"
         }
       ],
       "safra_noticias": [],
@@ -3091,7 +3091,7 @@
       "red_flags": [
         {
           "tipo": "dolar",
-          "mensagem": "Dólar -2.34% no dia — pressão cambial sobre preços desta commodity",
+          "mensagem": "Dólar -3.51% no dia — pressão cambial sobre preços desta commodity",
           "severidade": "media",
           "impacto_tendencia": "queda"
         }
@@ -3738,7 +3738,7 @@
       "red_flags": [
         {
           "tipo": "dolar",
-          "mensagem": "Dólar -2.34% no dia — pressão cambial sobre preços desta commodity",
+          "mensagem": "Dólar -3.51% no dia — pressão cambial sobre preços desta commodity",
           "severidade": "media",
           "impacto_tendencia": "queda"
         }
@@ -4385,7 +4385,7 @@
       "red_flags": [
         {
           "tipo": "dolar",
-          "mensagem": "Dólar -2.34% no dia — pressão cambial sobre preços desta commodity",
+          "mensagem": "Dólar -3.51% no dia — pressão cambial sobre preços desta commodity",
           "severidade": "media",
           "impacto_tendencia": "queda"
         }
